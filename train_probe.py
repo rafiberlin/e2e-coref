@@ -28,7 +28,8 @@ def get_args():
     parser.add_argument('--val_data', type=str, default=None)
     parser.add_argument('--test_data', type=str, default=None)
     parser.add_argument('--exp_name', type=str, default=None)
-    parser.add_argument('--embed_dim', type=int, default=768)
+    parser.add_argument('--embed_dim', type=int, default=400)
+    parser.add_argument('--head_embed_dim', type=int, default=450)
     parser.add_argument('--ablate_boundary', action='store_true')
     parser.add_argument('--ablate_attention', action='store_true')
     parser.add_argument('--ablate_span_width', action='store_true')
@@ -36,7 +37,9 @@ def get_args():
     args = parser.parse_args()
     return args
 
-# TODO Update requirements with pip install keras==2.3.0
+# TODO The dimension of the span embeddings is 1270 = 400 (bi lstm representation of the first word of the span)
+# + 400 (bi lstm representation of the last word of the span) + 450 (attention replresentaion of the head word)
+# + 20 (span feature representation.) Hence need to adjust all the reanges for ablations...
 if __name__ == "__main__":
     args = get_args()
     log_name = args.exp_name + '.tsv'
@@ -54,11 +57,11 @@ if __name__ == "__main__":
     # test random label
     # y_train = np.random.randint(2, size=y_train.shape)
 
-    if (args.random):
-        reps_pool = np.concatenate((x_train[:, :3*args.embed_dim + 20], x_train[:, 3*args.embed_dim + 20:]), axis=0)
+    if (args.random):# It creates a pool of span embeddings and assign randomly to either the first mention or the second mention from this pool, hence overwriting the real corresponding entry.
+        reps_pool = np.concatenate((x_train[:, :2*args.embed_dim + args.head_embed_dim + 20], x_train[:, 2*args.embed_dim + args.head_embed_dim + 20:]), axis=0)
         sampled_reps_pool = reps_pool[np.random.choice(reps_pool.shape[0], size = y_train.shape[0], replace=True), :]
 
-        train_parent_span, train_child_span = x_train[:, :3*args.embed_dim + 20], x_train[:, 3*args.embed_dim + 20:]
+        train_parent_span, train_child_span = x_train[:, :2*args.embed_dim + args.head_embed_dim + 20], x_train[:, 2*args.embed_dim + args.head_embed_dim + 20:]
         rand_indices = np.random.randint(2, size=y_train.shape)
         for i in range(train_parent_span.shape[0]):
             if rand_indices[i] == 0:
@@ -79,46 +82,46 @@ if __name__ == "__main__":
             y_test = test_data[:, -1].astype(int)
 
     if (args.ablate_boundary):
-        train_parent_span, train_child_span = x_train[:, :3*args.embed_dim + 20], x_train[:, 3*args.embed_dim + 20:]
+        train_parent_span, train_child_span = x_train[:, :2*args.embed_dim + args.head_embed_dim + 20], x_train[:, 2*args.embed_dim + args.head_embed_dim + 20:]
         x_train_parent, x_train_child = train_parent_span[:, 2*args.embed_dim:], train_child_span[:, 2*args.embed_dim:]
         x_train = np.concatenate((x_train_parent, x_train_child), axis=1)
 
-        val_parent_span, val_child_span = x_val[:, :3*args.embed_dim + 20], x_val[:, 3*args.embed_dim + 20:]
+        val_parent_span, val_child_span = x_val[:, :2*args.embed_dim + args.head_embed_dim + 20], x_val[:, 2*args.embed_dim + args.head_embed_dim + 20:]
         x_val_parent, x_val_child = val_parent_span[:, 2*args.embed_dim:], val_child_span[:, 2*args.embed_dim:]
         x_val = np.concatenate((x_val_parent, x_val_child), axis=1)
         if test_data_flag:
-            test_parent_span, test_child_span = x_test[:, :3*args.embed_dim + 20], x_test[:, 3*args.embed_dim + 20:]
+            test_parent_span, test_child_span = x_test[:, :2*args.embed_dim + args.head_embed_dim + 20], x_test[:, 2*args.embed_dim + args.head_embed_dim + 20:]
             x_test_parent, x_test_child = test_parent_span[:, 2*args.embed_dim:], test_child_span[:, 2*args.embed_dim:]
             x_test = np.concatenate((x_test_parent, x_test_child), axis=1)
         print("Ablate boundary representations")
         print(x_train.shape)
     elif (args.ablate_attention):
-        train_parent_span, train_child_span = x_train[:, :3*args.embed_dim + 20], x_train[:, 3*args.embed_dim + 20:]
+        train_parent_span, train_child_span = x_train[:, :2*args.embed_dim + args.head_embed_dim + 20], x_train[:, 2*args.embed_dim + args.head_embed_dim + 20:]
         x_train_parent = np.delete(train_parent_span, np.s_[2*args.embed_dim:-20], axis=1)
         x_train_child = np.delete(train_child_span, np.s_[2*args.embed_dim:-20], axis=1)
         x_train = np.concatenate((x_train_parent, x_train_child), axis=1)
 
-        val_parent_span, val_child_span = x_val[:, :3*args.embed_dim + 20], x_val[:, 3*args.embed_dim + 20:]
+        val_parent_span, val_child_span = x_val[:, :2*args.embed_dim + args.head_embed_dim + 20], x_val[:, 2*args.embed_dim + args.head_embed_dim + 20:]
         x_val_parent = np.delete(val_parent_span, np.s_[2*args.embed_dim:-20], axis=1)
         x_val_child = np.delete(val_child_span, np.s_[2*args.embed_dim:-20], axis=1)
         x_val = np.concatenate((x_val_parent, x_val_child), axis=1)
         if test_data_flag:
-            test_parent_span, test_child_span = x_test[:, :3*args.embed_dim + 20], x_test[:, 3*args.embed_dim + 20:]
+            test_parent_span, test_child_span = x_test[:, :2*args.embed_dim + args.head_embed_dim + 20], x_test[:, 2*args.embed_dim + args.head_embed_dim + 20:]
             x_test_parent = np.delete(test_parent_span, np.s_[2*args.embed_dim:-20], axis=1)
             x_test_child = np.delete(test_child_span, np.s_[2*args.embed_dim:-20], axis=1)
             x_test = np.concatenate((x_test_parent, x_test_child), axis=1)
         print("Ablate attentional heads")
         print(x_train.shape)
     elif (args.ablate_span_width):
-        train_parent_span, train_child_span = x_train[:, :3*args.embed_dim + 20], x_train[:, 3*args.embed_dim + 20:]
+        train_parent_span, train_child_span = x_train[:, :2*args.embed_dim + args.head_embed_dim  + 20], x_train[:, 2*args.embed_dim + args.head_embed_dim  + 20:]
         x_train_parent, x_train_child = train_parent_span[:, :-20], train_child_span[:, :-20]
         x_train = np.concatenate((x_train_parent, x_train_child), axis=1)
 
-        val_parent_span, val_child_span = x_val[:, :3*args.embed_dim + 20], x_val[:, 3*args.embed_dim + 20:]
+        val_parent_span, val_child_span = x_val[:, :2*args.embed_dim + args.head_embed_dim  + 20], x_val[:, 2*args.embed_dim + args.head_embed_dim  + 20:]
         x_val_parent, x_val_child = val_parent_span[:, :-20], val_child_span[:, :-20]
         x_val = np.concatenate((x_val_parent, x_val_child), axis=1)
         if test_data_flag:
-            test_parent_span, test_child_span = x_test[:, :3*args.embed_dim + 20], x_test[:, 3*args.embed_dim + 20:]
+            test_parent_span, test_child_span = x_test[:, :2*args.embed_dim + args.head_embed_dim  + 20], x_test[:, 2*args.embed_dim + args.head_embed_dim  + 20:]
             x_test_parent, x_test_child = test_parent_span[:, :-20], test_child_span[:, :-20]
             x_test = np.concatenate((x_test_parent, x_test_child), axis=1)
         print("Ablate span width embeddings")
