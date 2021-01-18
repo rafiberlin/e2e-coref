@@ -8,6 +8,7 @@ glove*.txt
 glove*.txt.filtered
 *.v*_*_conll
 *.hdf5
+*.h5
 
 .idea
 #dependencies loaded by PyCharm
