@@ -110,8 +110,6 @@ def handle_bit(word_index, bit, stack, spans):
       label = open_parens[current_idx + 1:]
     stack.append((word_index, label))
     current_idx = next_idx
-  print(close_parens)
-  print("bit", bit)
 
   for c in close_parens:
     assert c == ")"
@@ -140,6 +138,7 @@ def handle_line(line, document_state, language, labels, stats):
     labels["ner"].update(l for _, _, l in finalized_state["ner"])
     return finalized_state
   else:
+    # TwiConv Conll is tab separated
     row = line.split("\t")
     if len(row) == 0 or row == ["\n"]:
       stats["max_sent_len_{}".format(language)] = max(len(document_state.text), stats["max_sent_len_{}".format(language)])
@@ -149,26 +148,17 @@ def handle_line(line, document_state, language, labels, stats):
       document_state.speakers.append(tuple(document_state.text_speakers))
       del document_state.text_speakers[:]
       return None
-    #assert len(row) >= 12
-    print("row", row)
 
     doc_key = conll.get_doc_key(row[0], row[1])
     word = normalize_word(row[3], language)
     parse = row[5]
     speaker = row[6]
-    ner = "*" #row[9]
-    coref = row[10]#row[-1]
+    ner = "*" #row[9] Are the NER tags missing? Is this important
+    coref = row[10]
 
     word_index = len(document_state.text) + sum(len(s) for s in document_state.sentences)
     document_state.text.append(word)
     document_state.text_speakers.append(speaker)
-
-    print("parse:", parse)
-    print("ner:", ner)
-    print("coref:", coref)
-    print(document_state.ner_stack, document_state.ner)
-    print(word_index)
-    print(line)
 
     handle_bit(word_index, parse, document_state.const_stack, document_state.constituents)
     handle_bit(word_index, ner, document_state.ner_stack, document_state.ner)
