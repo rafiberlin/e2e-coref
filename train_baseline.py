@@ -31,7 +31,7 @@ def get_args():
     parser.add_argument('--val_data', type=str, default=None)
     parser.add_argument('--test_data', type=str, default=None)
     parser.add_argument('--exp_name', type=str, default=None)
-    parser.add_argument('--embed_dim', type=int, default=768)
+    parser.add_argument('--embed_dim', type=int, default=400)
     parser.add_argument('--cnn_context', type=int, default=1)
     args = parser.parse_args()
     return args

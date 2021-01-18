@@ -15,14 +15,12 @@ from custom_coref import CustomCorefIndependent
 
 # python3 extract_span_baseline_predict.py bert_base test.english.128.probe_reduced.jsonlines test_bert_base_baseline_128
 # python3 extract_span_baseline_predict.py bert_large test.english.384.probe_reduced.jsonlines test_bert_base_baseline_384
+# TODO Not sure if we will use this. Our baseline should be the results of the e2e-c2f though the probing without ablation...
 if __name__ == "__main__":
     config = util.initialize_from_env()
     log_dir = config["log_dir"]
 
-    if sys.argv[1] == "bert_base":
-        embed_dim = 768
-    elif sys.argv[1] == "bert_large":
-        embed_dim = 1024
+    embed_dim = 400
 
     # Input file in .jsonlines with extension
     # "test.english.128.probe_reduced.jsonlines"
