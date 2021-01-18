@@ -5,3 +5,5 @@ nltk
 pyhocon
 scipy
 sklearn
+paddle_ernie==0.0.4.dev1
+paddlepaddle==1.8.5
