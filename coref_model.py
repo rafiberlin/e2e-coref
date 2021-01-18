@@ -21,6 +21,7 @@ import metrics
 class CorefModel(object):
   def __init__(self, config):
     self.config = config
+    self.debug = False
     self.context_embeddings = util.EmbeddingDictionary(config["context_embeddings"])
     self.head_embeddings = util.EmbeddingDictionary(config["head_embeddings"], maybe_cache=self.context_embeddings)
     self.char_embedding_size = config["char_embedding_size"]

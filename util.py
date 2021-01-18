@@ -16,6 +16,18 @@ import tensorflow as tf
 import pyhocon
 
 
+def print_shape(t, message, debug=False):
+  """
+  Prints the shape of tensor t with some message.
+  :param t:
+  :param message:
+  :param debug:
+  :return:
+  """
+  if not debug:
+    return t
+  return tf.Print(t, [tf.shape(t)], f"{message} with shape : ")
+
 def initialize_from_env():
   if "GPU" in os.environ:
     set_gpus(int(os.environ["GPU"]))

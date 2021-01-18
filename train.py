@@ -5,7 +5,7 @@ from __future__ import print_function
 
 import os
 import time
-
+from tqdm import tqdm
 import tensorflow as tf
 import coref_model as cm
 import util
@@ -35,7 +35,7 @@ if __name__ == "__main__":
       saver.restore(session, ckpt.model_checkpoint_path)
 
     initial_time = time.time()
-    while True:
+    for i in tqdm(range(0, config["training_loop"])):#The original author said that the model converges at 400 000 iterations.
       tf_loss, tf_global_step, _ = session.run([model.loss, model.global_step, model.train_op])
       accumulated_loss += tf_loss
 
