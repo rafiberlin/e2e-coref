@@ -7,3 +7,5 @@ python get_char_vocab.py
 
 python filter_embeddings.py glove.840B.300d.txt train.english.jsonlines dev.english.jsonlines
 python cache_elmo.py train.english.jsonlines dev.english.jsonlines
+#Comment out line 9 and put back line 11 to test ernie embeddings... Variable 'lm_path = ernie_cache.hdf5' in experiments.conf must be set.
+#python cache_ernie.py train.english.jsonlines dev.english.jsonlines
