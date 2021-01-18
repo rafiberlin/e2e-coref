@@ -9,14 +9,15 @@ This repository contains the code for replicating results from
 
 ## Getting Started
 
-* Install python (either 2 or 3) requirements: `pip install -r requirements.txt`
+* Install python 3 requirements: `pip install -r requirements.txt` (You will need a second conda environment 
+with Python 2 to run the scripts building the CoNLL files in `setup_training.sh`)
 * Download pretrained models at https://drive.google.com/file/d/1fkifqZzdzsOEo0DXMzCFjiNXqsKG_cHi
   * Move the downloaded file to the root of the repo and extract: `tar -xzvf e2e-coref.tgz`
 * Download GloVe embeddings and build custom kernels by running `setup_all.sh`.
   * There are 3 platform-dependent ways to build custom TensorFlow kernels. Please comment/uncomment the appropriate lines in the script.
-* To train your own models, run `setup_training.sh`
+* To setup the prerequisites to train your own models, run `setup_training.sh` in conda with Python 2 activated.
   * This assumes access to OntoNotes 5.0. Please edit the `ontonotes_path` variable.
-
+* To install the last prerequisites to train your own models, run `setup_training_end.sh` in conda with Python 3 activated.
 ## Training Instructions
 
 * Experiment configurations are found in `experiments.conf`
