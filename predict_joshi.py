@@ -16,8 +16,8 @@ def get_args():
     parser.add_argument('--exp_name', type=str, default=None)   # without extension
     args = parser.parse_args()
     return args
-
-
+#Prerequisite: train_probe.py was executed to get the model, extract_span_predict.py was executed to get the test data (.h5 and jsonline file)
+#python3  predict_joshi,py --model ./data/ontonotes/e2e_c2f_probe.h5 --test_data ./data/ontonotes/test/span_pred_test --exp_name ./data/ontonotes/test/span_pred_test_analyse
 if __name__ == "__main__":
     args = get_args()
 

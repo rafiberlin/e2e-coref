@@ -13,7 +13,7 @@ import util
 import h5py
 from custom_coref import CustomCorefIndependent
 
-# run for example as
+# run only for test /eval dataset . It is not conceived to be run for the training data for example as
 # extract_span_predict.py spanbert_base ./data/test.english.128_NP.jsonlines ./data/spanbert/base/test/test.english.128_span_predict
 if __name__ == "__main__":
     config = util.initialize_from_env()

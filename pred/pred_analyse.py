@@ -1,5 +1,5 @@
 import json
-
+import sys
 
 def get_error_count(input_filename):
     '''
@@ -56,11 +56,9 @@ def get_error_count(input_filename):
 
     return error_counter, num_examples, true_pos, true_neg, false_pos, false_neg
 
-
+# Execute with a list of predictions created with predict_joshi.py
 if __name__ == '__main__':
-    #filenames = ["pred_test.english.128.probe_reduce.joshi.jsonlines", "pred_test.english.384.probe_reduce.joshi.jsonlines"]
-    filenames = ["spanpredicttest.jsonlines"]
-    for input_filename in filenames:
+    for input_filename in sys.argv[1:]:
         print(input_filename)
         error_count, num_examples, true_pos, true_neg, false_pos, false_neg  = get_error_count(input_filename)
         print(f'true_pos, true_neg, false_pos, false_neg, {true_pos, true_neg, false_pos, false_neg}')
