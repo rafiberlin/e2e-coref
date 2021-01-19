@@ -34,6 +34,7 @@ def get_args():
     parser.add_argument('--ablate_attention', action='store_true')
     parser.add_argument('--ablate_span_width', action='store_true')
     parser.add_argument('--random', action='store_true')
+    parser.add_argument('--output_dim', type=int, default=1024)
     args = parser.parse_args()
     return args
 
@@ -44,6 +45,7 @@ if __name__ == "__main__":
     args = get_args()
     log_name = args.exp_name + '.tsv'
     filenames = glob.glob(args.train_data + "/*.h5")
+    output_dim = args.output_dim
     train_data = []
     test_data_flag = True if args.test_data is not None else False
 
@@ -134,7 +136,7 @@ if __name__ == "__main__":
 
     # Probing model implementation using keras, following hyperparameters described in Liu's paper, can finetune later.
     model = Sequential()
-    model.add(Dense(units=1024, activation='relu', input_dim=x_train.shape[1], use_bias=True, kernel_initializer='he_normal', bias_initializer='zeros')) # still need to check whether 1024 is correct, little details about this.
+    model.add(Dense(units=output_dim, activation='relu', input_dim=x_train.shape[1], use_bias=True, kernel_initializer='he_normal', bias_initializer='zeros')) # still need to check whether 1024 is correct, little details about this.
     model.add(Dense(units=1, activation='sigmoid'))
     opt = optimizers.Adam(lr=0.001)
 
