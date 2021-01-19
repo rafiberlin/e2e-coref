@@ -97,32 +97,35 @@ if __name__ == "__main__":
         print(x_train.shape)
     elif (args.ablate_attention):
         train_parent_span, train_child_span = x_train[:, :2*args.embed_dim + args.head_embed_dim + 20], x_train[:, 2*args.embed_dim + args.head_embed_dim + 20:]
-        x_train_parent = np.delete(train_parent_span, np.s_[2*args.embed_dim:-20], axis=1)
-        x_train_child = np.delete(train_child_span, np.s_[2*args.embed_dim:-20], axis=1)
+        x_train_parent = np.delete(train_parent_span, np.s_[2*args.embed_dim + 20: ], axis=1)
+        x_train_child = np.delete(train_child_span, np.s_[2*args.embed_dim + 20: ], axis=1)
         x_train = np.concatenate((x_train_parent, x_train_child), axis=1)
 
         val_parent_span, val_child_span = x_val[:, :2*args.embed_dim + args.head_embed_dim + 20], x_val[:, 2*args.embed_dim + args.head_embed_dim + 20:]
-        x_val_parent = np.delete(val_parent_span, np.s_[2*args.embed_dim:-20], axis=1)
-        x_val_child = np.delete(val_child_span, np.s_[2*args.embed_dim:-20], axis=1)
+        x_val_parent = np.delete(val_parent_span, np.s_[2*args.embed_dim + 20: ], axis=1)
+        x_val_child = np.delete(val_child_span, np.s_[2*args.embed_dim + 20: ], axis=1)
         x_val = np.concatenate((x_val_parent, x_val_child), axis=1)
         if test_data_flag:
             test_parent_span, test_child_span = x_test[:, :2*args.embed_dim + args.head_embed_dim + 20], x_test[:, 2*args.embed_dim + args.head_embed_dim + 20:]
-            x_test_parent = np.delete(test_parent_span, np.s_[2*args.embed_dim:-20], axis=1)
-            x_test_child = np.delete(test_child_span, np.s_[2*args.embed_dim:-20], axis=1)
+            x_test_parent = np.delete(test_parent_span, np.s_[2*args.embed_dim + 20: ], axis=1)
+            x_test_child = np.delete(test_child_span, np.s_[2*args.embed_dim + 20: ], axis=1)
             x_test = np.concatenate((x_test_parent, x_test_child), axis=1)
         print("Ablate attentional heads")
         print(x_train.shape)
     elif (args.ablate_span_width):
-        train_parent_span, train_child_span = x_train[:, :2*args.embed_dim + args.head_embed_dim  + 20], x_train[:, 2*args.embed_dim + args.head_embed_dim  + 20:]
-        x_train_parent, x_train_child = train_parent_span[:, :-20], train_child_span[:, :-20]
+        train_parent_span, train_child_span = x_train[:, :2*args.embed_dim + args.head_embed_dim + 20], x_train[:, 2*args.embed_dim + args.head_embed_dim + 20:]
+        x_train_parent = np.delete(train_parent_span, np.s_[2*args.embed_dim : 2*args.embed_dim + 20 ], axis=1)
+        x_train_child = np.delete(train_child_span, np.s_[2*args.embed_dim : 2*args.embed_dim + 20 ], axis=1)
         x_train = np.concatenate((x_train_parent, x_train_child), axis=1)
 
-        val_parent_span, val_child_span = x_val[:, :2*args.embed_dim + args.head_embed_dim  + 20], x_val[:, 2*args.embed_dim + args.head_embed_dim  + 20:]
-        x_val_parent, x_val_child = val_parent_span[:, :-20], val_child_span[:, :-20]
+        val_parent_span, val_child_span = x_val[:, :2*args.embed_dim + args.head_embed_dim + 20], x_val[:, 2*args.embed_dim + args.head_embed_dim + 20:]
+        x_val_parent = np.delete(val_parent_span, np.s_[2*args.embed_dim : 2*args.embed_dim + 20 ], axis=1)
+        x_val_child = np.delete(val_child_span, np.s_[2*args.embed_dim : 2*args.embed_dim + 20 ], axis=1)
         x_val = np.concatenate((x_val_parent, x_val_child), axis=1)
         if test_data_flag:
-            test_parent_span, test_child_span = x_test[:, :2*args.embed_dim + args.head_embed_dim  + 20], x_test[:, 2*args.embed_dim + args.head_embed_dim  + 20:]
-            x_test_parent, x_test_child = test_parent_span[:, :-20], test_child_span[:, :-20]
+            test_parent_span, test_child_span = x_test[:, :2*args.embed_dim + args.head_embed_dim + 20], x_test[:, 2*args.embed_dim + args.head_embed_dim + 20:]
+            x_test_parent = np.delete(test_parent_span, np.s_[2*args.embed_dim : 2*args.embed_dim + 20 ], axis=1)
+            x_test_child = np.delete(test_child_span, np.s_[2*args.embed_dim : 2*args.embed_dim + 20 ], axis=1)
             x_test = np.concatenate((x_test_parent, x_test_child), axis=1)
         print("Ablate span width embeddings")
         print(x_train.shape)
