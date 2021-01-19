@@ -1,0 +1,229 @@
+17 pred: 1 gold: 0
+Today    ==    Beijing
+... Hello , dear viewers . Welcome to Focus Today . Today , let ... to a road cave - in accident that happened in Beijing over the ( 17 ) 
+
+8 pred: 0 gold: 1
+the day of the accident    ==    yesterday
+... how the two of you found out the news on the day of the accident ? Ah , , about 11:00 m. yesterday , ah ( 8 ) 
+
+266 pred: 1 gold: 0
+I    ==    I
+... this is , a test of e-government because , as I remember , ... most convenient method , for the announcement . Yes , I noticed that ( 266 ) 
+
+244 pred: 1 gold: 0
+that Jingguang Bridge    ==    the scene
+... citizens . -- an SMS . I saw it was that Jingguang Bridge . Hey ... ah , traffic police and emergency rescue personnel rushed to the scene , ah ( 244 ) 
+
+339 pred: 1 gold: 0
+the effects    ==    this situation
+... the eventual impact caused , what do you think are the effects ? Actually ... Psychologically , people felt quite relieved . Because I know this situation . Right ( 339 ) 
+
+269 pred: 1 gold: 0
+East Third Ring Road    ==    this place
+... an animation . This road represents a main road on East Third Ring Road , with ... did not happen , perhaps everyone would not know that this place could normally ( 269 ) 
+
+25 pred: 1 gold: 0
+East Third Ring Road    ==    Chaoyang Road in the east - west direction
+... an animation . This road represents a main road on East Third Ring Road , with ... Road is an intersection . Uh-huh . Whether it is Chaoyang Road in the east - west direction or the ( 25 ) 
+
+246 pred: 1 gold: 0
+your listeners    ==    they
+... scene . Uh-huh . Right , right . , through your listeners , what ... the government in handling this incident . That is , they think that ( 246 ) 
+
+107 pred: 1 gold: 0
+such kind of emergency    ==    its
+... wear extra clothing . This shows that when people encounter such kind of emergency , they ... That is , they think that the government has tried its best . ( 107 ) 
+
+14 pred: 1 gold: 0
+it    ==    this mentality in facing emergencies
+... emergency , they have started to be able to face it with a very calm and pleasant state of mind . I think that this mentality in facing emergencies , in ( 14 ) 
+
+24 pred: 0 gold: 1
+them    ==    they
+... are many office buildings , ah , a lot of them , as ... in the morning to go to work . Therefore , they sent SMS ( 24 ) 
+
+11 pred: 0 gold: 1
+the government    ==    it
+... seen from this particular case . That is , when the government was handling this kind of public emergency , well , it went from ( 11 ) 
+
+14 pred: 0 gold: 1
+the government 's    ==    it
+... society during the recovery period . Well , looking at the government 's response to this cave - in accident , ah , we should say it was very ( 14 ) 
+
+94 pred: 1 gold: 0
+had    ==    this
+... have experienced similar incidents . Perhaps many overseas cities have had such kind ... occurrence of such accidents , and for a city , this is a ( 94 ) 
+
+288 pred: 0 gold: 1
+we , Beijing Traffic Radio Station    ==    It
+... direct SMS exchange with listeners . It is because , we , Beijing Traffic Radio Station , has ... is a public emergency in the city . Yes . It should play ( 288 ) 
+
+143 pred: 1 gold: 0
+emergency contingency plans for public emergencies    ==    " three systems "
+... those at municipal and district levels , have set up emergency contingency plans for public emergencies , but ... One plan " refers to the contingency plan , and " three systems " refers to ( 143 ) 
+
+143 pred: 0 gold: 1
+China    ==    our
+... us to learn ? I think , in comparison to China , we ... . For instance , regarding information disclosure , well , our speed of ( 143 ) 
+
+115 pred: 1 gold: 0
+concrete    ==    the optical fibers
+... and then -- Moreover , it is especially difficult for concrete to set ... fibers , ah . Er , right now , if the optical fibers break , ( 115 ) 
+
+29 pred: 1 gold: 0
+South China    ==    Northwest China
+... well . We see that except for some areas of South China , Southwest ... addition , there will be snowfall in the area from Northwest China to the ( 29 ) 
+
+26 pred: 1 gold: 0
+Southwest China    ==    Northwest China
+... see that except for some areas of South China , Southwest China , and ... addition , there will be snowfall in the area from Northwest China to the ( 26 ) 
+
+21 pred: 1 gold: 0
+the Jiang - Huai area    ==    the Huang - Huai area
+... . The east of Southwest China , as well as the Jiang - Huai area and the ... experience continuous rainfall . However , southern North China and the Huang - Huai area will bid ( 21 ) 
+
+40 pred: 0 gold: 1
+the Huang - Huai area    ==    the Huang - Huai area
+... will be snowfall in the area from Northwest China to the Huang - Huai area through southern ... experience continuous rainfall . However , southern North China and the Huang - Huai area will bid ( 40 ) 
+
+74 pred: 1 gold: 0
+the public 's    ==    their
+... of the day . Even as the paper asked for the public 's support it ... controversy the editors killed the story about Libby and pulled their punches in ( 74 ) 
+
+160 pred: 0 gold: 1
+Judy Miller    ==    Miller released from jail last month
+... but first Judy Miller and the ... unable to answer its questions . Among the journalistic revelations, Miller released from jail last month says she ( 160 ) 
+
+20 pred: 0 gold: 1
+Times    ==    its
+... of mass destruction . The conclusion by a team of Times reporters . ... legal fees in Miss Miller 's case . It limited its own ability ( 20 ) 
+
+615 pred: 1 gold: 0
+Frank Sesno    ==    I
+... at George Mason University and a CNN special correspondant . Frank Sesno has the ... you have a problem with that sort of thing ? I thought that ( 615 ) 
+
+13 pred: 0 gold: 1
+the New York Times    ==    its
+... University and a CNN special correspondant . Frank Sesno has the New York Times belatedly to be sure fought and finally made an honest accounting of its role of ( 13 ) 
+
+75 pred: 0 gold: 1
+Louis Libby 's request this is the Dick Cheney aide    ==    that
+... me in the story . Judy Miller acknowledges that at Louis Libby 's request this is the Dick Cheney aide she agreed ... he had been a former Hill staffer . Um but that was a ( 75 ) 
+
+15 pred: 0 gold: 1
+the Valerie Plame Bob Novak column    ==    it
+... these notes were just a few weeks old when um the Valerie Plame Bob Novak column appeared and ... whole Washington and the whole journalistic community was talking about it . You ( 15 ) 
+
+547 pred: 1 gold: 0
+her lawyer Floyd Abrams    ==    you
+... Dalglish the big news for me was Miller recounting what her lawyer Floyd Abrams had said ... to before being in jail . Well exactly . and you know what ( 547 ) 
+
+63 pred: 1 gold: 0
+the Times    ==    our
+... situation and the turmoil that is obviously going on at the Times right now ... Right . But these days um with the state of our law the ( 63 ) 
+
+242 pred: 1 gold: 0
+Patrick Fitzgerald    ==    she
+... lawyers involved in this . They had to negotiate with Patrick Fitzgerald what he ... beat they were all hoping she would resign . Instead she threw a ( 242 ) 
+
+1159 pred: 0 gold: 1
+they    ==    her notes
+... and she would n't share her notes with them although they 've been ... Miller about her conversations with Libby or ask to see her notes while they ( 1159 ) 
+
+461 pred: 0 gold: 1
+I    ==    Lucy
+... - five days ? N- you n- . you know I 've been ... Judy Miller defenders to update her talking points because what Lucy just said ( 461 ) 
+
+452 pred: 0 gold: 1
+the New York Times    ==    their
+... still has not revealed to the American public . And the New York Times is . ... you know ending up in jail or in court . their story says ( 452 ) 
+
+678 pred: 0 gold: 1
+I    ==    Frank Sesno
+... /- I think Lucy 's on to something here if I can just ... she handled both the WMD reporting and Plame Gate . Frank Sesno please comment ( 678 ) 
+
+328 pred: 1 gold: 0
+I    ==    me
+... it uh is very very you know eh irre- /- I would prefer ... that there are lots of people in Washington and believe me they 're ( 328 ) 
+
+317 pred: 1 gold: 0
+I    ==    me
+... Republicans mostly Republicans who are worried about this . Alright I want to ... through it . so that it happened does n't surprise me . That ( 317 ) 
+
+645 pred: 1 gold: 0
+Bush    ==    Ronald Reagan
+... . If Rove gets indicted that could bring down the Bush administration I ... long time ago Michael Deaver the ultimate image meister for Ronald Reagan said my ( 645 ) 
+
+13 pred: 1 gold: 0
+it    ==    that
+... You 're going to walk through it . so that it happened does n't surprise me . That it hurts the President yeah that 's inevitable ( 13 ) 
+
+53 pred: 1 gold: 0
+that    ==    hurts
+... remote . I mean anybody in television will tell you that 's complicated ... that it happened does n't surprise me . That it hurts the President ( 53 ) 
+
+672 pred: 0 gold: 1
+the President 's    ==    Sir
+... run amuck over possible indictments at sixteen hundred Pennsylvania and the President 's scripted session ... hometown how are they reacting to this political process ? Sir in the ( 672 ) 
+
+843 pred: 0 gold: 1
+I    ==    Lucy Dalglish in Minneapolis
+... it uh is very very you know eh irre- /- I would prefer ... to leave it there . Last word . Arianna Huffington Lucy Dalglish in Minneapolis Frank Sesno ( 843 ) 
+
+560 pred: 1 gold: 0
+we    ==    We
+... Coming up , we launch our ... n't there . uh I talked to Sandy Berger . We issued a ( 560 ) 
+
+145 pred: 1 gold: 0
+former Clinton White House attorney Lanny Davis    ==    his
+... hailed the segment . and here to talk back is former Clinton White House attorney Lanny Davis . Welcome ... Clinton was offered a chance to come on and give his rebuttal . ( 145 ) 
+
+102 pred: 1 gold: 0
+ex-FBI    ==    Khobar Towers
+... 's former lawyer Lanny Davis takes on Sixty Minutes and ex-FBI director Louis ... former president 's handling of the nineteen ninety - six Khobar Towers terrorist bombing ( 102 ) 
+
+245 pred: 0 gold: 1
+ex-FBI    ==    FBI
+... 's former lawyer Lanny Davis takes on Sixty Minutes and ex-FBI director Louis ... nineteen ninety - eight , he did n't press for FBI access to ( 245 ) 
+
+86 pred: 0 gold: 1
+ex-FBI director Louis Freeh    ==    his
+... 's former lawyer Lanny Davis takes on Sixty Minutes and ex-FBI director Louis Freeh . And ... on the President who appointed him Bill Clinton . Among his criticisms the ( 86 ) 
+
+9 pred: 0 gold: 1
+someone who believes he or she 's been treated unfairly by the press    ==    he or she
+... . In our new Talk Back to the Media segment someone who believes he or she 's been ( 9 ) 
+
+98 pred: 1 gold: 0
+my    ==    I
+... not true . You do n't mind disparaging Freeh . my observation . ... substance of Mister Freeh 's charges . So Sixty Minutes I think has ( 98 ) 
+
+484 pred: 1 gold: 0
+a detailed list of charges    ==    that uh meeting
+... that they contacted Clinton 's office back in August with a detailed list of charges and then ... which happens to be not true . President Clinton at that uh meeting did press ( 484 ) 
+
+69 pred: 1 gold: 0
+a story in the Washington Post on Friday morning    ==    it
+... presidential library solicitation . When somebody named Howard Kurtz wrote a story in the Washington Post on Friday morning is the ... source is . and he has n't even insisted that it was true ( 69 ) 
+
+91 pred: 0 gold: 1
+it    ==    the specific charge about the Khobar Towers which happens to be not true
+... it was true . He just said somebody told him it was true ... is the spokesperson for President Clinton was not informed about the specific charge about the Khobar Towers which happens to be not true . President ( 91 ) 
+
+17 pred: 0 gold: 1
+his source    ==    somebody
+... Freeh has backed off and has not told people who his source is . ... even insisted that it was true . He just said somebody told him ( 17 ) 
+
+42 pred: 1 gold: 0
+resumed    ==    it
+... . Now in the news . Earthquake relief flights have resumed in Pakistan ... weekend as you recall . Pakistan 's prime minister says it killed at ( 42 ) 
+
+51 pred: 0 gold: 1
+the New York Times    ==    the paper
+... coverage I sat down with a foreign affairs columnist of the New York Times three time ... editor of the New York Times you would 've led the paper with the ( 51 ) 
+
+155 pred: 0 gold: 1
+a Sunni Jihadi suicide bomber    ==    A Sunni Muslim fundamentalist
+... And what was so shocking to me about this story a Sunni Jihadi suicide bomber blows up ... and say wait a minute . what happened today ? A Sunni Muslim fundamentalist went into ( 155 ) 
+
+true_pos, true_neg, false_pos, false_neg, (342, 350, 32, 25)
