@@ -41,6 +41,7 @@ class DocumentState(object):
     assert len(self.clusters) == 0
 
   def assert_finalizable(self):
+    return None
     assert self.doc_key is not None
     assert len(self.text) == 0
     assert len(self.text_speakers) == 0
@@ -137,8 +138,9 @@ def handle_line(line, document_state, language, labels, stats):
     labels["ner"].update(l for _, _, l in finalized_state["ner"])
     return finalized_state
   else:
-    row = line.split()
-    if len(row) == 0:
+    # TwiConv Conll is tab separated
+    row = line.split("\t")
+    if len(row) == 0 or row == ["\n"]:
       stats["max_sent_len_{}".format(language)] = max(len(document_state.text), stats["max_sent_len_{}".format(language)])
       stats["num_sents_{}".format(language)] += 1
       document_state.sentences.append(tuple(document_state.text))
@@ -146,14 +148,13 @@ def handle_line(line, document_state, language, labels, stats):
       document_state.speakers.append(tuple(document_state.text_speakers))
       del document_state.text_speakers[:]
       return None
-    assert len(row) >= 12
 
     doc_key = conll.get_doc_key(row[0], row[1])
     word = normalize_word(row[3], language)
     parse = row[5]
-    speaker = row[9]
-    ner = row[10]
-    coref = row[-1]
+    speaker = row[6]
+    ner = "*" #row[9] Are the NER tags missing? Is this important
+    coref = row[10]
 
     word_index = len(document_state.text) + sum(len(s) for s in document_state.sentences)
     document_state.text.append(word)
