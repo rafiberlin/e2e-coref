@@ -1,7 +1,7 @@
 import json
 import sys
 
-def get_error_count(input_filename):
+def get_error_count(input_filename, min_dist=None, max_dist=None):
     '''
     :param input_filename: predicted jsonlines filepath
     :return: error_counter, num_examples, num of true_pos, true_neg, false_pos, false_neg
@@ -16,6 +16,9 @@ def get_error_count(input_filename):
     false_pos = 0
     false_neg = 0
 
+    if min_dist is not None and max_dist is not None:
+        assert min_dist <= max_dist
+
     # with open(errors, 'w'):
     with open(input_filename) as input_file:
         for example_num, line in enumerate(input_file.readlines()):
@@ -23,6 +26,13 @@ def get_error_count(input_filename):
             # for each gold label in cluster check it against pred label
             for idx, label in enumerate(example['gold_label']):
                 pred_label = example['pred'][idx]
+
+                if min_dist is not None and example['mention_dist'][idx] < min_dist:
+                    continue
+
+                if max_dist is not None and example['mention_dist'][idx] > max_dist:
+                    continue
+
                 # calculate number of all mention pairs
                 num_examples += 1
 
