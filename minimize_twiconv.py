@@ -196,7 +196,6 @@ def minimize_partition(name, language, extension, labels, stats):
   print("Wrote {} documents to {}".format(count, output_path))
 
 def minimize_language(language, labels, stats):
-  minimize_partition("dev", language, "v9_gold_conll", labels, stats)
   minimize_partition("train", language, "v9_gold_conll", labels, stats)
   minimize_partition("test", language, "v9_gold_conll", labels, stats)
 

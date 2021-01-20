@@ -19,6 +19,29 @@ with Python 2 to run the scripts building the CoNLL files in `setup_training.sh`
   * This assumes access to OntoNotes 5.0. Please edit the `ontonotes_path` variable.
 * To install the last prerequisites to train your own models, run `setup_training_end.sh` in conda with Python 3 activated.
   * Ernie embedding can be used but the model must be retrained. See comments in `setup_training_end.sh`
+
+## Converting TwiConv
+
+* Run the scripts from `https://github.com/berfingit/TwiConv` to obtain the twitter dataset
+* Download the `split_train_test.py` script from `https://github.com/verosol/e2e-coref-to-Twitter/blob/master/split_train_test.py`
+
+Merge the contents of the folders into train and test files via
+
+```bash
+cat train/*conll > train.english.v9_gold_conll
+cat test/*conll > test.english.v9_gold_conll
+```
+
+* Convert the files into jsonlines using
+
+```
+python3 minimize_twiconv.py
+```
+
+This script assumes the train and test v9 gold conll files are in the current working directory.
+
+* Split the train set into train and test TODO
+
 ## Training Instructions
 
 * Experiment configurations are found in `experiments.conf`
