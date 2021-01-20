@@ -24,6 +24,7 @@ with Python 2 to run the scripts building the CoNLL files in `setup_training.sh`
 
 * Run the scripts from `https://github.com/berfingit/TwiConv` to obtain the twitter dataset
 * Download the `split_train_test.py` script from `https://github.com/verosol/e2e-coref-to-Twitter/blob/master/split_train_test.py`
+* Run `python3 split_train_test.py conll/`
 
 Merge the contents of the folders into train and test files via
 
