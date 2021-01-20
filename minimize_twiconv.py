@@ -41,15 +41,14 @@ class DocumentState(object):
     assert len(self.clusters) == 0
 
   def assert_finalizable(self):
-    return None
     assert self.doc_key is not None
     assert len(self.text) == 0
     assert len(self.text_speakers) == 0
     assert len(self.speakers) > 0
     assert len(self.sentences) > 0
     assert len(self.constituents) > 0
-    assert len(self.const_stack) == 0
-    assert len(self.ner_stack) == 0
+    #assert len(self.const_stack) == 0
+    #assert len(self.ner_stack) == 0
     assert all(len(s) == 0 for s in self.coref_stacks.values())
 
   def span_dict_to_list(self, span_dict):
