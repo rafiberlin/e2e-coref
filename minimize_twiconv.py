@@ -10,6 +10,7 @@ import tempfile
 import subprocess
 import collections
 
+import math
 import util
 import conll
 
@@ -198,6 +199,18 @@ def minimize_language(language, labels, stats):
   minimize_partition("train", language, "v9_gold_conll", labels, stats)
   minimize_partition("test", language, "v9_gold_conll", labels, stats)
 
+def split_train_dev():
+    with open("train.english.jsonlines", "r") as f:
+        lines = f.readlines()
+        cutoff = math.ceil(len(lines) * 0.2)
+        train_lines = lines[cutoff:]
+        dev_lines = lines[:cutoff]
+    with open("train.english.jsonlines", "w") as f:
+        f.writelines(train_lines)
+
+    with open("dev.english.jsonlines", "w") as f:
+        f.writelines(dev_lines)
+
 if __name__ == "__main__":
   labels = collections.defaultdict(set)
   stats = collections.defaultdict(int)
@@ -206,3 +219,4 @@ if __name__ == "__main__":
     print("{} = [{}]".format(k, ", ".join("\"{}\"".format(label) for label in v)))
   for k, v in stats.items():
     print("{} = {}".format(k, v))
+  split_train_dev()
