@@ -41,7 +41,7 @@ python3 minimize_twiconv.py
 
 This script assumes the train and test v9 gold conll files are in the current working directory.
 
-* Split the train set into train and test TODO
+* `minimize_twicon` also automatically splits the train set into 80% train and 20% dev sets
 
 ## Training Instructions
 
