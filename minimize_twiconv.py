@@ -10,6 +10,7 @@ import tempfile
 import subprocess
 import collections
 
+import math
 import util
 import conll
 
@@ -41,15 +42,14 @@ class DocumentState(object):
     assert len(self.clusters) == 0
 
   def assert_finalizable(self):
-    return None
     assert self.doc_key is not None
     assert len(self.text) == 0
     assert len(self.text_speakers) == 0
     assert len(self.speakers) > 0
     assert len(self.sentences) > 0
     assert len(self.constituents) > 0
-    assert len(self.const_stack) == 0
-    assert len(self.ner_stack) == 0
+    #assert len(self.const_stack) == 0
+    #assert len(self.ner_stack) == 0
     assert all(len(s) == 0 for s in self.coref_stacks.values())
 
   def span_dict_to_list(self, span_dict):
@@ -196,17 +196,27 @@ def minimize_partition(name, language, extension, labels, stats):
   print("Wrote {} documents to {}".format(count, output_path))
 
 def minimize_language(language, labels, stats):
-  minimize_partition("dev", language, "v4_gold_conll", labels, stats)
-  minimize_partition("train", language, "v4_gold_conll", labels, stats)
-  minimize_partition("test", language, "v4_gold_conll", labels, stats)
+  minimize_partition("train", language, "v9_gold_conll", labels, stats)
+  minimize_partition("test", language, "v9_gold_conll", labels, stats)
+
+def split_train_dev():
+    with open("train.english.jsonlines", "r") as f:
+        lines = f.readlines()
+        cutoff = math.ceil(len(lines) * 0.2)
+        train_lines = lines[cutoff:]
+        dev_lines = lines[:cutoff]
+    with open("train.english.jsonlines", "w") as f:
+        f.writelines(train_lines)
+
+    with open("dev.english.jsonlines", "w") as f:
+        f.writelines(dev_lines)
 
 if __name__ == "__main__":
   labels = collections.defaultdict(set)
   stats = collections.defaultdict(int)
   minimize_language("english", labels, stats)
-  minimize_language("chinese", labels, stats)
-  minimize_language("arabic", labels, stats)
   for k, v in labels.items():
     print("{} = [{}]".format(k, ", ".join("\"{}\"".format(label) for label in v)))
   for k, v in stats.items():
     print("{} = {}".format(k, v))
+  split_train_dev()
