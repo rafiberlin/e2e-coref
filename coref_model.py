@@ -79,8 +79,9 @@ class CorefModel(object):
         random.shuffle(train_examples)
         for example in train_examples:
           tensorized_example = self.tensorize_example(example, is_training=True)
-          feed_dict = dict(zip(self.queue_input_tensors, tensorized_example))
-          session.run(self.enqueue_op, feed_dict=feed_dict)
+          if tensorized_example is not None:
+            feed_dict = dict(zip(self.queue_input_tensors, tensorized_example))
+            session.run(self.enqueue_op, feed_dict=feed_dict)
     enqueue_thread = threading.Thread(target=_enqueue_loop)
     enqueue_thread.daemon = True
     enqueue_thread.start()
@@ -121,6 +122,15 @@ class CorefModel(object):
     return np.array(starts), np.array(ends), np.array([label_dict[c] for c in labels])
 
   def tensorize_example(self, example, is_training):
+
+    doc_key = example["doc_key"]
+    genre_string = doc_key[:2]
+    if genre_string not in self.genres.keys():
+      return None
+
+    genre = self.genres[genre_string]
+
+
     clusters = example["clusters"]
 
     gold_mentions = sorted(tuple(m) for m in util.flatten(clusters))
@@ -154,8 +164,6 @@ class CorefModel(object):
     speaker_dict = { s:i for i,s in enumerate(set(speakers)) }
     speaker_ids = np.array([speaker_dict[s] for s in speakers])
 
-    doc_key = example["doc_key"]
-    genre = self.genres[doc_key[:2]]
 
     gold_starts, gold_ends = self.tensorize_mentions(gold_mentions)
 
