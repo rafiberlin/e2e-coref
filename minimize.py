@@ -179,7 +179,7 @@ def handle_line(line, document_state, language, labels, stats):
 
 def minimize_partition(name, language, extension, labels, stats):
   input_path = "{}.{}.{}".format(name, language, extension)
-  output_path = "{}.{}.jsonlines".format(name, language)
+  output_path = "{}.{}.ontonotes.jsonlines".format(name, language)
   count = 0
   print("Minimizing {}".format(input_path))
   with open(input_path, "r") as input_file:
@@ -203,8 +203,8 @@ if __name__ == "__main__":
   labels = collections.defaultdict(set)
   stats = collections.defaultdict(int)
   minimize_language("english", labels, stats)
-  minimize_language("chinese", labels, stats)
-  minimize_language("arabic", labels, stats)
+  #minimize_language("chinese", labels, stats)
+  #minimize_language("arabic", labels, stats)
   for k, v in labels.items():
     print("{} = [{}]".format(k, ", ".join("\"{}\"".format(label) for label in v)))
   for k, v in stats.items():

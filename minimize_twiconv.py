@@ -180,7 +180,7 @@ def handle_line(line, document_state, language, labels, stats):
 
 def minimize_partition(name, language, extension, labels, stats):
   input_path = "{}.{}.{}".format(name, language, extension)
-  output_path = "{}.{}.jsonlines".format(name, language)
+  output_path = "{}.{}.twiconv.jsonlines".format(name, language)
   count = 0
   print("Minimizing {}".format(input_path))
   with open(input_path, "r") as input_file:
@@ -200,15 +200,15 @@ def minimize_language(language, labels, stats):
   minimize_partition("test", language, "v9_gold_conll", labels, stats)
 
 def split_train_dev():
-    with open("train.english.jsonlines", "r") as f:
+    with open("train.english.twiconv.jsonlines", "r") as f:
         lines = f.readlines()
         cutoff = math.ceil(len(lines) * 0.2)
         train_lines = lines[cutoff:]
         dev_lines = lines[:cutoff]
-    with open("train.english.jsonlines", "w") as f:
+    with open("train.english.twiconv.jsonlines", "w") as f:
         f.writelines(train_lines)
 
-    with open("dev.english.jsonlines", "w") as f:
+    with open("dev.english.twiconv.jsonlines", "w") as f:
         f.writelines(dev_lines)
 
 if __name__ == "__main__":
