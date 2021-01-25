@@ -163,7 +163,12 @@ def handle_line(line, document_state, language, labels, stats):
     handle_bit(word_index, parse, document_state.const_stack, document_state.constituents)
     handle_bit(word_index, ner, document_state.ner_stack, document_state.ner)
 
-    if coref != "-":
+    string_size = len(coref)
+    # Work around when the columns after coreferences are being deleted before creating jsonlines
+    if coref.endswith("\n"):
+      coref = coref[:string_size - 1]
+
+    if coref != "-" and coref != "-\n":
       for segment in coref.split("|"):
         if segment[0] == "(":
           if segment[-1] == ")":
@@ -187,6 +192,7 @@ def minimize_partition(name, language, extension, labels, stats):
     with open(output_path, "w") as output_file:
       document_state = DocumentState()
       for line in input_file.readlines():
+        print(line)
         document = handle_line(line, document_state, language, labels, stats)
         if document is not None:
           output_file.write(json.dumps(document))
@@ -198,6 +204,7 @@ def minimize_partition(name, language, extension, labels, stats):
 def minimize_language(language, labels, stats):
   minimize_partition("train", language, "v9_gold_conll", labels, stats)
   minimize_partition("test", language, "v9_gold_conll", labels, stats)
+  minimize_partition("dev", language, "v9_gold_conll", labels, stats)
 
 def split_train_dev():
     with open("train.english.twiconv.jsonlines", "r") as f:
@@ -219,4 +226,4 @@ if __name__ == "__main__":
     print("{} = [{}]".format(k, ", ".join("\"{}\"".format(label) for label in v)))
   for k, v in stats.items():
     print("{} = {}".format(k, v))
-  split_train_dev()
+  #split_train_dev()

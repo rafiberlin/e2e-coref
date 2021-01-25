@@ -12,25 +12,34 @@ This repository contains the code for replicating results from
 * The Ontonotes dataset must be available. 
 
 * TwiConv
-    * Run the scripts from `https://github.com/berfingit/TwiConv` to obtain the twitter dataset
-    * Download the `split_train_test.py` script from `https://github.com/verosol/e2e-coref-to-Twitter/blob/master/split_train_test.py`
-    * Run `python3 split_train_test.py conll/`
+    * Run the scripts from `https://github.com/berfingit/TwiConv` to obtain the twitter dataset. Copy the  produced complete conll/ directory at the root of this directory.
     
-    Merge the contents of the folders into train and test files via
+    * The data is then transformed with `setup_twiconv.sh` in the section `Getting Started` as follow:
     
-    ```bash
-    cat train/*conll > train.english.v9_gold_conll
-    cat test/*conll > test.english.v9_gold_conll
-    ```
-
-    * Use a software like `https://de.libreoffice.org/discover/calc/` to open the tab separated v9_gold_conll files and remove all columns after column 10  
-    (only keep the all columns up to the column with coreference annotation). At the end of the process, the v9_gold_conll should be at the 
-    root of this github repositary (at the same level as the setup_all.sh file for example). Alternatively, you can use
-
-    ```bash
-    cut -f1-11 train.english.v9_gold_conll > train.english.v9_gold_conll
-    cut -f1-11 test.english.v9_gold_conll > test.english.v9_gold_conll
-    ```
+        * First creating a data split by executing `python3 split_train_dev_test.py conll/`. `split_train_dev_test.py` which is a modified version of `https://github.com/verosol/e2e-coref-to-Twitter/blob/master/split_train_test.py` creating a development / validation split.
+        
+        * Merging the contents of the folders into train and test files via
+        
+        ```bash
+        cat train/*conll > train.english.v9_gold_conll
+        cat test/*conll > test.english.v9_gold_conll
+        cat dev/*conll > dev.english.v9_gold_conll
+        ```
+    
+        * Removing all columns after column 10 by exeuting the following commands (only keep the all columns up to the column with coreference annotation).  At the end of the process, the v9_gold_conll should be at the 
+        root of this github repository (at the same level as the setup_all.sh file for example).
+    
+        ```bash
+        cp -f train.english.v9_gold_conll old.train.english.v9_gold_conll
+        cut -f1-11 old.train.english.v9_gold_conll > train.english.v9_gold_conll
+        rm old.train.english.v9_gold_conll
+        cp -f test.english.v9_gold_conll old.test.english.v9_gold_conll
+        cut -f1-11 old.test.english.v9_gold_conll > test.english.v9_gold_conll
+        rm old.test.english.v9_gold_conll
+        cp -f dev.english.v9_gold_conll old.dev.english.v9_gold_conll
+        cut -f1-11 old.dev.english.v9_gold_conll > dev.english.v9_gold_conll
+        rm old.dev.english.v9_gold_conll
+        ```
 
 ## Getting Started
 
@@ -43,7 +52,8 @@ with Python 2 to run the scripts building the CoNLL files in `setup_training.sh`
 * To setup the prerequisites to train your own models, run `setup_training.sh` in conda with Python 2 activated.
   * This assumes access to OntoNotes 5.0. Please edit the `ontonotes_path` variable in `setup_training.sh`.
   * This script downloads Ontonotes annotations and scripts creating the CoNLL files needed.
-  * If you are not lucky, you will not be able to download the files per script (computer flagged by the data provider as a bot). You will need to download and unzip the files manually.
+  * If you are unlucky, you will not be able to download the files per script (computer flagged by the data provider as a bot). You will need to download and unzip the files manually.
+* To transform the Twiconv dataset as need by this project, run `setup_twiconv.sh` in conda with Python 3 activated.
 * To install the last prerequisites to train your own models, run `setup_training_end.sh` in conda with Python 3 activated.
   * This will transform all CoNLL files (for TwiConv and Ontonotes) into jsonlines and merge all ConLL files together,
   * Ernie embedding can be used but the model must be retrained. See comments in `setup_training_end.sh`
