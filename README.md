@@ -53,7 +53,7 @@ with Python 2 to run the scripts building the CoNLL files in `setup_training.sh`
   * This assumes access to OntoNotes 5.0. Please edit the `ontonotes_path` variable in `setup_training.sh`.
   * This script downloads Ontonotes annotations and scripts creating the CoNLL files needed.
   * If you are unlucky, you will not be able to download the files per script (computer flagged by the data provider as a bot). You will need to download and unzip the files manually.
-* To transform the Twiconv dataset as need by this project, run `setup_twiconv.sh` in conda with Python 3 activated.
+* To transform the Twiconv dataset as needed in this project, run `setup_twiconv.sh` in conda with Python 3 activated.
 * To install the last prerequisites to train your own models, run `setup_training_end.sh` in conda with Python 3 activated.
   * This will transform all CoNLL files (for TwiConv and Ontonotes) into jsonlines and merge all ConLL files together,
   * Ernie embedding can be used but the model must be retrained. See comments in `setup_training_end.sh`
