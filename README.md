@@ -65,7 +65,7 @@ with Python 2 to run the scripts building the CoNLL files in `setup_training.sh`
 * Choose an experiment that you would like to run, e.g. `best` or `twiconv_allspoken`
 * Training: `python train.py <experiment>`
 * Results are stored in the `logs` directory, in a directory of the same name as the experiment and can be viewed via TensorBoard.
-* Evaluation: `python evaluate.py <experiment>`
+* Evaluation: `python evaluate.py <experiment>` , e.g. `python evaluate.py twiconv_allspoken_eval`
 
 ## Demo Instructions
 

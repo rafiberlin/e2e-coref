@@ -545,7 +545,9 @@ class CorefModel(object):
         example = json.loads(line)
         return self.tensorize_example(example, is_training=False), example
       with open(self.config["eval_path"]) as f:
-        self.eval_data = [load_line(l) for l in f.readlines()]
+        eval_data = [load_line(l) for l in f.readlines()]
+        # filter out examples which are not in the configured genres
+        self.eval_data = [ (tensor_example, example) for tensor_example, example in eval_data if tensor_example is not None]
       num_words = sum(tensorized_example[2].sum() for tensorized_example, _ in self.eval_data)
       print("Loaded {} eval examples.".format(len(self.eval_data)))
 
@@ -565,7 +567,7 @@ class CorefModel(object):
         print("Evaluated {}/{} examples.".format(example_num + 1, len(self.eval_data)))
 
     summary_dict = {}
-    conll_results = conll.evaluate_conll(self.config["conll_eval_path"], coref_predictions, official_stdout)
+    conll_results = conll.evaluate_conll(self.config["conll_eval_path"], coref_predictions, official_stdout, self.genres)
     average_f1 = sum(results["f"] for results in conll_results.values()) / len(conll_results)
     summary_dict["Average F1 (conll)"] = average_f1
     print("Average F1 (conll): {:.2f}%".format(average_f1))
