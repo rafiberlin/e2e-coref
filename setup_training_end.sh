@@ -4,7 +4,7 @@
 
 # creates all *.english.ontonotes.jsonlines files
 python minimize.py
-# creates all *.english.ontonotes.jsonlines files
+# creates all *.english.twiconv.jsonlines files
 python minimize_twiconv.py
 
 #merge twiconv and ontonotes jsonlines together as they have now the same structure
