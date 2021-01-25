@@ -25,7 +25,12 @@ This repository contains the code for replicating results from
 
     * Use a software like `https://de.libreoffice.org/discover/calc/` to open the tab separated v9_gold_conll files and remove all columns after column 10  
     (only keep the all columns up to the column with coreference annotation). At the end of the process, the v9_gold_conll should be at the 
-    root of this github repositary (at the same level as the setup_all.sh file for example).
+    root of this github repositary (at the same level as the setup_all.sh file for example). Alternatively, you can use
+
+    ```bash
+    cut -f1-11 train.english.v9_gold_conll > train.english.v9_gold_conll
+    cut -f1-11 test.english.v9_gold_conll > test.english.v9_gold_conll
+    ```
 
 ## Getting Started
 
