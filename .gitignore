@@ -1,6 +1,7 @@
 *.pyc
 *.so
 *.jsonlines
+*.*conll
 logs
 conll-2012
 char_vocab*.txt
