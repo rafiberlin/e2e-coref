@@ -57,7 +57,7 @@ pyhocon == 0.3.51
 # e2e-coref_WS2020/metrics.py: 7
 # e2e-coref_WS2020/train_baseline.py: 14
 # e2e-coref_WS2020/train_probe.py: 14
-scikit_learn == 0.19.1
+scikit_learn >= 0.19.1
 
 # e2e-coref_WS2020/demo.py: 5
 six == 1.12.0
