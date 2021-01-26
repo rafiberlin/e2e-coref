@@ -2,7 +2,8 @@
 *.so
 *.jsonlines
 *.*conll
-logs
+logs/best
+logs/final
 conll-2012
 char_vocab*.txt
 glove*.txt
