@@ -135,8 +135,8 @@ def output_conll(input_file, output_file, predictions):
       output_file.write("\n")
       word_index += 1
 
-def official_conll_eval(gold_path, predicted_path, metric, official_stdout=False):
-  cmd = ["conll-2012/scorer/v8.01/scorer.pl", metric, gold_path, predicted_path, "none"]
+def official_conll_eval(gold_path, predicted_path, metric, official_stdout=False, doc_name="none"):
+  cmd = ["conll-2012/scorer/v8.01/scorer.pl", metric, gold_path, predicted_path, doc_name]
   process = subprocess.Popen(cmd, stdout=subprocess.PIPE)
   stdout, stderr = process.communicate()
   process.wait()
@@ -156,12 +156,41 @@ def official_conll_eval(gold_path, predicted_path, metric, official_stdout=False
   return { "r": recall, "p": precision, "f": f1 }
 
 def evaluate_conll(gold_path, predictions, official_stdout=False, genres=None):
-  with tempfile.NamedTemporaryFile(delete=False, mode="w") as prediction_file:
-    with open(gold_path, "r") as gold_file:
-      if genres is not None:
-        output_conll_with_filter(gold_file, prediction_file, predictions, genres)
+  # Creates a temporary gold files where all keys not in genres are filtrered out.
+  with tempfile.NamedTemporaryFile(delete=False, mode="w") as temp_gold:
+    create_temp_gold_file(gold_path, temp_gold, genres)
+    with tempfile.NamedTemporaryFile(delete=False, mode="w") as prediction_file:
+      with open(temp_gold.name, "r") as gold_file:
+        if genres is not None:
+          output_conll_with_filter(gold_file, prediction_file, predictions, genres)
+        else:
+          output_conll(gold_file, prediction_file, predictions)
+        print("Predicted conll file: {}".format(prediction_file.name))
+    return { m: official_conll_eval(gold_file.name, prediction_file.name, m, official_stdout) for m in ("muc", "bcub", "ceafe") }
+
+
+def create_temp_gold_file(gold_path, output_file, genres):
+  with open(gold_path, "r") as input_file:
+    for line in input_file.readlines():
+      row = line.split()
+      if len(row) == 0:
+        output_file.write("\n")
+      elif row[0].startswith("#"):
+        begin_match = re.match(BEGIN_DOCUMENT_REGEX, line)
+        if begin_match:
+          doc_key = get_doc_key(begin_match.group(1), begin_match.group(2))
+          genre = doc_key[:2]
+          allowed_genre = genre in genres.keys()
+          if allowed_genre:
+            output_file.write(line)
+            output_file.write("\n")
+        else:
+          if allowed_genre:
+            output_file.write(line)
+            output_file.write("\n")
+            allowed_genre = False
       else:
-        output_conll(gold_file, prediction_file, predictions)
-      print("Predicted conll file: {}".format(prediction_file.name))
-  return { m: official_conll_eval(gold_file.name, prediction_file.name, m, official_stdout) for m in ("muc", "bcub", "ceafe") }
+        if allowed_genre:
+          output_file.write(line)
+          output_file.write("\n")
 
