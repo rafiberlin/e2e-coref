@@ -51,6 +51,8 @@ def output_conll_with_filter(input_file, output_file, predictions, genres):
         if allowed_genre:
           start_map, end_map, word_map = prediction_map[doc_key]
           word_index = 0
+          output_file.write(line)
+          output_file.write("\n")
       else:
         if allowed_genre:
           output_file.write(line)
