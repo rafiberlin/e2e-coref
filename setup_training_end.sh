@@ -12,7 +12,7 @@ cat train.english.*.jsonlines > train.english.jsonlines
 cat dev.english.*.jsonlines > dev.english.jsonlines
 cat test.english.*.jsonlines > test.english.jsonlines
 
-#python get_char_vocab.py
+python get_char_vocab.py
 
 python filter_embeddings.py glove.840B.300d.txt train.english.jsonlines dev.english.jsonlines
 python cache_elmo.py train.english.jsonlines dev.english.jsonlines
