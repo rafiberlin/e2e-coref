@@ -194,9 +194,14 @@ def minimize_partition(name, language, extension, labels, stats):
       for line in input_file.readlines():
         document = handle_line(line, document_state, language, labels, stats)
         if document is not None:
-          output_file.write(json.dumps(document))
-          output_file.write("\n")
-          count += 1
+          cluster_without_singletons = [cluster for cluster in document["clusters"] if len(cluster) > 1 ]
+          document["clusters"] = cluster_without_singletons
+          if len(cluster_without_singletons) > 0:
+            output_file.write(json.dumps(document))
+            output_file.write("\n")
+            count += 1
+          else:
+            print(f'Removed document without coreference chains: {document["doc_key"]}')
           document_state = DocumentState()
   print("Wrote {} documents to {}".format(count, output_path))
 
