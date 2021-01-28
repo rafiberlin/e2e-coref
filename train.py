@@ -24,6 +24,7 @@ if __name__ == "__main__":
   writer = tf.summary.FileWriter(log_dir, flush_secs=20)
 
   max_f1 = 0
+  min_loss_to_break_training = config["min_loss_to_break_training"]
   average_loss = math.inf
   with tf.Session() as session:
     session.run(tf.global_variables_initializer())
@@ -49,7 +50,7 @@ if __name__ == "__main__":
         writer.add_summary(util.make_summary({"loss": average_loss}), tf_global_step)
         accumulated_loss = 0.0
 
-      if tf_global_step % eval_frequency == 0 or average_loss < 1.0:
+      if tf_global_step % eval_frequency == 0 or average_loss < min_loss_to_break_training:
         saver.save(session, os.path.join(log_dir, "model"), global_step=tf_global_step)
         eval_summary, eval_f1 = model.evaluate(session)
 
@@ -61,6 +62,6 @@ if __name__ == "__main__":
         writer.add_summary(util.make_summary({"max_eval_f1": max_f1}), tf_global_step)
 
         print("[{}] evaL_f1={:.2f}, max_f1={:.2f}".format(tf_global_step, eval_f1, max_f1))
-      if average_loss < 1.0:
+      if average_loss < min_loss_to_break_training:
         print(f"The training has reached convergence after {i} iterations.")
         break
