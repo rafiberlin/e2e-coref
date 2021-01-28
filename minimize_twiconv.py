@@ -10,6 +10,7 @@ import tempfile
 import subprocess
 import collections
 
+import math
 import util
 import conll
 
@@ -47,8 +48,8 @@ class DocumentState(object):
     assert len(self.speakers) > 0
     assert len(self.sentences) > 0
     assert len(self.constituents) > 0
-    assert len(self.const_stack) == 0
-    assert len(self.ner_stack) == 0
+    #assert len(self.const_stack) == 0
+    #assert len(self.ner_stack) == 0
     assert all(len(s) == 0 for s in self.coref_stacks.values())
 
   def span_dict_to_list(self, span_dict):
@@ -137,8 +138,9 @@ def handle_line(line, document_state, language, labels, stats):
     labels["ner"].update(l for _, _, l in finalized_state["ner"])
     return finalized_state
   else:
-    row = line.split()
-    if len(row) == 0:
+    # TwiConv Conll is tab separated
+    row = line.split("\t")
+    if len(row) == 0 or row == ["\n"]:
       stats["max_sent_len_{}".format(language)] = max(len(document_state.text), stats["max_sent_len_{}".format(language)])
       stats["num_sents_{}".format(language)] += 1
       document_state.sentences.append(tuple(document_state.text))
@@ -146,14 +148,13 @@ def handle_line(line, document_state, language, labels, stats):
       document_state.speakers.append(tuple(document_state.text_speakers))
       del document_state.text_speakers[:]
       return None
-    assert len(row) >= 12
 
     doc_key = conll.get_doc_key(row[0], row[1])
     word = normalize_word(row[3], language)
     parse = row[5]
-    speaker = row[9]
-    ner = row[10]
-    coref = row[-1]
+    speaker = row[6]
+    ner = "*" #row[9] Are the NER tags missing? Is this important
+    coref = row[10]
 
     word_index = len(document_state.text) + sum(len(s) for s in document_state.sentences)
     document_state.text.append(word)
@@ -162,7 +163,12 @@ def handle_line(line, document_state, language, labels, stats):
     handle_bit(word_index, parse, document_state.const_stack, document_state.constituents)
     handle_bit(word_index, ner, document_state.ner_stack, document_state.ner)
 
-    if coref != "-":
+    string_size = len(coref)
+    # Work around when the columns after coreferences are being deleted before creating jsonlines
+    if coref.endswith("\n"):
+      coref = coref[:string_size - 1]
+
+    if coref != "-" and coref != "-\n":
       for segment in coref.split("|"):
         if segment[0] == "(":
           if segment[-1] == ")":
@@ -179,7 +185,7 @@ def handle_line(line, document_state, language, labels, stats):
 
 def minimize_partition(name, language, extension, labels, stats):
   input_path = "{}.{}.{}".format(name, language, extension)
-  output_path = "{}.{}.ontonotes.jsonlines".format(name, language)
+  output_path = "{}.{}.twiconv.jsonlines".format(name, language)
   count = 0
   print("Minimizing {}".format(input_path))
   with open(input_path, "r") as input_file:
@@ -195,17 +201,28 @@ def minimize_partition(name, language, extension, labels, stats):
   print("Wrote {} documents to {}".format(count, output_path))
 
 def minimize_language(language, labels, stats):
-  minimize_partition("dev", language, "v4_gold_conll", labels, stats)
-  minimize_partition("train", language, "v4_gold_conll", labels, stats)
-  minimize_partition("test", language, "v4_gold_conll", labels, stats)
+  minimize_partition("train", language, "v9_gold_conll", labels, stats)
+  minimize_partition("test", language, "v9_gold_conll", labels, stats)
+  minimize_partition("dev", language, "v9_gold_conll", labels, stats)
+
+def split_train_dev():
+    with open("train.english.twiconv.jsonlines", "r") as f:
+        lines = f.readlines()
+        cutoff = math.ceil(len(lines) * 0.2)
+        train_lines = lines[cutoff:]
+        dev_lines = lines[:cutoff]
+    with open("train.english.twiconv.jsonlines", "w") as f:
+        f.writelines(train_lines)
+
+    with open("dev.english.twiconv.jsonlines", "w") as f:
+        f.writelines(dev_lines)
 
 if __name__ == "__main__":
   labels = collections.defaultdict(set)
   stats = collections.defaultdict(int)
   minimize_language("english", labels, stats)
-  #minimize_language("chinese", labels, stats)
-  #minimize_language("arabic", labels, stats)
   for k, v in labels.items():
     print("{} = [{}]".format(k, ", ".join("\"{}\"".format(label) for label in v)))
   for k, v in stats.items():
     print("{} = {}".format(k, v))
+  #split_train_dev()

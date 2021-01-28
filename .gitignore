@@ -1,14 +1,17 @@
 *.pyc
 *.so
 *.jsonlines
-logs
+*.*conll
+logs/best
+logs/final
 conll-2012
 char_vocab*.txt
 glove*.txt
 glove*.txt.filtered
 *.v*_*_conll
 *.hdf5
-
+*.h5
+ontonotes*
 .idea
 #dependencies loaded by PyCharm
 venv

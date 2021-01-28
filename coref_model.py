@@ -21,6 +21,7 @@ import metrics
 class CorefModel(object):
   def __init__(self, config):
     self.config = config
+    self.debug = False
     self.context_embeddings = util.EmbeddingDictionary(config["context_embeddings"])
     self.head_embeddings = util.EmbeddingDictionary(config["head_embeddings"], maybe_cache=self.context_embeddings)
     self.char_embedding_size = config["char_embedding_size"]
@@ -78,8 +79,9 @@ class CorefModel(object):
         random.shuffle(train_examples)
         for example in train_examples:
           tensorized_example = self.tensorize_example(example, is_training=True)
-          feed_dict = dict(zip(self.queue_input_tensors, tensorized_example))
-          session.run(self.enqueue_op, feed_dict=feed_dict)
+          if tensorized_example is not None:
+            feed_dict = dict(zip(self.queue_input_tensors, tensorized_example))
+            session.run(self.enqueue_op, feed_dict=feed_dict)
     enqueue_thread = threading.Thread(target=_enqueue_loop)
     enqueue_thread.daemon = True
     enqueue_thread.start()
@@ -120,6 +122,15 @@ class CorefModel(object):
     return np.array(starts), np.array(ends), np.array([label_dict[c] for c in labels])
 
   def tensorize_example(self, example, is_training):
+
+    doc_key = example["doc_key"]
+    genre_string = doc_key[:2]
+    if genre_string not in self.genres.keys():
+      return None
+
+    genre = self.genres[genre_string]
+
+
     clusters = example["clusters"]
 
     gold_mentions = sorted(tuple(m) for m in util.flatten(clusters))
@@ -153,8 +164,6 @@ class CorefModel(object):
     speaker_dict = { s:i for i,s in enumerate(set(speakers)) }
     speaker_ids = np.array([speaker_dict[s] for s in speakers])
 
-    doc_key = example["doc_key"]
-    genre = self.genres[doc_key[:2]]
 
     gold_starts, gold_ends = self.tensorize_mentions(gold_mentions)
 
@@ -536,7 +545,9 @@ class CorefModel(object):
         example = json.loads(line)
         return self.tensorize_example(example, is_training=False), example
       with open(self.config["eval_path"]) as f:
-        self.eval_data = [load_line(l) for l in f.readlines()]
+        eval_data = [load_line(l) for l in f.readlines()]
+        # filter out examples which are not in the configured genres
+        self.eval_data = [ (tensor_example, example) for tensor_example, example in eval_data if tensor_example is not None]
       num_words = sum(tensorized_example[2].sum() for tensorized_example, _ in self.eval_data)
       print("Loaded {} eval examples.".format(len(self.eval_data)))
 
@@ -556,7 +567,7 @@ class CorefModel(object):
         print("Evaluated {}/{} examples.".format(example_num + 1, len(self.eval_data)))
 
     summary_dict = {}
-    conll_results = conll.evaluate_conll(self.config["conll_eval_path"], coref_predictions, official_stdout)
+    conll_results = conll.evaluate_conll(self.config["conll_eval_path"], coref_predictions, official_stdout, self.genres)
     average_f1 = sum(results["f"] for results in conll_results.values()) / len(conll_results)
     summary_dict["Average F1 (conll)"] = average_f1
     print("Average F1 (conll): {:.2f}%".format(average_f1))
