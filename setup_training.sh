@@ -31,10 +31,11 @@ function compile_language() {
     compile_partition test test v4 _gold_conll $1
 }
 
-#Remove all conll files for wb, as we create our own wb docs from twiconv
-find conll-2012/v4/data/train/data/english/annotations/wb/ -name '*.v4_gold_conll' -delete
-find conll-2012/v4/data/test/data/english/annotations/wb/ -name '*.v4_gold_conll' -delete
-find conll-2012/v4/data/development/data/english/annotations/wb/ -name '*.v4_gold_conll' -delete
+# Remove all conll files for wb, as we create our own wb docs from twiconv
+# But it seems to be a bad idea => Training only on Twiconv leads to poor results...
+#find conll-2012/v4/data/train/data/english/annotations/wb/ -name '*.v4_gold_conll' -delete
+#find conll-2012/v4/data/test/data/english/annotations/wb/ -name '*.v4_gold_conll' -delete
+#find conll-2012/v4/data/development/data/english/annotations/wb/ -name '*.v4_gold_conll' -delete
 
 
 compile_language english

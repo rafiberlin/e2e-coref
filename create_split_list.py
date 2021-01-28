@@ -34,11 +34,11 @@ def main():
 
     print("Random Dev Part Ids to use in split_train_dev.py:", dev_parts)
 
-
+# NOT IN USE!
 # The list in test split parts is the list of document being used for the evaluation
 # in https://github.com/verosol/e2e-coref-to-Twitter
 # this scripts just randomly selects a list of ids (10% of the original training documents) for evaluation
-# The ids in the output are then copied in split_train_dev_test.py to init the variable
+# The ids in the output are then copied in split_train_test.py to init the variable
 # dev_split_parts
 if __name__ == '__main__':
     main()

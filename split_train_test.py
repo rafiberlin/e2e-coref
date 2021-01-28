@@ -54,8 +54,8 @@ def main():
                     current_split_directory = "train"
                     if int(i) in test_parts:
                         current_split_directory="test"
-                    elif int(i) in dev_parts:
-                        current_split_directory="dev"
+                    # elif int(i) in dev_parts:
+                    #     current_split_directory="dev"
 
                     if len(str(cpt_parts))==2:
                         out_conll = current_split_directory+'/eng_00'+str(cpt_parts)+'.v9_gold_conll'

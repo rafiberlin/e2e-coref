@@ -192,7 +192,6 @@ def minimize_partition(name, language, extension, labels, stats):
     with open(output_path, "w") as output_file:
       document_state = DocumentState()
       for line in input_file.readlines():
-        print(line)
         document = handle_line(line, document_state, language, labels, stats)
         if document is not None:
           output_file.write(json.dumps(document))
