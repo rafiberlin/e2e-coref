@@ -38,25 +38,26 @@ def output_conll_with_filter(input_file, output_file, predictions, genres):
 
   word_index = 0
   allowed_genre = False
+  doc_started = False
   for line in input_file.readlines():
     row = line.split()
-    if len(row) == 0:
+    if len(row) == 0 and doc_started:
       output_file.write("\n")
-    elif row[0].startswith("#"):
+    elif row and row[0].startswith("#"):
       begin_match = re.match(BEGIN_DOCUMENT_REGEX, line)
       if begin_match:
         doc_key = get_doc_key(begin_match.group(1), begin_match.group(2))
         genre = doc_key[:2]
+        doc_started = True
         allowed_genre = genre in genres.keys()
         if allowed_genre:
           start_map, end_map, word_map = prediction_map[doc_key]
           word_index = 0
           output_file.write(line)
-          output_file.write("\n")
       else:
+        doc_started = False
         if allowed_genre:
           output_file.write(line)
-          output_file.write("\n")
           allowed_genre = False
     else:
       if allowed_genre:
@@ -171,11 +172,13 @@ def evaluate_conll(gold_path, predictions, official_stdout=False, genres=None):
 
 def create_temp_gold_file(gold_path, output_file, genres):
   with open(gold_path, "r") as input_file:
-    for line in input_file.readlines():
+    doc_started = False
+    allowed_genre = False
+    for i,line in enumerate(input_file.readlines()):
       row = line.split()
-      if len(row) == 0:
+      if len(row) == 0 and not doc_started:
         output_file.write("\n")
-      elif row[0].startswith("#"):
+      elif row and row[0].startswith("#"):
         begin_match = re.match(BEGIN_DOCUMENT_REGEX, line)
         if begin_match:
           doc_key = get_doc_key(begin_match.group(1), begin_match.group(2))
@@ -183,14 +186,13 @@ def create_temp_gold_file(gold_path, output_file, genres):
           allowed_genre = genre in genres.keys()
           if allowed_genre:
             output_file.write(line)
-            output_file.write("\n")
+          doc_started = True
         else:
           if allowed_genre:
             output_file.write(line)
-            output_file.write("\n")
             allowed_genre = False
+          doc_started = False
       else:
         if allowed_genre:
           output_file.write(line)
-          output_file.write("\n")
 

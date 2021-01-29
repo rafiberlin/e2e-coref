@@ -9,7 +9,7 @@ import json
 import tempfile
 import subprocess
 import collections
-
+import conll
 import math
 import util
 import conll
@@ -195,6 +195,8 @@ def minimize_partition(name, language, extension, labels, stats):
         document = handle_line(line, document_state, language, labels, stats)
         if document is not None:
           cluster_without_singletons = [cluster for cluster in document["clusters"] if len(cluster) > 1 ]
+          if len(cluster_without_singletons) < len(document["clusters"] ):
+            print(f'Removed {len(document["clusters"] ) - len(cluster_without_singletons) } singletons for document: {document["doc_key"]}')
           document["clusters"] = cluster_without_singletons
           if len(cluster_without_singletons) > 0:
             output_file.write(json.dumps(document))
@@ -208,7 +210,28 @@ def minimize_partition(name, language, extension, labels, stats):
 def minimize_language(language, labels, stats):
   minimize_partition("train", language, "v9_gold_conll", labels, stats)
   minimize_partition("test", language, "v9_gold_conll", labels, stats)
-  minimize_partition("dev", language, "v9_gold_conll", labels, stats)
+  #minimize_partition("dev", language, "v9_gold_conll", labels, stats)
+
+def create_gold_without_singletons(name, language, extension):
+  gold_path = "{}.{}.{}".format(name, language, extension)
+  gold_jsonlines = "{}.{}.{}.{}".format(name, language, "twiconv","jsonlines")
+  new_conll = "{}.{}.nosingleton.{}".format(name, language, extension)
+  genres = {key:i for i, key in enumerate(["NOTUSED4", "NOTUSED5", "NOTUSED1", "NOTUSED2", "NOTUSED3", "NOTUSED6", "wb"])}
+  # Creates a temporary gold files where all keys not in genres are filtrered out.
+  with tempfile.NamedTemporaryFile(delete=False, mode="w") as temp_gold:
+    conll.create_temp_gold_file(gold_path, temp_gold, genres)
+  predictions = {}
+  with open(gold_jsonlines) as input_file:
+    for example_num, line in enumerate(input_file.readlines()):
+      example = json.loads(line)
+      predictions[example["doc_key"]] = example["clusters"]
+  with open(new_conll, mode="w") as prediction_file:
+    with open(temp_gold.name, "r") as gold_file:
+      if genres is not None:
+        conll.output_conll_with_filter(gold_file, prediction_file, predictions, genres)
+  os.remove(temp_gold.name)
+  os.remove(gold_path)
+  os.rename(new_conll,gold_path)
 
 def split_train_dev():
     with open("train.english.twiconv.jsonlines", "r") as f:
@@ -230,4 +253,7 @@ if __name__ == "__main__":
     print("{} = [{}]".format(k, ", ".join("\"{}\"".format(label) for label in v)))
   for k, v in stats.items():
     print("{} = {}".format(k, v))
-  #split_train_dev()
+  # split_train_dev()
+  create_gold_without_singletons("train", "english", "v9_gold_conll")
+  create_gold_without_singletons("test", "english", "v9_gold_conll")
+
