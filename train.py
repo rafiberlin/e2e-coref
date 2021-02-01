@@ -35,8 +35,9 @@ if __name__ == "__main__":
     if ckpt and ckpt.model_checkpoint_path:
       print("Restoring from: {}".format(ckpt.model_checkpoint_path))
       saver.restore(session, ckpt.model_checkpoint_path)
-    else:
+    elif os.path.isfile(os.path.join(log_dir, "model.max.ckpt.index")):
       # Reload the models with "max" in the name if available
+      print("Restoring model with max in the name")
       model.restore(session)
 
     initial_time = time.time()
