@@ -53,6 +53,11 @@ with Python 2 to run the scripts building the CoNLL files in `setup_training.sh`
   * This assumes access to OntoNotes 5.0. Please edit the `ontonotes_path` variable in `setup_training.sh`.
   * This script downloads Ontonotes annotations and scripts creating the CoNLL files needed.
   * If you are unlucky, you will not be able to download the files per script (computer flagged by the data provider as a bot). You will need to download and unzip the files manually.
+  * To be able to train the model Twiconv without WB genre but with other genres conbination, you can remove the 
+  conll-2012/v4/data/wb/train/wb , conll-2012/v4/data/wb/test/wb, conll-2012/v4/data/wb/development/wb before re-executing
+  `setup_training.sh`. The resulting train.english.v4_gold_conll, test.english.v4_gold_conll, dev.english.v4_gold_conll
+  will not contain any document of the WB genre. Then proceed with next steps without changes (you might want to rename 
+  the produced files though, to be able to work with a dataset with and without WB documents).
 * To transform the Twiconv dataset as needed in this project, run `setup_twiconv.sh` in conda with Python 3 activated.
 * To install the last prerequisites to train your own models, run `setup_training_end.sh` in conda with Python 3 activated.
   * This will transform all CoNLL files (for TwiConv and Ontonotes) into jsonlines and merge all ConLL files together,

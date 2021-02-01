@@ -35,6 +35,9 @@ if __name__ == "__main__":
     if ckpt and ckpt.model_checkpoint_path:
       print("Restoring from: {}".format(ckpt.model_checkpoint_path))
       saver.restore(session, ckpt.model_checkpoint_path)
+    else:
+      # Reload the models with "max" in the name if available
+      model.restore(session)
 
     initial_time = time.time()
     for i in tqdm(range(0, config["training_loop"])):#The original author said that the model converges at 400 000 iterations.
