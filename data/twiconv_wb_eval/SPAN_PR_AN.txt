@@ -1,8 +1,4 @@
 data/twiconv_wb_eval/SPAN_PR_AN.jsonlines
-429 pred: 1 gold: 0
-Saddam    ==    yours
-... and Saddam Hussein at the Airport Prison ... Washington offers Saddam a television ... us from all over the world with your help , yours , and ( 429 ) 
-
 405 pred: 1 gold: 0
 Kuwait    ==    our country
 ... I want to ask you . Did you withdraw from Kuwait or not ... call free elections to be held under your occupation of our country ? Mr ( 405 ) 
@@ -15,9 +11,9 @@ you    ==    you
 Saddam    ==    your
 ... and Saddam Hussein at the Airport Prison ... Washington offers Saddam a television ... the outside . The Iraqi people have been liberated from your oppression , ( 943 ) 
 
-455 pred: 0 gold: 1
-yours    ==    you
-... us from all over the world with your help , yours , and ... will not bring except his assistants and lackeys , and you want , ( 455 ) 
+35 pred: 0 gold: 1
+Rumsfeld and Saddam Hussein    ==    Saddam and Rumsfeld
+... . Collaborator Details of the minutes of the meeting between Rumsfeld and Saddam Hussein at the ... - from Aras An Nasiri Minutes of the dialogue between Saddam and Rumsfeld from trusted ( 35 ) 
 
 45 pred: 0 gold: 1
 The hot dialogue ... that went on between -LSB- -LSB- -LSB- Saddam Hussein and Rumsfeld -RSB- -RSB- -RSB- at the airport prison .    ==    the dialogue between Saddam and Rumsfeld
@@ -51,9 +47,21 @@ I    ==    Your
 you    ==    Saddam Hussein
 ... choose for yourself a place of exile in any country you wish on ... I was commissioned to inform you of this offer . Saddam Hussein : It ( 85 ) 
 
+397 pred: 0 gold: 1
+Your    ==    your
+... they bear the history of Iraq and its civilization . Your country is ... bloodthirsty ruler like you . Saddam Hussein : Terrorism is your trade and ( 397 ) 
+
+28 pred: 0 gold: 1
+This proposal    ==    this offer
+... is your trade and deceit your method . Rumsfeld : This proposal is an ... everything concerning governance issues in Iraq . If you reject this offer then the ( 28 ) 
+
 100 pred: 1 gold: 0
 the minutes of the meeting between Rumsfeld and Saddam Hussein at the Airport Prison    ==    that meeting
 ... are obvious . MOTAAWEN@HOTMAIL.COM Over the sun http://alsaha.fares.net/sahat?128@96.GdrOcqF3AIR.21@.3ba9a044 Details of the minutes of the meeting between Rumsfeld and Saddam Hussein at the Airport Prison . The ... ... because I think it unlikely that what happened at that meeting would leak ( 100 ) 
+
+1 pred: 1 gold: 0
+Collaborator    ==    My brother , Over the Sun
+... but accepted ... May God the Great forgive me . Collaborator My brother , Over the Sun . I ( 1 ) 
 
 415 pred: 1 gold: 0
 his    ==    he
@@ -107,6 +115,10 @@ the Koran    ==    it
 the Rafida    ==    they
 ... his prison cell . Finally , during his hanging , the Rafida tried to ... them , then they would have killed him . So they could show ( 73 ) 
 
+97 pred: 0 gold: 1
+his    ==    Saddam
+... reading the Koran are the Christians who visited him in his prison cell ... the clip in which there is cursing and insults from Saddam and cut ( 97 ) 
+
 3 pred: 0 gold: 1
 Other people    ==    I
 ... present would murmur " Did love see drunkards ? " Other people say , I have not ( 3 ) 
@@ -119,6 +131,10 @@ Baghdad    ==    its
 our beloved Iraq    ==    Baghdad
 ... . In this film the role of the Shiites in our beloved Iraq becomes clearer ... be the best business a person could be running in Baghdad now ! ( 379 ) 
 
+704 pred: 1 gold: 0
+the heart    ==    they
+... Marriages ... I leave you with the film which saddens the heart and makes ... is no one to resist them . But however much they try , ( 704 ) 
+
 583 pred: 1 gold: 0
 Sadr City , east of Baghdad    ==    Iraq
 ... Diary : A leader of the Shiite death squads in Sadr City , east of Baghdad , acknowledged ... best one at conveying the incidents on the ground in Iraq , and ( 583 ) 
@@ -130,6 +146,10 @@ the British Guardian    ==    them
 57 pred: 1 gold: 0
 Fadil and the likes    ==    its
 ... I am a Shiite . " It pointed out that Fadil and the likes are responsible ... quoted as saying that the Mahdi Army is resorting in its operations to ( 57 ) 
+
+31 pred: 1 gold: 0
+Baghdad    ==    the Mahdi Army
+... being found daily in Baghdad . This means that the Baghdad security plan ... war . " Fadil " was quoted as saying that the Mahdi Army is resorting ( 31 ) 
 
 797 pred: 0 gold: 1
 The Source of the Word    ==    you
@@ -159,13 +179,9 @@ Baghdad    ==    It
 God    ==    He
 ... capital of the Islamic caliphate . It will return , God permitting ! ... to empower the Mujahideen to be victorious and strong ; He has the ( 48 ) 
 
-9 pred: 0 gold: 1
-the Safavid hatred and criminality    ==    their hatred and criminality
-... film ... because I could not imagine the extent of the Safavid hatred and criminality . Despite what I had already imagined regarding their hatred and criminality nevertheless I ( 9 ) 
-
-307 pred: 1 gold: 0
-Al - Arabiya    ==    my brother Unique
-... enjoyed . There is no channel without faults . But Al - Arabiya is the ... the Word . May God grant you long life , my brother Unique , welcome ( 307 ) 
+33 pred: 0 gold: 1
+the Mujahideen    ==    the Mujahideen
+... It will return , God permitting ! The victories of the Mujahideen are obvious ... and we ask Him the Almighty on high to empower the Mujahideen to be ( 33 ) 
 
 19 pred: 1 gold: 0
 my esteemed brother Glare    ==    Salem
@@ -203,13 +219,13 @@ the personal income tax    ==    unreported income
 approximately 180 billion    ==    itself
 ... gap . In 2004 China 's income taxes amounted to approximately 180 billion , accounting ... go to the hospital , the family may well find itself in an ( 205 ) 
 
+241 pred: 1 gold: 0
+China    ==    itself
+... tool that keeps on producing a penniless proletariat . In China the primary ... go to the hospital , the family may well find itself in an ( 241 ) 
+
 401 pred: 0 gold: 1
 it    ==    this personal income tax
 ... class . If this tax continues to be collected , it will be ... of the wealthy , so what is it we expect this personal income tax to do ( 401 ) 
-
-77 pred: 0 gold: 1
-be    ==    the adjustment
-... ; the threshold for China 's personal income tax should be at least ... personal income tax , emphasized that the main goal of the adjustment was to ( 77 ) 
 
 17 pred: 0 gold: 1
 urban poor    ==    their
@@ -231,10 +247,6 @@ itself    ==    this
 a family like this    ==    its
 ... well find itself in an economic crisis . And if a family like this wants to buy its own home ( 4 ) 
 
-266 pred: 1 gold: 0
-poor people    ==    these
-... to get rich . A very simple explanation is that poor people are all ... of controlling excessively high incomes among the rich . But these are countries ( 266 ) 
-
 142 pred: 1 gold: 0
 Western countries    ==    they
 ... parents who are living through unimaginably hard times ? In Western countries , the ... a low - consumption rural lifestyle and conditions , and they have basic ( 142 ) 
@@ -242,10 +254,6 @@ Western countries    ==    they
 221 pred: 1 gold: 0
 their    ==    they
 ... this came about because the parents struggled harder , tightening their belts and ... . If they go shopping for food by bike , they have to ( 221 ) 
-
-71 pred: 0 gold: 1
-the income tax    ==    It
-... their wealth . Only if China eliminated unreported income would the income tax have an ... on regulating the wealth of China 's rich people . It does however ( 71 ) 
 
 44 pred: 0 gold: 1
 these 20 % of upper - class citizens    ==    these 20 , of upper - class citizens in China
@@ -274,6 +282,10 @@ planned economy and public ownership    ==    This
 4 pred: 0 gold: 1
 -- Some Thoughts on the Attitude of Benign Inheritance towards Social Reform .    ==    the title
 ... Killing the Father -- Does You No Good ! . -- Some Thoughts on the Attitude of Benign Inheritance towards Social Reform . A glance at the title , people ( 4 ) 
+
+153 pred: 0 gold: 1
+this article    ==    this article
+... little political sensitivity may roughly understand the core topic of this article : the ... , while the latter two dubbed " son " in this article -- are ( 153 ) 
 
 50 pred: 0 gold: 1
 market economy and private ownership    ==    the latter two dubbed " son " in this article
@@ -323,10 +335,6 @@ He    ==    I
 the case    ==    it
 ... in court . He added that he was certain about the case as a ... unfinished wine without the lid inside the car and reported it to the ( 125 ) 
 
-4 pred: 0 gold: 1
-the operation charge    ==    it
-... . After a while , he called again , saying the operation charge was high and it was difficult ( 4 ) 
-
 27 pred: 0 gold: 1
 her    ==    She
 ... came from the other end of the line , saying her family had ... where would they live afterwards if they spent this . She also said ( 27 ) 
@@ -334,14 +342,6 @@ her    ==    She
 163 pred: 0 gold: 1
 the car accident    ==    a car accident
 ... safety performance and it was my car to blame for the car accident . She ... He said in an incontestable tone that my neighbor had a car accident as a ( 163 ) 
-
-7 pred: 0 gold: 1
-a lawyer    ==    my lawyer
-... law for justice . Of course , I also retained a lawyer . Out of my expectation , my lawyer solved the ( 7 ) 
-
-97 pred: 1 gold: 0
-many people    ==    my former neighbor couple
-... car if your neighbor or friend asks . I think many people will say ... , and I believe there are not many people like my former neighbor couple . In ( 97 ) 
 
 89 pred: 1 gold: 0
 the interview    ==    it
@@ -362,14 +362,6 @@ McDonald 's    ==    McDonald 's
 2 pred: 0 gold: 1
 monopoly profits of the monopoly companies    ==    This part of money
 ... gas price increase in China will be the increase of monopoly profits of the monopoly companies . This part of money will not ( 2 ) 
-
-8 pred: 0 gold: 1
-ride    ==    It
-... you are a car owner , my reply is : ride the subway and bus more often . It saves money ( 8 ) 
-
-830 pred: 1 gold: 0
-Neverland    ==    this
-... to describe . Yesterday , Jackson was ordered to close Neverland for having ... all of his children when they were born to prevent this ... '' ( 830 ) 
 
 137 pred: 1 gold: 0
 Gary Glitter    ==    his
@@ -395,6 +387,10 @@ all of his children    ==    this
 their    ==    the unpaid staff
 ... for having failed to pay the ranch 's 47 employees their salary or insurance since the end of 2005 . Unfortunate for the unpaid staff and the ( 12 ) 
 
+255 pred: 0 gold: 1
+I    ==    Jeff
+... more common than most suspect . -LRB- This is how I tend to ... Jackson back in California . #NAME ? Wild wild stuff Jeff ! Disinformation ( 255 ) 
+
 5 pred: 0 gold: 1
 the state    ==    My
 ... Dis and Dat .. The netwerk is as sacred to the state as their mantra `` My way or ( 5 ) 
@@ -411,10 +407,6 @@ Cheney    ==    Dick Cheney
 Kuo    ==    Boucher 's
 ... Effective Compassion , founded in 1995 by Arianna Huffington ... Kuo also previously ... children , and the cave closes again ... Here is Boucher 's follow up ( 77 ) 
 
-108 pred: 1 gold: 0
-Charles Piluso    ==    the Fellowship
-... known as the International Foundation , bought the property from Charles Piluso . Although ... McDonnell Douglas Corporation was another deep - pocketed supporter of the Fellowship through Full ( 108 ) 
-
 256 pred: 0 gold: 1
 Jackson 's    ==    you
 ... majician '' is intrigueing . From Madsen via Boucher : Jackson 's stay at ... you really are , that you sit around , and you drink and ( 256 ) 
@@ -423,9 +415,21 @@ Jackson 's    ==    you
 David Kuo , George W. Bush 's White House director of the Office of Faith - based Initiatives    ==    Kuo , a former CIA employee
 ... : Jackson 's stay at the Cedars was arranged through David Kuo , George W. Bush 's White House director of the Office of Faith - based Initiatives . Kuo , a former CIA employee ... had ( 2 ) 
 
+2 pred: 0 gold: 1
+his then business adviser    ==    Myung - Ho Lee
+... -LRB- would soon be dead -RRB- ... Jackson had ordered his then business adviser , Myung - Ho Lee , a ( 2 ) 
+
+5 pred: 0 gold: 1
+Mohamed Fayed , the chairman of Harrods in London , who believes that the C.I.A. and Prince Philip had Princess Diana and his son , Dodi , killed    ==    his
+... through `` that other fellow devotee of children 's charities Mohamed Fayed , the chairman of Harrods in London , who believes that the C.I.A. and Prince Philip had Princess Diana and his son , ( 5 ) 
+
 54 pred: 0 gold: 1
 the Cedars    ==    the estate of George Mason IV , The Cedars , located at 2301 North Uhle Street
 ... was arranged through David Kuo ... '' Hold on -- the Cedars is the ... permanent headquarters in Arlington . It set its sights on the estate of George Mason IV , The Cedars , located at 2301 North Uhle Street . Mason ( 54 ) 
+
+12 pred: 0 gold: 1
+George Mason IV    ==    Mason
+... Arlington . It set its sights on the estate of George Mason IV , The Cedars , located at 2301 North Uhle Street . Mason was one ( 12 ) 
 
 184 pred: 1 gold: 0
 a Pittsburgh madam named Tex Gill    ==    his
@@ -439,14 +443,6 @@ another country -- the former Zaire    ==    this firm
 Taylor , who is now in exile in Nigeria    ==    Jackson
 ... dictator Charles Taylor 's primary arms and diamond smuggler ... Taylor , who is now in exile in Nigeria , was ... is , when is a victim guilty of abuse ? Jackson is definitely ( 143 ) 
 
-7 pred: 0 gold: 1
-pedophilia 's    ==    it
-... . '' Could n't agree more . I think that pedophilia 's relative commonality is what really makes it frightening . ( 7 ) 
-
-4 pred: 0 gold: 1
-we    ==    We
-... was more than willing to buy us all the whiskey we could drink . We were both ( 4 ) 
-
 8 pred: 0 gold: 1
 a few of those teens    ==    the
 ... off . Really pathetic . About a year later , a few of those teens took an intense dislike to Freddie & the beat him ( 8 ) 
@@ -458,10 +454,6 @@ Liberian dictator Charles Taylor 's    ==    Taylor , who is now in exile in Nig
 26 pred: 0 gold: 1
 another country -- the former Zaire    ==    civil war - ravaged Zaire -LRB- now Congo -RRB-
 ... 's African interests also crossed paths with Bout 's in another country -- the former Zaire . Robertson ... `` Operation Blessing '' to ferry conflict diamonds out of civil war - ravaged Zaire -LRB- now Congo -RRB- . One ( 26 ) 
-
-48 pred: 0 gold: 1
-Jackson    ==    he
-... is , when is a victim guilty of abuse ? Jackson is definitely ... transformation must be the result of biotech advances . If he does abuse ( 48 ) 
 
 191 pred: 1 gold: 0
 Pied Piper    ==    Jehovah 's Witness
@@ -491,10 +483,6 @@ this    ==    it
 Pied Piper    ==    a story to tell children
 ... harm can then be used to heal . Brr , Pied Piper . I ... spooked by that story as a kid . Heck of a story to tell children . Talking ( 15 ) 
 
-14 pred: 0 gold: 1
-it    ==    It
-... kid , it 's certainly possible that I came across it and forgot . I was n't consciously aware of it , certainly . It 's the ( 14 ) 
-
 4 pred: 0 gold: 1
 an extraordinary group here    ==    your
 ... since 1985 . 791,687 in 1995 alone . This is an extraordinary group here . I appreciate your candor and ( 4 ) 
@@ -506,10 +494,6 @@ Jacko    ==    her brother
 85 pred: 0 gold: 1
 she    ==    Jackson
 ... much earlier ' Rythm Nation ' period , in which she dons a ... 's a link to just a wee bit more about Jackson and her ( 85 ) 
-
-459 pred: 1 gold: 0
-Tom DeLay    ==    HIStory
-... tentacles in most prisons in the United States . After Tom DeLay was zapped ... himself , one that was truly larger than life . HIStory was hyped ( 459 ) 
 
 612 pred: 1 gold: 0
 Jack Abramoff    ==    Michael Jackson
@@ -527,4 +511,8 @@ a house near the U.S. Capitol , where Congressmen and Senators , who are members
 This cult    ==    HIStory
 ... experience of being brainwashed and used in cultish behavior . This cult is called ... himself , one that was truly larger than life . HIStory was hyped ( 214 ) 
 
-true_pos, true_neg, false_pos, false_neg, (300, 317, 66, 66)
+446 pred: 1 gold: 0
+the cult 's house in Washington    ==    Anonymous One
+... , the delirious End - Timer , has lived in the cult 's house in Washington . Raytheon ... -- Gangaji this site monitors Janet Jackson weight ! http://www.egotastic.com/entertainment/celebrities/janet-jackson/janet-jackson-is-too-fat-to-sing Anonymous One , I ( 446 ) 
+
+true_pos, true_neg, false_pos, false_neg, (301, 319, 64, 65)
