@@ -1,0 +1,522 @@
+data/twiconv_tc_eval/SPAN_PR_AN.jsonlines
+462 pred: 1 gold: 0
+a , what they call Feldmessen    ==    Chris 's
+... oh . up around Blandenburg for about two weeks on a , what they call Feldmessen . Feldmessen ... could do . So . And then an aunt of Chris 's Aunt Mamie ( 462 ) 
+
+448 pred: 1 gold: 0
+coming    ==    that
+... she 's been away for two weeks . She 's coming back tonight ... Chris 's Aunt Mamie up in Maine passed away . that had n't ( 448 ) 
+
+350 pred: 1 gold: 0
+Claudia    ==    she
+... bet you 're getting lonely . yeah , well . Claudia 's been ... And you know my sister was n't that old and she just had ( 350 ) 
+
+72 pred: 1 gold: 0
+coming    ==    town
+... she 's been away for two weeks . She 's coming back tonight ... to show up because we were supposed to go into town and meet ( 72 ) 
+
+193 pred: 1 gold: 0
+Taiwa    ==    that
+... the fall , but she was in a place called Taiwa . You ... I do n't know if you spoke to me before that or when ( 193 ) 
+
+406 pred: 1 gold: 0
+The right eye    ==    they
+... vision ? Or oh yeah , yeah . Sure . The right eye is %uh ... yeah well they 're still here . Right , but they 're winding ( 406 ) 
+
+85 pred: 1 gold: 0
+my left knee    ==    that
+... . And my right knee , and now it 's my left knee . you ... . is that like water on the knee ? Is that what that ( 85 ) 
+
+13 pred: 0 gold: 1
+The right eye    ==    it
+... vision ? Or oh yeah , yeah . Sure . The right eye is %uh , not so great . %hm . %um , and it got back ( 13 ) 
+
+43 pred: 0 gold: 1
+my left knee    ==    it
+... . And my right knee , and now it 's my left knee . you ... wer . Anyway they take , %uh fluid out of it . uh-huh ( 43 ) 
+
+421 pred: 1 gold: 0
+Amy Gleason    ==    Ron
+... . And I got a card from , you remember Amy Gleason ? yeah ... same kind of career that she had thought about . Ron is working ( 421 ) 
+
+147 pred: 1 gold: 0
+a card    ==    the students
+... this is number two . okay . I just got a card from Ron ... Well Columbia 's okay . yeah . And she said the students are just ( 147 ) 
+
+285 pred: 1 gold: 0
+Ron    ==    she
+... told me that . yeah . Have you heard from Ron and Doris ... her because she said after two years there now , she %um has ( 285 ) 
+
+536 pred: 1 gold: 0
+Ron and Doris    ==    he
+... told me that . yeah . Have you heard from Ron and Doris ? Not ... . He %um Whatever 's helpful . Right . So he found this ( 536 ) 
+
+216 pred: 1 gold: 0
+their fourth child    ==    the students
+... very well . %um , and his wife just had their fourth child . Wow ... Well Columbia 's okay . yeah . And she said the students are just ( 216 ) 
+
+67 pred: 0 gold: 1
+U R I    ==    U R I
+... . Well . yeah . And she 's teaching at U R I . yeah ... from Penn , %um To Columbia . to Columbia to U R I . Well ( 67 ) 
+
+117 pred: 1 gold: 0
+He    ==    she
+... doing great . %um , they had just moved to He 's in ... another job . And , %um , I 'm sure she 'll find ( 117 ) 
+
+40 pred: 1 gold: 0
+a really nice house in Westchester    ==    New York
+... to He 's in New York now , right ? a really nice house in Westchester . yeah ... with an architectural group when she first got out to New York , and ( 40 ) 
+
+3 pred: 1 gold: 0
+Ron 's    ==    He
+... Doris sent us a picture of theirs and he has Ron 's expressions . He really looks ( 3 ) 
+
+177 pred: 1 gold: 0
+Ron    ==    he
+... Leo 's genes . yeah . yeah . And %uh Ron and Doris ... and liking it and they 're doing okay . yeah he seems to ( 177 ) 
+
+6 pred: 0 gold: 1
+a really nice house in Westchester    ==    an older home that you know Julie is of course carving up and making beautiful . %um
+... to He 's in New York now , right ? a really nice house in Westchester . yeah , Good . an older home that you know Julie is of course carving up and making beautiful . %um uh-huh . ( 6 ) 
+
+31 pred: 0 gold: 1
+a publishing house    ==    It
+... Good . %um , like every now is he with a publishing house now ? ... these sort of universi- the public university book stuff . It might be ( 31 ) 
+
+189 pred: 1 gold: 0
+that roof atrium    ==    that
+... I 've been telling you that I needed to do that roof atrium for quite ... . have to deal with the situation . And So that 's what ( 189 ) 
+
+323 pred: 1 gold: 0
+working    ==    going
+... , that there 's a company now that I 'm working with %um ... %um , actually right at the moment finances are not going real well ( 323 ) 
+
+11 pred: 0 gold: 1
+that    ==    the situation
+... and . Not a whole lot I can do about that now . Indeed . Indeed . have to deal with the situation . And ( 11 ) 
+
+414 pred: 1 gold: 0
+the literature    ==    it
+... . %uh , from what I had been reading in the literature . You ... sort of answer , you just ca n't always write it down very ( 414 ) 
+
+140 pred: 1 gold: 0
+the different modes of the laser    ==    it
+... frequency . Yes . okay . if you separate out the different modes of the laser mhm . ... , that , when you do the experiment you see it . Got ( 140 ) 
+
+24 pred: 1 gold: 0
+it    ==    answer
+... most cases , %uh , insoluble . But yeah . it gives a ... creates a situation where you get the right sort of answer , you ( 24 ) 
+
+331 pred: 1 gold: 0
+those    ==    it
+... of the laser mhm . and look at one of those , you ... or else , perhaps , though I do n't think it 's quite ( 331 ) 
+
+278 pred: 0 gold: 1
+you    ==    I
+... , I had been kind of telling him that , you know , ... you see it . Got it , got it . I see . ( 278 ) 
+
+19 pred: 0 gold: 1
+the one very annoying thing about all of this    ==    this
+... I had been reading in the literature . You see the one very annoying thing about all of this , was ... for a year and a half . yeah . And this made writing ( 19 ) 
+
+25 pred: 0 gold: 1
+the different modes of the laser    ==    the modes
+... frequency . Yes . okay . if you separate out the different modes of the laser mhm . ... frequency . okay . So what 's happening is that the modes are oscillating ( 25 ) 
+
+13 pred: 0 gold: 1
+theoretical laser , %uh , whatever it is science    ==    that
+... wow . so you 're pushing forward the bounds of theoretical laser , %uh , whatever it is science . But which , %um , is kind of interesting considering that that 's not ( 13 ) 
+
+593 pred: 1 gold: 0
+see    ==    it
+... part of the thesis down that You know , people see the anti ... and then having to , you know , go get it and things ( 593 ) 
+
+41 pred: 1 gold: 0
+it    ==    they
+... so the problem is that now they found out that it 's worth ... . as far yeah as a . The first time they broke in ( 41 ) 
+
+590 pred: 1 gold: 0
+my thesis    ==    the summer
+... %uh , what happened was after I had turned in my thesis but before ... yeah . At least Well that would make sense during the summer %uh according ( 590 ) 
+
+44 pred: 0 gold: 1
+Neil    ==    you
+... as a driven frequency . oh cool . and so Neil then -- ... And I was like , well I 've been telling you that Neil ( 44 ) 
+
+82 pred: 1 gold: 0
+you    ==    I
+... %uh al kadir the destiny . Selema I 'm telling you , it ... can make the way clear for you . %uh . I believe that ( 82 ) 
+
+338 pred: 1 gold: 0
+her mom    ==    she
+... that it was going to happen . I spoke to her mom on Thursday ... 've heard of that . yup . So Francis Did she say how ( 338 ) 
+
+37 pred: 0 gold: 1
+her mom    ==    you
+... that it was going to happen . I spoke to her mom on Thursday ... have to relinquish my , %uh parenting . %uh would you mind %uh ( 37 ) 
+
+121 pred: 0 gold: 1
+she    ==    Francis
+... 've heard of that . yup . So Francis Did she say how ... was very disruptive , %um down there and really caused Francis a lot ( 121 ) 
+
+582 pred: 1 gold: 0
+did    ==    they
+... abusing , that %um you know , oh yeah she did some %eh ... . %ah . And they 're twelve and , no they 're nine ( 582 ) 
+
+370 pred: 1 gold: 0
+mom    ==    she
+... caught , that was on Friday last Friday she called mom Monday And ... . I mean you lay her down on the bed she gets up ( 370 ) 
+
+3 pred: 1 gold: 0
+you    ==    I
+... call you . She said she was going to call you . %ah I said well ( 3 ) 
+
+541 pred: 1 gold: 0
+Everybody    ==    She
+... that you know I tried my best you know and Everybody has to ... w- She do n't have time for that %uh . She does not ( 541 ) 
+
+545 pred: 1 gold: 0
+Francis    ==    she
+... seeing for herself , she was like whoa . did Francis feel she ... not a cuddly sweet little thing , she , and she climbs up ( 545 ) 
+
+90 pred: 1 gold: 0
+she    ==    She
+... said she was going to call you . She said she was going ... ? That same thing happened to Aliah . No . She had to ( 90 ) 
+
+360 pred: 1 gold: 0
+she    ==    she
+... been on her mind . she told mom she said she was so ... And she 's not a cuddly sweet little thing , she , and ( 360 ) 
+
+289 pred: 0 gold: 1
+you    ==    Selema
+... way and making it at ease for you to Well you know why ... , she , and she climbs up the stairs , Selema . She ( 289 ) 
+
+214 pred: 0 gold: 1
+you    ==    this little girl
+... no place and I can get a good report on you you know ... she told mom she said she was so concerned that this little girl was going ( 214 ) 
+
+1 pred: 0 gold: 1
+Friday    ==    last Friday
+... she bought her %um she caught , that was on Friday last Friday she called ( 1 ) 
+
+90 pred: 0 gold: 1
+she    ==    me
+... And she 's not a cuddly sweet little thing , she , and ... cuddly you know , no way %uh lay there let me look at ( 90 ) 
+
+194 pred: 1 gold: 0
+I    ==    I
+... so the gym 's going well . oh . But I still need ... n't think yeah . You would . I mean yeah I mean the ( 194 ) 
+
+76 pred: 1 gold: 0
+it    ==    that
+... I 'm sure for people who go in the daytime it 's probably ... yeah . It 's at the hospital nearby . Well that 's a ( 76 ) 
+
+76 pred: 0 gold: 1
+Bally 's    ==    it
+... to lose that much . and also lifting weights at Bally 's means you ... I 'm sure for people who go in the daytime it 's probably ( 76 ) 
+
+62 pred: 1 gold: 0
+you    ==    my
+... black ? They 're really opposed to it . Did you call Sharon ... wo n't ? Here wait . Let me look for my phonebook . ( 62 ) 
+
+405 pred: 1 gold: 0
+this woman    ==    dad
+... So I called this woman today and ... dresses were . Really ? Like everyone at mom and dad 's table ( 405 ) 
+
+71 pred: 1 gold: 0
+dad    ==    They
+... dad does n't want black he said . Mom and dad wo n't ... . They wo n't buy me a black dress . They wo n't ( 71 ) 
+
+309 pred: 1 gold: 0
+my    ==    You
+... go see her next Thursday and talk about her making my wedding dress ... . Let me give you Kate 's phone number . You can just ( 309 ) 
+
+111 pred: 1 gold: 0
+have    ==    It
+... want black he said . Mom and dad wo n't have black . ... we got so much furniture in this tiny apartment . It 's crazy ( 111 ) 
+
+230 pred: 1 gold: 0
+she    ==    her
+... So I called this woman today and %um , she 's a ... that ? okay . Could you call Kate and tell her that ? ( 230 ) 
+
+52 pred: 1 gold: 0
+mom    ==    Adele
+... the black dresses were . Really ? Like everyone at mom and dad ... once before . mhm . But %uh yeah , and Adele still talks ( 52 ) 
+
+100 pred: 1 gold: 0
+lillies    ==    the matchbooks
+... Apparently they were also carrying lillies which is ... tasteful right ? But oh yeah . Now what about the matchbooks ? Well ( 100 ) 
+
+38 pred: 1 gold: 0
+lillies    ==    White lillies and black dresses .
+... Apparently they were also carrying lillies which is ... of the virgin Mary . mhm . White lillies ? White lillies and black dresses . %mm , ( 38 ) 
+
+32 pred: 1 gold: 0
+that little -- -- item    ==    her sister 's wedding
+... those . yeah . I 'll have remind him of that little -- -- item . yeah ... -- -- and she 's telling me about you know her sister 's wedding . And ( 32 ) 
+
+12 pred: 0 gold: 1
+the wine    ==    the wine dad wanted
+... But %uh , yeah Dad and I went to buy the wine the other day . And there were having a sale on the wine dad wanted . Are ( 12 ) 
+
+562 pred: 1 gold: 0
+Amsterdam    ==    they
+... the nineteenth and you 're going to go to %uh Amsterdam . Well ... so I just got to pray that they oh do they ? yeah ( 562 ) 
+
+40 pred: 1 gold: 0
+see    ==    that
+... want to go %uh off into the countryside somewhere and see a little ... weeks up there . yeah . So %um , but that was years ( 40 ) 
+
+41 pred: 0 gold: 1
+you guys    ==    you
+... 're staying %um and there 's a lot more for you guys if you ... thirty eleven o'clock mhm . at night . So if you want we ( 41 ) 
+
+9 pred: 0 gold: 1
+I R S    ==    they
+... bring it back to the states . Good grief . I R S for you , %huh ? yeah . oh they want their ( 9 ) 
+
+20 pred: 1 gold: 0
+it    ==    Washington
+... the damn thing . How am I supposed to understand it ? I ... Oregon and dealing with , Oregon you pay state tax Washington you do ( 20 ) 
+
+10 pred: 1 gold: 0
+Georgia , Kansas yeah and then my federal    ==    this phone call
+... had to file three taxes . I had to file Georgia , Kansas yeah and then my federal . So . Well , %um actually I think this phone call 's just ( 10 ) 
+
+409 pred: 1 gold: 0
+her salary    ==    Holland
+... going to owe some money to the Dutch government on her salary . aw ... maybe I 'll just call you when we get in Holland just to ( 409 ) 
+
+204 pred: 1 gold: 0
+Anya 's parents    ==    Mifrau
+... and %uh if it 's at night , just call Anya 's parents okay so ... German it 's Frau mhm and then Dutch it 's Mifrau I 'll ( 204 ) 
+
+6 pred: 0 gold: 1
+three taxes    ==    Georgia , Kansas yeah and then my federal
+... again . I had Kans- , I had to file three taxes . I had to file Georgia , Kansas yeah and then my federal . So ( 6 ) 
+
+37 pred: 0 gold: 1
+it    ==    the number
+... I 'll send it by email okay if I get it before this ... by then , they 'll be able to give you the number okay and ( 37 ) 
+
+44 pred: 0 gold: 1
+I    ==    Mark
+... make it a good speech . Sorry . %emoji @PrisonPlanet I find it ... @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow ( 44 ) 
+
+113 pred: 1 gold: 0
+Trump    ==    them
+... has to do is post his questions on Twitter and Trump will answer ... republicans count on that every election & we keep obliging them @Para_Mystery @Makemyday59 ( 113 ) 
+
+22 pred: 1 gold: 0
+Mueller    ==    them
+... EXCLUSIVE : Initial talks underway about Trump interview in Mueller Russia probe ... is post his questions on Twitter and Trump will answer them there live ( 22 ) 
+
+13 pred: 1 gold: 0
+his    ==    @Oprah
+... to the NYT . He seems to like to run his mouth with certain reporters there . @Makemyday59 @MSNBC @Para_Mystery So long as @Oprah does n't ( 13 ) 
+
+13 pred: 0 gold: 1
+the NYT    ==    there
+... ... and unguarded . @NVGhost005 @MSNBC Or Give them to the NYT . He seems to like to run his mouth with certain reporters there . @Makemyday59 ( 13 ) 
+
+15 pred: 0 gold: 1
+I    ==    fam
+... The gif ? It 's in the gif search but I 'll just ... the link %emoji https://t.co/wklMz4wdTY @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt Excuse fam . . ( 15 ) 
+
+20 pred: 0 gold: 1
+the link    ==    the link your are giving
+... in the gif search but I 'll just give you the link %emoji https://t.co/wklMz4wdTY ... . . just curious about the gif vkook kissing in the link your are giving , it ( 20 ) 
+
+45 pred: 0 gold: 1
+vkook    ==    them
+... @BTS_twt Excuse fam . . just curious about the gif vkook kissing in ... @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt thank god that 's not them ( 45 ) 
+
+59 pred: 1 gold: 0
+the assistants    ==    he
+... 10 + years of insanity . https://t.co/z1CKy8qCdA @KurtLeavins Maybe fire the assistants and get ... @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 59 ) 
+
+86 pred: 1 gold: 0
+the assistants    ==    the end of season
+... 10 + years of insanity . https://t.co/z1CKy8qCdA @KurtLeavins Maybe fire the assistants and get ... @oilerdiehard GM could change his mind about the coach by the end of season . Like ( 86 ) 
+
+14 pred: 0 gold: 1
+I    ==    he
+... said the Assistants go Todd would say if they go I go . @oilerdiehard @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 14 ) 
+
+13 pred: 0 gold: 1
+the end of season    ==    season 's end
+... @oilerdiehard GM could change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end . @oiler99 ( 13 ) 
+
+13 pred: 0 gold: 1
+season    ==    season
+... change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end ( 13 ) 
+
+44 pred: 0 gold: 1
+I    ==    him
+... Coutinho : '' It is incredible to know that I am going ... soccer @hashbrown711 @ChampionsLeague @zreik_ @FCBarcelona @Phil_Coutinho Ew do n't give him too much ( 44 ) 
+
+2 pred: 0 gold: 1
+idols    ==    players with a lot of history
+... incredible to know that I am going to live with idols ; players with a lot of history . '' ( 2 ) 
+
+12 pred: 1 gold: 0
+this    ==    part of game
+... @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is cricket and this is sports . Win and lose is part of game . Grow ( 12 ) 
+
+2 pred: 0 gold: 1
+Hope    ==    a dangerous thing
+... Hope is a dangerous thing . That ( 2 ) 
+
+15 pred: 0 gold: 1
+rohit sharma    ==    he
+... better than overrated Mohd . Aamir !! @KshitijDisIz @ZAbbasOfficial Ask rohit sharma %emoji @nasir_22 ... tell him to get Karunaratne out . @KshitijDisIz @ZAbbasOfficial If he can damage ( 15 ) 
+
+2 pred: 0 gold: 1
+this    ==    cricket
+... @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is cricket and this ( 2 ) 
+
+58 pred: 1 gold: 0
+the death row inmate    ==    The Court
+... this is , but the lawyers for Keith Tharpe , the death row inmate , put ... , and other technical aspects of the case : `` The Court 's decision ( 58 ) 
+
+99 pred: 1 gold: 0
+the lawyers for Keith Tharpe    ==    its
+... chair . Not sure how common this is , but the lawyers for Keith Tharpe , the ... reason , #SCOTUS also included it at the end of its orders list ( 99 ) 
+
+27 pred: 0 gold: 1
+The Court    ==    #SCOTUS
+... , and other technical aspects of the case : `` The Court 's decision ... v . Sellers . -LRB- For some weird reason , #SCOTUS also included ( 27 ) 
+
+108 pred: 0 gold: 1
+whom    ==    Tharpe
+... Court just ruled on behalf of a black death-row inmate whom a white ... in moral courage . '' Here 's the opinion in Tharpe v . ( 108 ) 
+
+18 pred: 0 gold: 1
+Justice Clarence Thomas    ==    His
+... right on the cover of their #SCOTUS petition . https://t.co/35fHpUbvXG Justice Clarence Thomas , a ... the dissenters and would 've denied the inmate relief . His focus is ( 18 ) 
+
+91 pred: 1 gold: 0
+I    ==    I
+... of drugs will change that . -LRB- That said , I 'm still ... 're married to an abusive spouse . @AmberBobamber @ParkerMolloy @johannhari101 I wish that ( 91 ) 
+
+64 pred: 1 gold: 0
+myself    ==    your
+... and anxiety for more than a decade , I found myself nodding along ... my life . @jmwallach @ParkerMolloy @johannhari101 Oh , keep taking your SSRIs . ( 64 ) 
+
+124 pred: 1 gold: 0
+@Andrew_Adonis    ==    Democracy
+... . @Andrew_Adonis one of ... @LibDems You mean Reality as defined by Remainers . And Democracy subject to ( 124 ) 
+
+54 pred: 1 gold: 0
+a political meeting of minds    ==    reality
+... surprised Vince wants to recruit Adonis to thwart Brexit - a political meeting of minds - neither ... conclusions . '' Fighting to remain is the realisation of reality and respect ( 54 ) 
+
+39 pred: 1 gold: 0
+my    ==    your
+... , an American Nobel laureate , reportedly said : When my information changes ... Reality as defined by Remainers . And Democracy subject to your point of ( 39 ) 
+
+217 pred: 1 gold: 0
+Fighting to remain    ==    They
+... my information changes , I alter my conclusions . '' Fighting to remain is the ... does n't leave . @Disputatio_ @PaulGuerin20 @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems They almost certainly ( 217 ) 
+
+72 pred: 1 gold: 0
+my    ==    you
+... , an American Nobel laureate , reportedly said : When my information changes ... @Andrew_Adonis @LibDems I think you should have it explained to you in more ( 72 ) 
+
+140 pred: 1 gold: 0
+Tata    ==    them
+... 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty ... - they went ahead . All several # billion of them ( 140 ) 
+
+232 pred: 1 gold: 0
+Brexit    ==    Liberty
+... @LibDems Not surprised Vince wants to recruit Adonis to thwart Brexit - a ... . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda ( 232 ) 
+
+4 pred: 1 gold: 0
+Tata    ==    Honda
+... 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota ( 4 ) 
+
+144 pred: 1 gold: 0
+reality    ==    Armageddon
+... conclusions . '' Fighting to remain is the realisation of reality and respect ... closed at record level 29/12/17 & so did FTSE250 . Armageddon is currently ( 144 ) 
+
+42 pred: 0 gold: 1
+@Andrew_Adonis    ==    Adonis
+... . @Andrew_Adonis one of ... https://t.co/WDo20rbtui @vincecable @Andrew_Adonis @LibDems Not surprised Vince wants to recruit Adonis to thwart ( 42 ) 
+
+12 pred: 0 gold: 1
+reality    ==    Reality
+... conclusions . '' Fighting to remain is the realisation of reality and respect for democracy . @Disputatio_ @vincecable @Andrew_Adonis @LibDems You mean Reality as defined ( 12 ) 
+
+38 pred: 0 gold: 1
+the country    ==    UK
+... explained to you in more basic terms . With Brexit the country is heading ... @PaulGuerin20 @BrexitDemocracy @Disputatio_ @vincecable @Andrew_Adonis @LibDems After the Referendum , UK saw a ( 38 ) 
+
+35 pred: 0 gold: 1
+Boeing , Hitachi , Tata , Liberty , Honda & Toyota    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
+... fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ... We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning ( 35 ) 
+
+178 pred: 1 gold: 0
+here    ==    it
+... @OneGreenPlanet #Kangaroo are not Pets they are Wildlife who belong here in #Australia ... no fucking idea how dangerous it is but you think it 's cute ( 178 ) 
+
+186 pred: 1 gold: 0
+the whole situation    ==    the one acting like the idiot
+... what someone else is doing ? You do n't know the whole situation , you ... you need to sit down and shutup , you 're the one acting like the idiot . @HannaPam ( 186 ) 
+
+309 pred: 0 gold: 1
+His    ==    some idiot who has no clue
+... Luke Bryan Gifted His Wife 2 ... to u but all you 're doing now is worshipping some idiot who has no clue . Typical ( 309 ) 
+
+2 pred: 0 gold: 1
+they    ==    Wildlife
+... Idea https://t.co/sTRvMplYur via @onegreenplanet @VickiAbby @OneGreenPlanet #Kangaroo are not Pets they are Wildlife who belong ( 2 ) 
+
+6 pred: 0 gold: 1
+what    ==    Kicking and tearing
+... like to be attacked by a mature male kangaroo doing what it 's built for ? Kicking and tearing ? Anyone ( 6 ) 
+
+28 pred: 0 gold: 1
+people like you    ==    you
+... yourself , sit down and shut up ! It 's people like you that place ... think it 's cute . idiots , the lot of you ! @ohsixoneoh ( 28 ) 
+
+3 pred: 0 gold: 1
+all you seem to care about    ==    some privileged wanker being roasted
+... , why do YOU care what we care about , all you seem to care about is about some privileged wanker being roasted . Also ( 3 ) 
+
+37 pred: 0 gold: 1
+this    ==    this
+... about some privileged wanker being roasted . Also you started this by jumping ... yourself in this , moron %emoji remember , you started this by not ( 37 ) 
+
+48 pred: 1 gold: 0
+Trump    ==    Obama
+... twice the @washingtonpost deleted his unnamed quotes from someone around Trump saying he ... it was well known in the first years of the Obama presidency insiders ( 48 ) 
+
+33 pred: 0 gold: 1
+Liz    ==    I
+... There is a huge difference and you know it '' Liz ! '' ... war . Such a waste of time and energy . I respect your ( 33 ) 
+
+19 pred: 0 gold: 1
+you    ==    me
+... time and energy . I respect your opinion , but you should also ... @washingtonpost Do n't worry , '' Liz . '' Let me guess , ( 19 ) 
+
+79 pred: 0 gold: 1
+I    ==    Caleb Thulambo
+... a virgin , thank you very much . Secondly , I do n't ... @Big_PhilMW listen to charisma 's lil brother here @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did ( 79 ) 
+
+26 pred: 0 gold: 1
+her    ==    charisma
+... %emoji @CalebTheMandem You play too much let the kid have her fan %emoji ... that 's not happening anytime soon @CalebTheMandem @Big_PhilMW listen to charisma 's lil ( 26 ) 
+
+89 pred: 0 gold: 1
+you    ==    Zizwa
+... First of all , I 'm a virgin , thank you very much ... 's lil brother here @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did Zizwa threaten you ( 89 ) 
+
+5 pred: 1 gold: 0
+He    ==    Her
+... He was a nonce ! Her gob goes ( 5 ) 
+
+2 pred: 0 gold: 1
+she    ==    the love of my life
+... @roumanticpoetry RIGHT ?? She was the best !! @sothepennydrops @roumanticpoetry she 's the love of my life @lilyaIexandra @roumanticpoetry ( 2 ) 
+
+true_pos, true_neg, false_pos, false_neg, (319, 300, 75, 55)
