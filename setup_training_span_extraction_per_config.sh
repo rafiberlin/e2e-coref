@@ -24,23 +24,23 @@ val_data=data/${config_name}/dev/SPAN_1.h5
 test_data=data/${config_name}/test/SPAN_1.h5
 exp_name=data/${config_name}/results_all_features
 
---train_data $train_data --val_data $val_data --test_data $test_data --exp_name $exp_name
+python train_probe.py --train_data $train_data --val_data $val_data --test_data $test_data --exp_name $exp_name
 
 exp_name=data/${config_name}/results_ablate_boundary
 option='--ablate_boundary'
---train_data $train_data --val_data $val_data --test_data $test_data --exp_name ${exp_name} ${option}
+python train_probe.py --train_data $train_data --val_data $val_data --test_data $test_data --exp_name ${exp_name} ${option}
 
 exp_name=data/${config_name}/results_ablate_attention
 option='--ablate_attention'
---train_data $train_data --val_data $val_data --test_data $test_data --exp_name ${exp_name} ${option}
+python train_probe.py --train_data $train_data --val_data $val_data --test_data $test_data --exp_name ${exp_name} ${option}
 
 exp_name=data/${config_name}/results_ablate_span_width
 option='--ablate_span_width'
---train_data $train_data --val_data $val_data --test_data $test_data --exp_name ${exp_name} ${option}
+python train_probe.py --train_data $train_data --val_data $val_data --test_data $test_data --exp_name ${exp_name} ${option}
 
 exp_name=data/${config_name}/results_random
-option='--ablate_random'
---train_data $train_data --val_data $val_data --test_data $test_data --exp_name ${exp_name} ${option}
+option='--random'
+python train_probe.py --train_data $train_data --val_data $val_data --test_data $test_data --exp_name ${exp_name} ${option}
 
 
 #python extract_span.py $config_name NP.${prefix}${split}.english.jsonlines data/$config_name/train SPAN.
