@@ -36,7 +36,7 @@ if __name__ == "__main__":
     # write_count = 0
     output_filename_json = output_filename + ".jsonlines"
     output_filename_h5 = output_filename + ".h5"
-
+    num_tensorized = 0
     with tf.Session() as session:
         model.restore(session)
 
@@ -73,12 +73,12 @@ if __name__ == "__main__":
                             info_dict_pos['sentences'] = example["sentences"]
                             output_file.write(json.dumps(info_dict_pos))
                             output_file.write("\n")
-
+                        num_tensorized += 1
 
                         if example_num % 100 == 0:
                             print("Decoded {} examples.".format(example_num + 1))
 
-                        if (example_num + 1) % 350 == 0 or (example_num + 1) == num_lines:
+                        if (num_tensorized) % 350 == 0 or (num_tensorized) == num_lines:
                             # write_count += 1
                             print('Writing files: {}'.format(output_filename_h5))
                             sys.stdout.flush()
@@ -89,3 +89,4 @@ if __name__ == "__main__":
                             parent_child_list = []
                     else:
                         print(f"Skipped {example['doc_key']}")
+                        num_lines -= 1

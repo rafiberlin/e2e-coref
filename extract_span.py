@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
     model = CustomCorefIndependent(config)
     saver = tf.train.Saver()
-
+    num_tensorized = 0
     with tf.Session() as session:
         model.restore(session)
 
@@ -54,7 +54,11 @@ if __name__ == "__main__":
                     elif parent_child_emb_pos is not None and parent_child_emb_neg is not None:
                         parent_child_list.extend([parent_child_emb_pos, parent_child_emb_neg])
 
-                    if (example_num+1) % 350 == 0 or (example_num+1) == num_lines:
+                    num_tensorized += 1
+                    if example_num % 100 == 0:
+                            print("Decoded {} examples.".format(example_num + 1))
+
+                    if (num_tensorized) % 350 == 0 or (num_tensorized) == num_lines:
                         write_count += 1
                         filename = output_prefix + "_" + str(write_count) + ".h5"
                         out_filename = os.path.join(output_dir, filename)
@@ -66,3 +70,4 @@ if __name__ == "__main__":
                         parent_child_list = []
                 else:
                     print(f"Skipped {example['doc_key']}")
+                    num_lines -= 1

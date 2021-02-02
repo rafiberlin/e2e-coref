@@ -23,7 +23,7 @@ if __name__ == "__main__":
   log_dir = config["log_dir"]
   writer = tf.summary.FileWriter(log_dir, flush_secs=20)
 
-  max_f1 = 0
+  max_f1 = config["max_f1"]
   min_loss_to_break_training = config["min_loss_to_break_training"]
   average_loss = math.inf
   with tf.Session() as session:

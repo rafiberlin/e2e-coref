@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Creates the positive and negative examples for all relevants sets...
+echo 'Creates the positive and negative examples for all relevants sets...'
 python negative_positive_samples.py train.english.jsonlines NP.train.english.jsonlines
 python negative_positive_samples.py test.english.jsonlines NP.test.english.jsonlines
 python negative_positive_samples.py dev.english.jsonlines NP.dev.english.jsonlines
