@@ -34,7 +34,7 @@ def get_args():
     parser.add_argument('--ablate_attention', action='store_true')
     parser.add_argument('--ablate_span_width', action='store_true')
     parser.add_argument('--random', action='store_true')
-    parser.add_argument('--output_dim', type=int, default=1024)
+    parser.add_argument('--output_dim', type=int, default=768)
     args = parser.parse_args()
     return args
 

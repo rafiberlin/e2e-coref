@@ -48,41 +48,44 @@ if __name__ == "__main__":
                 for example_num, line in enumerate(input_file.readlines()):
                     example = json.loads(line)
                     tensorized_example = model.tensorize_example(example, is_training=False)
-                    feed_dict = {i:t for i,t in zip(model.input_tensors, tensorized_example)}
-                    candidate_span_emb, candidate_starts, candidate_ends = session.run(model.embeddings, feed_dict=feed_dict)
-                    pos_clusters, neg_clusters = example["distances_positive"], example["distances_negative"]
+                    if tensorized_example:
+                        feed_dict = {i:t for i,t in zip(model.input_tensors, tensorized_example)}
+                        candidate_span_emb, candidate_starts, candidate_ends = session.run(model.embeddings, feed_dict=feed_dict)
+                        pos_clusters, neg_clusters = example["distances_positive"], example["distances_negative"]
 
-                    # get_parent_child_emb returns info_dict(to create a json file with unique doc key and sentences)
-                    # and parent_child_emb to create an h5 file with
-                    # parent_child_emb, mention_dist, men1_start, men1_end, men2_start, men2_end, doc_key, gold_label
+                        # get_parent_child_emb returns info_dict(to create a json file with unique doc key and sentences)
+                        # and parent_child_emb to create an h5 file with
+                        # parent_child_emb, mention_dist, men1_start, men1_end, men2_start, men2_end, doc_key, gold_label
 
-                    info_dict_pos, parent_child_emb_pos = span_util_predict.get_parent_child_emb(pos_clusters, candidate_span_emb, candidate_starts, candidate_ends, "positive")
-                    info_dict_neg, parent_child_emb_neg = span_util_predict.get_parent_child_emb(neg_clusters, candidate_span_emb, candidate_starts, candidate_ends, "negative")
-                    if parent_child_emb_neg is not None:
-                        # Add the neg sample to dataset
-                        parent_child_list.extend([parent_child_emb_neg])
-                        # add sentence strings to info json
-                        info_dict_neg['sentences'] = example["sentences"]
-                        # write line of json with info with doc_key and sentences
-                        output_file.write(json.dumps(info_dict_neg))
-                        output_file.write("\n")
-                    if parent_child_emb_pos is not None:
-                        # add only pos examples to dataset
-                        parent_child_list.extend([parent_child_emb_pos])
-                        info_dict_pos['sentences'] = example["sentences"]
-                        output_file.write(json.dumps(info_dict_pos))
-                        output_file.write("\n")
+                        info_dict_pos, parent_child_emb_pos = span_util_predict.get_parent_child_emb(pos_clusters, candidate_span_emb, candidate_starts, candidate_ends, "positive")
+                        info_dict_neg, parent_child_emb_neg = span_util_predict.get_parent_child_emb(neg_clusters, candidate_span_emb, candidate_starts, candidate_ends, "negative")
+                        if parent_child_emb_neg is not None:
+                            # Add the neg sample to dataset
+                            parent_child_list.extend([parent_child_emb_neg])
+                            # add sentence strings to info json
+                            info_dict_neg['sentences'] = example["sentences"]
+                            # write line of json with info with doc_key and sentences
+                            output_file.write(json.dumps(info_dict_neg))
+                            output_file.write("\n")
+                        if parent_child_emb_pos is not None:
+                            # add only pos examples to dataset
+                            parent_child_list.extend([parent_child_emb_pos])
+                            info_dict_pos['sentences'] = example["sentences"]
+                            output_file.write(json.dumps(info_dict_pos))
+                            output_file.write("\n")
 
 
-                    if example_num % 100 == 0:
-                        print("Decoded {} examples.".format(example_num + 1))
+                        if example_num % 100 == 0:
+                            print("Decoded {} examples.".format(example_num + 1))
 
-                    if (example_num + 1) % 350 == 0 or (example_num + 1) == num_lines:
-                        # write_count += 1
-                        print('Writing files: {}'.format(output_filename_h5))
-                        sys.stdout.flush()
-                        parent_child_reps = tf.concat(parent_child_list, 0).eval()
-                        with h5py.File(output_filename_h5, 'w') as hf:
-                            hf.create_dataset("span_representations", data=parent_child_reps, compression="gzip",
-                                              compression_opts=0, shuffle=True, chunks=True)
-                        parent_child_list = []
+                        if (example_num + 1) % 350 == 0 or (example_num + 1) == num_lines:
+                            # write_count += 1
+                            print('Writing files: {}'.format(output_filename_h5))
+                            sys.stdout.flush()
+                            parent_child_reps = tf.concat(parent_child_list, 0).eval()
+                            with h5py.File(output_filename_h5, 'w') as hf:
+                                hf.create_dataset("span_representations", data=parent_child_reps, compression="gzip",
+                                                  compression_opts=0, shuffle=True, chunks=True)
+                            parent_child_list = []
+                    else:
+                        print(f"Skipped {example['doc_key']}")

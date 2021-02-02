@@ -41,25 +41,28 @@ if __name__ == "__main__":
             for example_num, line in enumerate(input_file.readlines()):
                 example = json.loads(line)
                 tensorized_example = model.tensorize_example(example, is_training=False)#(tokens, context_word_emb, head_word_emb, lm_emb, char_index, text_len, speaker_ids, genre, is_training, gold_starts, gold_ends, cluster_ids)
-                feed_dict = {i:t for i,t in zip(model.input_tensors, tensorized_example)}
-                candidate_span_emb, candidate_starts, candidate_ends = session.run(model.embeddings, feed_dict=feed_dict)
-                pos_clusters, neg_clusters = example["distances_positive"], example["distances_negative"]
-                parent_child_emb_pos = span_util.get_parent_child_emb(pos_clusters, candidate_span_emb, candidate_starts, candidate_ends, "positive")
-                parent_child_emb_neg = span_util.get_parent_child_emb(neg_clusters, candidate_span_emb, candidate_starts, candidate_ends, "negative")
-                if parent_child_emb_pos is None and parent_child_emb_neg is not None:
-                    parent_child_list.extend([parent_child_emb_neg])
-                elif parent_child_emb_neg is None and parent_child_emb_pos is not None:
-                    parent_child_list.extend([parent_child_emb_pos])
-                elif parent_child_emb_pos is not None and parent_child_emb_neg is not None:
-                    parent_child_list.extend([parent_child_emb_pos, parent_child_emb_neg])
+                if tensorized_example:
+                    feed_dict = {i:t for i,t in zip(model.input_tensors, tensorized_example)}
+                    candidate_span_emb, candidate_starts, candidate_ends = session.run(model.embeddings, feed_dict=feed_dict)
+                    pos_clusters, neg_clusters = example["distances_positive"], example["distances_negative"]
+                    parent_child_emb_pos = span_util.get_parent_child_emb(pos_clusters, candidate_span_emb, candidate_starts, candidate_ends, "positive")
+                    parent_child_emb_neg = span_util.get_parent_child_emb(neg_clusters, candidate_span_emb, candidate_starts, candidate_ends, "negative")
+                    if parent_child_emb_pos is None and parent_child_emb_neg is not None:
+                        parent_child_list.extend([parent_child_emb_neg])
+                    elif parent_child_emb_neg is None and parent_child_emb_pos is not None:
+                        parent_child_list.extend([parent_child_emb_pos])
+                    elif parent_child_emb_pos is not None and parent_child_emb_neg is not None:
+                        parent_child_list.extend([parent_child_emb_pos, parent_child_emb_neg])
 
-                if (example_num+1) % 350 == 0 or (example_num+1) == num_lines:
-                    write_count += 1
-                    filename = output_prefix + "_" + str(write_count) + ".h5"
-                    out_filename = os.path.join(output_dir, filename)
-                    print('Writing files: {}'.format(out_filename))
-                    sys.stdout.flush()
-                    parent_child_reps = tf.concat(parent_child_list, 0).eval()
-                    with h5py.File(out_filename, 'w') as hf:
-                        hf.create_dataset("span_representations", data=parent_child_reps, compression="gzip", compression_opts=0, shuffle=True, chunks=True)
-                    parent_child_list = []
+                    if (example_num+1) % 350 == 0 or (example_num+1) == num_lines:
+                        write_count += 1
+                        filename = output_prefix + "_" + str(write_count) + ".h5"
+                        out_filename = os.path.join(output_dir, filename)
+                        print('Writing files: {}'.format(out_filename))
+                        sys.stdout.flush()
+                        parent_child_reps = tf.concat(parent_child_list, 0).eval()
+                        with h5py.File(out_filename, 'w') as hf:
+                            hf.create_dataset("span_representations", data=parent_child_reps, compression="gzip", compression_opts=0, shuffle=True, chunks=True)
+                        parent_child_list = []
+                else:
+                    print(f"Skipped {example['doc_key']}")
