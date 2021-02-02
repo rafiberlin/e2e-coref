@@ -58,7 +58,7 @@ if __name__ == "__main__":
                     if example_num % 100 == 0:
                             print("Decoded {} examples.".format(example_num + 1))
 
-                    if (num_tensorized) % 350 == 0 or (num_tensorized) == num_lines:
+                    if (num_tensorized) % 350 == 0 or (example_num+1) == num_lines:
                         write_count += 1
                         filename = output_prefix + "_" + str(write_count) + ".h5"
                         out_filename = os.path.join(output_dir, filename)
@@ -70,4 +70,3 @@ if __name__ == "__main__":
                         parent_child_list = []
                 else:
                     print(f"Skipped {example['doc_key']}")
-                    num_lines -= 1
