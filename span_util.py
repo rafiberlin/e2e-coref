@@ -2,11 +2,22 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+import os
 import sys
-import json
-
 import tensorflow as tf
 import numpy as np
+
+def prepare_directories(config_name, output_dir):
+    """
+    Useful for exctracting spans
+    :param config_name:
+    :param output_dir:
+    :return:
+    """
+    span_destination = os.path.join("data", config_name,output_dir)
+    if not os.path.isdir(span_destination):
+        os.makedirs(span_destination, exist_ok=True)
+    print(f"{span_destination} is available.")
 
 
 
@@ -107,3 +118,8 @@ def get_parent_child_emb_baseline(clusters, span_emb, span_starts, span_ends, la
         return tf.concat([parent_child_emb, mention_dist, gold_label], 1)
     else:
         return None
+
+if __name__ == "__main__":
+    config_name = sys.argv[1]
+    output_dir = sys.argv[2]
+    prepare_directories(config_name, output_dir)

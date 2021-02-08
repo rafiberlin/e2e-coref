@@ -53,6 +53,12 @@ with Python 2 to run the scripts building the CoNLL files in `setup_training.sh`
   * This assumes access to OntoNotes 5.0. Please edit the `ontonotes_path` variable in `setup_training.sh`.
   * This script downloads Ontonotes annotations and scripts creating the CoNLL files needed.
   * If you are unlucky, you will not be able to download the files per script (computer flagged by the data provider as a bot). You will need to download and unzip the files manually.
+  * To be able to train the model Twiconv without WB genre but with other genres conbination, you can remove the 
+  conll-2012/v4/data/wb/train/wb , conll-2012/v4/data/wb/test/wb, conll-2012/v4/data/wb/development/wb before re-executing
+  `setup_training.sh`. The resulting train.english.v4_gold_conll, test.english.v4_gold_conll, dev.english.v4_gold_conll
+  will not contain any document of the WB genre. Then proceed with next steps without changes. You might want to rename 
+  the produced files though, to be able to work with a dataset with and without WB documents. We assume that all files without the 
+  WB genre have the prefix `no_wb.` to run the probe experiments for example.  
 * To transform the Twiconv dataset as needed in this project, run `setup_twiconv.sh` in conda with Python 3 activated.
 * To install the last prerequisites to train your own models, run `setup_training_end.sh` in conda with Python 3 activated.
   * This will transform all CoNLL files (for TwiConv and Ontonotes) into jsonlines and merge all ConLL files together,
@@ -64,9 +70,21 @@ with Python 2 to run the scripts building the CoNLL files in `setup_training.sh`
 * Experiment configurations are found in `experiments.conf`
 * Choose an experiment that you would like to run, e.g. `best` or `twiconv_allspoken`
 * Training: `python train.py <experiment>`
+* Please note: if for some reason, your training were to be interrupted, replace the variable `max_f1` in experiments.conf by the highest F1 average observed on the dev set (it's being printed at each evaluation of the validation (dev) set)
 * Results are stored in the `logs` directory, in a directory of the same name as the experiment and can be viewed via TensorBoard.
 * Evaluation: `python evaluate.py <experiment>` , e.g. `python evaluate.py twiconv_allspoken_eval`
 
+## Running probe experiments
+
+* Run `setup_training_span_extraction.sh` only once to create the files with positive and negative examples.
+* Execute `setup_training_span_extraction_per_config.sh <experiment_eval> <prefix>` to run a probe, where `<experiment_eval>`
+  is an evaluation configuration (lm_path = "" in experiments.conf) and `<prefix>` is the prefix of the dataset to use,
+  The results will be stored under data/<experiment_eval>
+  - Examples:
+    * bash setup_training_span_extraction_per_config.sh twiconv_wb_eval ''
+    * bash setup_training_span_extraction_per_config.sh twiconv_tc_eval 'no_wb.'
+
+TODO: We can define some distance bins in pred/pred_analyse.py to investigate the effect of longer distance between 2 mentions.
 ## Demo Instructions
 
 * Command-line demo: `python demo.py final`

@@ -23,7 +23,7 @@ if __name__ == "__main__":
   log_dir = config["log_dir"]
   writer = tf.summary.FileWriter(log_dir, flush_secs=20)
 
-  max_f1 = 0
+  max_f1 = config["max_f1"]
   min_loss_to_break_training = config["min_loss_to_break_training"]
   average_loss = math.inf
   with tf.Session() as session:
@@ -35,6 +35,10 @@ if __name__ == "__main__":
     if ckpt and ckpt.model_checkpoint_path:
       print("Restoring from: {}".format(ckpt.model_checkpoint_path))
       saver.restore(session, ckpt.model_checkpoint_path)
+    elif os.path.isfile(os.path.join(log_dir, "model.max.ckpt.index")):
+      # Reload the models with "max" in the name if available
+      print("Restoring model with max in the name")
+      model.restore(session)
 
     initial_time = time.time()
     for i in tqdm(range(0, config["training_loop"])):#The original author said that the model converges at 400 000 iterations.

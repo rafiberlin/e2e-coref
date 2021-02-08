@@ -1,42 +1,38 @@
-Loaded 44 eval examples.
-2021-01-28 14:21:20.602103: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
-2021-01-28 14:21:20.892785: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
-/usr/local/lib/python3.6/dist-packages/sklearn/utils/linear_assignment_.py:128: FutureWarning: The linear_assignment function is deprecated in 0.21 and will be removed from 0.23. Use scipy.optimize.linear_sum_assignment instead.
-  FutureWarning)
-Evaluated 1/44 examples.
-Evaluated 11/44 examples.
-Evaluated 21/44 examples.
-Evaluated 31/44 examples.
-Evaluated 41/44 examples.
-Predicted conll file: /tmp/tmpk7qmhq39
+Evaluated 1/20 examples.
+Evaluated 11/20 examples.
+Predicted conll file: /tmp/tmp9m27kd9k
 Official result for muc
 version: 8.01 /content/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (1998 / 3044) 65.63%	Precision: (1998 / 2271) 87.97%	F1: 75.18%
+Identification of Mentions: Recall: (302 / 452) 66.81%	Precision: (302 / 337) 89.61%	F1: 76.55%
 --------------------------------------------------------------------------
-Coreference: Recall: (1392 / 2065) 67.4%	Precision: (1392 / 1774) 78.46%	F1: 72.51%
+Coreference: Recall: (180 / 320) 56.25%	Precision: (180 / 244) 73.77%	F1: 63.82%
 --------------------------------------------------------------------------
 
 Official result for bcub
 version: 8.01 /content/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (1998 / 3044) 65.63%	Precision: (1998 / 2271) 87.97%	F1: 75.18%
+Identification of Mentions: Recall: (302 / 452) 66.81%	Precision: (302 / 337) 89.61%	F1: 76.55%
 --------------------------------------------------------------------------
-Coreference: Recall: (1370.01817025457 / 3044) 45%	Precision: (1514.1792199315 / 2271) 66.67%	F1: 53.73%
+Coreference: Recall: (229.159462759463 / 452) 50.69%	Precision: (208.092857142857 / 337) 61.74%	F1: 55.68%
 --------------------------------------------------------------------------
 
 Official result for ceafe
 version: 8.01 /content/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (1998 / 3044) 65.63%	Precision: (1998 / 2271) 87.97%	F1: 75.18%
+Identification of Mentions: Recall: (302 / 452) 66.81%	Precision: (302 / 337) 89.61%	F1: 76.55%
 --------------------------------------------------------------------------
-Coreference: Recall: (291.099633528127 / 979) 29.73%	Precision: (291.099633528127 / 497) 58.57%	F1: 39.44%
+Coreference: Recall: (62.6462784931963 / 132) 47.45%	Precision: (62.6462784931963 / 93) 67.36%	F1: 55.68%
 --------------------------------------------------------------------------
 
-Average F1 (conll): 55.23%
-Average F1 (py): 56.51%
-Average precision (py): 67.75%
-Average recall (py): 49.37%
+Average F1 (conll): 58.39%
+Average F1 (py): 58.69%
+Average precision (py): 67.68%
+Average recall (py): 51.92%
+WARNING:tensorflow:From /content/e2e-coref/util.py:51: The name tf.Summary is deprecated. Please use tf.compat.v1.Summary instead.
+
+WARNING:tensorflow:From /content/e2e-coref/util.py:51: The name tf.Summary is deprecated. Please use tf.compat.v1.Summary instead.
+
