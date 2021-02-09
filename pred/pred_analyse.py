@@ -66,14 +66,14 @@ def get_error_count(input_filename, min_dist=None, max_dist=None):
 
     return error_counter, num_examples, true_pos, true_neg, false_pos, false_neg
 
-def print_bin_results(filename, min_ist=None, max_dist=None):
+def print_bin_results(filename, min_dist=None, max_dist=None):
     print(
-        f"##################################START: Min Distance: {min_ist}, Max Distance: {max_dist}#####################################################\n")
-    error_count, num_examples, true_pos, true_neg, false_pos, false_neg = get_error_count(filename)
+        f"##################################START: Min Distance: {min_dist}, Max Distance: {max_dist}#####################################################\n")
+    error_count, num_examples, true_pos, true_neg, false_pos, false_neg = get_error_count(filename, min_dist, max_dist)
     print(f'true_pos, true_neg, false_pos, false_neg, {true_pos, true_neg, false_pos, false_neg}')
     f1 = true_pos / (true_pos + (false_pos+false_neg)/2)
     print(f"F1 score of {f1}")
-    print(f"##################################END: Min Distance: {min_ist}, Max Distance: {max_dist}#####################################################\n")
+    print(f"##################################END: Min Distance: {min_dist}, Max Distance: {max_dist}#####################################################\n")
 
 
 # Execute with a list of predictions created with predict_joshi.py
