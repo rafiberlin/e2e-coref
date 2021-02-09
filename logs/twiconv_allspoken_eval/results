@@ -1,0 +1,59 @@
+Loaded 184 eval examples.
+Evaluated 1/184 examples.
+Evaluated 11/184 examples.
+Evaluated 21/184 examples.
+2021-02-08 14:10:22.200629: W tensorflow/core/framework/allocator.cc:107] Allocation of 829170000 exceeds 10% of system memory.
+2021-02-08 14:10:22.862632: W tensorflow/core/framework/allocator.cc:107] Allocation of 901480448 exceeds 10% of system memory.
+2021-02-08 14:10:26.508206: W tensorflow/core/framework/allocator.cc:107] Allocation of 665442000 exceeds 10% of system memory.
+Evaluated 31/184 examples.
+2021-02-08 14:10:49.276322: W tensorflow/core/framework/allocator.cc:107] Allocation of 933560320 exceeds 10% of system memory.
+2021-02-08 14:10:53.145095: W tensorflow/core/framework/allocator.cc:107] Allocation of 760482000 exceeds 10% of system memory.
+Evaluated 41/184 examples.
+Evaluated 51/184 examples.
+Evaluated 61/184 examples.
+Evaluated 71/184 examples.
+Evaluated 81/184 examples.
+Evaluated 91/184 examples.
+Evaluated 101/184 examples.
+Evaluated 111/184 examples.
+Evaluated 121/184 examples.
+Evaluated 131/184 examples.
+Evaluated 141/184 examples.
+Evaluated 151/184 examples.
+Evaluated 161/184 examples.
+Evaluated 171/184 examples.
+Evaluated 181/184 examples.
+Predicted conll file: /tmp/tmpmdi9nt3k
+Official result for muc
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (7049 / 8909) 79.12%	Precision: (7049 / 8076) 87.28%	F1: 83%
+--------------------------------------------------------------------------
+Coreference: Recall: (5013 / 6815) 73.55%	Precision: (5013 / 6208) 80.75%	F1: 76.98%
+--------------------------------------------------------------------------
+
+Official result for bcub
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (7049 / 8909) 79.12%	Precision: (7049 / 8076) 87.28%	F1: 83%
+--------------------------------------------------------------------------
+Coreference: Recall: (5521.71988929228 / 8909) 61.97%	Precision: (5772.86616572292 / 8076) 71.48%	F1: 66.39%
+--------------------------------------------------------------------------
+
+Official result for ceafe
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (7049 / 8909) 79.12%	Precision: (7049 / 8076) 87.28%	F1: 83%
+--------------------------------------------------------------------------
+Coreference: Recall: (1242.88651203035 / 2094) 59.35%	Precision: (1242.88651203035 / 1868) 66.53%	F1: 62.74%
+--------------------------------------------------------------------------
+
+Average F1 (conll): 68.70%
+Average F1 (py): 68.69%
+Average precision (py): 72.92%
+Average recall (py): 64.94%
+
+Process finished with exit code 0
