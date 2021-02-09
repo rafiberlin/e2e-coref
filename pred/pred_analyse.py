@@ -80,7 +80,7 @@ def print_bin_results(filename, min_ist=None, max_dist=None):
 if __name__ == '__main__':
     for input_filename in sys.argv[1:]:
         print(input_filename)
-        print_bin_results(filename)
-        print_bin_results(filename, 0, 50)
-        print_bin_results(filename, 51, 100)
-        print_bin_results(filename, 101)
+        print_bin_results(input_filename)
+        print_bin_results(input_filename, 0, 50)
+        print_bin_results(input_filename, 51, 100)
+        print_bin_results(input_filename, 101)
