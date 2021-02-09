@@ -1,4 +1,6 @@
 data/twiconv_wb_eval/SPAN_PR_AN.jsonlines
+##################################START: Min Distance: None, Max Distance: None#####################################################
+
 405 pred: 1 gold: 0
 Kuwait    ==    our country
 ... I want to ask you . Did you withdraw from Kuwait or not ... call free elections to be held under your occupation of our country ? Mr ( 405 ) 
@@ -516,3 +518,896 @@ the cult 's house in Washington    ==    Anonymous One
 ... , the delirious End - Timer , has lived in the cult 's house in Washington . Raytheon ... -- Gangaji this site monitors Janet Jackson weight ! http://www.egotastic.com/entertainment/celebrities/janet-jackson/janet-jackson-is-too-fat-to-sing Anonymous One , I ( 446 ) 
 
 true_pos, true_neg, false_pos, false_neg, (301, 319, 64, 65)
+F1 score of 0.8235294117647058
+##################################END: Min Distance: None, Max Distance: None#####################################################
+
+##################################START: Min Distance: 0, Max Distance: 50#####################################################
+
+35 pred: 0 gold: 1
+Rumsfeld and Saddam Hussein    ==    Saddam and Rumsfeld
+... . Collaborator Details of the minutes of the meeting between Rumsfeld and Saddam Hussein at the ... - from Aras An Nasiri Minutes of the dialogue between Saddam and Rumsfeld from trusted ( 35 ) 
+
+45 pred: 0 gold: 1
+The hot dialogue ... that went on between -LSB- -LSB- -LSB- Saddam Hussein and Rumsfeld -RSB- -RSB- -RSB- at the airport prison .    ==    the dialogue between Saddam and Rumsfeld
+... The hot dialogue ... that went on between -LSB- -LSB- -LSB- Saddam Hussein and Rumsfeld -RSB- -RSB- -RSB- at the airport prison . Collaborator Details ... Baghdad - INA - from Aras An Nasiri Minutes of the dialogue between Saddam and Rumsfeld from trusted ( 45 ) 
+
+26 pred: 0 gold: 1
+the minutes of the meeting between Rumsfeld and Saddam Hussein at the Airport Prison    ==    Minutes of the dialogue between Saddam and Rumsfeld from trusted American sources .
+... -RSB- -RSB- at the airport prison . Collaborator Details of the minutes of the meeting between Rumsfeld and Saddam Hussein at the Airport Prison ... Washington ... freedom . Baghdad - INA - from Aras An Nasiri Minutes of the dialogue between Saddam and Rumsfeld from trusted American sources . What follows ( 26 ) 
+
+18 pred: 0 gold: 1
+this    ==    the land
+... every Arab person and not just every Iraqi . For this is Arab ... Arab , and the Zionists are the ones who occupied the land and came ( 18 ) 
+
+28 pred: 0 gold: 1
+This proposal    ==    this offer
+... is your trade and deceit your method . Rumsfeld : This proposal is an ... everything concerning governance issues in Iraq . If you reject this offer then the ( 28 ) 
+
+1 pred: 1 gold: 0
+Collaborator    ==    My brother , Over the Sun
+... but accepted ... May God the Great forgive me . Collaborator My brother , Over the Sun . I ( 1 ) 
+
+2 pred: 0 gold: 1
+someone walking on sand    ==    he
+... the source May your steps in doing good be like someone walking on sand ... he makes no ( 2 ) 
+
+7 pred: 0 gold: 1
+someone walking on sand    ==    his
+... participating . May your steps in doing good be like someone walking on sand ... he makes no sound but his tracks are ( 7 ) 
+
+3 pred: 0 gold: 1
+Other people    ==    I
+... present would murmur " Did love see drunkards ? " Other people say , I have not ( 3 ) 
+
+15 pred: 1 gold: 0
+the British Guardian    ==    them
+... car of the group in question . He also told the British Guardian that he ... three men to Sadr City where his group had interrogated them then executed ( 15 ) 
+
+31 pred: 1 gold: 0
+Baghdad    ==    the Mahdi Army
+... being found daily in Baghdad . This means that the Baghdad security plan ... war . " Fadil " was quoted as saying that the Mahdi Army is resorting ( 31 ) 
+
+12 pred: 0 gold: 1
+the Mahdi Army    ==    we
+... receive the ransom . The newspaper quoted another commander in the Mahdi Army as saying ; " We have taken 10 Sunnis hostages , we will get ( 12 ) 
+
+17 pred: 0 gold: 1
+10 Sunnis    ==    them all
+... the Mahdi Army as saying ; " We have taken 10 Sunnis hostages , ... ransom for five of them , then we will kill them all . In ( 17 ) 
+
+48 pred: 0 gold: 1
+God    ==    He
+... capital of the Islamic caliphate . It will return , God permitting ! ... to empower the Mujahideen to be victorious and strong ; He has the ( 48 ) 
+
+33 pred: 0 gold: 1
+the Mujahideen    ==    the Mujahideen
+... It will return , God permitting ! The victories of the Mujahideen are obvious ... and we ask Him the Almighty on high to empower the Mujahideen to be ( 33 ) 
+
+19 pred: 1 gold: 0
+my esteemed brother Glare    ==    Salem
+... of the Word May God grant you long life , my esteemed brother Glare . You ... . And victory is coming by God 's leave . Salem Neither Al ( 19 ) 
+
+17 pred: 0 gold: 1
+urban poor    ==    their
+... depend on fully declared total earnings for a living are urban poor . These ... struggle just to pay for the necessities of life , their children 's ( 17 ) 
+
+38 pred: 0 gold: 1
+a husband and wife    ==    this
+... of 2000 yuan or less is considered poor . If a husband and wife have a ... disposable income of only 1670 yuan . A household like this can not ( 38 ) 
+
+11 pred: 0 gold: 1
+their    ==    the household
+... can not even continue bearing basic living expenses , and their standard of living will decline . And should anyone in the household get sick ( 11 ) 
+
+11 pred: 0 gold: 1
+itself    ==    this
+... go to the hospital , the family may well find itself in an economic crisis . And if a family like this wants to ( 11 ) 
+
+4 pred: 0 gold: 1
+a family like this    ==    its
+... well find itself in an economic crisis . And if a family like this wants to buy its own home ( 4 ) 
+
+44 pred: 0 gold: 1
+these 20 % of upper - class citizens    ==    these 20 , of upper - class citizens in China
+... human rights , democracy and freedom are quite wrong ; these 20 % of upper - class citizens have broader ... see clearly . The income of the vast majority of these 20 , of upper - class citizens in China is basically ( 44 ) 
+
+6 pred: 0 gold: 1
+about 6 %    ==    this 6 %
+... proportion of financial revenues from the personal income tax is about 6 % . If we cancel out this 6 % , we ( 6 ) 
+
+14 pred: 1 gold: 0
+Wu Jinglian    ==    613305
+... Advice to Wu Jinglian and Others : Killing the Father -- Does You No Good ! . 613305 Posted by ( 14 ) 
+
+33 pred: 1 gold: 0
+planned economy and public ownership    ==    This
+... individuals on the basis of morality and interests . Comparing planned economy and public ownership to a ... no matter you put it this way or another . This is because ( 33 ) 
+
+4 pred: 0 gold: 1
+-- Some Thoughts on the Attitude of Benign Inheritance towards Social Reform .    ==    the title
+... Killing the Father -- Does You No Good ! . -- Some Thoughts on the Attitude of Benign Inheritance towards Social Reform . A glance at the title , people ( 4 ) 
+
+50 pred: 0 gold: 1
+market economy and private ownership    ==    the latter two dubbed " son " in this article
+... and public ownership to a father is tantamount to comparing market economy and private ownership to a ... character and institution of the socialist new China , while the latter two dubbed " son " in this article -- are ( 50 ) 
+
+27 pred: 0 gold: 1
+the son    ==    its
+... influence and robbery . So , we can not urge the son to throttle ... without considering the consequences , because there are problems in its practice and ( 27 ) 
+
+27 pred: 0 gold: 1
+her    ==    She
+... came from the other end of the line , saying her family had ... where would they live afterwards if they spent this . She also said ( 27 ) 
+
+2 pred: 0 gold: 1
+monopoly profits of the monopoly companies    ==    This part of money
+... gas price increase in China will be the increase of monopoly profits of the monopoly companies . This part of money will not ( 2 ) 
+
+7 pred: 1 gold: 0
+all of his children    ==    this
+... Saturn would in turn overthrow him , and Saturn devoured all of his children when they were born to prevent this ... '' ( 7 ) 
+
+12 pred: 0 gold: 1
+their    ==    the unpaid staff
+... for having failed to pay the ranch 's 47 employees their salary or insurance since the end of 2005 . Unfortunate for the unpaid staff and the ( 12 ) 
+
+5 pred: 0 gold: 1
+the state    ==    My
+... Dis and Dat .. The netwerk is as sacred to the state as their mantra `` My way or ( 5 ) 
+
+12 pred: 0 gold: 1
+his    ==    Saturn
+... in turn overthrow him , and Saturn devoured all of his children when they were born to prevent this ... '' Apparently Saturn is also ( 12 ) 
+
+32 pred: 0 gold: 1
+Cheney    ==    Dick Cheney
+... cup of coffee ... I looked in vain for the Cheney `` A ... , consider this . In a recent hunting escapade , Dick Cheney accidentally shot ( 32 ) 
+
+2 pred: 0 gold: 1
+David Kuo , George W. Bush 's White House director of the Office of Faith - based Initiatives    ==    Kuo , a former CIA employee
+... : Jackson 's stay at the Cedars was arranged through David Kuo , George W. Bush 's White House director of the Office of Faith - based Initiatives . Kuo , a former CIA employee ... had ( 2 ) 
+
+2 pred: 0 gold: 1
+his then business adviser    ==    Myung - Ho Lee
+... -LRB- would soon be dead -RRB- ... Jackson had ordered his then business adviser , Myung - Ho Lee , a ( 2 ) 
+
+5 pred: 0 gold: 1
+Mohamed Fayed , the chairman of Harrods in London , who believes that the C.I.A. and Prince Philip had Princess Diana and his son , Dodi , killed    ==    his
+... through `` that other fellow devotee of children 's charities Mohamed Fayed , the chairman of Harrods in London , who believes that the C.I.A. and Prince Philip had Princess Diana and his son , ( 5 ) 
+
+12 pred: 0 gold: 1
+George Mason IV    ==    Mason
+... Arlington . It set its sights on the estate of George Mason IV , The Cedars , located at 2301 North Uhle Street . Mason was one ( 12 ) 
+
+8 pred: 0 gold: 1
+a few of those teens    ==    the
+... off . Really pathetic . About a year later , a few of those teens took an intense dislike to Freddie & the beat him ( 8 ) 
+
+7 pred: 0 gold: 1
+Liberian dictator Charles Taylor 's    ==    Taylor , who is now in exile in Nigeria
+... UAE two - step currently going on : Bout was Liberian dictator Charles Taylor 's primary arms and diamond smuggler ... Taylor , who is now in exile in Nigeria , was ( 7 ) 
+
+26 pred: 0 gold: 1
+another country -- the former Zaire    ==    civil war - ravaged Zaire -LRB- now Congo -RRB-
+... 's African interests also crossed paths with Bout 's in another country -- the former Zaire . Robertson ... `` Operation Blessing '' to ferry conflict diamonds out of civil war - ravaged Zaire -LRB- now Congo -RRB- . One ( 26 ) 
+
+15 pred: 0 gold: 1
+Pied Piper    ==    a story to tell children
+... harm can then be used to heal . Brr , Pied Piper . I ... spooked by that story as a kid . Heck of a story to tell children . Talking ( 15 ) 
+
+4 pred: 0 gold: 1
+an extraordinary group here    ==    your
+... since 1985 . 791,687 in 1995 alone . This is an extraordinary group here . I appreciate your candor and ( 4 ) 
+
+17 pred: 1 gold: 0
+Rep. Frank Wolf -LRB- R - Va. -RRB-    ==    him
+... 1984 , a terrible drunk , his life dissolving . Rep. Frank Wolf -LRB- R - Va. -RRB- approached him ... salvation . He reportedly showed DeLay a videotape that made him weep . ( 17 ) 
+
+48 pred: 0 gold: 1
+the United States    ==    U.S.
+... in 1940 had called for a joint world dictatorship of the United States , Britain ... royal family . The Fellowship runs a house near the U.S. Capitol , ( 48 ) 
+
+21 pred: 0 gold: 1
+Nazi    ==    Nazi
+... world dictatorship of the United States , Britain , and Nazi Germany , ... In the 1950s , the group was sponsored by former Nazi SS officer ( 21 ) 
+
+23 pred: 0 gold: 1
+a house near the U.S. Capitol , where Congressmen and Senators , who are members , live    ==    the cult 's house in Washington
+... , and the Dutch royal family . The Fellowship runs a house near the U.S. Capitol , where Congressmen and Senators , who are members , live . For ... , the delirious End - Timer , has lived in the cult 's house in Washington . Raytheon ( 23 ) 
+
+38 pred: 0 gold: 1
+himself    ==    Bredesen 's
+... training agent of the Fellowship group , who had proved himself to the ... Fellowship , raised the money to expand Robertson 's and Bredesen 's Virginia - ( 38 ) 
+
+22 pred: 0 gold: 1
+itself    ==    they
+... a plot in every wood pile . The JW considers itself THE kingdom ... ' -RRB- So it is only to be expected that they do not ( 22 ) 
+
+8 pred: 0 gold: 1
+it    ==    it
+... in progress for JM Barrie , who kept tinkering with it over the years . To understand what it actually means ( 8 ) 
+
+32 pred: 0 gold: 1
+Kensington Gardens    ==    the park
+... a bird , and is one day old . In Kensington Gardens he watches ... or they perish from the cold an dark overnight in the park , Peter ( 32 ) 
+
+22 pred: 1 gold: 0
+Peter and Wendy    ==    they
+... In Peter and Wendy , the ... their perambulators when their nurse is not looking . If they are not ( 22 ) 
+
+46 pred: 0 gold: 1
+Wendy    ==    she
+... own lives are far more exotic than the fairy tales Wendy tells , ... her , not the other way around . It is she who asks ( 46 ) 
+
+18 pred: 0 gold: 1
+One of my friends    ==    he
+... look at the proportion to the rest of society . One of my friends is an ... like a ' local church leader ' -RRB- , but he also said ( 18 ) 
+
+14 pred: 0 gold: 1
+the evil elite    ==    their
+... thiking like that , even if we got rid of the evil elite , a new set of ' evil elite ' would rise again in their place . ( 14 ) 
+
+33 pred: 0 gold: 1
+that speech    ==    it
+... If that speech was the ... with fake crocodile tears in their eyes does n't make it a good ( 33 ) 
+
+44 pred: 0 gold: 1
+I    ==    Mark
+... make it a good speech . Sorry . %emoji @PrisonPlanet I find it ... @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow ( 44 ) 
+
+14 pred: 0 gold: 1
+Mueller    ==    his
+... EXCLUSIVE : Initial talks underway about Trump interview in Mueller Russia probe https://t.co/7OaC2Ya8Pk @MSNBC Why ? All Mueller has to do is post his questions on ( 14 ) 
+
+31 pred: 1 gold: 0
+my    ==    u
+... I was playing Mic Drop really loud in my car and ... %emoji %emoji %emoji ayyyyyyyyy https://t.co/MIwoJPs0qL @AyyyRee @laurenxjessica @BTSRequest @BTS_twt Can u send this ( 31 ) 
+
+20 pred: 1 gold: 0
+me    ==    I
+... https://t.co/MIwoJPs0qL @AyyyRee @laurenxjessica @BTSRequest @BTS_twt Can u send this to me !? I ... The gif ? It 's in the gif search but I 'll just ( 20 ) 
+
+39 pred: 0 gold: 1
+u    ==    fam
+... %emoji %emoji %emoji ayyyyyyyyy https://t.co/MIwoJPs0qL @AyyyRee @laurenxjessica @BTSRequest @BTS_twt Can u send this ... the link %emoji https://t.co/wklMz4wdTY @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt Excuse fam . . ( 39 ) 
+
+4 pred: 0 gold: 1
+vey loyal guy    ==    he
+... they go I go . @oilerdiehard @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 4 ) 
+
+31 pred: 0 gold: 1
+GM    ==    He
+... your comment has some basis in truth . @KurtLeavins @oilerdiehard GM could change ... to Claude Julien at season 's end . @oiler99 @oilerdiehard He could ( 31 ) 
+
+13 pred: 0 gold: 1
+the end of season    ==    season 's end
+... @oilerdiehard GM could change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end . @oiler99 ( 13 ) 
+
+13 pred: 0 gold: 1
+season    ==    season
+... change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end ( 13 ) 
+
+37 pred: 1 gold: 0
+soccer    ==    a big bust
+... Great to know you just became the Kevin Durant of soccer @hashbrown711 @ChampionsLeague ... tho @zreik_ @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Yea he is inshallah a big bust @hashbrown711 @EbadianVII ( 37 ) 
+
+3 pred: 0 gold: 1
+Hash    ==    you
+... is inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why you angryyy @zreik_ ( 3 ) 
+
+38 pred: 1 gold: 0
+cricket    ==    toddler
+... Omg u are so kid . Little kid this is cricket and this ... many things . But i am mature and you are toddler . Have ( 38 ) 
+
+20 pred: 0 gold: 1
+toddler    ==    you
+... Win and lose is part of game . Grow up toddler . I ... h in many things . But i am mature and you are toddler ( 20 ) 
+
+21 pred: 1 gold: 0
+a white juror    ==    the lawyers for Keith Tharpe
+... just ruled on behalf of a black death-row inmate whom a white juror later called ... chair . Not sure how common this is , but the lawyers for Keith Tharpe , the ( 21 ) 
+
+14 pred: 1 gold: 0
+Justice Clarence Thomas    ==    the inmate
+... right on the cover of their #SCOTUS petition . https://t.co/35fHpUbvXG Justice Clarence Thomas , a son of Georgia , led the dissenters and would 've denied the inmate relief . ( 14 ) 
+
+11 pred: 0 gold: 1
+Tharpe v . Sellers    ==    it
+... in moral courage . '' Here 's the opinion in Tharpe v . Sellers . -LRB- For some weird reason , #SCOTUS also included it at the ( 11 ) 
+
+33 pred: 1 gold: 0
+@johannhari101    ==    I
+... I found myself nodding along to a lot of what @johannhari101 says in ... of drugs will change that . -LRB- That said , I 'm still ( 33 ) 
+
+33 pred: 1 gold: 0
+you    ==    you
+... keep taking your SSRIs . I take mine . But you have to ... sufficient ? @jmwallach @ParkerMolloy @johannhari101 If , for example , you 're married ( 33 ) 
+
+4 pred: 0 gold: 1
+someone who 's really struggled with severe depression and anxiety for more than a decade    ==    myself
+... As someone who 's really struggled with severe depression and anxiety for more than a decade , I found myself nodding along ( 4 ) 
+
+27 pred: 0 gold: 1
+my    ==    your
+... on antidepressants . -RRB- @AmberBobamber @ParkerMolloy @johannhari101 SSRIs have saved my life . ... But you have to figure out what is REALLY causing your depression and ( 27 ) 
+
+14 pred: 0 gold: 1
+an abusive spouse    ==    an abusive spouse
+... @johannhari101 If , for example , you 're married to an abusive spouse , being on antidepressants does n't change the fact you 're married to an abusive spouse . @AmberBobamber ( 14 ) 
+
+2 pred: 1 gold: 0
+Liberty    ==    Honda
+... . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota ( 2 ) 
+
+0 pred: 1 gold: 0
+Boeing , Hitachi , Tata , Liberty , Honda & Toyota    ==    Toyota
+... fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ( 0 ) 
+
+47 pred: 0 gold: 1
+#Brexit    ==    It
+... , answer was clear and emphatic . End of . #Brexit @BrexitDemocracy @Disputatio_ ... leave to stop immigration and , you know what ? It wo n't ( 47 ) 
+
+45 pred: 0 gold: 1
+Boeing    ==    Boeing
+... fullest order books for 30 years . Strategic investments from Boeing , Hitachi ... We 're still @in the EU . Strategic investments from Boeing , Hitachi ( 45 ) 
+
+45 pred: 0 gold: 1
+Tata    ==    Tata
+... 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty ... the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty ( 45 ) 
+
+35 pred: 0 gold: 1
+Boeing , Hitachi , Tata , Liberty , Honda & Toyota    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
+... fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ... We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning ( 35 ) 
+
+42 pred: 1 gold: 0
+you    ==    you
+... of ! @ohsixoneoh @RoGodwinw67 @VickiAbby @OneGreenPlanet Like I said , you do n't ... 's people like you that place others in danger , you have no ( 42 ) 
+
+31 pred: 1 gold: 0
+Obama    ==    Trump
+... it was well known in the first years of the Obama presidency insiders ... was no media coverage on this like there is with Trump . @Elizabe28813295 ( 31 ) 
+
+19 pred: 1 gold: 0
+your    ==    Liz
+... Such a waste of time and energy . I respect your opinion , ... . @Elizabe28813295 @jeffjarvis @JoeNBC @washingtonpost Do n't worry , '' Liz . '' ( 19 ) 
+
+2 pred: 0 gold: 1
+a Twitter war    ==    Such a waste of time and energy
+... @JoeNBC @washingtonpost I have absolutely no desire to get into a Twitter war . Such a waste of time and energy . I ( 2 ) 
+
+5 pred: 1 gold: 0
+I    ==    you
+... a virgin , thank you very much . Secondly , I do n't know what you 're taking ( 5 ) 
+
+10 pred: 1 gold: 0
+you    ==    You
+... we are still singing this tune @StoryTimeWitDez Ase what are you trying to say ? %emoji %emoji %emoji %emoji @CalebTheMandem You play too ( 10 ) 
+
+18 pred: 1 gold: 0
+He    ==    a horrible manipulative cow
+... He was a ... right through me %emoji https://t.co/t22Jj26JJz @mc5506 https://t.co/jH1lrBDXqM @Crazyparklady1 She 's a horrible manipulative cow %emoji @mc5506 ( 18 ) 
+
+5 pred: 0 gold: 1
+a league win    ==    a league win
+... our players sees the scenes the reds can produce for a league win or CL win esp a league win they will ( 5 ) 
+
+1 pred: 0 gold: 1
+Absolute dose    ==    he
+... @bselcoe @TeamFA Did Brenda get us to 1 final ? Absolute dose he was ( 1 ) 
+
+46 pred: 1 gold: 0
+Sashi 's one guy in the media    ==    Phins
+... a top 5 pick for James G unless Pluto is Sashi 's one guy in the media and this ... . Wish we had more clarity on all that @LakeEffectBro Phins have a ( 46 ) 
+
+15 pred: 0 gold: 1
+Sashi    ==    Sashi
+... lol so after all that Sashi was willing ... a top 5 pick for James G unless Pluto is Sashi 's one ( 15 ) 
+
+1 pred: 1 gold: 0
+#HarveyWeinstein    ==    #OprahWinfrey
+... for President in 2020 After Golden Globes Speech https://t.co/SiCRWSdDGx @enews #HarveyWeinstein #OprahWinfrey was basically ( 1 ) 
+
+4 pred: 0 gold: 1
+#HarveyWeinstein    ==    his
+... for President in 2020 After Golden Globes Speech https://t.co/SiCRWSdDGx @enews #HarveyWeinstein #OprahWinfrey was basically his #pimp up ( 4 ) 
+
+17 pred: 1 gold: 0
+the Trump presidency    ==    a regular notebook
+... to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks @FoxNews ... colorful than most those past ... @pwns4cash Hug benefit of a regular notebook is that ( 17 ) 
+
+17 pred: 1 gold: 0
+the Trump presidency    ==    a regular notebook
+... to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks @FoxNews ... colorful than most those past ... @pwns4cash Hug benefit of a regular notebook is that ( 17 ) 
+
+8 pred: 0 gold: 1
+the president    ==    Trump
+... '' his delayed response and that he continues to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks ( 8 ) 
+
+12 pred: 0 gold: 1
+his    ==    Wanker
+... One cock job parks his lorry badly and my three mile commute takes an hour . Wanker @JeremyClarkson British ( 12 ) 
+
+true_pos, true_neg, false_pos, false_neg, (344, 83, 29, 72)
+F1 score of 0.8719898605830165
+##################################END: Min Distance: 0, Max Distance: 50#####################################################
+
+##################################START: Min Distance: 51, Max Distance: 100#####################################################
+
+92 pred: 0 gold: 1
+we    ==    Iraq
+... truthful when we spoke with the international inspection mission , we were truthful ... the floodgates to cascades of blood on the soil of Iraq , you ( 92 ) 
+
+90 pred: 0 gold: 1
+your neighbors    ==    our neighbors
+... nothing to apologize for , you constituted a danger to your neighbors and tried ... extent that you now believe yourselves . If " by our neighbors " you ( 90 ) 
+
+85 pred: 0 gold: 1
+you    ==    Saddam Hussein
+... choose for yourself a place of exile in any country you wish on ... I was commissioned to inform you of this offer . Saddam Hussein : It ( 85 ) 
+
+100 pred: 1 gold: 0
+the minutes of the meeting between Rumsfeld and Saddam Hussein at the Airport Prison    ==    that meeting
+... are obvious . MOTAAWEN@HOTMAIL.COM Over the sun http://alsaha.fares.net/sahat?128@96.GdrOcqF3AIR.21@.3ba9a044 Details of the minutes of the meeting between Rumsfeld and Saddam Hussein at the Airport Prison . The ... ... because I think it unlikely that what happened at that meeting would leak ( 100 ) 
+
+73 pred: 1 gold: 0
+the Rafida    ==    they
+... his prison cell . Finally , during his hanging , the Rafida tried to ... them , then they would have killed him . So they could show ( 73 ) 
+
+97 pred: 0 gold: 1
+his    ==    Saddam
+... reading the Koran are the Christians who visited him in his prison cell ... the clip in which there is cursing and insults from Saddam and cut ( 97 ) 
+
+57 pred: 1 gold: 0
+Fadil and the likes    ==    its
+... I am a Shiite . " It pointed out that Fadil and the likes are responsible ... quoted as saying that the Mahdi Army is resorting in its operations to ( 57 ) 
+
+83 pred: 0 gold: 1
+the " father " system mentioned herein    ==    the essentially healthy and scientific " father " system
+... heritage in the human history , we could see : the " father " system mentioned herein has the ... So , we can not urge the son to throttle the essentially healthy and scientific " father " system by fair ( 83 ) 
+
+60 pred: 1 gold: 0
+He    ==    I
+... -RRB- , otherwise they would see me in court . He added that ... the weapon of law for justice . Of course , I also retained ( 60 ) 
+
+89 pred: 1 gold: 0
+the interview    ==    it
+... my spirits so I 'd be in peak form for the interview . The ... , did n't embarrass me , so after an hour it ended happily ( 89 ) 
+
+73 pred: 0 gold: 1
+Beijing 's    ==    Beijing
+... Guo Kai 's Economic Notes : Beijing 's Gas Price ... price includes all taxes . The current gas price in Beijing is 5.09 ( 73 ) 
+
+77 pred: 1 gold: 0
+Kuo    ==    Boucher 's
+... Effective Compassion , founded in 1995 by Arianna Huffington ... Kuo also previously ... children , and the cave closes again ... Here is Boucher 's follow up ( 77 ) 
+
+54 pred: 0 gold: 1
+the Cedars    ==    the estate of George Mason IV , The Cedars , located at 2301 North Uhle Street
+... was arranged through David Kuo ... '' Hold on -- the Cedars is the ... permanent headquarters in Arlington . It set its sights on the estate of George Mason IV , The Cedars , located at 2301 North Uhle Street . Mason ( 54 ) 
+
+53 pred: 1 gold: 0
+another country -- the former Zaire    ==    this firm
+... 's African interests also crossed paths with Bout 's in another country -- the former Zaire . Robertson ... New Millennium Air Company of Gambia . The Director of this firm is `` ( 53 ) 
+
+85 pred: 0 gold: 1
+she    ==    Jackson
+... much earlier ' Rythm Nation ' period , in which she dons a ... 's a link to just a wee bit more about Jackson and her ( 85 ) 
+
+78 pred: 0 gold: 1
+Va.    ==    Virginia
+... playboy son of Sen. A. Willis Robertson -LRB- R - Va. -RRB- , ... raised the money to expand Robertson 's and Bredesen 's Virginia - based ( 78 ) 
+
+66 pred: 1 gold: 0
+his questions    ==    a candidate w/liberal democratic ideals-who can win
+... @MSNBC Why ? All Mueller has to do is post his questions on Twitter ... win . @NVGhost005 @Makemyday59 @MSNBC @Oprah All I want is a candidate w/liberal democratic ideals-who can win . Oprah ( 66 ) 
+
+99 pred: 1 gold: 0
+Twitter    ==    us
+... All Mueller has to do is post his questions on Twitter and Trump ... let another Jill Stein Bernie Sanders or Ralph Nader divide us or split ( 99 ) 
+
+53 pred: 1 gold: 0
+there    ==    We
+... seems to like to run his mouth with certain reporters there . @Makemyday59 ... that . Also , a lesson from 2000 & 2016 We CANT let ( 53 ) 
+
+67 pred: 1 gold: 0
+BTS    ==    vkook
+... car and the car next to me goes `` AYYYYYYYE BTS !!!! '' ... @BTS_twt Excuse fam . . just curious about the gif vkook kissing in ( 67 ) 
+
+89 pred: 1 gold: 0
+Coutinho    ==    man
+... Coutinho : '' ... inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why you ( 89 ) 
+
+88 pred: 1 gold: 0
+Coutinho    ==    Hash
+... Coutinho : '' ... is inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why ( 88 ) 
+
+66 pred: 0 gold: 1
+Coutinho    ==    something big
+... Coutinho : '' ... credit @EbadianVII @hashbrown711 @ChampionsLeague @FCBarcelona @Phil_Coutinho Hes gon na be something big in barca ( 66 ) 
+
+76 pred: 1 gold: 0
+him    ==    toddler
+... @KshitijDisIz @ZAbbasOfficial Ask rohit sharma %emoji @nasir_22 @ZAbbasOfficial First tell him to get ... many things . But i am mature and you are toddler . Have ( 76 ) 
+
+77 pred: 1 gold: 0
+a '' nigger '' who deserved the electric chair    ==    The Court
+... a black death-row inmate whom a white juror later called a '' nigger '' who deserved the electric chair . Not ... , and other technical aspects of the case : `` The Court 's decision ( 77 ) 
+
+77 pred: 1 gold: 0
+a '' nigger '' who deserved the electric chair    ==    The Court
+... a black death-row inmate whom a white juror later called a '' nigger '' who deserved the electric chair . Not ... , and other technical aspects of the case : `` The Court 's decision ( 77 ) 
+
+73 pred: 1 gold: 0
+@johannhari101    ==    your
+... I found myself nodding along to a lot of what @johannhari101 says in ... But you have to figure out what is REALLY causing your depression and ( 73 ) 
+
+81 pred: 1 gold: 0
+We    ==    #Brexit
+... them believe in democracy ! #Brexit @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems We voted based ... , answer was clear and emphatic . End of . #Brexit @BrexitDemocracy @Disputatio_ ( 81 ) 
+
+78 pred: 0 gold: 1
+the whole situation    ==    the whole situation
+... what someone else is doing ? You do n't know the whole situation , you ... @VickiAbby @OneGreenPlanet Like I said , you do n't know the whole situation to make ( 78 ) 
+
+61 pred: 1 gold: 0
+@JoeNBC    ==    Obama
+... @JoeNBC just said ... it was well known in the first years of the Obama presidency insiders ( 61 ) 
+
+95 pred: 1 gold: 0
+Trump    ==    Liz
+... twice the @washingtonpost deleted his unnamed quotes from someone around Trump saying he ... There is a huge difference and you know it '' Liz ! '' ( 95 ) 
+
+55 pred: 0 gold: 1
+you    ==    Zizwa
+... we are still singing this tune @StoryTimeWitDez Ase what are you trying to ... 's lil brother here @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did Zizwa threaten you ( 55 ) 
+
+74 pred: 0 gold: 1
+Sashi 's one guy in the media    ==    Pluto
+... a top 5 pick for James G unless Pluto is Sashi 's one guy in the media and this ... so nice as a fan @SportsNom yeah I really liked Pluto growing up ( 74 ) 
+
+true_pos, true_neg, false_pos, false_neg, (47, 67, 20, 13)
+F1 score of 0.7401574803149606
+##################################END: Min Distance: 51, Max Distance: 100#####################################################
+
+##################################START: Min Distance: 101, Max Distance: None#####################################################
+
+405 pred: 1 gold: 0
+Kuwait    ==    our country
+... I want to ask you . Did you withdraw from Kuwait or not ... call free elections to be held under your occupation of our country ? Mr ( 405 ) 
+
+569 pred: 1 gold: 0
+you    ==    you
+... the conversation by saying Rumsfeld : I came to meet you to negotiate ... we were truthful in our letters to Kofi Annan , you knew these ( 569 ) 
+
+943 pred: 0 gold: 1
+Saddam    ==    your
+... and Saddam Hussein at the Airport Prison ... Washington offers Saddam a television ... the outside . The Iraqi people have been liberated from your oppression , ( 943 ) 
+
+786 pred: 1 gold: 0
+you    ==    your
+... process in Iraq . Saddam Hussein : What is it you want exactly ... from your position of supporting Israel . I know that your president is ( 786 ) 
+
+414 pred: 1 gold: 0
+I    ==    Your
+... : What is it you want exactly ? Rumsfeld : I am making ... they bear the history of Iraq and its civilization . Your country is ( 414 ) 
+
+397 pred: 0 gold: 1
+Your    ==    your
+... they bear the history of Iraq and its civilization . Your country is ... bloodthirsty ruler like you . Saddam Hussein : Terrorism is your trade and ( 397 ) 
+
+415 pred: 1 gold: 0
+his    ==    he
+... Saddam Hussain can not back down at the expense of his nation and ... in doing good be like someone walking on sand ... he makes no ( 415 ) 
+
+147 pred: 0 gold: 1
+I    ==    Saddam Hussein
+... of your crimes .. I warned you in advance when I said to ... Details of the minutes of the meeting between Rumsfeld and Saddam Hussein at the ( 147 ) 
+
+306 pred: 1 gold: 0
+His    ==    Saddam Hussein
+... Qais the Son of His Father The ... - ***** with mercies passing to and fro The Emirati Saddam Hussein : I ( 306 ) 
+
+331 pred: 1 gold: 0
+he    ==    he
+... walking straight , not with a bowed head , and he was treated ... in doing good be like someone walking on sand ... he makes no ( 331 ) 
+
+338 pred: 0 gold: 1
+His    ==    you
+... Qais the Son of His Father The ... Qais , the Son of his Father , I thank you for your ( 338 ) 
+
+284 pred: 0 gold: 1
+God    ==    his
+... Son of His Father The Martyr of the Nation , God is his ... **** by guards and trustworthy confidents May the Compassionate rain his blessings on ( 284 ) 
+
+446 pred: 1 gold: 0
+kill    ==    the creed
+... after second offence . I did not expect anyone to kill the dancer ... says , many people when they were supposed to say the creed and were ( 446 ) 
+
+244 pred: 1 gold: 0
+him    ==    his
+... people and attacked women and other matters , Saddam ordered him to be ... reading the Koran are the Christians who visited him in his prison cell ( 244 ) 
+
+298 pred: 1 gold: 0
+an old woman or man    ==    Saddam Hussein
+... days during the fall of Baghdad and his disappearance , an old woman or man said on ... dying ... the truth is what is apparent . But Saddam Hussein was reasonable ( 298 ) 
+
+173 pred: 1 gold: 0
+the Koran    ==    it
+... prayer mat with him and was always praying and reading the Koran . Do ... steadfast in saying the creed and was killed whilst saying it . I ( 173 ) 
+
+347 pred: 1 gold: 0
+Baghdad    ==    its
+... be the best business a person could be running in Baghdad now ! ... regards some of the faults they are many - especially its view of ( 347 ) 
+
+379 pred: 1 gold: 0
+our beloved Iraq    ==    Baghdad
+... . In this film the role of the Shiites in our beloved Iraq becomes clearer ... be the best business a person could be running in Baghdad now ! ( 379 ) 
+
+704 pred: 1 gold: 0
+the heart    ==    they
+... Marriages ... I leave you with the film which saddens the heart and makes ... is no one to resist them . But however much they try , ( 704 ) 
+
+583 pred: 1 gold: 0
+Sadr City , east of Baghdad    ==    Iraq
+... Diary : A leader of the Shiite death squads in Sadr City , east of Baghdad , acknowledged ... best one at conveying the incidents on the ground in Iraq , and ( 583 ) 
+
+797 pred: 0 gold: 1
+The Source of the Word    ==    you
+... the film " The Death Squads " for downloading . The Source of the Word . The ... Source of the Word , a very good morning to you . This ( 797 ) 
+
+388 pred: 0 gold: 1
+the Al - Arabiya    ==    it
+... Interior " The Al - Jazeera channel is superior to the Al - Arabiya in many ... - Rashed is its director I wash my hands of it completely . ( 388 ) 
+
+144 pred: 0 gold: 1
+Sadr City , east of Baghdad    ==    Sadr City where his group had interrogated them then executed them
+... Diary : A leader of the Shiite death squads in Sadr City , east of Baghdad , acknowledged ... the British Guardian that he took the three men to Sadr City where his group had interrogated them then executed them , indicating ( 144 ) 
+
+336 pred: 0 gold: 1
+Baghdad    ==    It
+... being found daily in Baghdad . This means that the Baghdad security plan ... 's decree , the capital of the Islamic caliphate . It will return ( 336 ) 
+
+110 pred: 1 gold: 0
+You    ==    Abu Bakr
+... grant you long life , my esteemed brother Glare . You are right ... and a genius , an inventor and discoverer " " Abu Bakr ! You ( 110 ) 
+
+314 pred: 0 gold: 1
+Al - Arabiya    ==    The Al - Arabiya
+... enjoyed . There is no channel without faults . But Al - Arabiya is the ... long life , my brother Unique , welcome back ! The Al - Arabiya started as ( 314 ) 
+
+141 pred: 0 gold: 1
+the treacherous government of Qatar    ==    its government
+... in contrast , has not presented more important tapes about the treacherous government of Qatar . The ... There are hidden matters in the state of Qatar and its government . But ( 141 ) 
+
+349 pred: 1 gold: 0
+it    ==    This
+... class . If this tax continues to be collected , it will be ... an uncontrollable black hole in China 's social oversight . This is far ( 349 ) 
+
+426 pred: 1 gold: 0
+this type of tax in China    ==    it
+... improving the quality of life of wage earners . While this type of tax in China has no ... of helping the poor to become rich , neither can it control the ( 426 ) 
+
+508 pred: 1 gold: 0
+low - and moderate - income people    ==    their
+... by letting poor people get rich , we should give low - and moderate - income people a chance ... struggle just to pay for the necessities of life , their children 's ( 508 ) 
+
+139 pred: 1 gold: 0
+the personal income tax    ==    unreported income
+... poor . Yesterday CCTV presented a program on adjustment of the personal income tax , emphasized ... of China 's rich people is unreported income , and unreported income is a ( 139 ) 
+
+205 pred: 1 gold: 0
+approximately 180 billion    ==    itself
+... gap . In 2004 China 's income taxes amounted to approximately 180 billion , accounting ... go to the hospital , the family may well find itself in an ( 205 ) 
+
+241 pred: 1 gold: 0
+China    ==    itself
+... tool that keeps on producing a penniless proletariat . In China the primary ... go to the hospital , the family may well find itself in an ( 241 ) 
+
+401 pred: 0 gold: 1
+it    ==    this personal income tax
+... class . If this tax continues to be collected , it will be ... of the wealthy , so what is it we expect this personal income tax to do ( 401 ) 
+
+142 pred: 1 gold: 0
+Western countries    ==    they
+... parents who are living through unimaginably hard times ? In Western countries , the ... a low - consumption rural lifestyle and conditions , and they have basic ( 142 ) 
+
+221 pred: 1 gold: 0
+their    ==    they
+... this came about because the parents struggled harder , tightening their belts and ... . If they go shopping for food by bike , they have to ( 221 ) 
+
+101 pred: 0 gold: 1
+80 % of the people    ==    the other 80 %
+... the people hold 80 % of social wealth , and 80 % of the people are able ... at China , he sees only these 20 % ; the other 80 % he ca ( 101 ) 
+
+206 pred: 0 gold: 1
+the personal income tax    ==    the personal income tax
+... in the spring . The proportion of financial revenues from the personal income tax is about ... " social structure can establish a harmonious society . Eliminating the personal income tax to accumulate ( 206 ) 
+
+153 pred: 0 gold: 1
+this article    ==    this article
+... little political sensitivity may roughly understand the core topic of this article : the ... , while the latter two dubbed " son " in this article -- are ( 153 ) 
+
+192 pred: 1 gold: 0
+the " father " system mentioned herein    ==    it
+... heritage in the human history , we could see : the " father " system mentioned herein has the ... prevalent value and the rule of civilization update rooted in it , but ( 192 ) 
+
+104 pred: 1 gold: 0
+the majority    ==    its
+... see : the " father " system mentioned herein has the majority in mind ... without considering the consequences , because there are problems in its practice and ( 104 ) 
+
+129 pred: 1 gold: 0
+the country    ==    it
+... well as the need for sustainable and sound development of the country , the ... not only make the society increasingly ignorant and sick as it violates the ( 129 ) 
+
+643 pred: 1 gold: 0
+his parents    ==    them
+... me to borrow my car , saying he was meeting his parents at the ... owner , they would not sue me if I compensated them for the ( 643 ) 
+
+221 pred: 1 gold: 0
+his father , who was in hospital for fractures    ==    they
+... an accident , and everyone else was intact , except his father , who was in hospital for fractures . I ... of a house ; where would they live afterwards if they spent this ( 221 ) 
+
+213 pred: 1 gold: 0
+my neighbor    ==    my friend
+... and meeting people . A couple of years ago , my neighbor approached me ... hospital for fractures . I comforted him first and asked my friend to rush ( 213 ) 
+
+244 pred: 1 gold: 0
+her family    ==    they
+... came from the other end of the line , saying her family had just ... their economic interests , and as the car owner , they would not ( 244 ) 
+
+125 pred: 1 gold: 0
+the case    ==    it
+... in court . He added that he was certain about the case as a ... unfinished wine without the lid inside the car and reported it to the ( 125 ) 
+
+163 pred: 0 gold: 1
+the car accident    ==    a car accident
+... safety performance and it was my car to blame for the car accident . She ... He said in an incontestable tone that my neighbor had a car accident as a ( 163 ) 
+
+501 pred: 1 gold: 0
+the US    ==    China 's
+... vs. US Gas Price Guo Kai 's Economic Notes In the US the current ... on gas prices -LRB- hereby raising gas prices -RRB- . China 's gas prices ( 501 ) 
+
+566 pred: 0 gold: 1
+McDonald 's    ==    McDonald 's
+... US , the money you pay for a meal at McDonald 's can fill ... , your life is already quite good . darling0823 Comparing McDonald 's in the ( 566 ) 
+
+137 pred: 1 gold: 0
+Gary Glitter    ==    his
+... . He 's moved on since his aquittal , like Gary Glitter did after ... , and the claims based on the projected outline for his abandoned `` ( 137 ) 
+
+249 pred: 1 gold: 0
+Michael Jackson    ==    his
+... : I follow my father 's trade - Leonard Cohen Michael Jackson may be ... was a nightmare of a father and sexually abusive towards his daughters is ( 249 ) 
+
+111 pred: 1 gold: 0
+singer    ==    Michael
+... Creepy dad was root of all clan 's woe , singer sez . ... , '' and wondered whether `` something happened '' to Michael at those ( 111 ) 
+
+727 pred: 1 gold: 0
+Neverland    ==    the state
+... to describe . Yesterday , Jackson was ordered to close Neverland for having ... Dis and Dat .. The netwerk is as sacred to the state as their ( 727 ) 
+
+255 pred: 0 gold: 1
+I    ==    Jeff
+... more common than most suspect . -LRB- This is how I tend to ... Jackson back in California . #NAME ? Wild wild stuff Jeff ! Disinformation ( 255 ) 
+
+256 pred: 0 gold: 1
+Jackson 's    ==    you
+... majician '' is intrigueing . From Madsen via Boucher : Jackson 's stay at ... you really are , that you sit around , and you drink and ( 256 ) 
+
+184 pred: 1 gold: 0
+a Pittsburgh madam named Tex Gill    ==    his
+... guy definitely fit the bill . He was muscle for a Pittsburgh madam named Tex Gill . She ... See anything you like ? '' & then he shoves his hand hard ( 184 ) 
+
+143 pred: 1 gold: 0
+Taylor , who is now in exile in Nigeria    ==    Jackson
+... dictator Charles Taylor 's primary arms and diamond smuggler ... Taylor , who is now in exile in Nigeria , was ... is , when is a victim guilty of abuse ? Jackson is definitely ( 143 ) 
+
+191 pred: 1 gold: 0
+Pied Piper    ==    Jehovah 's Witness
+... harm can then be used to heal . Brr , Pied Piper . I ... n't Michael Jackson , and the entire Jackson clan , Jehovah 's Witness ? There ( 191 ) 
+
+225 pred: 1 gold: 0
+a story to tell children    ==    FBI
+... spooked by that story as a kid . Heck of a story to tell children . Talking ... .... no ? .... and it is a cult . FBI finally releases ( 225 ) 
+
+397 pred: 1 gold: 0
+me    ==    I
+... base with each contributor adding to the thread that moves me in a ... make you Lose Control Glad someone finally mentioned Janet . I think the ( 397 ) 
+
+291 pred: 1 gold: 0
+me    ==    I
+... have experienced If there is just one thing that disappoints me it is ... '' lyrics : Bump the beat Just watch the way I pump it ( 291 ) 
+
+625 pred: 1 gold: 0
+I    ==    I
+... certainly possible that I came across it and forgot . I was n't ... accident censors tried to make it out to be , I think it ( 625 ) 
+
+295 pred: 1 gold: 0
+this    ==    it
+... the future . I 'm surprised I have n't heard this mentioned anywhere ... . Rather than the ridiculous accident censors tried to make it out to ( 295 ) 
+
+253 pred: 0 gold: 1
+Jacko    ==    her brother
+... , as it ties in perfectly with Jeff 's Bizarro Jacko Tabloid post ... think the practice of black magic is something she and her brother have in ( 253 ) 
+
+612 pred: 1 gold: 0
+Jack Abramoff    ==    Michael Jackson
+... all three of the shadow partners , Grover Norquist , Jack Abramoff and Ralph ... in boldface is *extremely* interesting . Was n't there a Michael Jackson video where ( 612 ) 
+
+124 pred: 1 gold: 0
+a house near the U.S. Capitol , where Congressmen and Senators , who are members , live    ==    its
+... , and the Dutch royal family . The Fellowship runs a house near the U.S. Capitol , where Congressmen and Senators , who are members , live . For ... Ministries is a subordinate unit of the cult , with its tentacles in ( 124 ) 
+
+214 pred: 1 gold: 0
+This cult    ==    HIStory
+... experience of being brainwashed and used in cultish behavior . This cult is called ... himself , one that was truly larger than life . HIStory was hyped ( 214 ) 
+
+446 pred: 1 gold: 0
+the cult 's house in Washington    ==    Anonymous One
+... , the delirious End - Timer , has lived in the cult 's house in Washington . Raytheon ... -- Gangaji this site monitors Janet Jackson weight ! http://www.egotastic.com/entertainment/celebrities/janet-jackson/janet-jackson-is-too-fat-to-sing Anonymous One , I ( 446 ) 
+
+592 pred: 1 gold: 0
+Geller    ==    him
+... abuse . http://news.bbc.co.uk/1/hi/programmes/panorama/live_forums/2124808.stm BTW Jeff - I 'd caught the Geller / Jackson ... was a human , and that wildness is still in him , as ( 592 ) 
+
+128 pred: 0 gold: 1
+Peter Pan    ==    his
+... have either a tenuous or no connection to the core Peter Pan mythos . ... , is only a week old . He escaped from his home when ( 128 ) 
+
+133 pred: 0 gold: 1
+JM Barrie , who kept tinkering with it over the years    ==    Barrie 's
+... substantiate . Peter Pan was a work in progress for JM Barrie , who kept tinkering with it over the years . To ... in him , as it is with all children . Barrie 's only cryptic ( 133 ) 
+
+284 pred: 1 gold: 0
+Peter and Wendy    ==    JM Barrie 's
+... In Peter and Wendy , the ... you recommend a good work of commentary and analysis on JM Barrie 's works ? ( 284 ) 
+
+552 pred: 1 gold: 0
+Wendy    ==    their
+... own lives are far more exotic than the fairy tales Wendy tells , ... of the other comments , I decided to listen to their side before ( 552 ) 
+
+490 pred: 1 gold: 0
+their    ==    they
+... to tell them stories . It 's ironic that while their own lives ... their instructions say that if they hear of any abuse they are to ( 490 ) 
+
+601 pred: 0 gold: 1
+Peter    ==    Peter Pan
+... specific quotes and information on where it is shown that Peter abducted the ... I have on Peter Pan are : Fifty Years of Peter Pan , Roger ( 601 ) 
+
+186 pred: 0 gold: 1
+Barrie    ==    JM Barrie 's
+... fictions that they want , told by a mother . Barrie says quite ... you recommend a good work of commentary and analysis on JM Barrie 's works ? ( 186 ) 
+
+113 pred: 1 gold: 0
+Hope    ==    this
+... Hope is a ... @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is cricket ( 113 ) 
+
+121 pred: 1 gold: 0
+2 Kangaroos    ==    it
+... Luke Bryan Gifted His Wife 2 Kangaroos For Christmas ... to be attacked by a mature male kangaroo doing what it 's built ( 121 ) 
+
+336 pred: 1 gold: 0
+you    ==    you
+... doing ? You do n't know the whole situation , you do n't ... about is about some privileged wanker being roasted . Also you started this ( 336 ) 
+
+327 pred: 1 gold: 0
+Anyone who thinks these are pets    ==    your
+... what it 's built for ? Kicking and tearing ? Anyone who thinks these are pets are morons ... started this by not minding your own business so take your medicine , ( 327 ) 
+
+129 pred: 0 gold: 1
+he    ==    some privileged wanker
+... . @HannaPam @RoGodwinw67 @VickiAbby @OneGreenPlanet GFY ! when u & he have both ... about , all you seem to care about is about some privileged wanker being roasted ( 129 ) 
+
+116 pred: 0 gold: 1
+#Kangaroo    ==    these
+... This is a Horrible Idea https://t.co/sTRvMplYur via @onegreenplanet @VickiAbby @OneGreenPlanet #Kangaroo are not ... built for ? Kicking and tearing ? Anyone who thinks these are pets ( 116 ) 
+
+188 pred: 0 gold: 1
+u    ==    you
+... successfully & safely , then maybe I 'll listen to u but all ... @HannaPam @ohsixoneoh @VickiAbby @OneGreenPlanet Oh fuck up & fuck off you moron ( 188 ) 
+
+true_pos, true_neg, false_pos, false_neg, (59, 306, 57, 27)
+F1 score of 0.5841584158415841
+##################################END: Min Distance: 101, Max Distance: None#####################################################
+
