@@ -1,0 +1,39 @@
+Loaded 20 eval examples.
+2021-02-10 12:22:19.395014: W tensorflow/core/framework/allocator.cc:107] Allocation of 65421312 exceeds 10% of system memory.
+Evaluated 1/20 examples.
+Evaluated 11/20 examples.
+Predicted conll file: /tmp/tmpbi8_9swg
+Official result for muc
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (273 / 452) 60.39%	Precision: (273 / 320) 85.31%	F1: 70.72%
+--------------------------------------------------------------------------
+Coreference: Recall: (154 / 320) 48.12%	Precision: (154 / 231) 66.66%	F1: 55.89%
+--------------------------------------------------------------------------
+
+Official result for bcub
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (273 / 452) 60.39%	Precision: (273 / 320) 85.31%	F1: 70.72%
+--------------------------------------------------------------------------
+Coreference: Recall: (195.718547008547 / 452) 43.3%	Precision: (183.864094728801 / 320) 57.45%	F1: 49.38%
+--------------------------------------------------------------------------
+
+Official result for ceafe
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (273 / 452) 60.39%	Precision: (273 / 320) 85.31%	F1: 70.72%
+--------------------------------------------------------------------------
+Coreference: Recall: (54.0771690644572 / 132) 40.96%	Precision: (54.0771690644572 / 89) 60.76%	F1: 48.93%
+--------------------------------------------------------------------------
+
+Average F1 (conll): 51.40%
+Average F1 (py): 51.69%
+Average precision (py): 62.05%
+Average recall (py): 44.33%
+
+Process finished with exit code 0
+s

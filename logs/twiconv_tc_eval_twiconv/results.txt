@@ -1,0 +1,35 @@
+Evaluated 11/20 examples.
+Predicted conll file: /tmp/tmpo9g6j1ro
+Official result for muc
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (304 / 452) 67.25%	Precision: (304 / 352) 86.36%	F1: 75.62%
+--------------------------------------------------------------------------
+Coreference: Recall: (183 / 320) 57.18%	Precision: (183 / 251) 72.9%	F1: 64.09%
+--------------------------------------------------------------------------
+
+Official result for bcub
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (304 / 452) 67.25%	Precision: (304 / 352) 86.36%	F1: 75.62%
+--------------------------------------------------------------------------
+Coreference: Recall: (231.036446886447 / 452) 51.11%	Precision: (215.785624098124 / 352) 61.3%	F1: 55.74%
+--------------------------------------------------------------------------
+
+Official result for ceafe
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (304 / 452) 67.25%	Precision: (304 / 352) 86.36%	F1: 75.62%
+--------------------------------------------------------------------------
+Coreference: Recall: (66.4832788684295 / 132) 50.36%	Precision: (66.4832788684295 / 101) 65.82%	F1: 57.06%
+--------------------------------------------------------------------------
+
+Average F1 (conll): 58.96%
+Average F1 (py): 59.10%
+Average precision (py): 66.97%
+Average recall (py): 52.92%
+
+Process finished with exit code 0
