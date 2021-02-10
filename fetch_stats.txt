@@ -1,0 +1,120 @@
+TWICONV + ONTONOTES (NO WB):
+
+		TRAIN
+
+		Num tokens: 1213060
+		Num chains: 33749
+		Num mentions: 149821
+		Num documents: 2794
+		{'bc': {'num_tokens': 144590, 'num_clusters': 4236, 'num_mentions': 18610, 'num_documents': 283},
+		'bn': {'num_tokens': 180300, 'num_clusters': 6434, 'num_mentions': 22330, 'num_documents': 763},
+		'mz': {'num_tokens': 164223, 'num_clusters': 3534, 'num_mentions': 13477, 'num_documents': 409},
+		'nw': {'num_tokens': 387082, 'num_clusters': 9404, 'num_mentions': 34513, 'num_documents': 745},
+		'pt': {'num_tokens': 210809, 'num_clusters': 6611, 'num_mentions': 42137, 'num_documents': 319},
+		'tc': {'num_tokens': 81144, 'num_clusters': 1930, 'num_mentions': 12143, 'num_documents': 110},
+		'twiconv': {'num_tokens': 44912, 'num_clusters': 1600, 'num_mentions': 6611, 'num_documents': 165}}
+
+
+		DEV
+
+		Num tokens: 143585
+		Num chains: 4061
+		Num mentions: 17363
+		Num documents: 318
+		{'bc': {'num_tokens': 26550, 'num_clusters': 758, 'num_mentions': 3393, 'num_documents': 59}, '
+		bn': {'num_tokens': 22148, 'num_clusters': 819, 'num_mentions': 2830, 'num_documents': 91}, '
+		mz': {'num_tokens': 15422, 'num_clusters': 375, 'num_mentions': 1402, 'num_documents': 40},
+		'nw': {'num_tokens': 52618, 'num_clusters': 1353, 'num_mentions': 4987, 'num_documents': 88},
+		'pt': {'num_tokens': 15380, 'num_clusters': 496, 'num_mentions': 3082, 'num_documents': 24}, '
+		tc': {'num_tokens': 11467, 'num_clusters': 260, 'num_mentions': 1669, 'num_documents': 16}, '
+		twiconv': {'num_tokens': 0, 'num_clusters': 0, 'num_mentions': 0, 'num_documents': 0}}
+
+
+		TEST
+
+		Num tokens: 153894
+		Num chains: 4237
+		Num mentions: 18059
+		Num documents: 344
+		{'bc': {'num_tokens': 32488, 'num_clusters': 904, 'num_mentions': 3985, 'num_documents': 55},
+		'bn': {'num_tokens': 23209, 'num_clusters': 790, 'num_mentions': 2943, 'num_documents': 93}, '
+		mz': {'num_tokens': 17875, 'num_clusters': 384, 'num_mentions': 1347, 'num_documents': 45},
+		'nw': {'num_tokens': 49235, 'num_clusters': 1168, 'num_mentions': 4374, 'num_documents': 89},
+		'pt': {'num_tokens': 16851, 'num_clusters': 588, 'num_mentions': 3417, 'num_documents': 26},
+		'tc': {'num_tokens': 10976, 'num_clusters': 269, 'num_mentions': 1531, 'num_documents': 16},
+		'twiconv': {'num_tokens': 3260, 'num_clusters': 134, 'num_mentions': 462, 'num_documents': 20}}
+
+		ALL
+
+		Num tokens: 153894
+		Num chains: 4237
+		Num mentions: 18059
+		Num documents: 344
+		{'bc': {'num_tokens': 203628, 'num_clusters': 5898, 'num_mentions': 25988, 'num_documents': 397},
+		'bn': {'num_tokens': 225657, 'num_clusters': 8043, 'num_mentions': 28103, 'num_documents': 947},
+		'mz': {'num_tokens': 197520, 'num_clusters': 4293, 'num_mentions': 16226, 'num_documents': 494},
+		'nw': {'num_tokens': 488935, 'num_clusters': 11925, 'num_mentions': 43874, 'num_documents': 922},
+		'pt': {'num_tokens': 243040, 'num_clusters': 7695, 'num_mentions': 48636, 'num_documents': 369},
+		'tc': {'num_tokens': 103587, 'num_clusters': 2459, 'num_mentions': 15343, 'num_documents': 142},
+		'twiconv': {'num_tokens': 48172, 'num_clusters': 1734, 'num_mentions': 7073, 'num_documents': 185}}
+
+
+ONTONOTES:
+
+		TRAIN
+
+		Num tokens: 1299312
+		Num chains: 35142
+		Num mentions: 155558
+		Num documents: 2802
+		{'bc': {'num_tokens': 144590, 'num_clusters': 4236, 'num_mentions': 18610, 'num_documents': 283},
+		 'bn': {'num_tokens': 180300, 'num_clusters': 6434, 'num_mentions': 22330, 'num_documents': 763},
+		 'mz': {'num_tokens': 164223, 'num_clusters': 3534, 'num_mentions': 13477, 'num_documents': 409},
+		 'nw': {'num_tokens': 387082, 'num_clusters': 9404, 'num_mentions': 34513, 'num_documents': 745},
+		 'pt': {'num_tokens': 210809, 'num_clusters': 6611, 'num_mentions': 42137, 'num_documents': 319},
+		 'tc': {'num_tokens': 81144, 'num_clusters': 1930, 'num_mentions': 12143, 'num_documents': 110},
+		 'wb': {'num_tokens': 131164, 'num_clusters': 2993, 'num_mentions': 12348, 'num_documents': 173}}
+
+		DEV
+
+		Num tokens: 163104
+		Num chains: 4545
+		Num mentions: 19155
+		Num documents: 343
+		{'bc': {'num_tokens': 26550, 'num_clusters': 758, 'num_mentions': 3393, 'num_documents': 59},
+		'bn': {'num_tokens': 22148, 'num_clusters': 819, 'num_mentions': 2830, 'num_documents': 91},
+		'mz': {'num_tokens': 15422, 'num_clusters': 375, 'num_mentions': 1402, 'num_documents': 40},
+		'nw': {'num_tokens': 52618, 'num_clusters': 1353, 'num_mentions': 4987, 'num_documents': 88},
+		'pt': {'num_tokens': 15380, 'num_clusters': 496, 'num_mentions': 3082, 'num_documents': 24},
+		'tc': {'num_tokens': 11467, 'num_clusters': 260, 'num_mentions': 1669, 'num_documents': 16},
+		'wb': {'num_tokens': 19519, 'num_clusters': 484, 'num_mentions': 1792, 'num_documents': 25}}
+
+
+		TEST
+
+		Num tokens: 169579
+		Num chains: 4532
+		Num mentions: 19764
+		Num documents: 348
+		{'bc': {'num_tokens': 32488, 'num_clusters': 904, 'num_mentions': 3985, 'num_documents': 55},
+		'bn': {'num_tokens': 23209, 'num_clusters': 790, 'num_mentions': 2943, 'num_documents': 93}, '
+		mz': {'num_tokens': 17875, 'num_clusters': 384, 'num_mentions': 1347, 'num_documents': 45},
+		'nw': {'num_tokens': 49235, 'num_clusters': 1168, 'num_mentions': 4374, 'num_documents': 89},
+		'pt': {'num_tokens': 16851, 'num_clusters': 588, 'num_mentions': 3417, 'num_documents': 26}, '
+		tc': {'num_tokens': 10976, 'num_clusters': 269, 'num_mentions': 1531, 'num_documents': 16},
+		'wb': {'num_tokens': 18945, 'num_clusters': 429, 'num_mentions': 2167, 'num_documents': 24}}
+
+		ALL
+
+		Num tokens: 169579
+		Num chains: 4532
+		Num mentions: 19764
+		Num documents: 348
+		{'bc': {'num_tokens': 203628, 'num_clusters': 5898, 'num_mentions': 25988, 'num_documents': 397},
+		'bn': {'num_tokens': 225657, 'num_clusters': 8043, 'num_mentions': 28103, 'num_documents': 947},
+		mz': {'num_tokens': 197520, 'num_clusters': 4293, 'num_mentions': 16226, 'num_documents': 494},
+		'nw': {'num_tokens': 488935, 'num_clusters': 11925, 'num_mentions': 43874, 'num_documents': 922},
+		'pt': {'num_tokens': 243040, 'num_clusters': 7695, 'num_mentions': 48636, 'num_documents': 369},
+		'tc': {'num_tokens': 103587, 'num_clusters': 2459, 'num_mentions': 15343, 'num_documents': 142},
+		'wb': {'num_tokens': 169628, 'num_clusters': 3906, 'num_mentions': 16307, 'num_documents': 222}}
+
