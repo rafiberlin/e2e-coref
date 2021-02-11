@@ -1,38 +1,49 @@
+Restoring from logs/twiconv_eval/model.max.ckpt
+2021-02-11 14:33:02.539262: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2021-02-11 14:33:02.648639: W tensorflow/core/framework/allocator.cc:107] Allocation of 67108864 exceeds 10% of system memory.
+2021-02-11 14:33:02.653543: W tensorflow/core/framework/allocator.cc:107] Allocation of 67108864 exceeds 10% of system memory.
+2021-02-11 14:33:02.693685: W tensorflow/core/framework/allocator.cc:107] Allocation of 67108864 exceeds 10% of system memory.
+2021-02-11 14:33:02.717935: W tensorflow/core/framework/allocator.cc:107] Allocation of 67108864 exceeds 10% of system memory.
+W0211 14:33:02.749281 140210529253184 deprecation.py:323] From /home/rafi/.conda/envs/tfpython36/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+Loaded 20 eval examples.
+2021-02-11 14:33:03.947439: W tensorflow/core/framework/allocator.cc:107] Allocation of 65421312 exceeds 10% of system memory.
 Evaluated 1/20 examples.
 Evaluated 11/20 examples.
-Predicted conll file: /tmp/tmp9m27kd9k
+Predicted conll file: /tmp/tmp5_s54i87
 Official result for muc
-version: 8.01 /content/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (302 / 452) 66.81%	Precision: (302 / 337) 89.61%	F1: 76.55%
+Identification of Mentions: Recall: (303 / 452) 67.03%	Precision: (303 / 338) 89.64%	F1: 76.7%
 --------------------------------------------------------------------------
-Coreference: Recall: (180 / 320) 56.25%	Precision: (180 / 244) 73.77%	F1: 63.82%
+Coreference: Recall: (181 / 320) 56.56%	Precision: (181 / 245) 73.87%	F1: 64.07%
 --------------------------------------------------------------------------
 
 Official result for bcub
-version: 8.01 /content/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (302 / 452) 66.81%	Precision: (302 / 337) 89.61%	F1: 76.55%
+Identification of Mentions: Recall: (303 / 452) 67.03%	Precision: (303 / 338) 89.64%	F1: 76.7%
 --------------------------------------------------------------------------
-Coreference: Recall: (229.159462759463 / 452) 50.69%	Precision: (208.092857142857 / 337) 61.74%	F1: 55.68%
+Coreference: Recall: (229.937240537241 / 452) 50.87%	Precision: (209.092857142857 / 338) 61.86%	F1: 55.83%
 --------------------------------------------------------------------------
 
 Official result for ceafe
-version: 8.01 /content/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (302 / 452) 66.81%	Precision: (302 / 337) 89.61%	F1: 76.55%
+Identification of Mentions: Recall: (303 / 452) 67.03%	Precision: (303 / 338) 89.64%	F1: 76.7%
 --------------------------------------------------------------------------
-Coreference: Recall: (62.6462784931963 / 132) 47.45%	Precision: (62.6462784931963 / 93) 67.36%	F1: 55.68%
+Coreference: Recall: (62.7616631085809 / 132) 47.54%	Precision: (62.7616631085809 / 93) 67.48%	F1: 55.78%
 --------------------------------------------------------------------------
 
-Average F1 (conll): 58.39%
-Average F1 (py): 58.69%
-Average precision (py): 67.68%
-Average recall (py): 51.92%
-WARNING:tensorflow:From /content/e2e-coref/util.py:51: The name tf.Summary is deprecated. Please use tf.compat.v1.Summary instead.
+Average F1 (conll): 58.56%
+Average Recall (conll): 51.66%
+Average Precision (conll): 67.74%
+Average F1 (py): 58.85%
+Average precision (py): 67.79%
+Average recall (py): 52.10%
 
-WARNING:tensorflow:From /content/e2e-coref/util.py:51: The name tf.Summary is deprecated. Please use tf.compat.v1.Summary instead.
-
+Process finished with exit code 0
