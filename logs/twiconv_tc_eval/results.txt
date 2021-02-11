@@ -1,39 +1,51 @@
+Restoring from logs/twiconv_tc_eval/model.max.ckpt
+2021-02-11 14:51:29.556837: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+2021-02-11 14:51:29.661812: W tensorflow/core/framework/allocator.cc:107] Allocation of 67108864 exceeds 10% of system memory.
+2021-02-11 14:51:29.695111: W tensorflow/core/framework/allocator.cc:107] Allocation of 67108864 exceeds 10% of system memory.
+2021-02-11 14:51:29.706959: W tensorflow/core/framework/allocator.cc:107] Allocation of 67108864 exceeds 10% of system memory.
+2021-02-11 14:51:29.718780: W tensorflow/core/framework/allocator.cc:107] Allocation of 67108864 exceeds 10% of system memory.
+W0211 14:51:29.755968 139894149596992 deprecation.py:323] From /home/rafi/.conda/envs/tfpython36/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
 Loaded 36 eval examples.
+2021-02-11 14:51:31.237743: W tensorflow/core/framework/allocator.cc:107] Allocation of 437043200 exceeds 10% of system memory.
 Evaluated 1/36 examples.
 Evaluated 11/36 examples.
 Evaluated 21/36 examples.
 Evaluated 31/36 examples.
-Predicted conll file: /tmp/tmp6wq2fes9
+Predicted conll file: /tmp/tmpknz3iyd8
 Official result for muc
 version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (1509 / 1988) 75.9%	Precision: (1509 / 1708) 88.34%	F1: 81.65%
+Identification of Mentions: Recall: (1507 / 1988) 75.8%	Precision: (1507 / 1706) 88.33%	F1: 81.59%
 --------------------------------------------------------------------------
-Coreference: Recall: (1164 / 1585) 73.43%	Precision: (1164 / 1402) 83.02%	F1: 77.93%
+Coreference: Recall: (1163 / 1585) 73.37%	Precision: (1163 / 1402) 82.95%	F1: 77.87%
 --------------------------------------------------------------------------
 
 Official result for bcub
 version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (1509 / 1988) 75.9%	Precision: (1509 / 1708) 88.34%	F1: 81.65%
+Identification of Mentions: Recall: (1507 / 1988) 75.8%	Precision: (1507 / 1706) 88.33%	F1: 81.59%
 --------------------------------------------------------------------------
-Coreference: Recall: (1245.63068002945 / 1988) 62.65%	Precision: (1211.27428839427 / 1708) 70.91%	F1: 66.53%
+Coreference: Recall: (1243.63068002945 / 1988) 62.55%	Precision: (1207.94095506094 / 1706) 70.8%	F1: 66.42%
 --------------------------------------------------------------------------
 
 Official result for ceafe
 version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (1509 / 1988) 75.9%	Precision: (1509 / 1708) 88.34%	F1: 81.65%
+Identification of Mentions: Recall: (1507 / 1988) 75.8%	Precision: (1507 / 1706) 88.33%	F1: 81.59%
 --------------------------------------------------------------------------
-Coreference: Recall: (199.516585821453 / 403) 49.5%	Precision: (199.516585821453 / 306) 65.2%	F1: 56.28%
+Coreference: Recall: (198.116585821453 / 403) 49.16%	Precision: (198.116585821453 / 304) 65.16%	F1: 56.04%
 --------------------------------------------------------------------------
 
-Average F1 (conll): 66.91%
-Average F1 (py): 66.89%
-Average precision (py): 73.06%
-Average recall (py): 61.81%
+Average F1 (conll): 66.78%
+Average Recall (conll): 61.69%
+Average Precision (conll): 72.97%
+Average F1 (py): 66.75%
+Average precision (py): 72.98%
+Average recall (py): 61.64%
 
 Process finished with exit code 0

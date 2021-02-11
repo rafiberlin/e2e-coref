@@ -48,6 +48,7 @@ if __name__ == "__main__":
     output_dim = args.output_dim
     train_data = []
     test_data_flag = True if args.test_data is not None else False
+    val_data_flag = True if args.val_data is not None else False
 
     for fn in filenames:
         with h5py.File(fn, 'r') as f:
