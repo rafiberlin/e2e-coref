@@ -1,0 +1,41 @@
+Loaded 55 eval examples.
+Evaluated 1/55 examples.
+Evaluated 11/55 examples.
+Evaluated 21/55 examples.
+Evaluated 31/55 examples.
+Evaluated 41/55 examples.
+Evaluated 51/55 examples.
+Predicted conll file: /tmp/tmps7vgjbtm
+Official result for muc
+version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (3011 / 3975) 75.74%	Precision: (3011 / 3518) 85.58%	F1: 80.36%
+--------------------------------------------------------------------------
+Coreference: Recall: (2136 / 3072) 69.53%	Precision: (2136 / 2766) 77.22%	F1: 73.17%
+--------------------------------------------------------------------------
+
+Official result for bcub
+version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (3011 / 3975) 75.74%	Precision: (3011 / 3518) 85.58%	F1: 80.36%
+--------------------------------------------------------------------------
+Coreference: Recall: (2234.8777290263 / 3975) 56.22%	Precision: (2345.68748736132 / 3518) 66.67%	F1: 61%
+--------------------------------------------------------------------------
+
+Official result for ceafe
+version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (3011 / 3975) 75.74%	Precision: (3011 / 3518) 85.58%	F1: 80.36%
+--------------------------------------------------------------------------
+Coreference: Recall: (452.829135944667 / 903) 50.14%	Precision: (452.829135944667 / 752) 60.21%	F1: 54.72%
+--------------------------------------------------------------------------
+
+Average F1 (conll): 62.96%
+Average Recall (conll): 58.63%
+Average Precision (conll): 68.03%
+Average F1 (py): 63.00%
+Average precision (py): 68.08%
+Average recall (py): 58.66%
