@@ -12,7 +12,7 @@ from keras import optimizers
 from keras import backend as K
 from keras.callbacks import EarlyStopping, CSVLogger, Callback, ModelCheckpoint
 from sklearn.metrics import f1_score
-
+from sklearn.model_selection import train_test_split
 
 class ComputeTestF1(Callback):
     """Custom callback to calculate F1 score"""
@@ -73,10 +73,13 @@ if __name__ == "__main__":
                 train_child_span[i, :] = sampled_reps_pool[i, :]
         x_train = np.concatenate((train_parent_span, train_child_span), axis=1)
 
-    with h5py.File(args.val_data, 'r') as f:
-        val_data = f.get('span_representations').value
-        x_val = val_data[:, :-2]
-        y_val = val_data[:, -1].astype(int)
+    if val_data_flag:
+        with h5py.File(args.val_data, 'r') as f:
+            val_data = f.get('span_representations').value
+            x_val = val_data[:, :-2]
+            y_val = val_data[:, -1].astype(int)
+    else:
+        x_train, x_val, y_train, y_val = train_test_split(x_train, y_train, test_size = 0.1, random_state = 42, shuffle=True)
 
     if test_data_flag:
         with h5py.File(args.test_data, 'r') as f:
