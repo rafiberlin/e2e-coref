@@ -16,3 +16,7 @@ ontonotes-5.0
 #dependencies loaded by PyCharm
 venv
 no_wb*
+*.meta
+*.index
+*.data-*
+checkpoint
