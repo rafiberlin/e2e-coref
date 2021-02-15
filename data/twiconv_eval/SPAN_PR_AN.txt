@@ -1,21 +1,29 @@
 data/twiconv_eval/SPAN_PR_AN.jsonlines
 ##################################START: Min Distance: None, Max Distance: None#####################################################
 
+4 pred: 1 gold: 0
+A bunch of hysterical , super-rich celebrity hypocrites with fake crocodile tears in their eyes    ==    it
+... 's got , Trump 's second term is assured . A bunch of hysterical , super-rich celebrity hypocrites with fake crocodile tears in their eyes does n't make it a good ( 4 ) 
+
+44 pred: 0 gold: 1
+I    ==    Mark
+... make it a good speech . Sorry . %emoji @PrisonPlanet I find it ... @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow ( 44 ) 
+
+113 pred: 1 gold: 0
+Trump    ==    them
+... has to do is post his questions on Twitter and Trump will answer ... republicans count on that every election & we keep obliging them @Para_Mystery @Makemyday59 ( 113 ) 
+
 22 pred: 1 gold: 0
 Mueller    ==    them
 ... EXCLUSIVE : Initial talks underway about Trump interview in Mueller Russia probe ... is post his questions on Twitter and Trump will answer them there live ( 22 ) 
 
+13 pred: 1 gold: 0
+his    ==    @Oprah
+... to the NYT . He seems to like to run his mouth with certain reporters there . @Makemyday59 @MSNBC @Para_Mystery So long as @Oprah does n't ( 13 ) 
+
 6 pred: 1 gold: 0
 us    ==    republicans
 ... let another Jill Stein Bernie Sanders or Ralph Nader divide us or split our vote ... republicans count on ( 6 ) 
-
-13 pred: 0 gold: 1
-the NYT    ==    there
-... ... and unguarded . @NVGhost005 @MSNBC Or Give them to the NYT . He seems to like to run his mouth with certain reporters there . @Makemyday59 ( 13 ) 
-
-25 pred: 0 gold: 1
-We    ==    we
-... that . Also , a lesson from 2000 & 2016 We CANT let ... our vote ... republicans count on that every election & we keep obliging ( 25 ) 
 
 3 pred: 0 gold: 1
 BTS    ==    @BTS_twt
@@ -41,13 +49,13 @@ the link    ==    the link your are giving
 vkook    ==    them
 ... @BTS_twt Excuse fam . . just curious about the gif vkook kissing in ... @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt thank god that 's not them ( 45 ) 
 
-59 pred: 1 gold: 0
-the assistants    ==    he
-... 10 + years of insanity . https://t.co/z1CKy8qCdA @KurtLeavins Maybe fire the assistants and get ... @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 59 ) 
-
 14 pred: 0 gold: 1
 I    ==    he
 ... said the Assistants go Todd would say if they go I go . @oilerdiehard @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 14 ) 
+
+13 pred: 0 gold: 1
+season    ==    season
+... change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end ( 13 ) 
 
 44 pred: 0 gold: 1
 I    ==    him
@@ -61,17 +69,17 @@ idols    ==    players with a lot of history
 man    ==    you
 ... inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why you angryyy @zreik_ ( 2 ) 
 
-22 pred: 1 gold: 0
-Hope    ==    India
-... Hope is a ... India that boost but first inns score of SA , India gave the ( 22 ) 
-
 12 pred: 1 gold: 0
 this    ==    part of game
 ... @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is cricket and this is sports . Win and lose is part of game . Grow ( 12 ) 
 
-15 pred: 0 gold: 1
-rohit sharma    ==    he
-... better than overrated Mohd . Aamir !! @KshitijDisIz @ZAbbasOfficial Ask rohit sharma %emoji @nasir_22 ... tell him to get Karunaratne out . @KshitijDisIz @ZAbbasOfficial If he can damage ( 15 ) 
+2 pred: 0 gold: 1
+Hope    ==    a dangerous thing
+... Hope is a dangerous thing . That ( 2 ) 
+
+2 pred: 0 gold: 1
+this    ==    cricket
+... @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is cricket and this ( 2 ) 
 
 99 pred: 1 gold: 0
 the lawyers for Keith Tharpe    ==    its
@@ -81,18 +89,6 @@ the lawyers for Keith Tharpe    ==    its
 whom    ==    Tharpe
 ... Court just ruled on behalf of a black death-row inmate whom a white ... in moral courage . '' Here 's the opinion in Tharpe v . ( 108 ) 
 
-33 pred: 0 gold: 1
-a white juror    ==    the juror
-... just ruled on behalf of a black death-row inmate whom a white juror later called ... for Keith Tharpe , the death row inmate , put the juror 's comment ( 33 ) 
-
-18 pred: 0 gold: 1
-Justice Clarence Thomas    ==    His
-... right on the cover of their #SCOTUS petition . https://t.co/35fHpUbvXG Justice Clarence Thomas , a ... the dissenters and would 've denied the inmate relief . His focus is ( 18 ) 
-
-11 pred: 0 gold: 1
-Tharpe v . Sellers    ==    it
-... in moral courage . '' Here 's the opinion in Tharpe v . Sellers . -LRB- For some weird reason , #SCOTUS also included it at the ( 11 ) 
-
 91 pred: 1 gold: 0
 I    ==    I
 ... of drugs will change that . -LRB- That said , I 'm still ... 're married to an abusive spouse . @AmberBobamber @ParkerMolloy @johannhari101 I wish that ( 91 ) 
@@ -100,10 +96,6 @@ I    ==    I
 64 pred: 1 gold: 0
 myself    ==    your
 ... and anxiety for more than a decade , I found myself nodding along ... my life . @jmwallach @ParkerMolloy @johannhari101 Oh , keep taking your SSRIs . ( 64 ) 
-
-14 pred: 0 gold: 1
-an abusive spouse    ==    an abusive spouse
-... @johannhari101 If , for example , you 're married to an abusive spouse , being on antidepressants does n't change the fact you 're married to an abusive spouse . @AmberBobamber ( 14 ) 
 
 54 pred: 1 gold: 0
 a political meeting of minds    ==    reality
@@ -117,13 +109,17 @@ democracy    ==    the country
 my    ==    your
 ... , an American Nobel laureate , reportedly said : When my information changes ... Reality as defined by Remainers . And Democracy subject to your point of ( 39 ) 
 
-72 pred: 1 gold: 0
-my    ==    you
-... , an American Nobel laureate , reportedly said : When my information changes ... @Andrew_Adonis @LibDems I think you should have it explained to you in more ( 72 ) 
+217 pred: 1 gold: 0
+Fighting to remain    ==    They
+... my information changes , I alter my conclusions . '' Fighting to remain is the ... does n't leave . @Disputatio_ @PaulGuerin20 @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems They almost certainly ( 217 ) 
 
 59 pred: 1 gold: 0
 the realisation of reality and respect for democracy    ==    the country
 ... I alter my conclusions . '' Fighting to remain is the realisation of reality and respect for democracy . @Disputatio_ ... explained to you in more basic terms . With Brexit the country is heading ( 59 ) 
+
+135 pred: 1 gold: 0
+the Referendum    ==    them
+... wo n't . @PaulGuerin20 @BrexitDemocracy @Disputatio_ @vincecable @Andrew_Adonis @LibDems After the Referendum , UK ... steel & aluminium investments -RRB- . There was time for them to be ( 135 ) 
 
 140 pred: 1 gold: 0
 Tata    ==    them
@@ -141,29 +137,17 @@ Tata    ==    Honda
 reality    ==    Armageddon
 ... conclusions . '' Fighting to remain is the realisation of reality and respect ... closed at record level 29/12/17 & so did FTSE250 . Armageddon is currently ( 144 ) 
 
-42 pred: 0 gold: 1
-@Andrew_Adonis    ==    Adonis
-... . @Andrew_Adonis one of ... https://t.co/WDo20rbtui @vincecable @Andrew_Adonis @LibDems Not surprised Vince wants to recruit Adonis to thwart ( 42 ) 
-
 116 pred: 0 gold: 1
 a political meeting of minds    ==    Brexit
 ... surprised Vince wants to recruit Adonis to thwart Brexit - a political meeting of minds - neither ... it explained to you in more basic terms . With Brexit the country ( 116 ) 
 
-196 pred: 0 gold: 1
-We    ==    We
-... them believe in democracy ! #Brexit @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems We voted based ... currently on hold . @RuariJM @PaulGuerin20 @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems We 're still ( 196 ) 
-
-2 pred: 0 gold: 1
-Fighting to remain    ==    the realisation of reality and respect for democracy
-... my information changes , I alter my conclusions . '' Fighting to remain is the realisation of reality and respect for democracy . @Disputatio_ ( 2 ) 
+44 pred: 0 gold: 1
+Strategic investments    ==    Strategic investments
+... . Manufacturers report fullest order books for 30 years . Strategic investments from Boeing ... @vincecable @Andrew_Adonis @LibDems We 're still @in the EU . Strategic investments from Boeing ( 44 ) 
 
 45 pred: 0 gold: 1
-Hitachi    ==    Hitachi
-... books for 30 years . Strategic investments from Boeing , Hitachi , Tata ... still @in the EU . Strategic investments from Boeing , Hitachi , Tata ( 45 ) 
-
-45 pred: 0 gold: 1
-Tata    ==    Tata
-... 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty ... the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty ( 45 ) 
+Boeing    ==    Boeing
+... fullest order books for 30 years . Strategic investments from Boeing , Hitachi ... We 're still @in the EU . Strategic investments from Boeing , Hitachi ( 45 ) 
 
 45 pred: 0 gold: 1
 Honda    ==    Honda
@@ -173,6 +157,10 @@ Honda    ==    Honda
 Boeing , Hitachi , Tata , Liberty , Honda & Toyota    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
 ... fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ... We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning ( 35 ) 
 
+186 pred: 1 gold: 0
+the whole situation    ==    the one acting like the idiot
+... what someone else is doing ? You do n't know the whole situation , you ... you need to sit down and shutup , you 're the one acting like the idiot . @HannaPam ( 186 ) 
+
 77 pred: 1 gold: 0
 people like you    ==    the one acting like the idiot
 ... yourself , sit down and shut up ! It 's people like you that place ... you need to sit down and shutup , you 're the one acting like the idiot . @HannaPam ( 77 ) 
@@ -181,17 +169,17 @@ people like you    ==    the one acting like the idiot
 His    ==    some idiot who has no clue
 ... Luke Bryan Gifted His Wife 2 ... to u but all you 're doing now is worshipping some idiot who has no clue . Typical ( 309 ) 
 
-2 pred: 0 gold: 1
-here    ==    #Australia
-... @OneGreenPlanet #Kangaroo are not Pets they are Wildlife who belong here in #Australia in the ( 2 ) 
+78 pred: 0 gold: 1
+the whole situation    ==    the whole situation
+... what someone else is doing ? You do n't know the whole situation , you ... @VickiAbby @OneGreenPlanet Like I said , you do n't know the whole situation to make ( 78 ) 
 
 110 pred: 0 gold: 1
 your    ==    moron
 ... doing . @HannaPam @RoGodwinw67 @VickiAbby @OneGreenPlanet I refer back to your original comment ... @ohsixoneoh @VickiAbby @OneGreenPlanet Oh fuck up & fuck off you moron ( 110 ) 
 
-28 pred: 0 gold: 1
-people like you    ==    you
-... yourself , sit down and shut up ! It 's people like you that place ... think it 's cute . idiots , the lot of you ! @ohsixoneoh ( 28 ) 
+6 pred: 0 gold: 1
+what    ==    Kicking and tearing
+... like to be attacked by a mature male kangaroo doing what it 's built for ? Kicking and tearing ? Anyone ( 6 ) 
 
 3 pred: 0 gold: 1
 all you seem to care about    ==    some privileged wanker being roasted
@@ -205,13 +193,21 @@ Trump    ==    Obama
 he    ==    Obama
 ... @washingtonpost deleted his unnamed quotes from someone around Trump saying he exhibiting signs ... it was well known in the first years of the Obama presidency insiders ( 46 ) 
 
-16 pred: 1 gold: 0
-Trump    ==    Liz
-... was no media coverage on this like there is with Trump . @Elizabe28813295 ... There is a huge difference and you know it '' Liz ! '' ( 16 ) 
+7 pred: 0 gold: 1
+@JoeNBC    ==    his
+... @JoeNBC just said twice the @washingtonpost deleted his unnamed quotes ( 7 ) 
 
 33 pred: 0 gold: 1
 Liz    ==    I
 ... There is a huge difference and you know it '' Liz ! '' ... war . Such a waste of time and energy . I respect your ( 33 ) 
+
+19 pred: 0 gold: 1
+you    ==    me
+... time and energy . I respect your opinion , but you should also ... @washingtonpost Do n't worry , '' Liz . '' Let me guess , ( 19 ) 
+
+49 pred: 1 gold: 0
+my sister    ==    I
+... Eh my sister 's finally ... a virgin , thank you very much . Secondly , I do n't ( 49 ) 
 
 79 pred: 0 gold: 1
 I    ==    Caleb Thulambo
@@ -229,25 +225,13 @@ you    ==    Zizwa
 He    ==    Her
 ... He was a nonce ! Her gob goes ( 5 ) 
 
-2 pred: 0 gold: 1
-she    ==    the love of my life
-... @roumanticpoetry RIGHT ?? She was the best !! @sothepennydrops @roumanticpoetry she 's the love of my life @lilyaIexandra @roumanticpoetry ( 2 ) 
-
 20 pred: 0 gold: 1
 Barca    ==    them
 ... to play with Lovren or Henderson anymore ... https://t.co/zbZWVlvxke @TeamFA Barca got the ... it time ... @bselcoe @charliegillno1 Would n't put it past them just yet ( 20 ) 
 
-59 pred: 0 gold: 1
-our    ==    we
-... successful before that gets to that point once any of our players sees ... @TeamFA Have n't had Klopp for 25 years thou have we %emoji @charliegillno1 ( 59 ) 
-
-5 pred: 0 gold: 1
-a league win    ==    a league win
-... our players sees the scenes the reds can produce for a league win or CL win esp a league win they will ( 5 ) 
-
-10 pred: 0 gold: 1
-Phins    ==    they
-... . Wish we had more clarity on all that @LakeEffectBro Phins have a beat writer that is clearly the guy they use to ( 10 ) 
+57 pred: 1 gold: 0
+I    ==    I
+... all fabrication . but who cares at this point @LakeEffectBro I used to ... and it 's so nice as a fan @SportsNom yeah I really liked ( 57 ) 
 
 17 pred: 1 gold: 0
 Oprah    ==    his
@@ -261,13 +245,17 @@ Oprah    ==    his #pimp
 #HarveyWeinstein    ==    his
 ... for President in 2020 After Golden Globes Speech https://t.co/SiCRWSdDGx @enews #HarveyWeinstein #OprahWinfrey was basically his #pimp up ( 4 ) 
 
-32 pred: 1 gold: 0
-Trump    ==    the Trump presidency
-... for unflattering comments attributed to him in the recently released Trump White House ... to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks @FoxNews ( 32 ) 
+8 pred: 0 gold: 1
+the president    ==    Trump
+... '' his delayed response and that he continues to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks ( 8 ) 
 
-3 pred: 0 gold: 1
-the Trump presidency    ==    It
-... to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks @FoxNews It 's certainly ( 3 ) 
+68 pred: 0 gold: 1
+I    ==    You
+... he continues to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the ... noticed your PGP key expired . @thegrugq_ebooks Uh oh ! You wan na ( 68 ) 
+
+8 pred: 1 gold: 0
+British    ==    real English
+... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight @MaxBorken @KMansParts @JeremyClarkson No , real English . You ( 8 ) 
 
 28 pred: 1 gold: 0
 us    ==    all
@@ -281,27 +269,35 @@ his    ==    Wanker
 British English    ==    British
 ... my three mile commute takes an hour . Wanker @JeremyClarkson British English cracks me ... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight ( 17 ) 
 
-true_pos, true_neg, false_pos, false_neg, (88, 108, 25, 45)
-F1 score of 0.7154471544715447
+5 pred: 0 gold: 1
+me    ==    You
+... commute takes an hour . Wanker @JeremyClarkson British English cracks me up . @KMansParts @JeremyClarkson You mean proper ( 5 ) 
+
+true_pos, true_neg, false_pos, false_neg, (94, 104, 29, 39)
+F1 score of 0.734375
 ##################################END: Min Distance: None, Max Distance: None#####################################################
 
 ##################################START: Min Distance: 0, Max Distance: 50#####################################################
+
+4 pred: 1 gold: 0
+A bunch of hysterical , super-rich celebrity hypocrites with fake crocodile tears in their eyes    ==    it
+... 's got , Trump 's second term is assured . A bunch of hysterical , super-rich celebrity hypocrites with fake crocodile tears in their eyes does n't make it a good ( 4 ) 
+
+44 pred: 0 gold: 1
+I    ==    Mark
+... make it a good speech . Sorry . %emoji @PrisonPlanet I find it ... @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow ( 44 ) 
 
 22 pred: 1 gold: 0
 Mueller    ==    them
 ... EXCLUSIVE : Initial talks underway about Trump interview in Mueller Russia probe ... is post his questions on Twitter and Trump will answer them there live ( 22 ) 
 
+13 pred: 1 gold: 0
+his    ==    @Oprah
+... to the NYT . He seems to like to run his mouth with certain reporters there . @Makemyday59 @MSNBC @Para_Mystery So long as @Oprah does n't ( 13 ) 
+
 6 pred: 1 gold: 0
 us    ==    republicans
 ... let another Jill Stein Bernie Sanders or Ralph Nader divide us or split our vote ... republicans count on ( 6 ) 
-
-13 pred: 0 gold: 1
-the NYT    ==    there
-... ... and unguarded . @NVGhost005 @MSNBC Or Give them to the NYT . He seems to like to run his mouth with certain reporters there . @Makemyday59 ( 13 ) 
-
-25 pred: 0 gold: 1
-We    ==    we
-... that . Also , a lesson from 2000 & 2016 We CANT let ... our vote ... republicans count on that every election & we keep obliging ( 25 ) 
 
 3 pred: 0 gold: 1
 BTS    ==    @BTS_twt
@@ -327,6 +323,10 @@ vkook    ==    them
 I    ==    he
 ... said the Assistants go Todd would say if they go I go . @oilerdiehard @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 14 ) 
 
+13 pred: 0 gold: 1
+season    ==    season
+... change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end ( 13 ) 
+
 44 pred: 0 gold: 1
 I    ==    him
 ... Coutinho : '' It is incredible to know that I am going ... soccer @hashbrown711 @ChampionsLeague @zreik_ @FCBarcelona @Phil_Coutinho Ew do n't give him too much ( 44 ) 
@@ -339,33 +339,17 @@ idols    ==    players with a lot of history
 man    ==    you
 ... inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why you angryyy @zreik_ ( 2 ) 
 
-22 pred: 1 gold: 0
-Hope    ==    India
-... Hope is a ... India that boost but first inns score of SA , India gave the ( 22 ) 
-
 12 pred: 1 gold: 0
 this    ==    part of game
 ... @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is cricket and this is sports . Win and lose is part of game . Grow ( 12 ) 
 
-15 pred: 0 gold: 1
-rohit sharma    ==    he
-... better than overrated Mohd . Aamir !! @KshitijDisIz @ZAbbasOfficial Ask rohit sharma %emoji @nasir_22 ... tell him to get Karunaratne out . @KshitijDisIz @ZAbbasOfficial If he can damage ( 15 ) 
+2 pred: 0 gold: 1
+Hope    ==    a dangerous thing
+... Hope is a dangerous thing . That ( 2 ) 
 
-33 pred: 0 gold: 1
-a white juror    ==    the juror
-... just ruled on behalf of a black death-row inmate whom a white juror later called ... for Keith Tharpe , the death row inmate , put the juror 's comment ( 33 ) 
-
-18 pred: 0 gold: 1
-Justice Clarence Thomas    ==    His
-... right on the cover of their #SCOTUS petition . https://t.co/35fHpUbvXG Justice Clarence Thomas , a ... the dissenters and would 've denied the inmate relief . His focus is ( 18 ) 
-
-11 pred: 0 gold: 1
-Tharpe v . Sellers    ==    it
-... in moral courage . '' Here 's the opinion in Tharpe v . Sellers . -LRB- For some weird reason , #SCOTUS also included it at the ( 11 ) 
-
-14 pred: 0 gold: 1
-an abusive spouse    ==    an abusive spouse
-... @johannhari101 If , for example , you 're married to an abusive spouse , being on antidepressants does n't change the fact you 're married to an abusive spouse . @AmberBobamber ( 14 ) 
+2 pred: 0 gold: 1
+this    ==    cricket
+... @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is cricket and this ( 2 ) 
 
 39 pred: 1 gold: 0
 my    ==    your
@@ -375,21 +359,13 @@ my    ==    your
 Tata    ==    Honda
 ... 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota ( 4 ) 
 
-42 pred: 0 gold: 1
-@Andrew_Adonis    ==    Adonis
-... . @Andrew_Adonis one of ... https://t.co/WDo20rbtui @vincecable @Andrew_Adonis @LibDems Not surprised Vince wants to recruit Adonis to thwart ( 42 ) 
-
-2 pred: 0 gold: 1
-Fighting to remain    ==    the realisation of reality and respect for democracy
-... my information changes , I alter my conclusions . '' Fighting to remain is the realisation of reality and respect for democracy . @Disputatio_ ( 2 ) 
+44 pred: 0 gold: 1
+Strategic investments    ==    Strategic investments
+... . Manufacturers report fullest order books for 30 years . Strategic investments from Boeing ... @vincecable @Andrew_Adonis @LibDems We 're still @in the EU . Strategic investments from Boeing ( 44 ) 
 
 45 pred: 0 gold: 1
-Hitachi    ==    Hitachi
-... books for 30 years . Strategic investments from Boeing , Hitachi , Tata ... still @in the EU . Strategic investments from Boeing , Hitachi , Tata ( 45 ) 
-
-45 pred: 0 gold: 1
-Tata    ==    Tata
-... 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty ... the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty ( 45 ) 
+Boeing    ==    Boeing
+... fullest order books for 30 years . Strategic investments from Boeing , Hitachi ... We 're still @in the EU . Strategic investments from Boeing , Hitachi ( 45 ) 
 
 45 pred: 0 gold: 1
 Honda    ==    Honda
@@ -399,13 +375,9 @@ Honda    ==    Honda
 Boeing , Hitachi , Tata , Liberty , Honda & Toyota    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
 ... fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ... We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning ( 35 ) 
 
-2 pred: 0 gold: 1
-here    ==    #Australia
-... @OneGreenPlanet #Kangaroo are not Pets they are Wildlife who belong here in #Australia in the ( 2 ) 
-
-28 pred: 0 gold: 1
-people like you    ==    you
-... yourself , sit down and shut up ! It 's people like you that place ... think it 's cute . idiots , the lot of you ! @ohsixoneoh ( 28 ) 
+6 pred: 0 gold: 1
+what    ==    Kicking and tearing
+... like to be attacked by a mature male kangaroo doing what it 's built for ? Kicking and tearing ? Anyone ( 6 ) 
 
 3 pred: 0 gold: 1
 all you seem to care about    ==    some privileged wanker being roasted
@@ -419,13 +391,21 @@ Trump    ==    Obama
 he    ==    Obama
 ... @washingtonpost deleted his unnamed quotes from someone around Trump saying he exhibiting signs ... it was well known in the first years of the Obama presidency insiders ( 46 ) 
 
-16 pred: 1 gold: 0
-Trump    ==    Liz
-... was no media coverage on this like there is with Trump . @Elizabe28813295 ... There is a huge difference and you know it '' Liz ! '' ( 16 ) 
+7 pred: 0 gold: 1
+@JoeNBC    ==    his
+... @JoeNBC just said twice the @washingtonpost deleted his unnamed quotes ( 7 ) 
 
 33 pred: 0 gold: 1
 Liz    ==    I
 ... There is a huge difference and you know it '' Liz ! '' ... war . Such a waste of time and energy . I respect your ( 33 ) 
+
+19 pred: 0 gold: 1
+you    ==    me
+... time and energy . I respect your opinion , but you should also ... @washingtonpost Do n't worry , '' Liz . '' Let me guess , ( 19 ) 
+
+49 pred: 1 gold: 0
+my sister    ==    I
+... Eh my sister 's finally ... a virgin , thank you very much . Secondly , I do n't ( 49 ) 
 
 26 pred: 0 gold: 1
 her    ==    charisma
@@ -435,21 +415,9 @@ her    ==    charisma
 He    ==    Her
 ... He was a nonce ! Her gob goes ( 5 ) 
 
-2 pred: 0 gold: 1
-she    ==    the love of my life
-... @roumanticpoetry RIGHT ?? She was the best !! @sothepennydrops @roumanticpoetry she 's the love of my life @lilyaIexandra @roumanticpoetry ( 2 ) 
-
 20 pred: 0 gold: 1
 Barca    ==    them
 ... to play with Lovren or Henderson anymore ... https://t.co/zbZWVlvxke @TeamFA Barca got the ... it time ... @bselcoe @charliegillno1 Would n't put it past them just yet ( 20 ) 
-
-5 pred: 0 gold: 1
-a league win    ==    a league win
-... our players sees the scenes the reds can produce for a league win or CL win esp a league win they will ( 5 ) 
-
-10 pred: 0 gold: 1
-Phins    ==    they
-... . Wish we had more clarity on all that @LakeEffectBro Phins have a beat writer that is clearly the guy they use to ( 10 ) 
 
 17 pred: 1 gold: 0
 Oprah    ==    his
@@ -463,13 +431,13 @@ Oprah    ==    his #pimp
 #HarveyWeinstein    ==    his
 ... for President in 2020 After Golden Globes Speech https://t.co/SiCRWSdDGx @enews #HarveyWeinstein #OprahWinfrey was basically his #pimp up ( 4 ) 
 
-32 pred: 1 gold: 0
-Trump    ==    the Trump presidency
-... for unflattering comments attributed to him in the recently released Trump White House ... to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks @FoxNews ( 32 ) 
+8 pred: 0 gold: 1
+the president    ==    Trump
+... '' his delayed response and that he continues to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks ( 8 ) 
 
-3 pred: 0 gold: 1
-the Trump presidency    ==    It
-... to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks @FoxNews It 's certainly ( 3 ) 
+8 pred: 1 gold: 0
+British    ==    real English
+... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight @MaxBorken @KMansParts @JeremyClarkson No , real English . You ( 8 ) 
 
 28 pred: 1 gold: 0
 us    ==    all
@@ -483,8 +451,12 @@ his    ==    Wanker
 British English    ==    British
 ... my three mile commute takes an hour . Wanker @JeremyClarkson British English cracks me ... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight ( 17 ) 
 
-true_pos, true_neg, false_pos, false_neg, (77, 47, 13, 36)
-F1 score of 0.7586206896551724
+5 pred: 0 gold: 1
+me    ==    You
+... commute takes an hour . Wanker @JeremyClarkson British English cracks me up . @KMansParts @JeremyClarkson You mean proper ( 5 ) 
+
+true_pos, true_neg, false_pos, false_neg, (83, 46, 14, 30)
+F1 score of 0.7904761904761904
 ##################################END: Min Distance: 0, Max Distance: 50#####################################################
 
 ##################################START: Min Distance: 51, Max Distance: 100#####################################################
@@ -493,10 +465,6 @@ F1 score of 0.7586206896551724
 The gif    ==    This
 ... me !? I love it ! @taani98 @laurenxjessica @BTSRequest @BTS_twt The gif ? It ... @laurenxjessica @BTSRequest @BTS_twt ????? What are you talking about ? This is the ( 60 ) 
 
-59 pred: 1 gold: 0
-the assistants    ==    he
-... 10 + years of insanity . https://t.co/z1CKy8qCdA @KurtLeavins Maybe fire the assistants and get ... @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 59 ) 
-
 99 pred: 1 gold: 0
 the lawyers for Keith Tharpe    ==    its
 ... chair . Not sure how common this is , but the lawyers for Keith Tharpe , the ... reason , #SCOTUS also included it at the end of its orders list ( 99 ) 
@@ -517,10 +485,6 @@ a political meeting of minds    ==    reality
 democracy    ==    the country
 ... to remain is the realisation of reality and respect for democracy . @Disputatio_ ... explained to you in more basic terms . With Brexit the country is heading ( 59 ) 
 
-72 pred: 1 gold: 0
-my    ==    you
-... , an American Nobel laureate , reportedly said : When my information changes ... @Andrew_Adonis @LibDems I think you should have it explained to you in more ( 72 ) 
-
 59 pred: 1 gold: 0
 the realisation of reality and respect for democracy    ==    the country
 ... I alter my conclusions . '' Fighting to remain is the realisation of reality and respect for democracy . @Disputatio_ ... explained to you in more basic terms . With Brexit the country is heading ( 59 ) 
@@ -528,6 +492,10 @@ the realisation of reality and respect for democracy    ==    the country
 77 pred: 1 gold: 0
 people like you    ==    the one acting like the idiot
 ... yourself , sit down and shut up ! It 's people like you that place ... you need to sit down and shutup , you 're the one acting like the idiot . @HannaPam ( 77 ) 
+
+78 pred: 0 gold: 1
+the whole situation    ==    the whole situation
+... what someone else is doing ? You do n't know the whole situation , you ... @VickiAbby @OneGreenPlanet Like I said , you do n't know the whole situation to make ( 78 ) 
 
 79 pred: 0 gold: 1
 I    ==    Caleb Thulambo
@@ -537,19 +505,35 @@ I    ==    Caleb Thulambo
 you    ==    Zizwa
 ... First of all , I 'm a virgin , thank you very much ... 's lil brother here @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did Zizwa threaten you ( 89 ) 
 
-59 pred: 0 gold: 1
-our    ==    we
-... successful before that gets to that point once any of our players sees ... @TeamFA Have n't had Klopp for 25 years thou have we %emoji @charliegillno1 ( 59 ) 
+57 pred: 1 gold: 0
+I    ==    I
+... all fabrication . but who cares at this point @LakeEffectBro I used to ... and it 's so nice as a fan @SportsNom yeah I really liked ( 57 ) 
 
-true_pos, true_neg, false_pos, false_neg, (9, 28, 9, 4)
-F1 score of 0.5806451612903226
+68 pred: 0 gold: 1
+I    ==    You
+... he continues to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the ... noticed your PGP key expired . @thegrugq_ebooks Uh oh ! You wan na ( 68 ) 
+
+true_pos, true_neg, false_pos, false_neg, (8, 29, 8, 5)
+F1 score of 0.5517241379310345
 ##################################END: Min Distance: 51, Max Distance: 100#####################################################
 
 ##################################START: Min Distance: 101, Max Distance: None#####################################################
 
+113 pred: 1 gold: 0
+Trump    ==    them
+... has to do is post his questions on Twitter and Trump will answer ... republicans count on that every election & we keep obliging them @Para_Mystery @Makemyday59 ( 113 ) 
+
 108 pred: 0 gold: 1
 whom    ==    Tharpe
 ... Court just ruled on behalf of a black death-row inmate whom a white ... in moral courage . '' Here 's the opinion in Tharpe v . ( 108 ) 
+
+217 pred: 1 gold: 0
+Fighting to remain    ==    They
+... my information changes , I alter my conclusions . '' Fighting to remain is the ... does n't leave . @Disputatio_ @PaulGuerin20 @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems They almost certainly ( 217 ) 
+
+135 pred: 1 gold: 0
+the Referendum    ==    them
+... wo n't . @PaulGuerin20 @BrexitDemocracy @Disputatio_ @vincecable @Andrew_Adonis @LibDems After the Referendum , UK ... steel & aluminium investments -RRB- . There was time for them to be ( 135 ) 
 
 140 pred: 1 gold: 0
 Tata    ==    them
@@ -567,9 +551,9 @@ reality    ==    Armageddon
 a political meeting of minds    ==    Brexit
 ... surprised Vince wants to recruit Adonis to thwart Brexit - a political meeting of minds - neither ... it explained to you in more basic terms . With Brexit the country ( 116 ) 
 
-196 pred: 0 gold: 1
-We    ==    We
-... them believe in democracy ! #Brexit @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems We voted based ... currently on hold . @RuariJM @PaulGuerin20 @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems We 're still ( 196 ) 
+186 pred: 1 gold: 0
+the whole situation    ==    the one acting like the idiot
+... what someone else is doing ? You do n't know the whole situation , you ... you need to sit down and shutup , you 're the one acting like the idiot . @HannaPam ( 186 ) 
 
 309 pred: 0 gold: 1
 His    ==    some idiot who has no clue
@@ -579,7 +563,7 @@ His    ==    some idiot who has no clue
 your    ==    moron
 ... doing . @HannaPam @RoGodwinw67 @VickiAbby @OneGreenPlanet I refer back to your original comment ... @ohsixoneoh @VickiAbby @OneGreenPlanet Oh fuck up & fuck off you moron ( 110 ) 
 
-true_pos, true_neg, false_pos, false_neg, (2, 33, 3, 5)
-F1 score of 0.3333333333333333
+true_pos, true_neg, false_pos, false_neg, (3, 29, 7, 4)
+F1 score of 0.35294117647058826
 ##################################END: Min Distance: 101, Max Distance: None#####################################################
 

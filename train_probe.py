@@ -34,7 +34,7 @@ def get_args():
     parser.add_argument('--ablate_attention', action='store_true')
     parser.add_argument('--ablate_span_width', action='store_true')
     parser.add_argument('--random', action='store_true')
-    parser.add_argument('--output_dim', type=int, default=768)
+    parser.add_argument('--output_dim', type=int, default=450)
     args = parser.parse_args()
     return args
 
@@ -79,7 +79,7 @@ if __name__ == "__main__":
             x_val = val_data[:, :-2]
             y_val = val_data[:, -1].astype(int)
     else:
-        x_train, x_val, y_train, y_val = train_test_split(x_train, y_train, test_size = 0.1, random_state = 42, shuffle=True)
+        x_train, x_val, y_train, y_val = train_test_split(x_train, y_train, test_size=0.1, random_state=42, shuffle=True)
 
     if test_data_flag:
         with h5py.File(args.test_data, 'r') as f:
