@@ -1,0 +1,52 @@
+Restoring from logs/twiconv_bc_eval_spoken/model.max.ckpt
+WARNING:tensorflow:From /home/coref_model.py:95: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/coref_model.py:95: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2021-02-15 16:39:43.576482: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 67108864 exceeds 10% of system memory.
+2021-02-15 16:39:43.581740: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 67108864 exceeds 10% of system memory.
+2021-02-15 16:39:43.587393: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 67108864 exceeds 10% of system memory.
+2021-02-15 16:39:43.587393: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 67108864 exceeds 10% of system memory.
+Loaded 55 eval examples.
+2021-02-15 16:39:45.707318: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 41811968 exceeds 10% of system memory.
+Evaluated 1/55 examples.
+Evaluated 11/55 examples.
+Evaluated 21/55 examples.
+Evaluated 31/55 examples.
+Evaluated 41/55 examples.
+Evaluated 51/55 examples.
+Predicted conll file: /tmp/tmp31f0xn4s
+Official result for muc
+version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2978 / 3975) 74.91%        Precision: (2978 / 3493) 85.25% F1: 79.75%
+--------------------------------------------------------------------------
+Coreference: Recall: (2098 / 3072) 68.29%       Precision: (2098 / 2707) 77.5%  F1: 72.6%
+--------------------------------------------------------------------------
+
+Official result for bcub
+version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2978 / 3975) 74.91%        Precision: (2978 / 3493) 85.25% F1: 79.75%
+--------------------------------------------------------------------------
+Coreference: Recall: (2112.42027300899 / 3975) 53.14%   Precision: (2368.69073931163 / 3493) 67.81%     F1: 59.58%
+--------------------------------------------------------------------------
+
+Official result for ceafe
+version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2978 / 3975) 74.91%        Precision: (2978 / 3493) 85.25% F1: 79.75%
+--------------------------------------------------------------------------
+Coreference: Recall: (460.062263480716 / 903) 50.94%    Precision: (460.062263480716 / 786) 58.53%      F1: 54.47%
+--------------------------------------------------------------------------
+
+Average F1 (conll): 62.22%
+Average Recall (conll): 57.46%
+Average Precision (conll): 67.95%
+Average F1 (py): 62.26%
+Average precision (py): 67.98%
+Average recall (py): 57.49%
+
