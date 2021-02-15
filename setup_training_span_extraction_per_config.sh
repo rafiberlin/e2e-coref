@@ -5,6 +5,13 @@ config_name=$1
 #either empty or "no_wb."
 prefix=$2
 
+echo 'extract the embeddings for all splits'
+for split in train test dev
+do
+    python span_util.py $config_name $split
+    python extract_span.py $config_name NP.${prefix}${split}.english.jsonlines data/${config_name}/${split} SPAN
+    python extract_span_predict.py $config_name NP.${prefix}${split}.english.jsonlines data/${config_name}/${split}/SPAN_PR
+done
 
 
 echo 'Run the probe training with all ablations'
