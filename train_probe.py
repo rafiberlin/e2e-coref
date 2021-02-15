@@ -35,6 +35,7 @@ def get_args():
     parser.add_argument('--ablate_span_width', action='store_true')
     parser.add_argument('--random', action='store_true')
     parser.add_argument('--output_dim', type=int, default=450)
+    parser.add_argument('--batch_size', type=int, default=50)
     args = parser.parse_args()
     return args
 
@@ -49,7 +50,7 @@ if __name__ == "__main__":
     train_data = []
     test_data_flag = True if args.test_data is not None else False
     val_data_flag = True if args.val_data is not None else False
-
+    batch_size = args.batch_size
     for fn in filenames:
         with h5py.File(fn, 'r') as f:
             train_data.append(f.get('span_representations').value)
@@ -79,7 +80,7 @@ if __name__ == "__main__":
             x_val = val_data[:, :-2]
             y_val = val_data[:, -1].astype(int)
     else:
-        x_train, x_val, y_train, y_val = train_test_split(x_train, y_train, test_size=0.1, random_state=42, shuffle=True)
+        x_train, x_val, y_train, y_val = train_test_split(x_train, y_train, test_size=0.1, random_state=42)
 
     if test_data_flag:
         with h5py.File(args.test_data, 'r') as f:
@@ -150,7 +151,7 @@ if __name__ == "__main__":
 
     # Compile model
     model.compile(loss='binary_crossentropy', optimizer=opt, metrics=['accuracy'])
-    model.fit(x_train, y_train, epochs=50, batch_size=512, validation_data=(x_val, y_val), callbacks=callbacks)
+    model.fit(x_train, y_train, epochs=50, batch_size=batch_size, validation_data=(x_val, y_val), callbacks=callbacks)
 
     with open(log_name, 'a') as out_file:
         tsv_writer = csv.writer(out_file, delimiter='\t')
