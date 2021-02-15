@@ -1,0 +1,47 @@
+Evaluated 1/129 examples.
+Evaluated 11/129 examples.
+Evaluated 21/129 examples.
+Evaluated 31/129 examples.
+Evaluated 41/129 examples.
+Evaluated 51/129 examples.
+Evaluated 61/129 examples.
+Evaluated 71/129 examples.
+Evaluated 81/129 examples.
+Evaluated 91/129 examples.
+Evaluated 101/129 examples.
+Evaluated 111/129 examples.
+Evaluated 121/129 examples.
+Predicted conll file: /tmp/tmpzvbvi74y
+Official result for muc
+version: 8.01 /project/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (3933 / 4934) 79.71%        Precision: (3933 / 4459) 88.2%  F1: 83.74%
+--------------------------------------------------------------------------
+Coreference: Recall: (2795 / 3741) 74.71%       Precision: (2795 / 3396) 82.3%  F1: 78.32%
+--------------------------------------------------------------------------
+
+Official result for bcub
+version: 8.01 /project/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (3933 / 4934) 79.71%        Precision: (3933 / 4459) 88.2%  F1: 83.74%
+--------------------------------------------------------------------------
+Coreference: Recall: (3199.69318158277 / 4934) 64.84%   Precision: (3217.49897675605 / 4459) 72.15%     F1: 68.3%
+--------------------------------------------------------------------------
+
+Official result for ceafe
+version: 8.01 /project/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (3933 / 4934) 79.71%        Precision: (3933 / 4459) 88.2%  F1: 83.74%
+--------------------------------------------------------------------------
+Coreference: Recall: (736.71507922244 / 1193) 61.75%    Precision: (736.71507922244 / 1063) 69.3%       F1: 65.31%
+--------------------------------------------------------------------------
+
+Average F1 (conll): 70.64%
+Average Recall (conll): 67.10%
+Average Precision (conll): 74.58%
+Average F1 (py): 70.66%
+Average precision (py): 74.60%
+Average recall (py): 67.12%
