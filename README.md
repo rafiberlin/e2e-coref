@@ -77,12 +77,13 @@ with Python 2 to run the scripts building the CoNLL files in `setup_training.sh`
 ## Running probe experiments
 
 * Run `setup_training_span_extraction.sh` only once to create the files with positive and negative examples.
-* Execute `setup_training_span_extraction_per_config.sh <experiment_eval> <prefix>` to run a probe, where `<experiment_eval>`
+* Execute `setup_training_span_extraction_per_config.sh <experiment_eval> <prefix> <output_dim> <batch_size>` to run a probe, where `<experiment_eval>`
   is an evaluation configuration (lm_path = "" in experiments.conf) and `<prefix>` is the prefix of the dataset to use,
+  `<output_dim>` is the output dimension of the probe network `<batch_size>` the number of elemts to train on per iteration.
   The results will be stored under data/<experiment_eval>
   - Examples:
-    * bash setup_training_span_extraction_per_config.sh twiconv_wb_eval ''
-    * bash setup_training_span_extraction_per_config.sh twiconv_tc_eval 'no_wb.'
+    * bash setup_training_span_extraction_per_config.sh twiconv_wb_eval '' 450 256
+    * bash setup_training_span_extraction_per_config.sh twiconv_tc_eval 'no_wb.' 450 256
 
 TODO: We can define some distance bins in pred/pred_analyse.py to investigate the effect of longer distance between 2 mentions.
 ## Demo Instructions
