@@ -1,35 +1,45 @@
+
+Restoring from logs/twiconv_bn_eval_twiconv/model.max.ckpt
+WARNING:tensorflow:From /home/coref_model.py:95: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From /home/coref_model.py:95: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
 Loaded 20 eval examples.
+2021-02-15 14:08:29.304294: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-02-15 14:08:29.976659: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
 Evaluated 1/20 examples.
 Evaluated 11/20 examples.
-Predicted conll file: /tmp/tmp9gfu48nb
+Predicted conll file: /tmp/tmpz2iodh2y
 Official result for muc
 version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (309 / 452) 68.36%	Precision: (309 / 367) 84.19%	F1: 75.45%
+Identification of Mentions: Recall: (309 / 452) 68.36%  Precision: (309 / 369) 83.73%   F1: 75.27%
 --------------------------------------------------------------------------
-Coreference: Recall: (178 / 320) 55.62%	Precision: (178 / 262) 67.93%	F1: 61.16%
+Coreference: Recall: (178 / 320) 55.62% Precision: (178 / 263) 67.68%   F1: 61.06%
 --------------------------------------------------------------------------
 
 Official result for bcub
 version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (309 / 452) 68.36%	Precision: (309 / 367) 84.19%	F1: 75.45%
+Identification of Mentions: Recall: (309 / 452) 68.36%  Precision: (309 / 369) 83.73%   F1: 75.27%
 --------------------------------------------------------------------------
-Coreference: Recall: (229.912551892552 / 452) 50.86%	Precision: (206.000505050505 / 367) 56.13%	F1: 53.36%
+Coreference: Recall: (229.912551892552 / 452) 50.86%    Precision: (206.000505050505 / 369) 55.82%      F1: 53.23%
 --------------------------------------------------------------------------
 
 Official result for ceafe
 version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (309 / 452) 68.36%	Precision: (309 / 367) 84.19%	F1: 75.45%
+Identification of Mentions: Recall: (309 / 452) 68.36%  Precision: (309 / 369) 83.73%   F1: 75.27%
 --------------------------------------------------------------------------
-Coreference: Recall: (63.7019503104446 / 132) 48.25%	Precision: (63.7019503104446 / 105) 60.66%	F1: 53.75%
+Coreference: Recall: (63.7019503104446 / 132) 48.25%    Precision: (63.7019503104446 / 106) 60.09%      F1: 53.53%
 --------------------------------------------------------------------------
 
-Average F1 (conll): 56.09%
-Average F1 (py): 56.28%
-Average precision (py): 61.73%
+Average F1 (conll): 55.94%
+Average Recall (conll): 51.58%
+Average Precision (conll): 61.20%
+Average F1 (py): 56.13%
+Average precision (py): 61.36%
 Average recall (py): 51.79%

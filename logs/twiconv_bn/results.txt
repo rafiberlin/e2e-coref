@@ -1,3 +1,6 @@
+Restoring from logs/twiconv_bn/model.max.ckpt
+WARNING:tensorflow:From /home/coref_model.py:95: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
 Loaded 91 eval examples.
 Evaluated 1/91 examples.
 Evaluated 11/91 examples.
@@ -9,35 +12,38 @@ Evaluated 61/91 examples.
 Evaluated 71/91 examples.
 Evaluated 81/91 examples.
 Evaluated 91/91 examples.
-Predicted conll file: /tmp/tmp8h085tkc
+Predicted conll file: /tmp/tmpv3tx9dd6
 Official result for muc
 version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (2245 / 2828) 79.38%	Precision: (2245 / 2566) 87.49%	F1: 83.24%
+Identification of Mentions: Recall: (2245 / 2828) 79.38%        Precision: (2245 / 2566) 87.49% F1: 83.24%
 --------------------------------------------------------------------------
-Coreference: Recall: (1469 / 2010) 73.08%	Precision: (1469 / 1832) 80.18%	F1: 76.47%
+Coreference: Recall: (1469 / 2010) 73.08%       Precision: (1469 / 1832) 80.18% F1: 76.47%
 --------------------------------------------------------------------------
 
 Official result for bcub
 version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (2245 / 2828) 79.38%	Precision: (2245 / 2566) 87.49%	F1: 83.24%
+Identification of Mentions: Recall: (2245 / 2828) 79.38%        Precision: (2245 / 2566) 87.49% F1: 83.24%
 --------------------------------------------------------------------------
-Coreference: Recall: (1887.73792560839 / 2828) 66.75%	Precision: (1912.45053620471 / 2566) 74.53%	F1: 70.42%
+Coreference: Recall: (1887.73792560839 / 2828) 66.75%   Precision: (1912.45053620471 / 2566) 74.53%     F1: 70.42%
 --------------------------------------------------------------------------
 
 Official result for ceafe
 version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (2245 / 2828) 79.38%	Precision: (2245 / 2566) 87.49%	F1: 83.24%
+Identification of Mentions: Recall: (2245 / 2828) 79.38%        Precision: (2245 / 2566) 87.49% F1: 83.24%
 --------------------------------------------------------------------------
-Coreference: Recall: (538.507189366923 / 818) 65.83%	Precision: (538.507189366923 / 734) 73.36%	F1: 69.39%
+Coreference: Recall: (538.507189366923 / 818) 65.83%    Precision: (538.507189366923 / 734) 73.36%      F1: 69.39%
 --------------------------------------------------------------------------
 
 Average F1 (conll): 72.09%
+Average Recall (conll): 68.55%
+Average Precision (conll): 76.02%
 Average F1 (py): 72.12%
 Average precision (py): 76.05%
 Average recall (py): 68.58%
+
