@@ -13,7 +13,7 @@ from keras import optimizers
 from keras.callbacks import EarlyStopping, CSVLogger, Callback, ModelCheckpoint
 from sklearn.metrics import f1_score
 from keras_self_attention import SeqWeightedAttention
-
+from sklearn.model_selection import train_test_split
 MAX_SPAN_WIDTH = 30
 
 
@@ -44,6 +44,7 @@ if __name__ == "__main__":
     filenames = glob.glob(args.train_data + "/*.h5")
     train_data = []
     test_data_flag = True if args.test_data is not None else False
+    val_data_flag = True if args.val_data is not None else False
     
     for fn in filenames:
         with h5py.File(fn, 'r') as f:
@@ -54,12 +55,21 @@ if __name__ == "__main__":
     train_parent_emb = x_train[:, :MAX_SPAN_WIDTH*embed_dim].reshape(x_train.shape[0], MAX_SPAN_WIDTH, embed_dim)
     train_child_emb = x_train[:, MAX_SPAN_WIDTH*embed_dim:].reshape(x_train.shape[0], MAX_SPAN_WIDTH, embed_dim)
 
-    with h5py.File(args.val_data, 'r') as f:
-        val_data = f.get('span_representations').value
-        x_val = val_data[:, :-2]
-        y_val = val_data[:, -1].astype(int)
-        val_parent_emb = x_val[:, :MAX_SPAN_WIDTH*embed_dim].reshape(x_val.shape[0], MAX_SPAN_WIDTH, embed_dim)
-        val_child_emb = x_val[:, MAX_SPAN_WIDTH*embed_dim:].reshape(x_val.shape[0], MAX_SPAN_WIDTH, embed_dim)
+
+    if val_data_flag:
+        with h5py.File(args.val_data, 'r') as f:
+            val_data = f.get('span_representations').value
+            x_val = val_data[:, :-2]
+            y_val = val_data[:, -1].astype(int)
+            val_parent_emb = x_val[:, :MAX_SPAN_WIDTH * embed_dim].reshape(x_val.shape[0], MAX_SPAN_WIDTH, embed_dim)
+            val_child_emb = x_val[:, MAX_SPAN_WIDTH * embed_dim:].reshape(x_val.shape[0], MAX_SPAN_WIDTH, embed_dim)
+    else:
+        x_train, x_val, y_train, y_val = train_test_split(x_train, y_train, test_size=0.1, random_state=42)
+        train_parent_emb = x_train[:, :MAX_SPAN_WIDTH * embed_dim].reshape(x_train.shape[0], MAX_SPAN_WIDTH, embed_dim)
+        train_child_emb = x_train[:, MAX_SPAN_WIDTH * embed_dim:].reshape(x_train.shape[0], MAX_SPAN_WIDTH, embed_dim)
+        val_parent_emb = x_val[:, :MAX_SPAN_WIDTH * embed_dim].reshape(x_val.shape[0], MAX_SPAN_WIDTH, embed_dim)
+        val_child_emb = x_val[:, MAX_SPAN_WIDTH * embed_dim:].reshape(x_val.shape[0], MAX_SPAN_WIDTH, embed_dim)
+
 
     if test_data_flag:
         with h5py.File(args.test_data, 'r') as f:
