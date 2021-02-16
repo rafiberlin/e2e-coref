@@ -33,6 +33,9 @@ def get_args():
     parser.add_argument('--exp_name', type=str, default=None)
     parser.add_argument('--embed_dim', type=int, default=400)
     parser.add_argument('--cnn_context', type=int, default=1)
+    parser.add_argument('--output_dim', type=int, default=400)
+    parser.add_argument('--batch_size', type=int, default=50)
+    parser.add_argument('--epochs', type=int, default=10)
     args = parser.parse_args()
     return args
 
@@ -45,7 +48,9 @@ if __name__ == "__main__":
     train_data = []
     test_data_flag = True if args.test_data is not None else False
     val_data_flag = True if args.val_data is not None else False
-    
+    output_dim = args.output_dim
+    batch_size = args.batch_size
+    epochs = args.epochs
     for fn in filenames:
         with h5py.File(fn, 'r') as f:
             train_data.append(f.get('span_representations').value)
@@ -97,7 +102,7 @@ if __name__ == "__main__":
     headwords_2 = attention(encoded_child_span)  # [batch_size, embed_dim]
 
     headwords_vector = keras.layers.concatenate([headwords_1, headwords_2], axis=1)
-    hidden_layer = Dense(units=1024, activation='relu', use_bias=True, kernel_initializer='he_normal', bias_initializer='zeros')(headwords_vector)
+    hidden_layer = Dense(units=output_dim, activation='relu', use_bias=True, kernel_initializer='he_normal', bias_initializer='zeros')(headwords_vector)
     predictions = Dense(units=1, activation='sigmoid')(hidden_layer)
 
     opt = optimizers.Adam(lr=0.001)
@@ -107,7 +112,7 @@ if __name__ == "__main__":
 
     model = Model(inputs=[parent_span, child_span], output=predictions)
     model.compile(loss='binary_crossentropy', optimizer=opt, metrics=['accuracy'])
-    model.fit([train_parent_emb, train_child_emb], y_train, epochs=50, batch_size=512, validation_data=([val_parent_emb, val_child_emb], y_val), callbacks=callbacks)
+    model.fit([train_parent_emb, train_child_emb], y_train, epochs=epochs, batch_size=batch_size, validation_data=([val_parent_emb, val_child_emb], y_val), callbacks=callbacks)
 
     with open(log_name, 'a') as out_file:
         tsv_writer = csv.writer(out_file, delimiter='\t')
