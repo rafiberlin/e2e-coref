@@ -36,6 +36,7 @@ def get_args():
     parser.add_argument('--random', action='store_true')
     parser.add_argument('--output_dim', type=int, default=450)
     parser.add_argument('--batch_size', type=int, default=50)
+    parser.add_argument('--epochs', type=int, default=10)
     args = parser.parse_args()
     return args
 
@@ -51,6 +52,7 @@ if __name__ == "__main__":
     test_data_flag = True if args.test_data is not None else False
     val_data_flag = True if args.val_data is not None else False
     batch_size = args.batch_size
+    epochs = args.epochs
     for fn in filenames:
         with h5py.File(fn, 'r') as f:
             train_data.append(f.get('span_representations').value)
@@ -145,13 +147,13 @@ if __name__ == "__main__":
     model.add(Dense(units=1, activation='sigmoid'))
     opt = optimizers.Adam(lr=0.001)
 
-    early_stop = EarlyStopping(monitor='val_loss', min_delta=0, patience=3, verbose=0, mode='auto', restore_best_weights=True)
+    early_stop = EarlyStopping(monitor='val_loss', min_delta=0.1, patience=3, verbose=0, mode='auto', restore_best_weights=True)
     checkpoint_save = ModelCheckpoint(args.exp_name + '.h5', save_best_only=True, monitor='val_loss', mode='min')
     callbacks = [early_stop, checkpoint_save, ComputeTestF1(), CSVLogger(log_name, separator='\t')]
 
     # Compile model
     model.compile(loss='binary_crossentropy', optimizer=opt, metrics=['accuracy'])
-    model.fit(x_train, y_train, epochs=50, batch_size=batch_size, validation_data=(x_val, y_val), callbacks=callbacks)
+    model.fit(x_train, y_train, epochs=epochs, batch_size=batch_size, validation_data=(x_val, y_val), callbacks=callbacks)
 
     with open(log_name, 'a') as out_file:
         tsv_writer = csv.writer(out_file, delimiter='\t')

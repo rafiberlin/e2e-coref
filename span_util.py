@@ -14,10 +14,16 @@ def prepare_directories(config_name, output_dir):
     :param output_dir:
     :return:
     """
-    span_destination = os.path.join("data", config_name,output_dir)
+    span_destination = os.path.join("data", config_name, output_dir)
+    span_destination_baseline = os.path.join("data", config_name, output_dir, "baseline")
     if not os.path.isdir(span_destination):
         os.makedirs(span_destination, exist_ok=True)
     print(f"{span_destination} is available.")
+
+    if not os.path.isdir(span_destination_baseline):
+        os.makedirs(span_destination_baseline, exist_ok=True)
+    print(f"{span_destination_baseline} is available.")
+
 
 
 
@@ -90,12 +96,16 @@ def get_parent_child_emb_baseline(clusters, span_emb, span_starts, span_ends, la
             # parent_start_emb = tf.reshape(span_emb[parent_idx][0,:embed_dim], [1,-1]) # take embedding of first wordpieces
             # parent_body_emb = tf.reshape(span_emb[parent_idx][:,embed_dim:], [1,-1])  # take embedding of all wordpieces after the first one (until end wordpieces) and flatten
             # parent_emb = tf.concat([parent_start_emb, parent_body_emb], 1)
-            parent_emb = tf.reshape(span_emb[parent_idx][:, embed_dim:], [1, -1])
+            # RL: Looks wrong
+            #parent_emb = tf.reshape(span_emb[parent_idx][:, embed_dim:], [1, -1])
+            parent_emb = tf.reshape(span_emb[parent_idx][:, :embed_dim], [1, -1])
 
             # child_start_emb = tf.reshape(span_emb[child_idx][0,:embed_dim], [1,-1]) 
             # child_body_emb = tf.reshape(span_emb[child_idx][:,embed_dim:], [1,-1])
             # child_emb = tf.concat([child_start_emb, child_body_emb], 1)
-            child_emb = tf.reshape(span_emb[child_idx][:, embed_dim:], [1, -1])
+            #RL: Looks wrong
+            #child_emb = tf.reshape(span_emb[child_idx][:, embed_dim:], [1, -1])
+            child_emb = tf.reshape(span_emb[child_idx][:, :embed_dim], [1, -1])
 
             # Pad token representations w.r.t to max span width # In this case we pad to the right...
             parent_paddings = [[0, 0], [0, max_span_width*embed_dim - tf.shape(parent_emb)[1]]]
