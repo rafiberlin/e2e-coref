@@ -1,4 +1,3 @@
-Loaded 75 eval examples.
 Evaluated 1/75 examples.
 Evaluated 11/75 examples.
 Evaluated 21/75 examples.
@@ -7,35 +6,37 @@ Evaluated 41/75 examples.
 Evaluated 51/75 examples.
 Evaluated 61/75 examples.
 Evaluated 71/75 examples.
-Predicted conll file: /tmp/tmpu745oqbv
+Predicted conll file: /tmp/tmpmrfckvmg
 Official result for muc
-version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+version: 8.01 /project/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (3302 / 4438) 74.4%	Precision: (3302 / 3870) 85.32%	F1: 79.48%
+Identification of Mentions: Recall: (3303 / 4438) 74.42%        Precision: (3303 / 3870) 85.34% F1: 79.51%
 --------------------------------------------------------------------------
-Coreference: Recall: (2292 / 3402) 67.37%	Precision: (2292 / 2978) 76.96%	F1: 71.84%
+Coreference: Recall: (2294 / 3402) 67.43%       Precision: (2294 / 2979) 77%    F1: 71.9%
 --------------------------------------------------------------------------
 
 Official result for bcub
-version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+version: 8.01 /project/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (3302 / 4438) 74.4%	Precision: (3302 / 3870) 85.32%	F1: 79.48%
+Identification of Mentions: Recall: (3303 / 4438) 74.42%        Precision: (3303 / 3870) 85.34% F1: 79.51%
 --------------------------------------------------------------------------
-Coreference: Recall: (2364.20571578259 / 4438) 53.27%	Precision: (2593.60867524996 / 3870) 67.01%	F1: 59.35%
+Coreference: Recall: (2364.76273332645 / 4438) 53.28%   Precision: (2596.60702719042 / 3870) 67.09%     F1: 59.39%
 --------------------------------------------------------------------------
 
 Official result for ceafe
-version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+version: 8.01 /project/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (3302 / 4438) 74.4%	Precision: (3302 / 3870) 85.32%	F1: 79.48%
+Identification of Mentions: Recall: (3303 / 4438) 74.42%        Precision: (3303 / 3870) 85.34% F1: 79.51%
 --------------------------------------------------------------------------
-Coreference: Recall: (528.413796569946 / 1036) 51%	Precision: (528.413796569946 / 892) 59.23%	F1: 54.81%
+Coreference: Recall: (528.798561457353 / 1036) 51.04%   Precision: (528.798561457353 / 891) 59.34%      F1: 54.88%
 --------------------------------------------------------------------------
 
-Average F1 (conll): 62.00%
-Average F1 (py): 62.02%
-Average precision (py): 67.76%
-Average recall (py): 57.22%
+Average F1 (conll): 62.06%
+Average Recall (conll): 57.25%
+Average Precision (conll): 67.81%
+Average F1 (py): 62.07%
+Average precision (py): 67.84%
+Average recall (py): 57.26%
