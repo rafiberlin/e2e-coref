@@ -1,0 +1,1629 @@
+data/ontonotes/SPAN_PR_AN.jsonlines
+##################################START: Min Distance: None, Max Distance: None#####################################################
+
+208 pred: 1 gold: 0
+Focus Today    ==    Beijing Traffic Radio Station
+... Hello , dear viewers . Welcome to Focus Today . Today ... Hello . Next is Yang Yang , a host of Beijing Traffic Radio Station . Hello ( 208 ) 
+
+34 pred: 1 gold: 0
+Professor Zhou Hanhua from the Institute of Law of the Chinese Academy of Social Sciences    ==    I
+... One of the two honorable guests in the studio is Professor Zhou Hanhua from the Institute of Law of the Chinese Academy of Social Sciences . Hello ... the studio to participate in our program . Well , I especially want ( 34 ) 
+
+332 pred: 1 gold: 0
+Beijing Municipality    ==    the station
+... roads of Jingguang Bridge , East Third Ring Road , Beijing Municipality , resulting ... at Jingguang Bridge and that I had to go to the station immediately to ( 332 ) 
+
+212 pred: 1 gold: 0
+the friend    ==    I
+... friend , um , at noon . And then , the friend first sent ... the east and it did not affect us much , I think it ( 212 ) 
+
+8 pred: 0 gold: 1
+the day of the accident    ==    yesterday
+... how the two of you found out the news on the day of the accident ? Ah , , about 11:00 m. yesterday , ah ( 8 ) 
+
+17 pred: 0 gold: 1
+SMS    ==    this
+... Of course , in private life , people have used SMS countless times ... Yes . Other places in the country must have used this too . ( 17 ) 
+
+185 pred: 1 gold: 0
+e-government    ==    this
+... is something unattainable . Yes , when we talked about e-government in the ... , this time I think that a short SMS like this can fully ( 185 ) 
+
+29 pred: 0 gold: 1
+SMS    ==    the most familiar method
+... . There are probably not as many chances to use SMS in foreign ... that penetration was quite high this time , by using the most familiar method , most ( 29 ) 
+
+47 pred: 0 gold: 1
+this accident    ==    the road cave - in accident
+... , ah , point on information disclosure brought out by this accident , the ... through some footage . Well , we know that after the road cave - in accident , ah ( 47 ) 
+
+310 pred: 1 gold: 0
+we    ==    we
+... hour to an hour during peak periods . Well , we could not ... the Guomao Bridge , ah . We were discussing that we could go ( 310 ) 
+
+115 pred: 1 gold: 0
+the broadcast    ==    this situation
+... . today , before our live broadcast , we moved the broadcast forward , ... Psychologically , people felt quite relieved . Because I know this situation . Right ( 115 ) 
+
+326 pred: 0 gold: 1
+you    ==    I
+... Well , ah , Yang Yang , you work at ... . However , actually after the entire day today , I came here ( 326 ) 
+
+14 pred: 1 gold: 0
+East Third Ring Road    ==    Chaoyang Road
+... an animation . This road represents a main road on East Third Ring Road , with problems on both the main and side roads . Furthermore , Chaoyang Road is an ( 14 ) 
+
+220 pred: 1 gold: 0
+the main and side roads of East Third Ring Road in the south - north direction    ==    this place
+... is Chaoyang Road in the east - west direction or the main and side roads of East Third Ring Road in the south - north direction , as ... did not happen , perhaps everyone would not know that this place could normally ( 220 ) 
+
+179 pred: 1 gold: 0
+East Third Ring Road    ==    the neighborhood
+... - west direction or the main and side roads of East Third Ring Road in the ... latest results this morning show that 32 bus routes throughout the neighborhood have had ( 179 ) 
+
+28 pred: 1 gold: 0
+this morning    ==    this footage
+... Year holiday . Well , what exactly was the situation this morning ? We ... 's take a look at the situation this morning through this footage . Well ( 28 ) 
+
+62 pred: 0 gold: 1
+the traffic control department    ==    we
+... Uh-huh . Well , what measures did the traffic control department eventually take ... In the roads close to where the problem emerged , we first set ( 62 ) 
+
+219 pred: 1 gold: 0
+us    ==    they
+... , some listeners , ah , also happened to tell us about it ... the government in handling this incident . That is , they think that ( 219 ) 
+
+24 pred: 1 gold: 0
+such kind of emergency    ==    this mentality in facing emergencies
+... wear extra clothing . This shows that when people encounter such kind of emergency , they ... calm and pleasant state of mind . I think that this mentality in facing emergencies , in ( 24 ) 
+
+141 pred: 1 gold: 0
+seven main types of pipes buried underground    ==    they
+... there are underground ? Right now , there should be seven main types of pipes buried underground . They ... participate in emergency repair work . Relevant departments said that they will adopt ( 141 ) 
+
+201 pred: 1 gold: 0
+seven main types of pipes buried underground    ==    traffic management and emergency repair
+... there are underground ? Right now , there should be seven main types of pipes buried underground . They ... ah , we should say it was very prompt with traffic management and emergency repair , ah ( 201 ) 
+
+14 pred: 0 gold: 1
+the government 's    ==    it
+... society during the recovery period . Well , looking at the government 's response to this cave - in accident , ah , we should say it was very ( 14 ) 
+
+271 pred: 0 gold: 1
+Beijing Municipality    ==    the municipal government , ah , including sub-district offices
+... time , through the execution of emergency contingency plans by Beijing Municipality this time ... relatively quickly . Hence , over here , I think the municipal government , ah , including sub-district offices , made ( 271 ) 
+
+192 pred: 0 gold: 1
+this    ==    the road cave - in at East Third Ring Road this time
+... a big city , a suddenly occurring public emergency like this should be ... ago , the heavy rains two years ago , and the road cave - in at East Third Ring Road this time , I ( 192 ) 
+
+80 pred: 1 gold: 0
+have    ==    the time of that snowfall just mentioned by Professor Zhou that people still vividly remember
+... well , I think , Yang Yang , perhaps you have stronger feelings ... for instance , as people still vividly remember , at the time of that snowfall just mentioned by Professor Zhou that people still vividly remember , there ( 80 ) 
+
+140 pred: 1 gold: 0
+we , Beijing Traffic Radio Station    ==    the studio
+... direct SMS exchange with listeners . It is because , we , Beijing Traffic Radio Station , has ... clear , it was very congested . You sat inside the studio and only ( 140 ) 
+
+201 pred: 1 gold: 0
+Beijing Municipality    ==    it
+... people still vividly remember , there were no plans . Beijing Municipality still had ... therefore , as a local media in this city , it should become ( 201 ) 
+
+209 pred: 1 gold: 0
+have    ==    that rainfall
+... well , I think , Yang Yang , perhaps you have stronger feelings ... extremely unclear . Well , later , when we experienced that rainfall in Beijing ( 209 ) 
+
+214 pred: 0 gold: 1
+Beijing Municipality    ==    the city
+... people still vividly remember , there were no plans . Beijing Municipality still had ... a proactive participant when there is a public emergency in the city . Yes ( 214 ) 
+
+39 pred: 1 gold: 0
+This    ==    It
+... should be especially important is early warnings and forecasts . This is because ... kind of early warning and forecast mechanism . Uh-huh . It is not ( 39 ) 
+
+297 pred: 1 gold: 0
+foreign countries    ==    they
+... comparison to China , we should say that urbanization in foreign countries developed earlier ... been put to the test . Well , how will they undergo testing ( 297 ) 
+
+63 pred: 1 gold: 0
+made    ==    this work progress
+... . Well , following this , repairs have to be made on this ... repair are carried out in succession . Therefore , regarding this work progress , to ( 63 ) 
+
+37 pred: 1 gold: 0
+this road section where the accident occurred    ==    This
+... , following this , repairs have to be made on this road section where the accident occurred , including ... time really depends on how the overall repair goes . This is because ( 37 ) 
+
+400 pred: 1 gold: 0
+the pipes below    ==    today 's edition of Focus Today
+... alone . There is also an issue with many of the pipes below . Yes ... . Okay , dear viewers , that is all for today 's edition of Focus Today . Thank ( 400 ) 
+
+115 pred: 1 gold: 0
+concrete    ==    the optical fibers
+... and then -- Moreover , it is especially difficult for concrete to set ... fibers , ah . Er , right now , if the optical fibers break , ( 115 ) 
+
+488 pred: 1 gold: 0
+this road section where the accident occurred    ==    our program
+... , following this , repairs have to be made on this road section where the accident occurred , including ... Yang , for coming to the studio to participate in our program . Thank ( 488 ) 
+
+286 pred: 0 gold: 1
+you    ==    Yang Yang
+... very much on factors like temperature . Just now , you mentioned that ... Okay , thank you very much , Professor Zhou and Yang Yang , for ( 286 ) 
+
+49 pred: 0 gold: 1
+the optical fibers    ==    the optical fibers
+... fibers , ah . Er , right now , if the optical fibers break , ... , as the other pipes have to be repaired , the optical fibers have to ( 49 ) 
+
+99 pred: 1 gold: 0
+Northwest China    ==    South China
+... addition , there will be snowfall in the area from Northwest China to the ... , there will be rain throughout almost the whole of South China . It ( 99 ) 
+
+40 pred: 0 gold: 1
+the Huang - Huai area    ==    the Huang - Huai area
+... will be snowfall in the area from Northwest China to the Huang - Huai area through southern ... experience continuous rainfall . However , southern North China and the Huang - Huai area will bid ( 40 ) 
+
+30 pred: 1 gold: 0
+our    ==    I
+... charges against him ? Former Clinton lawyer Lanny Davis in our new Talk ... slam on the brakes ? Welcome to Reliable Sources . I 'm Howard ( 30 ) 
+
+107 pred: 0 gold: 1
+columnist Tom Friedman    ==    Pulitzer Prize winner Tom Friedman
+... Harriet Meyers and the Pakistan quake ? A conversation with columnist Tom Friedman . Was ... stay tuned . I had a wide ranging sitdown with Pulitzer Prize winner Tom Friedman ( 107 ) 
+
+101 pred: 0 gold: 1
+A conversation with columnist Tom Friedman .    ==    a wide ranging sitdown with Pulitzer Prize winner Tom Friedman
+... Tom DeLay and Harriet Meyers and the Pakistan quake ? A conversation with columnist Tom Friedman . Was Sixty ... the coming week . so stay tuned . I had a wide ranging sitdown with Pulitzer Prize winner Tom Friedman ( 101 ) 
+
+97 pred: 1 gold: 0
+Judy Miller and the New York Times    ==    Times
+... but first Judy Miller and the New York Times finally go ... of mass destruction . The conclusion by a team of Times reporters . ( 97 ) 
+
+178 pred: 1 gold: 0
+CIA    ==    the Times
+... morning with their nearly six thousand word account of the CIA leak investigation ... boss says no way . that never happened . And the Times was so ( 178 ) 
+
+160 pred: 0 gold: 1
+Judy Miller    ==    Miller released from jail last month
+... but first Judy Miller and the ... unable to answer its questions . Among the journalistic revelations, Miller released from jail last month says she ( 160 ) 
+
+495 pred: 1 gold: 0
+Frank Sesno professor of public policy and communication at George Mason University and a CNN special correspondant    ==    his
+... for Freedom of the Press . and here in Washington Frank Sesno professor of public policy and communication at George Mason University and a CNN special correspondant . Frank ... took Judy Miller off her WMD beat as one of his first personnel ( 495 ) 
+
+227 pred: 1 gold: 0
+this mess    ==    itself
+... . You know and if the whole bottom line of this mess is that ... . Pretty candid stuff for a newspaper to publish about itself would n't ( 227 ) 
+
+582 pred: 1 gold: 0
+Frank Sesno professor of public policy and communication at George Mason University and a CNN special correspondant    ==    him
+... for Freedom of the Press . and here in Washington Frank Sesno professor of public policy and communication at George Mason University and a CNN special correspondant . Frank ... is the Dick Cheney aide she agreed to refer to him and in ( 582 ) 
+
+514 pred: 1 gold: 0
+that waiver that Miller was apparently granted by uh Scooter Libby a year ago    ==    it
+... 's still a lot of questions here . Why was that waiver that Miller was apparently granted by uh Scooter Libby a year ago /- Why ... that was a little bit misleading . And I thought it was odd ( 514 ) 
+
+256 pred: 1 gold: 0
+Miss Run Amuck    ==    that story
+... 's referred to in the Times ' own account as Miss Run Amuck . She ... 's publisher allow Judy Miller to hijack the reporting of that story and the ( 256 ) 
+
+73 pred: 0 gold: 1
+her    ==    Judy Miller
+... we learn is that Bill Keller took Judy Miller off her WMD beat ... thing that jumped out at me in the story . Judy Miller acknowledges that ( 73 ) 
+
+204 pred: 1 gold: 0
+I    ==    me
+... an abdication of journalistic responsibility ? Maybe yeah maybe . I mean what ... piece this morning uh uh Judy Miller is quoted excuse me as saying ( 204 ) 
+
+57 pred: 1 gold: 0
+news organizations    ==    They
+... for news organizations to report on themselves . You know news organizations demand total ... very plain in their story today they really suffered . They were behind ( 57 ) 
+
+148 pred: 0 gold: 1
+its    ==    They
+... Frank Sesno the Times was so hamstrung by its passionate embrace ... very plain in their story today they really suffered . They were behind ( 148 ) 
+
+14 pred: 0 gold: 1
+news organizations    ==    We
+... for news organizations to report on themselves . You know news organizations demand total transparency whether you 're General Motors or United States government . We want access ( 14 ) 
+
+114 pred: 0 gold: 1
+their story today    ==    this lengthy piece this morning
+... this case and the Times makes it very plain in their story today they really ... from the news uh section ? Arianna Huffington uh in this lengthy piece this morning uh uh ( 114 ) 
+
+79 pred: 0 gold: 1
+Valerie Plame    ==    Valerie Plame
+... source beside Scooter Libby that she dealt with on the Valerie Plame situation . ... source was when it comes to revealing the identity of Valerie Plame . And ( 79 ) 
+
+33 pred: 1 gold: 0
+Lucy    ==    she
+... Judy Miller defenders to update her talking points because what Lucy just said ... that it 's very clear from the stories today that she could 've ( 33 ) 
+
+176 pred: 1 gold: 0
+the waiver of confidentiality that Scooter Libby offered    ==    those sources
+... otherwise mysterious decision to go to jail and not accept the waiver of confidentiality that Scooter Libby offered and sit ... can as long as the law allows them to protect those sources . Right ( 176 ) 
+
+872 pred: 1 gold: 0
+her    ==    Arianna
+... Miller recounting what her lawyer Floyd Abrams had said to her about a ... is not going to work . And on that point Arianna on that ( 872 ) 
+
+940 pred: 0 gold: 1
+them    ==    her colleagues who were writing the story
+... colleagues . and she would n't share her notes with them although they ... a book . She would n't share her notes with her colleagues who were writing the story . Do ( 940 ) 
+
+1159 pred: 0 gold: 1
+they    ==    her notes
+... and she would n't share her notes with them although they 've been ... Miller about her conversations with Libby or ask to see her notes while they ( 1159 ) 
+
+465 pred: 1 gold: 0
+me    ==    I
+... that there are lots of people in Washington and believe me they 're ... soldiers as props . Yes it is shocking . and I think Keith ( 465 ) 
+
+206 pred: 1 gold: 0
+it    ==    the staging here
+... n't believe it . they rehearsed it . They rehearsed it . They ... President yeah that 's inevitable too . Arianna Huffington does the staging here surprise you ( 206 ) 
+
+37 pred: 0 gold: 1
+Rove    ==    Karl Rove
+... of this President 's public support his character . If Rove gets indicted ... think there are going to be indictments . and possibly Karl Rove could be ( 37 ) 
+
+811 pred: 0 gold: 1
+I    ==    Lucy Dalglish in Minneapolis
+... . But uh will it bring down the administration ? I do n't ... to leave it there . Last word . Arianna Huffington Lucy Dalglish in Minneapolis Frank Sesno ( 811 ) 
+
+48 pred: 0 gold: 1
+I    ==    Arianna Huffington
+... soldiers as props . Yes it is shocking . and I think Keith ... 'll have to leave it there . Last word . Arianna Huffington Lucy Dalglish ( 48 ) 
+
+499 pred: 0 gold: 1
+I    ==    Frank Sesno
+... if the guy gets indicted . It would be irresponsible I think for ... . Last word . Arianna Huffington Lucy Dalglish in Minneapolis Frank Sesno thanks so ( 499 ) 
+
+340 pred: 0 gold: 1
+President Bush 's uh meeting uh uh photo op some called it with US troops in Iraq    ==    This
+... this . Alright I want to turn now to uh President Bush 's uh meeting uh uh photo op some called it with US troops in Iraq whether it ... 's the fact that we are talking about war . This is not ( 340 ) 
+
+106 pred: 1 gold: 0
+that investigation    ==    the meeting
+... got and then to do nothing to assist and facilitate that investigation in fact ... and President Clinton has said so but everybody who attended the meeting not including ( 106 ) 
+
+94 pred: 1 gold: 0
+that investigation    ==    that
+... got and then to do nothing to assist and facilitate that investigation in fact ... contribution to his presidential library . Well not only is that false and ( 94 ) 
+
+211 pred: 0 gold: 1
+President Clinton 's former lawyer Lanny Davis    ==    former Clinton White House attorney Lanny Davis
+... launch our new segment Talk Back to the Media . President Clinton 's former lawyer Lanny Davis takes on ... hailed the segment . and here to talk back is former Clinton White House attorney Lanny Davis . Welcome ( 211 ) 
+
+254 pred: 0 gold: 1
+Sixty Minutes    ==    them
+... it . The Clinton people were furious at the way Sixty Minutes hailed the ... meeting who was willing to be on ? What about them doing reporting ( 254 ) 
+
+9 pred: 0 gold: 1
+someone who believes he or she 's been treated unfairly by the press    ==    he or she
+... . In our new Talk Back to the Media segment someone who believes he or she 's been ( 9 ) 
+
+89 pred: 0 gold: 1
+you    ==    us
+... the meeting . He was in the room . Did you offer him ... the meeting before Friday afternoon ? Why did it take us to get ( 89 ) 
+
+44 pred: 0 gold: 1
+The charge    ==    a false and demonstrably false charge
+... President Clinton wanted to receive money for his library . The charge was false ... ? What about them doing reporting themselves before they air a false and demonstrably false charge ? That ( 44 ) 
+
+48 pred: 0 gold: 1
+He    ==    Sandy Berger
+... under President Clinton ? He was at the meeting . He was in ... but you were n't there . uh I talked to Sandy Berger . We ( 48 ) 
+
+193 pred: 1 gold: 0
+Mister Carson the representative    ==    He
+... they told us before just the week before . When Mister Carson the representative spoke to ... he has n't even insisted that it was true . He just said ( 193 ) 
+
+103 pred: 1 gold: 0
+the Washington Post    ==    the Clinton office
+... . When somebody named Howard Kurtz wrote a story in the Washington Post on Friday ... Tedesco said in the statement I just referred to that the Clinton office was contacted ( 103 ) 
+
+364 pred: 1 gold: 0
+Clinton 's office    ==    his source
+... . And this involves uh their saying that they contacted Clinton 's office back in ... Freeh has backed off and has not told people who his source is . ( 364 ) 
+
+78 pred: 0 gold: 1
+Sixty Minutes    ==    they
+... did deal with Freeh 's allegations were included in the Sixty Minutes report . ... 's disparaging . Secondly it is absolutely a misrepresentation that they told us ( 78 ) 
+
+189 pred: 0 gold: 1
+the allegations    ==    Mister Freeh 's charges
+... interviewed . They gave no +substantive response to any of the allegations until Lanny ... n't until that Friday that we learned the substance of Mister Freeh 's charges . So ( 189 ) 
+
+71 pred: 0 gold: 1
+his    ==    I
+... response to any of the allegations until Lanny Davis launched his PR campaign ... to say that I was asking to disparage Freeh . I was asking ( 71 ) 
+
+404 pred: 0 gold: 1
+his    ==    the former FBI director
+... Sixty Minutes was going to report that Louis Freeh with his new book ... you have an obligation to verify a charge made by the former FBI director as whether ( 404 ) 
+
+341 pred: 0 gold: 1
+his new book    ==    a book
+... Sixty Minutes was going to report that Louis Freeh with his new book was going ... of Investigation uh who ca n't stand Clinton clearly writes a book gets one ( 341 ) 
+
+160 pred: 0 gold: 1
+the meeting    ==    that uh meeting
+... charge that good reporting by calling people who were at the meeting could have ... which happens to be not true . President Clinton at that uh meeting did press ( 160 ) 
+
+17 pred: 0 gold: 1
+his source    ==    somebody
+... Freeh has backed off and has not told people who his source is . ... even insisted that it was true . He just said somebody told him ( 17 ) 
+
+65 pred: 1 gold: 0
+the hour 's top stories    ==    it
+... After an update on the hour 's top stories from Atlanta ... weekend as you recall . Pakistan 's prime minister says it killed at ( 65 ) 
+
+128 pred: 1 gold: 0
+a planned march by a self - styled nazi group    ==    this morning
+... million homeless . Toledo Ohio is quiet this morning after a planned march by a self - styled nazi group sparked a ... University of Wisconsin in Whitewater . Those are the headlines this morning . I ( 128 ) 
+
+180 pred: 1 gold: 0
+Atlanta    ==    Wisconsin
+... After an update on the hour 's top stories from Atlanta . Hello ... members collided overnight on interstate ninety - four and in Wisconsin . The ( 180 ) 
+
+95 pred: 1 gold: 0
+Tom Friedman    ==    Howie
+... the author most recently of The World is Flat . Tom Friedman welcome . ... page . Bad news judgement ? Uh I think so Howie . I ( 95 ) 
+
+754 pred: 1 gold: 0
+a Shiite mosque    ==    Lebanon
+... days that a Sunni suicide bomber on Ramadan had attacked a Shiite mosque . Now ... the kidnappings targets . Therefore by the end of the Lebanon story I ( 754 ) 
+
+414 pred: 1 gold: 0
+the news of recent days that a Sunni suicide bomber on Ramadan had attacked a Shiite mosque    ==    that
+... New York Times you would 've led the paper with the news of recent days that a Sunni suicide bomber on Ramadan had attacked a Shiite mosque . Now ... n't sit back and say wow wait a minute . that really crosses ( 414 ) 
+
+169 pred: 1 gold: 0
+a Shiite mosque    ==    blows
+... days that a Sunni suicide bomber on Ramadan had attacked a Shiite mosque . Now ... to me about this story a Sunni Jihadi suicide bomber blows up a ( 169 ) 
+
+375 pred: 1 gold: 0
+the first day of Ramadan    ==    it
+... Jihadi suicide bomber blows up a mosque number one on the first day of Ramadan . What ... has plagued this story from the very beginning . And it 's been ( 375 ) 
+
+359 pred: 1 gold: 0
+driving    ==    the Iraq story
+... 're recently back from Iraq . and you write about driving in from ... moving around so much . What 's so frustrating about the Iraq story Howie no ( 359 ) 
+
+532 pred: 0 gold: 1
+Howie    ==    you
+... page . Bad news judgement ? Uh I think so Howie . I ... . You know my criticism of the Bush administration as you know we ( 532 ) 
+
+155 pred: 0 gold: 1
+a Sunni Jihadi suicide bomber    ==    A Sunni Muslim fundamentalist
+... And what was so shocking to me about this story a Sunni Jihadi suicide bomber blows up ... and say wait a minute . what happened today ? A Sunni Muslim fundamentalist went into ( 155 ) 
+
+true_pos, true_neg, false_pos, false_neg, (324, 326, 56, 43)
+F1 score of 0.8674698795180723
+##################################END: Min Distance: None, Max Distance: None#####################################################
+
+##################################START: Min Distance: 0, Max Distance: 50#####################################################
+
+34 pred: 1 gold: 0
+Professor Zhou Hanhua from the Institute of Law of the Chinese Academy of Social Sciences    ==    I
+... One of the two honorable guests in the studio is Professor Zhou Hanhua from the Institute of Law of the Chinese Academy of Social Sciences . Hello ... the studio to participate in our program . Well , I especially want ( 34 ) 
+
+8 pred: 0 gold: 1
+the day of the accident    ==    yesterday
+... how the two of you found out the news on the day of the accident ? Ah , , about 11:00 m. yesterday , ah ( 8 ) 
+
+17 pred: 0 gold: 1
+SMS    ==    this
+... Of course , in private life , people have used SMS countless times ... Yes . Other places in the country must have used this too . ( 17 ) 
+
+29 pred: 0 gold: 1
+SMS    ==    the most familiar method
+... . There are probably not as many chances to use SMS in foreign ... that penetration was quite high this time , by using the most familiar method , most ( 29 ) 
+
+47 pred: 0 gold: 1
+this accident    ==    the road cave - in accident
+... , ah , point on information disclosure brought out by this accident , the ... through some footage . Well , we know that after the road cave - in accident , ah ( 47 ) 
+
+14 pred: 1 gold: 0
+East Third Ring Road    ==    Chaoyang Road
+... an animation . This road represents a main road on East Third Ring Road , with problems on both the main and side roads . Furthermore , Chaoyang Road is an ( 14 ) 
+
+28 pred: 1 gold: 0
+this morning    ==    this footage
+... Year holiday . Well , what exactly was the situation this morning ? We ... 's take a look at the situation this morning through this footage . Well ( 28 ) 
+
+24 pred: 1 gold: 0
+such kind of emergency    ==    this mentality in facing emergencies
+... wear extra clothing . This shows that when people encounter such kind of emergency , they ... calm and pleasant state of mind . I think that this mentality in facing emergencies , in ( 24 ) 
+
+14 pred: 0 gold: 1
+the government 's    ==    it
+... society during the recovery period . Well , looking at the government 's response to this cave - in accident , ah , we should say it was very ( 14 ) 
+
+39 pred: 1 gold: 0
+This    ==    It
+... should be especially important is early warnings and forecasts . This is because ... kind of early warning and forecast mechanism . Uh-huh . It is not ( 39 ) 
+
+37 pred: 1 gold: 0
+this road section where the accident occurred    ==    This
+... , following this , repairs have to be made on this road section where the accident occurred , including ... time really depends on how the overall repair goes . This is because ( 37 ) 
+
+49 pred: 0 gold: 1
+the optical fibers    ==    the optical fibers
+... fibers , ah . Er , right now , if the optical fibers break , ... , as the other pipes have to be repaired , the optical fibers have to ( 49 ) 
+
+40 pred: 0 gold: 1
+the Huang - Huai area    ==    the Huang - Huai area
+... will be snowfall in the area from Northwest China to the Huang - Huai area through southern ... experience continuous rainfall . However , southern North China and the Huang - Huai area will bid ( 40 ) 
+
+30 pred: 1 gold: 0
+our    ==    I
+... charges against him ? Former Clinton lawyer Lanny Davis in our new Talk ... slam on the brakes ? Welcome to Reliable Sources . I 'm Howard ( 30 ) 
+
+14 pred: 0 gold: 1
+news organizations    ==    We
+... for news organizations to report on themselves . You know news organizations demand total transparency whether you 're General Motors or United States government . We want access ( 14 ) 
+
+33 pred: 1 gold: 0
+Lucy    ==    she
+... Judy Miller defenders to update her talking points because what Lucy just said ... that it 's very clear from the stories today that she could 've ( 33 ) 
+
+37 pred: 0 gold: 1
+Rove    ==    Karl Rove
+... of this President 's public support his character . If Rove gets indicted ... think there are going to be indictments . and possibly Karl Rove could be ( 37 ) 
+
+48 pred: 0 gold: 1
+I    ==    Arianna Huffington
+... soldiers as props . Yes it is shocking . and I think Keith ... 'll have to leave it there . Last word . Arianna Huffington Lucy Dalglish ( 48 ) 
+
+9 pred: 0 gold: 1
+someone who believes he or she 's been treated unfairly by the press    ==    he or she
+... . In our new Talk Back to the Media segment someone who believes he or she 's been ( 9 ) 
+
+44 pred: 0 gold: 1
+The charge    ==    a false and demonstrably false charge
+... President Clinton wanted to receive money for his library . The charge was false ... ? What about them doing reporting themselves before they air a false and demonstrably false charge ? That ( 44 ) 
+
+48 pred: 0 gold: 1
+He    ==    Sandy Berger
+... under President Clinton ? He was at the meeting . He was in ... but you were n't there . uh I talked to Sandy Berger . We ( 48 ) 
+
+17 pred: 0 gold: 1
+his source    ==    somebody
+... Freeh has backed off and has not told people who his source is . ... even insisted that it was true . He just said somebody told him ( 17 ) 
+
+47 pred: 0 gold: 1
+the Sunni Muslim world    ==    the Sunni Muslim world
+... the Sunni Muslim world basically turns people in and when the Sunni Muslim world restrains their ... is that there 's no controlling moral authority today in the Sunni Muslim world . Well ( 47 ) 
+
+15 pred: 0 gold: 1
+that    ==    protected
+... their rifles were out . Yeah . Um how does that affect your ... a journalist ? You 're there . you 're being protected . and ( 15 ) 
+
+7 pred: 0 gold: 1
+him    ==    that one guy
+... commander . so the people around him they 'll follow him into battle . But you take that one guy out there ( 7 ) 
+
+29 pred: 0 gold: 1
+my interview with Tom Friedman    ==    my conversation with New York Times columnist Tom Friedman about his book the new online charge to read him and Judy Miller
+... asked not to write about Judy Miller ? More of my interview with Tom Friedman next . ... slot ten to eleven o'clock eastern . More now of my conversation with New York Times columnist Tom Friedman about his book the new online charge to read him and Judy Miller . Now ( 29 ) 
+
+8 pred: 0 gold: 1
+your new book The World is Flat    ==    monster best seller
+... online charge to read him and Judy Miller . Now your new book The World is Flat I 've got it here . uh monster best seller more than ( 8 ) 
+
+4 pred: 0 gold: 1
+the flattening of the world    ==    going
+... that really masked what is actually a fundemental inflection point the flattening of the world that we 're going from a ( 4 ) 
+
+32 pred: 0 gold: 1
+Judith Miller    ==    her
+... 's a lot we do n't know obviously about the Judith Miller situation . ... her or not this is a woman who believed in her convictions and ( 32 ) 
+
+11 pred: 1 gold: 0
+the whole thing    ==    three sentences
+... Tuesday some newspapers and then the cable networks reported that the whole thing was a hoax . The CBS evening news gave that three sentences . Well ( 11 ) 
+
+43 pred: 0 gold: 1
+one network    ==    NBC 's
+... When we come back one network up the ... the rain or something to get attention . So when NBC 's Michelle Kosinski ( 43 ) 
+
+5 pred: 0 gold: 1
+Late Edition with Wolf Blitzer    ==    This
+... pacific for a full hour of critiquing the media . Late Edition with Wolf Blitzer begins right now . This is Late ( 5 ) 
+
+30 pred: 1 gold: 0
+a smaller pool of people    ==    these crimes
+... suspects and can narrow the focus of your investigation to a smaller pool of people . And ... in time that there are these people out there perpetrating these crimes we are ( 30 ) 
+
+5 pred: 0 gold: 1
+somebody    ==    them
+... instead of having twelve murders take place before we catch somebody now we may catch them after the ( 5 ) 
+
+17 pred: 0 gold: 1
+North Korea 's Kim Jong - Il    ==    this man
+... The Press with Tim Russet . Our issues this Sunday North Korea 's Kim Jong - Il defies the ... missiles which one day could deliver nuclear warheads . Can this man be stopped ( 17 ) 
+
+2 pred: 0 gold: 1
+Nick Everstat a conservative critic from the American Enterprise Institute these are not Democrats    ==    he
+... media reports and statements by North Korean officials which lead Nick Everstat a conservative critic from the American Enterprise Institute these are not Democrats /- he offered this ( 2 ) 
+
+13 pred: 0 gold: 1
+a very strong military force and deterrent force    ==    that military
+... 've just heard . Eh you know we 've got a very strong military force and deterrent force at work in Asia and particularly on the Korean peninsula . And that military can handle ( 13 ) 
+
+50 pred: 1 gold: 0
+Iraq    ==    the US
+... the president talked about the axis of evil he said Iraq North Korea ... have a strong military you will not be invaded by the US . And ( 50 ) 
+
+17 pred: 0 gold: 1
+Afghanistan    ==    that government president government
+... five countries are united . Uh Secretary Rumsfeld was in Afghanistan this morning ... was there ten days ago . and we 're giving that government president government all the ( 17 ) 
+
+48 pred: 1 gold: 0
+its nuclear weapons    ==    it
+... to . A time table for North Korea to dismantle its nuclear weapons . Efforts ... dismantle their nuclear weapons . The best way to do it is face ( 48 ) 
+
+3 pred: 0 gold: 1
+Meet The Press    ==    we
+... Richardson . They are all right here next only on Meet The Press . And we are back ( 3 ) 
+
+4 pred: 0 gold: 1
+the world    ==    I
+... to talk directly with North Korea . But would n't the world then say oh I see . ( 4 ) 
+
+35 pred: 0 gold: 1
+China    ==    They
+... to outsource our foreign policy to China . I believe China is not ... country . I believe that China is a competitor . They control a ( 35 ) 
+
+12 pred: 1 gold: 0
+the Chinese    ==    the regime
+... But the real levers on Kim Jong - Il are the Chinese and the South Koreans . It is they who essentially support the regime economically and ( 12 ) 
+
+7 pred: 0 gold: 1
+those that think that 's too much    ==    you
+... response uh to that kind of action . And to those that think that 's too much I can only say where are you going to ( 7 ) 
+
+9 pred: 0 gold: 1
+former Secretary of Defense Bill Perry and I    ==    we
+... 're unacceptable . and then we tolerate and accept . former Secretary of Defense Bill Perry and I thought long and hard about this . and we thought that ( 9 ) 
+
+17 pred: 1 gold: 0
+five nuclear weapons worth of plutonium    ==    their nuclear weapons program
+... eight thousand fuel rods containing around thirty kilograms enough for five nuclear weapons worth of plutonium stayed in ... And the deal would have had the North Koreans end their nuclear weapons program . We ( 17 ) 
+
+3 pred: 0 gold: 1
+it    ==    the equipment
+... . We do n't know a lot about that where it is whether the equipment has been ( 3 ) 
+
+6 pred: 0 gold: 1
+an enemy    ==    his
+... truck . And deterrents does n't work terribly well when an enemy values your death more than his life . ( 6 ) 
+
+14 pred: 0 gold: 1
+the question you make another deal are you better off with the deal    ==    the former
+... another deal . I think you should . You ask the question you make another deal are you better off with the deal . or are you better off without it ? If the answer to the former is yes ( 14 ) 
+
+32 pred: 0 gold: 1
+Bill Clinton back in nineteen ninety three    ==    President Clinton
+... Let me show you all two presidents Bill Clinton back in nineteen ninety three George Bush ... mind in place of a North Korean watching this . President Clinton President Bush ( 32 ) 
+
+27 pred: 0 gold: 1
+two presidents Bill Clinton back in nineteen ninety three George Bush ten years later    ==    President Clinton President Bush .
+... Let me show you all two presidents Bill Clinton back in nineteen ninety three George Bush ten years later talking to ... mind in place of a North Korean watching this . President Clinton President Bush . North Korea ( 27 ) 
+
+10 pred: 0 gold: 1
+this frozen assets issue    ==    it
+... meeting that serves as a precursor that also deals with this frozen assets issue which has directly hit the North Korean regime cause it controls the ( 10 ) 
+
+1 pred: 0 gold: 1
+somebody that is uh out of his mind    ==    his
+... he 's crazy like a fox . He is not somebody that is uh out of his mind . ( 1 ) 
+
+13 pred: 0 gold: 1
+the American people    ==    we
+... . Mr. President in the early days of the republic the American people took great chances on young men in the presidency . Now here we are looking ( 13 ) 
+
+21 pred: 0 gold: 1
+their parents    ==    their parents
+... our focus was to analyze the impact on children when their parents , work ... is the lack of love because of the absence of their parents . Therefore ( 21 ) 
+
+7 pred: 0 gold: 1
+a child who was sick    ==    him
+... by their own habits . For instance , there was a child who was sick . Um , the grandparents asked him to take ( 7 ) 
+
+47 pred: 0 gold: 1
+Her    ==    she
+... had to take care of the entire family . " Her father and ... can do is to feed her and make sure that she is not ( 47 ) 
+
+47 pred: 0 gold: 1
+them    ==    my parents '
+... a very hard life . Little Beiwen has not seen them once in ... , want to be able to turn to comfort in my parents ' arms . ( 47 ) 
+
+8 pred: 0 gold: 1
+This    ==    It
+... That was when I missed my mother the most . This is Jiang Beiwen 's favorite photo . It was taken ( 8 ) 
+
+18 pred: 0 gold: 1
+My schoolwork    ==    my schoolwork
+... ? I will talk about my studies and life . My schoolwork was not ... came ! My mother scolded me in the beginning when my schoolwork was poor ( 18 ) 
+
+15 pred: 0 gold: 1
+they    ==    parents of left - behind children
+... after that , my mother cried , too . Since they move from ... place in the city to work all year round , parents of left - behind children have little ( 15 ) 
+
+16 pred: 1 gold: 0
+the children 's    ==    their
+... work in the city have a particularly lofty image in the children 's mind . ... not want their children to know about the nature of their job or ( 16 ) 
+
+15 pred: 0 gold: 1
+their    ==    the children
+... possible ? We interviewed some left - behind children , their custodians , ... people who work in the city . Why would n't the children know what ( 15 ) 
+
+8 pred: 0 gold: 1
+the children 's    ==    their children
+... work in the city have a particularly lofty image in the children 's mind . Maybe they do not want their children to know ( 8 ) 
+
+35 pred: 1 gold: 0
+these children    ==    them
+... Then , are these children willing to ... all want their parents to come back to live with them . However ( 35 ) 
+
+30 pred: 1 gold: 0
+children from rural areas and people from rural areas who work in the city    ==    them
+... oh , city life is like this . As for children from rural areas and people from rural areas who work in the city , they ... , are they more willing to bring their children with them or leave ( 30 ) 
+
+0 pred: 1 gold: 0
+his um , um , grandparents who had custody of him    ==    him
+... very strange . Um , um , we also asked his um , um , grandparents who had custody of him . They ( 0 ) 
+
+25 pred: 0 gold: 1
+the violee    ==    the violence
+... days ahead . We do have to try to reduce the violee and take ... move back to a peace process , but even if the violence subsides , ( 25 ) 
+
+20 pred: 0 gold: 1
+its    ==    the Israelis
+... siege of Palestinians , to speak to the Palestinians as its neighbors because ... clearly face the greatest pressure in this summit , since the Israelis are not ( 20 ) 
+
+23 pred: 0 gold: 1
+I    ==    his
+... . He calls it addictive . You get withdrawal . I want to ... longer expects to see the end of the cave in his lifetime . ( 23 ) 
+
+8 pred: 0 gold: 1
+A cowboy hunting in the area    ==    He
+... first recorded discovery of the cave was in 1881 . A cowboy hunting in the area heard the sound of rushing wind . He followed it ( 8 ) 
+
+19 pred: 1 gold: 0
+opened    ==    the shots
+... Nine people were injured in Gaza when gunmen opened fire on ... were off - duty Israeli security workers . Witnesses say the shots came from ( 19 ) 
+
+35 pred: 1 gold: 0
+opened    ==    the two - year - old airport
+... Nine people were injured in Gaza when gunmen opened fire on ... international airport . Israeli Prime Minister Ehud Barak closed down the two - year - old airport in response ( 35 ) 
+
+true_pos, true_neg, false_pos, false_neg, (560, 115, 20, 54)
+F1 score of 0.9380234505862647
+##################################END: Min Distance: 0, Max Distance: 50#####################################################
+
+##################################START: Min Distance: 51, Max Distance: 100#####################################################
+
+62 pred: 0 gold: 1
+the traffic control department    ==    we
+... Uh-huh . Well , what measures did the traffic control department eventually take ... In the roads close to where the problem emerged , we first set ( 62 ) 
+
+80 pred: 1 gold: 0
+have    ==    the time of that snowfall just mentioned by Professor Zhou that people still vividly remember
+... well , I think , Yang Yang , perhaps you have stronger feelings ... for instance , as people still vividly remember , at the time of that snowfall just mentioned by Professor Zhou that people still vividly remember , there ( 80 ) 
+
+63 pred: 1 gold: 0
+made    ==    this work progress
+... . Well , following this , repairs have to be made on this ... repair are carried out in succession . Therefore , regarding this work progress , to ( 63 ) 
+
+99 pred: 1 gold: 0
+Northwest China    ==    South China
+... addition , there will be snowfall in the area from Northwest China to the ... , there will be rain throughout almost the whole of South China . It ( 99 ) 
+
+97 pred: 1 gold: 0
+Judy Miller and the New York Times    ==    Times
+... but first Judy Miller and the New York Times finally go ... of mass destruction . The conclusion by a team of Times reporters . ( 97 ) 
+
+73 pred: 0 gold: 1
+her    ==    Judy Miller
+... we learn is that Bill Keller took Judy Miller off her WMD beat ... thing that jumped out at me in the story . Judy Miller acknowledges that ( 73 ) 
+
+57 pred: 1 gold: 0
+news organizations    ==    They
+... for news organizations to report on themselves . You know news organizations demand total ... very plain in their story today they really suffered . They were behind ( 57 ) 
+
+79 pred: 0 gold: 1
+Valerie Plame    ==    Valerie Plame
+... source beside Scooter Libby that she dealt with on the Valerie Plame situation . ... source was when it comes to revealing the identity of Valerie Plame . And ( 79 ) 
+
+94 pred: 1 gold: 0
+that investigation    ==    that
+... got and then to do nothing to assist and facilitate that investigation in fact ... contribution to his presidential library . Well not only is that false and ( 94 ) 
+
+89 pred: 0 gold: 1
+you    ==    us
+... the meeting . He was in the room . Did you offer him ... the meeting before Friday afternoon ? Why did it take us to get ( 89 ) 
+
+78 pred: 0 gold: 1
+Sixty Minutes    ==    they
+... did deal with Freeh 's allegations were included in the Sixty Minutes report . ... 's disparaging . Secondly it is absolutely a misrepresentation that they told us ( 78 ) 
+
+71 pred: 0 gold: 1
+his    ==    I
+... response to any of the allegations until Lanny Davis launched his PR campaign ... to say that I was asking to disparage Freeh . I was asking ( 71 ) 
+
+65 pred: 1 gold: 0
+the hour 's top stories    ==    it
+... After an update on the hour 's top stories from Atlanta ... weekend as you recall . Pakistan 's prime minister says it killed at ( 65 ) 
+
+95 pred: 1 gold: 0
+Tom Friedman    ==    Howie
+... the author most recently of The World is Flat . Tom Friedman welcome . ... page . Bad news judgement ? Uh I think so Howie . I ( 95 ) 
+
+57 pred: 1 gold: 0
+an Iraqi commander who 's a real leader of soldiers    ==    they
+... learn when you go to Iraq . Where you have an Iraqi commander who 's a real leader of soldiers okay you ... has a terrific commander . so the people around him they 'll follow ( 57 ) 
+
+51 pred: 1 gold: 0
+it    ==    it
+... is important . But they never never appreciated how difficult it was . ... story . but for the first couple days I noticed it was n't ( 51 ) 
+
+75 pred: 0 gold: 1
+Pakistan a region you 're familiar with    ==    Pakistan
+... it was . I mentioned the uh devastating earthquake in Pakistan a region you 're familiar with . Um ... Uh Westerners are more interested in New Orleans than in Pakistan ? I ( 75 ) 
+
+80 pred: 0 gold: 1
+that    ==    all these other distractions
+... really over . And as a result I would argue that really masked ... argue a little bit that it got missed because of all these other distractions . But ( 80 ) 
+
+74 pred: 0 gold: 1
+my paper    ==    the New York Times
+... 've said this to my bosses . Um I want my paper to thrive ... to what you got in the dead tree edition of the New York Times . And ( 74 ) 
+
+58 pred: 1 gold: 0
+the city 's massive subway system    ==    the Big Apple
+... New York tonight officials say they are increasing security on the city 's massive subway system because of ... it irresistable . And since it was right there in the Big Apple cable anchors ( 58 ) 
+
+77 pred: 0 gold: 1
+the city 's massive subway system    ==    the New York City subway system behind me around me literally beneath our feet here in Times Square
+... New York tonight officials say they are increasing security on the city 's massive subway system because of ... almost non-stop on the scene coverage . The threat concerns the New York City subway system behind me around me literally beneath our feet here in Times Square . The ( 77 ) 
+
+79 pred: 1 gold: 0
+Our    ==    North Korea
+... Washington this is Meet The Press with Tim Russet . Our issues this ... the negotiations for the nineteen ninety four nuclear agreement with North Korea Robert Gallucci ( 79 ) 
+
+91 pred: 1 gold: 0
+Japan    ==    the United States
+... combined leverage of China and Russia 's of South Korea Japan and the ... one Nicholas Burns on National Public Radio . With Iran the United States has made ( 91 ) 
+
+75 pred: 0 gold: 1
+It    ==    this
+... effect of compulsory behavior by all the member states . It says that ... have to see how the Chinese and Russians react to this . but ( 75 ) 
+
+71 pred: 0 gold: 1
+July Fourth    ==    that
+... agreement . And what we 've seen Tim especially on July Fourth is the ... wild statement that they make . but they certainly chose that to get ( 71 ) 
+
+57 pred: 1 gold: 0
+the statements that we 've just heard    ==    those contingencies
+... Tim um obviously we profoundly disagree with um some of the statements that we 've just heard . Eh ... think forward looking policy to develop missile defense to handle those contingencies . But ( 57 ) 
+
+54 pred: 1 gold: 0
+a great deal of influence on North Korea certainly more than we have    ==    the right policy
+... do is we want to ask countries that do have a great deal of influence on North Korea certainly more than we have to use ... or even years to succeed . But if you have the right policy in place ( 54 ) 
+
+60 pred: 0 gold: 1
+the Chinese    ==    China
+... 've miscalculated because you 've seen very tough statements from the Chinese and the ... States from both our European allies and from Russia and China . But ( 60 ) 
+
+89 pred: 1 gold: 0
+They    ==    They
+... the UN now Governor of New Mexico Bill Richardson . They are all ... to the North Koreans to discuss what is next . They need to ( 89 ) 
+
+65 pred: 1 gold: 0
+the North Koreans    ==    We
+... . The reason to have everybody at the table with the North Koreans is not ... of military action to apply pressure to North Korea . We 're capable ( 65 ) 
+
+55 pred: 1 gold: 0
+launch    ==    that
+... the launch pad and erect that missile and prepare to launch it we ... that kind of action . And to those that think that 's too ( 55 ) 
+
+93 pred: 0 gold: 1
+Ash Carter    ==    I
+... We will not tolerate nuclear weapons in North Korea . Ash Carter both presidents ... with the North Koreans . I do think and here I agree with ( 93 ) 
+
+90 pred: 0 gold: 1
+you    ==    I
+... Il tyrant spoiled child . others have said madman . you 've been ... economically . I been there five times . I think I 've seen ( 90 ) 
+
+88 pred: 0 gold: 1
+our    ==    the two grandparents
+... are not home , so the entire family falls onto our shoulders , ... important um , workforce . Now it was down to the two grandparents . No ( 88 ) 
+
+60 pred: 1 gold: 0
+his    ==    he
+... me the most about him was that he really missed his parents . ... he ran back to the village right away . After he arrived at ( 60 ) 
+
+59 pred: 1 gold: 0
+their    ==    they
+... contacted their children . 21.4 percent of the parents contacted their children less ... the telephone . However , contrary to our belief that they could talk ( 59 ) 
+
+77 pred: 0 gold: 1
+their    ==    The children
+... behind children told us that they especially wanted to call their parents on ... my parents when my custodians were not home . " The children have a ( 77 ) 
+
+57 pred: 1 gold: 0
+children    ==    this group of left - behind children
+... . " What it says is that the character that children form at ... for this type , um , um , um , this group of left - behind children , psychologically ( 57 ) 
+
+53 pred: 0 gold: 1
+Half of the Palestinian population    ==    it
+... , thousands of Palestinians are calling for continued fighting . Half of the Palestinian population is under ... really is -- how volatile , how close to exploding it really is ( 53 ) 
+
+56 pred: 1 gold: 0
+more unrest in several areas of the West Bank and Gaza Strip    ==    the area
+... The summit is coinciding with more unrest in several areas of the West Bank and Gaza Strip . Hundreds ... least seven people . Thousands of Palestinian demonstrators marched in the area to protest ( 56 ) 
+
+79 pred: 1 gold: 0
+its    ==    It
+... many stores have sold out of the game even before its release . ... ? $ 300 . A lot by current standards . It 's great ( 79 ) 
+
+53 pred: 0 gold: 1
+Yugoslavia 's    ==    a Serb - dominated Yugoslavia
+... 's first free elections in 50 years . Milosevic headed Yugoslavia 's state - ... of the Serbian republic . His brutal efforts to create a Serb - dominated Yugoslavia earned him ( 53 ) 
+
+70 pred: 0 gold: 1
+We    ==    CNN `` Headline News Tonight
+... a good one . That was a great story . We 'll try ... country legend is celebrating his 70th birthday . This is CNN `` Headline News Tonight . ( 70 ) 
+
+90 pred: 1 gold: 0
+Martha Stewart Living Omnimedia    ==    its
+... her decision to vacate her post as chief executive of Martha Stewart Living Omnimedia , following ... to bail out of a biotech stock the day before its price tanked ( 90 ) 
+
+85 pred: 1 gold: 0
+we    ==    We
+... future by the Grateful Dead . We will get by we will survive ... better world . For me , that 's music . We love you ( 85 ) 
+
+65 pred: 0 gold: 1
+shot    ==    shot
+... , Zoran Djindjic has died of his wounds after being shot , an ... Minister , is dead . Earlier reports said he was shot in the ( 65 ) 
+
+75 pred: 1 gold: 0
+American Airlines '    ==    it
+... I 'm Mary Snow with this check of headlines . American Airlines ' fate is ... companies are planning to cut their payrolls . Motorola saying it will eliminate ( 75 ) 
+
+81 pred: 1 gold: 0
+Jamie 's husband Jack    ==    she
+... eased their worries . Beth Basin explains . Reporter : Jamie 's husband Jack was deployed ... the picture , the flight attendant wrote a letter saying she was praying ( 81 ) 
+
+53 pred: 0 gold: 1
+our viewers    ==    your
+... act of kindness . We get thousands of e-mail from our viewers every day ... to our Website , cnn.com/wolf . We read all of your e-mail . ( 53 ) 
+
+59 pred: 0 gold: 1
+he    ==    David Williams , one of the POWs whose face we got to know in the coverage that we saw coming from Iraq .
+... speaking to the crowd rather emotionally and now you see he is taking ... being told . Quite an emotional scene this morning . David Williams , one of the POWs whose face we got to know in the coverage that we saw coming from Iraq . Other POWs ( 59 ) 
+
+61 pred: 0 gold: 1
+that Sunday morning when they were picked up by a squadron of Marines who had wandered in a town in Baghdad and were told where they were being kept    ==    the Sunday morning when the video came in of the rescue of the POWs
+... after they were captured and released , that dramatic release that Sunday morning when they were picked up by a squadron of Marines who had wandered in a town in Baghdad and were told where they were being kept . Dramatic ... wife Michelle who was talking with us on the telephone the Sunday morning when the video came in of the rescue of the POWs and , ( 61 ) 
+
+77 pred: 0 gold: 1
+Laci Peterson    ==    his wife Laci
+... Moving on to the Laci Peterson case Bill ... 's arrest . Peterson awaiting trial in the murder of his wife Laci and their ( 77 ) 
+
+60 pred: 1 gold: 0
+the pilot    ==    she
+... night in a blinding rain storm . Today investigators say the pilot had confirmed ... . As the plane was taking off this passenger noticed she did n't ( 60 ) 
+
+57 pred: 0 gold: 1
+This    ==    the construction equipment
+... for hundreds of yards . Twisted overturned construction equipment . This is what ... runway . They say the plane took off , clicking the construction equipment , slamming ( 57 ) 
+
+97 pred: 1 gold: 0
+Abdel Basset Ali Al - megrahi    ==    Brian Flynn
+... split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty ... sentence , 20 years in jail , too light for Brian Flynn . His ( 97 ) 
+
+81 pred: 0 gold: 1
+the verdict    ==    A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged .
+... court , many of the families of the victims think the verdict did n't ... the verdict against two Libyan defendants charged with murder . A split decision for Lamen Khalifa Fhimah , aquittal , but Abdel Basset Ali Al - megrahi found guilty as charged . The court ( 81 ) 
+
+76 pred: 0 gold: 1
+Moammar Khaddafi    ==    Khaddafi
+... it was 270 people he murdered . Frustration too that Moammar Khaddafi was immune ... Bush , at the White House today , demanding that Khaddafi meet certain ( 76 ) 
+
+97 pred: 1 gold: 0
+Israel    ==    Egypt
+... was pulling for a complete cut in diplomatic relations between Israel and the ... should understand the implications of just what it meant . Egypt and Jordan ( 97 ) 
+
+77 pred: 0 gold: 1
+Saudi Arabia    ==    Saudi Arabia which is traditionally being more dovish and has supported US policy
+... not too much . I mean Madeleine Albright was in Saudi Arabia yesterday where ... meet with Bashar Al - Assad and it was n't Saudi Arabia which is traditionally being more dovish and has supported US policy , it ( 77 ) 
+
+58 pred: 1 gold: 0
+Index Theater    ==    The World
+... branded as traitors and be banned from public performances . Index Theater is planning ... would like to share one joke with the listeners of The World . It ( 58 ) 
+
+77 pred: 1 gold: 0
+Just one last thing    ==    Is
+... plays now and he writes his plays in French . Just one last thing quoting him ... one writer in the voice of an individual . '' Is that true ( 77 ) 
+
+67 pred: 0 gold: 1
+a couple of years    ==    a couple of years
+... ? Well , his trip has actually been delayed for a couple of years . Russian ... some time , so it 's been put off for a couple of years . But ( 67 ) 
+
+73 pred: 1 gold: 0
+a memorial service for the victims of the deadly bomb attack on the USS Cole    ==    the investigation
+... President Clinton has told a memorial service for the victims of the deadly bomb attack on the USS Cole that justice ... Ali Abdul Salay said important evidence had been uncovered in the investigation . President ( 73 ) 
+
+75 pred: 1 gold: 0
+Sovereignty    ==    The report
+... and sovereignty should be seen in a democratic context . Sovereignty is not ... a common misperception that democracy is a Western concept . The report was issued ( 75 ) 
+
+88 pred: 1 gold: 0
+it    ==    They
+... . One large utility company , Southern California Edison says it may have ... . It 's not hard for anybody to see . They can talk ( 88 ) 
+
+79 pred: 1 gold: 0
+Prime Minister Barak 's    ==    his
+... 6th election . Correspondent Laurie Cassman has a report . Prime Minister Barak 's decision not ... angry outburst Mr. Arafat reaffirmed his commitment to peace and his willingness to ( 79 ) 
+
+83 pred: 0 gold: 1
+Prime Minister Barak 's    ==    Mr. Barak
+... 6th election . Correspondent Laurie Cassman has a report . Prime Minister Barak 's decision not ... reaffirmed his commitment to peace and his willingness to meet Mr. Barak . The ( 83 ) 
+
+94 pred: 1 gold: 0
+Dongguan    ==    Taiwan
+... , these buses run by a Taiwan firm out of Dongguan take Taiwan ... it ? What mix of sad and happy tales about Taiwan firms does ( 94 ) 
+
+55 pred: 1 gold: 0
+the mainland 's    ==    its
+... he discovered that Malaysia 's market was much smaller than the mainland 's and its ... . Now , little more than a decade later , its 20 - ( 55 ) 
+
+83 pred: 0 gold: 1
+They    ==    Global
+... in the form of lower fares for its customers . They never expected ... to 27 , with over 20,000 riders a month . Global plans to ( 83 ) 
+
+59 pred: 1 gold: 0
+The Taiwan firms here    ==    their
+... Dongguan appears to have a bright future . " The Taiwan firms here now are ... hostile territory . Taiwan business interests can not put down their guard . ( 59 ) 
+
+59 pred: 1 gold: 0
+TBAD    ==    it
+... trying to figure out what the mainland authorities think of TBAD . For ... . Mainland China shares the same language as Taiwan and it offers attractive ( 59 ) 
+
+94 pred: 0 gold: 1
+his    ==    my
+... , drawing on his astonishingly sharp memory , he completed his reminiscences and ... had dreadful protruding teeth , but now not only do my teeth no ( 94 ) 
+
+56 pred: 1 gold: 0
+two main types    ==    microarray chips
+... , environmental testing and food testing . Biochips come in two main types : the ... onto a single chip in miniaturized form . Meanwhile on microarray chips , biological ( 56 ) 
+
+56 pred: 1 gold: 0
+the chip    ==    the chip itself
+... , copying , amplification and labeling before being put onto the chip where the ... , all the laboratory preparation stages will be done on the chip itself , so ( 56 ) 
+
+74 pred: 1 gold: 0
+the material itself    ==    its
+... cost a third less than glass chips . Apart from the material itself being cheaper ... by Konan Peck . Cutting edge Can Taiwan really repeat its success in ( 74 ) 
+
+55 pred: 1 gold: 0
+the chips '    ==    them
+... convenient , reading results must be simple and easy , the chips ' speed and ... in five years time it should be possible to develop them into general ( 55 ) 
+
+92 pred: 0 gold: 1
+Linpien    ==    the town 's
+... Festival . According to the archives , 400 years ago Linpien was a ... on a stele , erected in 1762 , next to the town 's Sanshan King ( 92 ) 
+
+91 pred: 0 gold: 1
+Linpien Rural Township    ==    the township 's
+... Linpien Facts and Figures Linpien Rural Township is in ... nut and coconut also grown . One - third of the township 's land is ( 91 ) 
+
+80 pred: 1 gold: 0
+the crises experienced by a minority of middle - aged people    ==    their
+... one 's responsibilities are heaviest . As a result , the crises experienced by a minority of middle - aged people can involve ... wealth , and physical strength are all at or near their peak , ( 80 ) 
+
+60 pred: 1 gold: 0
+today 's middle - aged Chinese women    ==    Their
+... it is important to maintain flexibility . For instance , today 's middle - aged Chinese women are the ... mothers and to have successful careers like their fathers . Their candles are ( 60 ) 
+
+66 pred: 1 gold: 0
+they    ==    they
+... . Their candles are burning at both ends , because they are trying ... Chinese wife and mother . Ignoring the changing times , they place tremendous ( 66 ) 
+
+68 pred: 0 gold: 1
+next spring    ==    spring
+... A. Mosbacher . Mr. Mosbacher called for concrete results by next spring in negotiations ... the objective `` is not to get definitive action by spring or summer ( 68 ) 
+
+60 pred: 0 gold: 1
+Sulka & Co.    ==    Sulka
+... Syms Corp. completed the sale of its A. Sulka & Co. subsidiary , ... the parent , in a statement . A spokeswoman said Sulka operates a ( 60 ) 
+
+61 pred: 1 gold: 0
+this quarter    ==    That change
+... prices and gasoline profitability . The gasoline picture may improve this quarter , but ... Phillips Petroleum Co. , said in an interview . `` That change will obviously ( 61 ) 
+
+92 pred: 1 gold: 0
+the U.S. and its allies    ==    the Italian government
+... on Multilateral Export Controls , the unofficial forum through which the U.S. and its allies align their ... liberalization . To make its point , it is challenging the Italian government to explain ( 92 ) 
+
+80 pred: 1 gold: 0
+HOFI 's first offer    ==    the transaction
+... Co. with its 67 % stake in Ideal . But HOFI 's first offer would have ... by Ideal shareholders . Ideal said it expects to complete the transaction early next ( 80 ) 
+
+88 pred: 0 gold: 1
+its 10 - K report    ==    its 10K
+... Southmark Corp. said that it filed part of its 10 - K report with the ... reports were due . Southmark said it plans to amend its 10K to provide ( 88 ) 
+
+58 pred: 1 gold: 0
+chairman of McKesson Corp.    ==    Mr. Field
+... who resigned last month . Mr. Field also had been chairman of McKesson Corp. , resigning ... , as a director , filling the seat vacated by Mr. Field . Messrs. ( 58 ) 
+
+56 pred: 0 gold: 1
+one in Quebec    ==    a plant in St. Therese , Quebec
+... separate GM move that affects three U.S. car plants and one in Quebec . Workers ... it can build the new Camaro - Firebird profitably at a plant in St. Therese , Quebec , company ( 56 ) 
+
+73 pred: 1 gold: 0
+canceled    ==    the planned exchange
+... Weatherford International Inc. said it canceled plans for ... . Weatherford said market conditions led to the cancellation of the planned exchange . The ( 73 ) 
+
+51 pred: 1 gold: 0
+kids    ==    their
+... the streets . The games Bronx children played -LRB- holding kids down and ... both , '' she writes . She analyzed families by their sleeping arrangements ( 51 ) 
+
+77 pred: 0 gold: 1
+it    ==    Gulf Resources
+... that as part of its agreement with the EPA , it `` made ... are subject to court approval , the company said . Gulf Resources added that ( 77 ) 
+
+96 pred: 1 gold: 0
+Justice John Harlan    ==    He
+... future . He has said that he now knows how Justice John Harlan felt , ... , '' he said in a speech last month . He , like ( 96 ) 
+
+72 pred: 0 gold: 1
+its    ==    NCNB
+... , instead of as a whole institution . NCNB continued its foray into ... sunk , the RTC will pay $ 3.8 billion to NCNB to take ( 72 ) 
+
+72 pred: 1 gold: 0
+PacifiCare Health Systems Inc.    ==    Drexel Burnham Lambert Inc.
+... Capital Funding , and Bateman Eichler , Hill Richards . PacifiCare Health Systems Inc. , proposed ... of common stock and 300,000 shares by holders , via Drexel Burnham Lambert Inc. and J.C. ( 72 ) 
+
+71 pred: 0 gold: 1
+the industry    ==    industry
+... 's such a departure from the past that many in the industry are skeptical ... . The network 's salaries have always ranged far below industry standards , ( 71 ) 
+
+63 pred: 0 gold: 1
+its    ==    Pennzoil
+... case did not repudiate the position Pennzoil Co. took in its dispute with ... In the Pennzoil / Texaco litigation , the courts found Pennzoil and Getty ( 63 ) 
+
+67 pred: 1 gold: 0
+Triland Investment Group , the developer of Valley Ranch ,    ==    he
+... , a Houston law firm . But a lawyer for Triland Investment Group , the developer of Valley Ranch , dismisses such ... grant in addition to the thrill of victory , '' he says . ( 67 ) 
+
+51 pred: 0 gold: 1
+the ANC 's Sisulu    ==    The 77 - year - old Sisulu , sentenced to life in 1964 along with black nationalist Nelson Mandela for plotting to overthrow the government ,
+... SOUTH AFRICA FREED the ANC 's Sisulu and seven ... freed had spent at least 25 years in prison . The 77 - year - old Sisulu , sentenced to life in 1964 along with black nationalist Nelson Mandela for plotting to overthrow the government , said equality ( 51 ) 
+
+99 pred: 1 gold: 0
+grew    ==    The overall 0.9 % increase
+... credit , the Commerce Department reported Friday that retail sales grew 0.5 % ... the inflation threat signaled by the new numbers . `` The overall 0.9 % increase is serious ( 99 ) 
+
+77 pred: 0 gold: 1
+his    ==    the source
+... . Yesterday , a source close to GEC confirmed that his company may ... GEC and its potential partners decide whether to bid , the source indicated . ( 77 ) 
+
+73 pred: 0 gold: 1
+65 to 74    ==    65 to 74
+... the noninstitutionalized population shows that 64 % of people aged 65 to 74 were living ... children . In 1988 , 10 % of those aged 65 to 74 lived with ( 73 ) 
+
+91 pred: 1 gold: 0
+the witnesses    ==    My colleagues
+... , he used better than 5,000 words heaping scorn on the witnesses for exercising ... not deal with any possible criminal activity at HUD . My colleagues and I ( 91 ) 
+
+true_pos, true_neg, false_pos, false_neg, (248, 397, 58, 46)
+F1 score of 0.8266666666666667
+##################################END: Min Distance: 51, Max Distance: 100#####################################################
+
+##################################START: Min Distance: 101, Max Distance: None#####################################################
+
+208 pred: 1 gold: 0
+Focus Today    ==    Beijing Traffic Radio Station
+... Hello , dear viewers . Welcome to Focus Today . Today ... Hello . Next is Yang Yang , a host of Beijing Traffic Radio Station . Hello ( 208 ) 
+
+332 pred: 1 gold: 0
+Beijing Municipality    ==    the station
+... roads of Jingguang Bridge , East Third Ring Road , Beijing Municipality , resulting ... at Jingguang Bridge and that I had to go to the station immediately to ( 332 ) 
+
+212 pred: 1 gold: 0
+the friend    ==    I
+... friend , um , at noon . And then , the friend first sent ... the east and it did not affect us much , I think it ( 212 ) 
+
+185 pred: 1 gold: 0
+e-government    ==    this
+... is something unattainable . Yes , when we talked about e-government in the ... , this time I think that a short SMS like this can fully ( 185 ) 
+
+310 pred: 1 gold: 0
+we    ==    we
+... hour to an hour during peak periods . Well , we could not ... the Guomao Bridge , ah . We were discussing that we could go ( 310 ) 
+
+115 pred: 1 gold: 0
+the broadcast    ==    this situation
+... . today , before our live broadcast , we moved the broadcast forward , ... Psychologically , people felt quite relieved . Because I know this situation . Right ( 115 ) 
+
+326 pred: 0 gold: 1
+you    ==    I
+... Well , ah , Yang Yang , you work at ... . However , actually after the entire day today , I came here ( 326 ) 
+
+220 pred: 1 gold: 0
+the main and side roads of East Third Ring Road in the south - north direction    ==    this place
+... is Chaoyang Road in the east - west direction or the main and side roads of East Third Ring Road in the south - north direction , as ... did not happen , perhaps everyone would not know that this place could normally ( 220 ) 
+
+179 pred: 1 gold: 0
+East Third Ring Road    ==    the neighborhood
+... - west direction or the main and side roads of East Third Ring Road in the ... latest results this morning show that 32 bus routes throughout the neighborhood have had ( 179 ) 
+
+219 pred: 1 gold: 0
+us    ==    they
+... , some listeners , ah , also happened to tell us about it ... the government in handling this incident . That is , they think that ( 219 ) 
+
+141 pred: 1 gold: 0
+seven main types of pipes buried underground    ==    they
+... there are underground ? Right now , there should be seven main types of pipes buried underground . They ... participate in emergency repair work . Relevant departments said that they will adopt ( 141 ) 
+
+201 pred: 1 gold: 0
+seven main types of pipes buried underground    ==    traffic management and emergency repair
+... there are underground ? Right now , there should be seven main types of pipes buried underground . They ... ah , we should say it was very prompt with traffic management and emergency repair , ah ( 201 ) 
+
+271 pred: 0 gold: 1
+Beijing Municipality    ==    the municipal government , ah , including sub-district offices
+... time , through the execution of emergency contingency plans by Beijing Municipality this time ... relatively quickly . Hence , over here , I think the municipal government , ah , including sub-district offices , made ( 271 ) 
+
+192 pred: 0 gold: 1
+this    ==    the road cave - in at East Third Ring Road this time
+... a big city , a suddenly occurring public emergency like this should be ... ago , the heavy rains two years ago , and the road cave - in at East Third Ring Road this time , I ( 192 ) 
+
+140 pred: 1 gold: 0
+we , Beijing Traffic Radio Station    ==    the studio
+... direct SMS exchange with listeners . It is because , we , Beijing Traffic Radio Station , has ... clear , it was very congested . You sat inside the studio and only ( 140 ) 
+
+201 pred: 1 gold: 0
+Beijing Municipality    ==    it
+... people still vividly remember , there were no plans . Beijing Municipality still had ... therefore , as a local media in this city , it should become ( 201 ) 
+
+209 pred: 1 gold: 0
+have    ==    that rainfall
+... well , I think , Yang Yang , perhaps you have stronger feelings ... extremely unclear . Well , later , when we experienced that rainfall in Beijing ( 209 ) 
+
+214 pred: 0 gold: 1
+Beijing Municipality    ==    the city
+... people still vividly remember , there were no plans . Beijing Municipality still had ... a proactive participant when there is a public emergency in the city . Yes ( 214 ) 
+
+297 pred: 1 gold: 0
+foreign countries    ==    they
+... comparison to China , we should say that urbanization in foreign countries developed earlier ... been put to the test . Well , how will they undergo testing ( 297 ) 
+
+400 pred: 1 gold: 0
+the pipes below    ==    today 's edition of Focus Today
+... alone . There is also an issue with many of the pipes below . Yes ... . Okay , dear viewers , that is all for today 's edition of Focus Today . Thank ( 400 ) 
+
+115 pred: 1 gold: 0
+concrete    ==    the optical fibers
+... and then -- Moreover , it is especially difficult for concrete to set ... fibers , ah . Er , right now , if the optical fibers break , ( 115 ) 
+
+488 pred: 1 gold: 0
+this road section where the accident occurred    ==    our program
+... , following this , repairs have to be made on this road section where the accident occurred , including ... Yang , for coming to the studio to participate in our program . Thank ( 488 ) 
+
+286 pred: 0 gold: 1
+you    ==    Yang Yang
+... very much on factors like temperature . Just now , you mentioned that ... Okay , thank you very much , Professor Zhou and Yang Yang , for ( 286 ) 
+
+107 pred: 0 gold: 1
+columnist Tom Friedman    ==    Pulitzer Prize winner Tom Friedman
+... Harriet Meyers and the Pakistan quake ? A conversation with columnist Tom Friedman . Was ... stay tuned . I had a wide ranging sitdown with Pulitzer Prize winner Tom Friedman ( 107 ) 
+
+101 pred: 0 gold: 1
+A conversation with columnist Tom Friedman .    ==    a wide ranging sitdown with Pulitzer Prize winner Tom Friedman
+... Tom DeLay and Harriet Meyers and the Pakistan quake ? A conversation with columnist Tom Friedman . Was Sixty ... the coming week . so stay tuned . I had a wide ranging sitdown with Pulitzer Prize winner Tom Friedman ( 101 ) 
+
+178 pred: 1 gold: 0
+CIA    ==    the Times
+... morning with their nearly six thousand word account of the CIA leak investigation ... boss says no way . that never happened . And the Times was so ( 178 ) 
+
+160 pred: 0 gold: 1
+Judy Miller    ==    Miller released from jail last month
+... but first Judy Miller and the ... unable to answer its questions . Among the journalistic revelations, Miller released from jail last month says she ( 160 ) 
+
+495 pred: 1 gold: 0
+Frank Sesno professor of public policy and communication at George Mason University and a CNN special correspondant    ==    his
+... for Freedom of the Press . and here in Washington Frank Sesno professor of public policy and communication at George Mason University and a CNN special correspondant . Frank ... took Judy Miller off her WMD beat as one of his first personnel ( 495 ) 
+
+227 pred: 1 gold: 0
+this mess    ==    itself
+... . You know and if the whole bottom line of this mess is that ... . Pretty candid stuff for a newspaper to publish about itself would n't ( 227 ) 
+
+582 pred: 1 gold: 0
+Frank Sesno professor of public policy and communication at George Mason University and a CNN special correspondant    ==    him
+... for Freedom of the Press . and here in Washington Frank Sesno professor of public policy and communication at George Mason University and a CNN special correspondant . Frank ... is the Dick Cheney aide she agreed to refer to him and in ( 582 ) 
+
+514 pred: 1 gold: 0
+that waiver that Miller was apparently granted by uh Scooter Libby a year ago    ==    it
+... 's still a lot of questions here . Why was that waiver that Miller was apparently granted by uh Scooter Libby a year ago /- Why ... that was a little bit misleading . And I thought it was odd ( 514 ) 
+
+256 pred: 1 gold: 0
+Miss Run Amuck    ==    that story
+... 's referred to in the Times ' own account as Miss Run Amuck . She ... 's publisher allow Judy Miller to hijack the reporting of that story and the ( 256 ) 
+
+204 pred: 1 gold: 0
+I    ==    me
+... an abdication of journalistic responsibility ? Maybe yeah maybe . I mean what ... piece this morning uh uh Judy Miller is quoted excuse me as saying ( 204 ) 
+
+148 pred: 0 gold: 1
+its    ==    They
+... Frank Sesno the Times was so hamstrung by its passionate embrace ... very plain in their story today they really suffered . They were behind ( 148 ) 
+
+114 pred: 0 gold: 1
+their story today    ==    this lengthy piece this morning
+... this case and the Times makes it very plain in their story today they really ... from the news uh section ? Arianna Huffington uh in this lengthy piece this morning uh uh ( 114 ) 
+
+176 pred: 1 gold: 0
+the waiver of confidentiality that Scooter Libby offered    ==    those sources
+... otherwise mysterious decision to go to jail and not accept the waiver of confidentiality that Scooter Libby offered and sit ... can as long as the law allows them to protect those sources . Right ( 176 ) 
+
+872 pred: 1 gold: 0
+her    ==    Arianna
+... Miller recounting what her lawyer Floyd Abrams had said to her about a ... is not going to work . And on that point Arianna on that ( 872 ) 
+
+940 pred: 0 gold: 1
+them    ==    her colleagues who were writing the story
+... colleagues . and she would n't share her notes with them although they ... a book . She would n't share her notes with her colleagues who were writing the story . Do ( 940 ) 
+
+1159 pred: 0 gold: 1
+they    ==    her notes
+... and she would n't share her notes with them although they 've been ... Miller about her conversations with Libby or ask to see her notes while they ( 1159 ) 
+
+465 pred: 1 gold: 0
+me    ==    I
+... that there are lots of people in Washington and believe me they 're ... soldiers as props . Yes it is shocking . and I think Keith ( 465 ) 
+
+206 pred: 1 gold: 0
+it    ==    the staging here
+... n't believe it . they rehearsed it . They rehearsed it . They ... President yeah that 's inevitable too . Arianna Huffington does the staging here surprise you ( 206 ) 
+
+811 pred: 0 gold: 1
+I    ==    Lucy Dalglish in Minneapolis
+... . But uh will it bring down the administration ? I do n't ... to leave it there . Last word . Arianna Huffington Lucy Dalglish in Minneapolis Frank Sesno ( 811 ) 
+
+499 pred: 0 gold: 1
+I    ==    Frank Sesno
+... if the guy gets indicted . It would be irresponsible I think for ... . Last word . Arianna Huffington Lucy Dalglish in Minneapolis Frank Sesno thanks so ( 499 ) 
+
+340 pred: 0 gold: 1
+President Bush 's uh meeting uh uh photo op some called it with US troops in Iraq    ==    This
+... this . Alright I want to turn now to uh President Bush 's uh meeting uh uh photo op some called it with US troops in Iraq whether it ... 's the fact that we are talking about war . This is not ( 340 ) 
+
+106 pred: 1 gold: 0
+that investigation    ==    the meeting
+... got and then to do nothing to assist and facilitate that investigation in fact ... and President Clinton has said so but everybody who attended the meeting not including ( 106 ) 
+
+211 pred: 0 gold: 1
+President Clinton 's former lawyer Lanny Davis    ==    former Clinton White House attorney Lanny Davis
+... launch our new segment Talk Back to the Media . President Clinton 's former lawyer Lanny Davis takes on ... hailed the segment . and here to talk back is former Clinton White House attorney Lanny Davis . Welcome ( 211 ) 
+
+254 pred: 0 gold: 1
+Sixty Minutes    ==    them
+... it . The Clinton people were furious at the way Sixty Minutes hailed the ... meeting who was willing to be on ? What about them doing reporting ( 254 ) 
+
+193 pred: 1 gold: 0
+Mister Carson the representative    ==    He
+... they told us before just the week before . When Mister Carson the representative spoke to ... he has n't even insisted that it was true . He just said ( 193 ) 
+
+103 pred: 1 gold: 0
+the Washington Post    ==    the Clinton office
+... . When somebody named Howard Kurtz wrote a story in the Washington Post on Friday ... Tedesco said in the statement I just referred to that the Clinton office was contacted ( 103 ) 
+
+364 pred: 1 gold: 0
+Clinton 's office    ==    his source
+... . And this involves uh their saying that they contacted Clinton 's office back in ... Freeh has backed off and has not told people who his source is . ( 364 ) 
+
+189 pred: 0 gold: 1
+the allegations    ==    Mister Freeh 's charges
+... interviewed . They gave no +substantive response to any of the allegations until Lanny ... n't until that Friday that we learned the substance of Mister Freeh 's charges . So ( 189 ) 
+
+404 pred: 0 gold: 1
+his    ==    the former FBI director
+... Sixty Minutes was going to report that Louis Freeh with his new book ... you have an obligation to verify a charge made by the former FBI director as whether ( 404 ) 
+
+341 pred: 0 gold: 1
+his new book    ==    a book
+... Sixty Minutes was going to report that Louis Freeh with his new book was going ... of Investigation uh who ca n't stand Clinton clearly writes a book gets one ( 341 ) 
+
+160 pred: 0 gold: 1
+the meeting    ==    that uh meeting
+... charge that good reporting by calling people who were at the meeting could have ... which happens to be not true . President Clinton at that uh meeting did press ( 160 ) 
+
+128 pred: 1 gold: 0
+a planned march by a self - styled nazi group    ==    this morning
+... million homeless . Toledo Ohio is quiet this morning after a planned march by a self - styled nazi group sparked a ... University of Wisconsin in Whitewater . Those are the headlines this morning . I ( 128 ) 
+
+180 pred: 1 gold: 0
+Atlanta    ==    Wisconsin
+... After an update on the hour 's top stories from Atlanta . Hello ... members collided overnight on interstate ninety - four and in Wisconsin . The ( 180 ) 
+
+754 pred: 1 gold: 0
+a Shiite mosque    ==    Lebanon
+... days that a Sunni suicide bomber on Ramadan had attacked a Shiite mosque . Now ... the kidnappings targets . Therefore by the end of the Lebanon story I ( 754 ) 
+
+414 pred: 1 gold: 0
+the news of recent days that a Sunni suicide bomber on Ramadan had attacked a Shiite mosque    ==    that
+... New York Times you would 've led the paper with the news of recent days that a Sunni suicide bomber on Ramadan had attacked a Shiite mosque . Now ... n't sit back and say wow wait a minute . that really crosses ( 414 ) 
+
+169 pred: 1 gold: 0
+a Shiite mosque    ==    blows
+... days that a Sunni suicide bomber on Ramadan had attacked a Shiite mosque . Now ... to me about this story a Sunni Jihadi suicide bomber blows up a ( 169 ) 
+
+375 pred: 1 gold: 0
+the first day of Ramadan    ==    it
+... Jihadi suicide bomber blows up a mosque number one on the first day of Ramadan . What ... has plagued this story from the very beginning . And it 's been ( 375 ) 
+
+359 pred: 1 gold: 0
+driving    ==    the Iraq story
+... 're recently back from Iraq . and you write about driving in from ... moving around so much . What 's so frustrating about the Iraq story Howie no ( 359 ) 
+
+532 pred: 0 gold: 1
+Howie    ==    you
+... page . Bad news judgement ? Uh I think so Howie . I ... . You know my criticism of the Bush administration as you know we ( 532 ) 
+
+155 pred: 0 gold: 1
+a Sunni Jihadi suicide bomber    ==    A Sunni Muslim fundamentalist
+... And what was so shocking to me about this story a Sunni Jihadi suicide bomber blows up ... and say wait a minute . what happened today ? A Sunni Muslim fundamentalist went into ( 155 ) 
+
+115 pred: 1 gold: 0
+it    ==    this
+... also important stories obviously . but uh do you feel it 's getting ... a complete and utter failure . so everything rides on this not just ( 115 ) 
+
+735 pred: 0 gold: 1
+Katrina    ==    Katrina
+... this is the whole ballgame of the Bush administration . Katrina and Rita ... of the above . We 're so numbed also after Katrina and Rita ( 735 ) 
+
+804 pred: 0 gold: 1
+Rita    ==    Rita
+... that the Iraq story has been overshadowed by Katrina by Rita by Tom ... above . We 're so numbed also after Katrina and Rita . and ( 804 ) 
+
+414 pred: 1 gold: 0
+it    ==    the interview
+... Mhm . Mhm . That a reasonable observation ? Yeah it is a ... I bought it for the articles . Uh I enjoyed the interview . and ( 414 ) 
+
+220 pred: 1 gold: 0
+the underlying technology that is flattening the world    ==    the Enron effect
+... reaction to that is look if I want to understand the underlying technology that is flattening the world who do ... eleven . That distracted us okay . The other was the Enron effect . You ( 220 ) 
+
+140 pred: 1 gold: 0
+this book    ==    it
+... horizontal one of connect and collaborate . The argument of this book is that ... she gives me thumbs down Howie I have to put it in a ( 140 ) 
+
+332 pred: 1 gold: 0
+a possible terror threat against the city 's subways    ==    three sentences
+... York mayor Mike Bloomberg announced last week that there was a possible terror threat against the city 's subways I thought ... was a hoax . The CBS evening news gave that three sentences . Well ( 332 ) 
+
+192 pred: 1 gold: 0
+the New York City subway system behind me around me literally beneath our feet here in Times Square    ==    the whole thing
+... almost non-stop on the scene coverage . The threat concerns the New York City subway system behind me around me literally beneath our feet here in Times Square . The ... Tuesday some newspapers and then the cable networks reported that the whole thing was a ( 192 ) 
+
+226 pred: 1 gold: 0
+the New York City subway system behind me around me literally beneath our feet here in Times Square    ==    that tip
+... almost non-stop on the scene coverage . The threat concerns the New York City subway system behind me around me literally beneath our feet here in Times Square . The ... government sources tonight as saying the Iraqi man who gave that tip to US ( 226 ) 
+
+209 pred: 1 gold: 0
+these people out there perpetrating these crimes    ==    they
+... though at any given point in time that there are these people out there perpetrating these crimes we are ... while committing minor crimes like traffic violations or simply because they raise suspicion ( 209 ) 
+
+139 pred: 0 gold: 1
+Our    ==    Meet the Press
+... Washington this is Meet The Press with Tim Russet . Our issues this ... three this week . He last appeared as president on Meet the Press thirty one ( 139 ) 
+
+564 pred: 1 gold: 0
+they    ==    they
+... on the fourth of July to get our attention Because they saw the ... about those launches by the way they were provocative , they were reckless ( 564 ) 
+
+217 pred: 1 gold: 0
+New York    ==    North Korea
+... Well we are pursuing a very aggressive resolution up in New York at the ... said they do not believe there should be sanctions against North Korea . Will ( 217 ) 
+
+644 pred: 1 gold: 0
+this problem    ==    that six party environment
+... and the other members of the international community dealing with this problem . China ... We 're perfectly willing to sit down with them in that six party environment . and ( 644 ) 
+
+187 pred: 1 gold: 0
+all the member states    ==    we
+... resolution so it has the effect of compulsory behavior by all the member states . It ... they saw the way we were treating Iran differently than we were treating ( 187 ) 
+
+358 pred: 1 gold: 0
+their nuclear activities at their plant in the in Iran    ==    the Asian countries
+... with the Iranians assuming and contingent upon their suspension of their nuclear activities at their plant in the in Iran . Why ... to disrupt the peace and harmony of their relations with the Asian countries . And ( 358 ) 
+
+133 pred: 0 gold: 1
+they    ==    North Korea
+... on the fourth of July to get our attention Because they saw the ... for months now that the right step forward is for North Korea to return ( 133 ) 
+
+486 pred: 0 gold: 1
+its    ==    China
+... this problem . China now has an opportunity to put its best foot ... United States and North Korea . The fact is that China has the ( 486 ) 
+
+180 pred: 0 gold: 1
+the South Koreans    ==    South Korea
+... the rest of us nearly a year ago . But the South Koreans and the ... use the combined leverage of China and Russia 's of South Korea Japan and ( 180 ) 
+
+344 pred: 0 gold: 1
+Iran    ==    the Iranians
+... our attention Because they saw the way we were treating Iran differently than ... . Secretary Rice announced about a month ago that should the Iranians meet the ( 344 ) 
+
+567 pred: 1 gold: 0
+we    ==    we
+... entire agreement that you just referred to Tim . but we see the ... problem in that fashion . And as I said before we are not ( 567 ) 
+
+211 pred: 0 gold: 1
+they    ==    North Korea
+... want to do is react to every wild statement that they make . ... thirteen years the United States has talked loudly about a North Korea nuclear weapons ( 211 ) 
+
+753 pred: 0 gold: 1
+that    ==    their obligations
+... agreement . But the North Koreans have obligations . and that is to ... the coming weeks designed to focus the North Koreans on their obligations To pressure ( 753 ) 
+
+189 pred: 0 gold: 1
+their nuclear program    ==    all their nuclear programs
+... Koreans have obligations . and that is to take down their nuclear program dismantle it ... to take a step forward towards them should they dismantle all their nuclear programs and their ( 189 ) 
+
+655 pred: 0 gold: 1
+Japan    ==    the Japanese government
+... 've seen the United States and Russia and China and Japan and South ... defense system . You 've seen very strong statements by the Japanese government wanting to ( 655 ) 
+
+184 pred: 0 gold: 1
+the United States and Russia and China and Japan and South Korea    ==    we
+... what we 've seen since then is we 've seen the United States and Russia and China and Japan and South Korea willing to ... the North Koreans in outright violation of the agreement that we made with ( 184 ) 
+
+376 pred: 1 gold: 0
+Tim    ==    you
+... by North Korea on the watch of President Bush ? Tim um obviously ... with a great deal of energy and determination . But you do not ( 376 ) 
+
+190 pred: 1 gold: 0
+we    ==    them
+... great deal of influence on North Korea certainly more than we have to ... uh if you went down the road that some of them are suggesting ( 190 ) 
+
+279 pred: 1 gold: 0
+the right policy    ==    all these critics that you cite
+... or even years to succeed . But if you have the right policy in place ... States . It 's obviously the goal that I think all these critics that you cite would share ( 279 ) 
+
+146 pred: 0 gold: 1
+them    ==    all these critics that you cite
+... uh if you went down the road that some of them are suggesting ... States . It 's obviously the goal that I think all these critics that you cite would share ( 146 ) 
+
+160 pred: 1 gold: 0
+two thousand two    ==    this policy designed to respond to all the things the President talked about back in two thousand two
+... overnight . And let me go back to January of two thousand two in the ... nuclear weapons . And yet we 've driven forward with this policy designed to respond to all the things the President talked about back in two thousand two . But ( 160 ) 
+
+388 pred: 1 gold: 0
+Mister Ambassador    ==    Kim Jong - Il
+... most destructive weapons . Since the President uttered those words Mister Ambassador every estimate ... a dinner table . Does the President still believe that Kim Jong - Il is a ( 388 ) 
+
+351 pred: 1 gold: 0
+ballistic missile technology    ==    They
+... the fact that North Korea is the leading exporter of ballistic missile technology around the ... these missile tests the other day were certainly reckless . They were provocative ( 351 ) 
+
+231 pred: 1 gold: 0
+these negotiations    ==    these missile tests the other day
+... because we have n't come to the end of negotiations these negotiations are bound ... offenders of human rights all over the world . Uh these missile tests the other day were certainly ( 231 ) 
+
+307 pred: 0 gold: 1
+its    ==    North Korea
+... Mister Ambassador every estimate is that North Korea has doubled its capacity to ... the President has said about Kim Jong - Il of North Korea . I ( 307 ) 
+
+164 pred: 0 gold: 1
+you    ==    me
+... a victory in denying North Korea the nuclear weaponry that you talk about ... again it 's the tone and the rhetoric . Let me go back ( 164 ) 
+
+517 pred: 0 gold: 1
+Mister Ambassador    ==    I
+... most destructive weapons . Since the President uttered those words Mister Ambassador every estimate ... 're focused on this nuclear question as well . So I think there ( 517 ) 
+
+143 pred: 1 gold: 0
+North Korea    ==    we
+... Iraq . Some now make the case that Iran and North Korea took from ... our European allies and from Russia and China . But we 've been ( 143 ) 
+
+470 pred: 1 gold: 0
+the Chinese    ==    our European allies
+... 've miscalculated because you 've seen very tough statements from the Chinese and the ... went through in two thousand and two and three with our European allies over Iraq ( 470 ) 
+
+299 pred: 0 gold: 1
+The Iranians    ==    Iran
+... toward a very tough chapter seven resolution against them . The Iranians have miscalculated ... the case of North Korea not in the case of Iran . Tim ( 299 ) 
+
+678 pred: 0 gold: 1
+Secretary Rice    ==    Secretary Rice
+... lot of this unfold this week both in Europe when Secretary Rice meets with ... Uh Secretary Rumsfeld was in Afghanistan this morning . and Secretary Rice was there ( 678 ) 
+
+507 pred: 0 gold: 1
+Bob Gallucci    ==    you
+... When I got some pilots out of North Korea When Bob Gallucci negotiated the ... that if they took that missile off the launch pad you 'd negotiate ( 507 ) 
+
+150 pred: 0 gold: 1
+former US ambassador to the UN now Governor of New Mexico Bill Richardson    ==    I
+... Department negotiator now at the Georgetown University Robert Gallucci And former US ambassador to the UN now Governor of New Mexico Bill Richardson . They ... with the North Koreans have been through direct engagement When I got some ( 150 ) 
+
+779 pred: 0 gold: 1
+it    ==    we
+... negotiate directly one on one with North Korea ? Yes it should . ... you find you 're on the wrong course . and we have been ( 779 ) 
+
+465 pred: 1 gold: 0
+North Korea    ==    South Korea
+... n't trade with North Korea . we do n't recognize North Korea diplomatically . ... and perhaps could even trigger a North Korea response against South Korea or against ( 465 ) 
+
+105 pred: 1 gold: 0
+the North Koreans    ==    they
+... . The reason to have everybody at the table with the North Koreans is not ... are the Chinese and the South Koreans . It is they who essentially ( 105 ) 
+
+287 pred: 1 gold: 0
+the South Koreans    ==    we
+... levers on Kim Jong - Il are the Chinese and the South Koreans . It ... try to reach a deal with North Korea . But we have been ( 287 ) 
+
+516 pred: 0 gold: 1
+North Korea    ==    the North Koreans
+... n't trade with North Korea . we do n't recognize North Korea diplomatically . ... we should have that same position today That is if the North Koreans go out ( 516 ) 
+
+434 pred: 1 gold: 0
+Assistant Secretary Carter    ==    I
+... out their test missile ? Well I respectfully disagree with Assistant Secretary Carter there . ... you out . So they 're totally unpredictable . and I believe the ( 434 ) 
+
+180 pred: 1 gold: 0
+South Korea    ==    North Korea
+... you risk uh the uh North Koreans shooting missiles at South Korea . and ... face to *face private bilateral talks between United States and North Korea . But ( 180 ) 
+
+177 pred: 1 gold: 0
+the South Koreans and the Japanese    ==    their
+... the efforts with the six party talks because it is the South Koreans and the Japanese that are ... . Do n't believe in compromise . they believe in their only way ( 177 ) 
+
+140 pred: 0 gold: 1
+South Korea    ==    the South Koreans
+... you risk uh the uh North Koreans shooting missiles at South Korea . and ... the efforts with the six party talks because it is the South Koreans and the ( 140 ) 
+
+170 pred: 0 gold: 1
+Japan    ==    the Japanese
+... our allies we have allied responsibilities with South Korea or Japan . . ... six party talks because it is the South Koreans and the Japanese that are ( 170 ) 
+
+129 pred: 0 gold: 1
+our    ==    United States and North Korea
+... the six party talks that are a serious grievance in our relationship . ... essential to have face to *face private bilateral talks between United States and North Korea . But ( 129 ) 
+
+128 pred: 0 gold: 1
+Clinton    ==    Bill Clinton 's
+... we have shown that effectively in past dealings with the Clinton Administration is ... But did n't North Korea develop a nuclear bomb on Bill Clinton 's watch ? ( 128 ) 
+
+409 pred: 1 gold: 0
+that agreement which locked them up    ==    it
+... was stopped . Right . And afterwards tragically I believe that agreement which locked them up was allowed ... the national security . should we do this ? Is it better for ( 409 ) 
+
+191 pred: 1 gold: 0
+the North Koreans    ==    they
+... at some point you have to draw the line with the North Koreans . I ... and step back . the North Koreans watch that . they observe that ( 191 ) 
+
+694 pred: 1 gold: 0
+Chris Hill who again is very competent    ==    He
+... price a face to face negotiation at the level of Chris Hill who again is very competent I believe ... an elimination of sanctions . they need food electricity . He 's realistic ( 694 ) 
+
+400 pred: 0 gold: 1
+George Bush ten years later    ==    he
+... all two presidents Bill Clinton back in nineteen ninety three George Bush ten years later talking to ... president Bush calling him a tyrant . But then later he called him ( 400 ) 
+
+109 pred: 1 gold: 0
+the American people    ==    they
+... . Mr. President in the early days of the republic the American people took great ... n't think you should rule a person out just because they 're my ( 109 ) 
+
+135 pred: 0 gold: 1
+former president Gerald Ford    ==    I
+... President Bush turned sixty last Thursday . And this Friday former president Gerald Ford will be ... I ever have at any time in my life . I do n't ( 135 ) 
+
+true_pos, true_neg, false_pos, false_neg, (166, 459, 73, 51)
+F1 score of 0.7280701754385965
+##################################END: Min Distance: 101, Max Distance: None#####################################################
+
