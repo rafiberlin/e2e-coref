@@ -1,5 +1,9 @@
-data/twiconv_tc_eval_twiconv/SPAN_PR_AN.jsonlines
+data/twiconv_bn_tc_eval_twiconv/SPAN_PR_AN.jsonlines
 ##################################START: Min Distance: None, Max Distance: None#####################################################
+
+4 pred: 1 gold: 0
+A bunch of hysterical , super-rich celebrity hypocrites with fake crocodile tears in their eyes    ==    it
+... 's got , Trump 's second term is assured . A bunch of hysterical , super-rich celebrity hypocrites with fake crocodile tears in their eyes does n't make it a good ( 4 ) 
 
 44 pred: 0 gold: 1
 I    ==    Mark
@@ -29,10 +33,6 @@ I    ==    fam
 The gif    ==    This
 ... me !? I love it ! @taani98 @laurenxjessica @BTSRequest @BTS_twt The gif ? It ... @laurenxjessica @BTSRequest @BTS_twt ????? What are you talking about ? This is the ( 60 ) 
 
-22 pred: 0 gold: 1
-I    ==    you
-... @laurenxjessica @BTSRequest @BTS_twt Can u send this to me !? I love it ... 's in the gif search but I 'll just give you the link ( 22 ) 
-
 20 pred: 0 gold: 1
 the link    ==    the link your are giving
 ... in the gif search but I 'll just give you the link %emoji https://t.co/wklMz4wdTY ... . . just curious about the gif vkook kissing in the link your are giving , it ( 20 ) 
@@ -40,6 +40,10 @@ the link    ==    the link your are giving
 45 pred: 0 gold: 1
 vkook    ==    them
 ... @BTS_twt Excuse fam . . just curious about the gif vkook kissing in ... @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt thank god that 's not them ( 45 ) 
+
+59 pred: 1 gold: 0
+the assistants    ==    he
+... 10 + years of insanity . https://t.co/z1CKy8qCdA @KurtLeavins Maybe fire the assistants and get ... @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 59 ) 
 
 86 pred: 1 gold: 0
 the assistants    ==    the end of season
@@ -49,17 +53,17 @@ the assistants    ==    the end of season
 I    ==    he
 ... said the Assistants go Todd would say if they go I go . @oilerdiehard @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 14 ) 
 
-13 pred: 0 gold: 1
-the end of season    ==    season 's end
-... @oilerdiehard GM could change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end . @oiler99 ( 13 ) 
+45 pred: 1 gold: 0
+soccer    ==    Hash
+... Great to know you just became the Kevin Durant of soccer @hashbrown711 @ChampionsLeague ... is inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why ( 45 ) 
 
 44 pred: 0 gold: 1
 I    ==    him
 ... Coutinho : '' It is incredible to know that I am going ... soccer @hashbrown711 @ChampionsLeague @zreik_ @FCBarcelona @Phil_Coutinho Ew do n't give him too much ( 44 ) 
 
 2 pred: 0 gold: 1
-man    ==    you
-... inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why you angryyy @zreik_ ( 2 ) 
+idols    ==    players with a lot of history
+... incredible to know that I am going to live with idols ; players with a lot of history . '' ( 2 ) 
 
 12 pred: 1 gold: 0
 this    ==    part of game
@@ -69,9 +73,9 @@ this    ==    part of game
 Hope    ==    a dangerous thing
 ... Hope is a dangerous thing . That ( 2 ) 
 
-15 pred: 0 gold: 1
-rohit sharma    ==    he
-... better than overrated Mohd . Aamir !! @KshitijDisIz @ZAbbasOfficial Ask rohit sharma %emoji @nasir_22 ... tell him to get Karunaratne out . @KshitijDisIz @ZAbbasOfficial If he can damage ( 15 ) 
+58 pred: 1 gold: 0
+the death row inmate    ==    The Court
+... this is , but the lawyers for Keith Tharpe , the death row inmate , put ... , and other technical aspects of the case : `` The Court 's decision ( 58 ) 
 
 99 pred: 1 gold: 0
 the lawyers for Keith Tharpe    ==    its
@@ -105,13 +109,33 @@ I    ==    I
 myself    ==    your
 ... and anxiety for more than a decade , I found myself nodding along ... my life . @jmwallach @ParkerMolloy @johannhari101 Oh , keep taking your SSRIs . ( 64 ) 
 
+124 pred: 1 gold: 0
+@Andrew_Adonis    ==    Democracy
+... . @Andrew_Adonis one of ... @LibDems You mean Reality as defined by Remainers . And Democracy subject to ( 124 ) 
+
 54 pred: 1 gold: 0
 a political meeting of minds    ==    reality
 ... surprised Vince wants to recruit Adonis to thwart Brexit - a political meeting of minds - neither ... conclusions . '' Fighting to remain is the realisation of reality and respect ( 54 ) 
 
+59 pred: 1 gold: 0
+democracy    ==    the country
+... to remain is the realisation of reality and respect for democracy . @Disputatio_ ... explained to you in more basic terms . With Brexit the country is heading ( 59 ) 
+
 39 pred: 1 gold: 0
 my    ==    your
 ... , an American Nobel laureate , reportedly said : When my information changes ... Reality as defined by Remainers . And Democracy subject to your point of ( 39 ) 
+
+217 pred: 1 gold: 0
+Fighting to remain    ==    They
+... my information changes , I alter my conclusions . '' Fighting to remain is the ... does n't leave . @Disputatio_ @PaulGuerin20 @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems They almost certainly ( 217 ) 
+
+256 pred: 1 gold: 0
+reality    ==    they
+... conclusions . '' Fighting to remain is the realisation of reality and respect ... juddered to a halt in 2008 . Thing is - they went ahead ( 256 ) 
+
+135 pred: 1 gold: 0
+the Referendum    ==    them
+... wo n't . @PaulGuerin20 @BrexitDemocracy @Disputatio_ @vincecable @Andrew_Adonis @LibDems After the Referendum , UK ... steel & aluminium investments -RRB- . There was time for them to be ( 135 ) 
 
 140 pred: 1 gold: 0
 Tata    ==    them
@@ -145,17 +169,9 @@ We    ==    We
 reality    ==    Reality
 ... conclusions . '' Fighting to remain is the realisation of reality and respect for democracy . @Disputatio_ @vincecable @Andrew_Adonis @LibDems You mean Reality as defined ( 12 ) 
 
-19 pred: 0 gold: 1
-you    ==    You
-... @Andrew_Adonis @LibDems I think you should have it explained to you in more ... country is heading for economic meltdown . Get it ? You probably voted ( 19 ) 
-
 38 pred: 0 gold: 1
 the country    ==    UK
 ... explained to you in more basic terms . With Brexit the country is heading ... @PaulGuerin20 @BrexitDemocracy @Disputatio_ @vincecable @Andrew_Adonis @LibDems After the Referendum , UK saw a ( 38 ) 
-
-35 pred: 0 gold: 1
-Boeing , Hitachi , Tata , Liberty , Honda & Toyota    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
-... fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ... We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning ( 35 ) 
 
 178 pred: 1 gold: 0
 here    ==    it
@@ -177,9 +193,9 @@ His    ==    some idiot who has no clue
 they    ==    Wildlife
 ... Idea https://t.co/sTRvMplYur via @onegreenplanet @VickiAbby @OneGreenPlanet #Kangaroo are not Pets they are Wildlife who belong ( 2 ) 
 
-28 pred: 0 gold: 1
-people like you    ==    you
-... yourself , sit down and shut up ! It 's people like you that place ... think it 's cute . idiots , the lot of you ! @ohsixoneoh ( 28 ) 
+6 pred: 0 gold: 1
+what    ==    Kicking and tearing
+... like to be attacked by a mature male kangaroo doing what it 's built for ? Kicking and tearing ? Anyone ( 6 ) 
 
 3 pred: 0 gold: 1
 all you seem to care about    ==    some privileged wanker being roasted
@@ -193,9 +209,9 @@ this    ==    this
 Trump    ==    Obama
 ... twice the @washingtonpost deleted his unnamed quotes from someone around Trump saying he ... it was well known in the first years of the Obama presidency insiders ( 48 ) 
 
-7 pred: 0 gold: 1
-@JoeNBC    ==    his
-... @JoeNBC just said twice the @washingtonpost deleted his unnamed quotes ( 7 ) 
+46 pred: 1 gold: 0
+he    ==    Obama
+... @washingtonpost deleted his unnamed quotes from someone around Trump saying he exhibiting signs ... it was well known in the first years of the Obama presidency insiders ( 46 ) 
 
 33 pred: 0 gold: 1
 Liz    ==    I
@@ -225,13 +241,17 @@ He    ==    Her
 she    ==    the love of my life
 ... @roumanticpoetry RIGHT ?? She was the best !! @sothepennydrops @roumanticpoetry she 's the love of my life @lilyaIexandra @roumanticpoetry ( 2 ) 
 
-20 pred: 0 gold: 1
-Barca    ==    them
-... to play with Lovren or Henderson anymore ... https://t.co/zbZWVlvxke @TeamFA Barca got the ... it time ... @bselcoe @charliegillno1 Would n't put it past them just yet ( 20 ) 
-
 59 pred: 0 gold: 1
 our    ==    we
 ... successful before that gets to that point once any of our players sees ... @TeamFA Have n't had Klopp for 25 years thou have we %emoji @charliegillno1 ( 59 ) 
+
+57 pred: 1 gold: 0
+I    ==    I
+... all fabrication . but who cares at this point @LakeEffectBro I used to ... and it 's so nice as a fan @SportsNom yeah I really liked ( 57 ) 
+
+15 pred: 0 gold: 1
+Sashi    ==    Sashi
+... lol so after all that Sashi was willing ... a top 5 pick for James G unless Pluto is Sashi 's one ( 15 ) 
 
 17 pred: 1 gold: 0
 Oprah    ==    his
@@ -249,10 +269,6 @@ Oprah    ==    his #pimp
 the president    ==    Trump
 ... '' his delayed response and that he continues to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks ( 8 ) 
 
-3 pred: 0 gold: 1
-the Trump presidency    ==    It
-... to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks @FoxNews It 's certainly ( 3 ) 
-
 8 pred: 1 gold: 0
 British    ==    real English
 ... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight @MaxBorken @KMansParts @JeremyClarkson No , real English . You ( 8 ) 
@@ -265,15 +281,15 @@ us    ==    all
 his    ==    Wanker
 ... One cock job parks his lorry badly and my three mile commute takes an hour . Wanker @JeremyClarkson British ( 12 ) 
 
-17 pred: 0 gold: 1
-British English    ==    British
-... my three mile commute takes an hour . Wanker @JeremyClarkson British English cracks me ... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight ( 17 ) 
-
-true_pos, true_neg, false_pos, false_neg, (88, 111, 22, 45)
-F1 score of 0.7242798353909465
+true_pos, true_neg, false_pos, false_neg, (96, 100, 33, 37)
+F1 score of 0.732824427480916
 ##################################END: Min Distance: None, Max Distance: None#####################################################
 
 ##################################START: Min Distance: 0, Max Distance: 50#####################################################
+
+4 pred: 1 gold: 0
+A bunch of hysterical , super-rich celebrity hypocrites with fake crocodile tears in their eyes    ==    it
+... 's got , Trump 's second term is assured . A bunch of hysterical , super-rich celebrity hypocrites with fake crocodile tears in their eyes does n't make it a good ( 4 ) 
 
 44 pred: 0 gold: 1
 I    ==    Mark
@@ -295,10 +311,6 @@ BTS    ==    @BTS_twt
 I    ==    fam
 ... The gif ? It 's in the gif search but I 'll just ... the link %emoji https://t.co/wklMz4wdTY @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt Excuse fam . . ( 15 ) 
 
-22 pred: 0 gold: 1
-I    ==    you
-... @laurenxjessica @BTSRequest @BTS_twt Can u send this to me !? I love it ... 's in the gif search but I 'll just give you the link ( 22 ) 
-
 20 pred: 0 gold: 1
 the link    ==    the link your are giving
 ... in the gif search but I 'll just give you the link %emoji https://t.co/wklMz4wdTY ... . . just curious about the gif vkook kissing in the link your are giving , it ( 20 ) 
@@ -311,17 +323,17 @@ vkook    ==    them
 I    ==    he
 ... said the Assistants go Todd would say if they go I go . @oilerdiehard @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 14 ) 
 
-13 pred: 0 gold: 1
-the end of season    ==    season 's end
-... @oilerdiehard GM could change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end . @oiler99 ( 13 ) 
+45 pred: 1 gold: 0
+soccer    ==    Hash
+... Great to know you just became the Kevin Durant of soccer @hashbrown711 @ChampionsLeague ... is inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why ( 45 ) 
 
 44 pred: 0 gold: 1
 I    ==    him
 ... Coutinho : '' It is incredible to know that I am going ... soccer @hashbrown711 @ChampionsLeague @zreik_ @FCBarcelona @Phil_Coutinho Ew do n't give him too much ( 44 ) 
 
 2 pred: 0 gold: 1
-man    ==    you
-... inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why you angryyy @zreik_ ( 2 ) 
+idols    ==    players with a lot of history
+... incredible to know that I am going to live with idols ; players with a lot of history . '' ( 2 ) 
 
 12 pred: 1 gold: 0
 this    ==    part of game
@@ -330,10 +342,6 @@ this    ==    part of game
 2 pred: 0 gold: 1
 Hope    ==    a dangerous thing
 ... Hope is a dangerous thing . That ( 2 ) 
-
-15 pred: 0 gold: 1
-rohit sharma    ==    he
-... better than overrated Mohd . Aamir !! @KshitijDisIz @ZAbbasOfficial Ask rohit sharma %emoji @nasir_22 ... tell him to get Karunaratne out . @KshitijDisIz @ZAbbasOfficial If he can damage ( 15 ) 
 
 27 pred: 0 gold: 1
 The Court    ==    #SCOTUS
@@ -367,25 +375,17 @@ Tata    ==    Honda
 reality    ==    Reality
 ... conclusions . '' Fighting to remain is the realisation of reality and respect for democracy . @Disputatio_ @vincecable @Andrew_Adonis @LibDems You mean Reality as defined ( 12 ) 
 
-19 pred: 0 gold: 1
-you    ==    You
-... @Andrew_Adonis @LibDems I think you should have it explained to you in more ... country is heading for economic meltdown . Get it ? You probably voted ( 19 ) 
-
 38 pred: 0 gold: 1
 the country    ==    UK
 ... explained to you in more basic terms . With Brexit the country is heading ... @PaulGuerin20 @BrexitDemocracy @Disputatio_ @vincecable @Andrew_Adonis @LibDems After the Referendum , UK saw a ( 38 ) 
-
-35 pred: 0 gold: 1
-Boeing , Hitachi , Tata , Liberty , Honda & Toyota    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
-... fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ... We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning ( 35 ) 
 
 2 pred: 0 gold: 1
 they    ==    Wildlife
 ... Idea https://t.co/sTRvMplYur via @onegreenplanet @VickiAbby @OneGreenPlanet #Kangaroo are not Pets they are Wildlife who belong ( 2 ) 
 
-28 pred: 0 gold: 1
-people like you    ==    you
-... yourself , sit down and shut up ! It 's people like you that place ... think it 's cute . idiots , the lot of you ! @ohsixoneoh ( 28 ) 
+6 pred: 0 gold: 1
+what    ==    Kicking and tearing
+... like to be attacked by a mature male kangaroo doing what it 's built for ? Kicking and tearing ? Anyone ( 6 ) 
 
 3 pred: 0 gold: 1
 all you seem to care about    ==    some privileged wanker being roasted
@@ -399,9 +399,9 @@ this    ==    this
 Trump    ==    Obama
 ... twice the @washingtonpost deleted his unnamed quotes from someone around Trump saying he ... it was well known in the first years of the Obama presidency insiders ( 48 ) 
 
-7 pred: 0 gold: 1
-@JoeNBC    ==    his
-... @JoeNBC just said twice the @washingtonpost deleted his unnamed quotes ( 7 ) 
+46 pred: 1 gold: 0
+he    ==    Obama
+... @washingtonpost deleted his unnamed quotes from someone around Trump saying he exhibiting signs ... it was well known in the first years of the Obama presidency insiders ( 46 ) 
 
 33 pred: 0 gold: 1
 Liz    ==    I
@@ -423,9 +423,9 @@ He    ==    Her
 she    ==    the love of my life
 ... @roumanticpoetry RIGHT ?? She was the best !! @sothepennydrops @roumanticpoetry she 's the love of my life @lilyaIexandra @roumanticpoetry ( 2 ) 
 
-20 pred: 0 gold: 1
-Barca    ==    them
-... to play with Lovren or Henderson anymore ... https://t.co/zbZWVlvxke @TeamFA Barca got the ... it time ... @bselcoe @charliegillno1 Would n't put it past them just yet ( 20 ) 
+15 pred: 0 gold: 1
+Sashi    ==    Sashi
+... lol so after all that Sashi was willing ... a top 5 pick for James G unless Pluto is Sashi 's one ( 15 ) 
 
 17 pred: 1 gold: 0
 Oprah    ==    his
@@ -443,10 +443,6 @@ Oprah    ==    his #pimp
 the president    ==    Trump
 ... '' his delayed response and that he continues to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks ( 8 ) 
 
-3 pred: 0 gold: 1
-the Trump presidency    ==    It
-... to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews I love the Trump presidency @thegrugq_ebooks @FoxNews It 's certainly ( 3 ) 
-
 8 pred: 1 gold: 0
 British    ==    real English
 ... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight @MaxBorken @KMansParts @JeremyClarkson No , real English . You ( 8 ) 
@@ -459,12 +455,8 @@ us    ==    all
 his    ==    Wanker
 ... One cock job parks his lorry badly and my three mile commute takes an hour . Wanker @JeremyClarkson British ( 12 ) 
 
-17 pred: 0 gold: 1
-British English    ==    British
-... my three mile commute takes an hour . Wanker @JeremyClarkson British English cracks me ... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight ( 17 ) 
-
-true_pos, true_neg, false_pos, false_neg, (76, 50, 10, 37)
-F1 score of 0.7638190954773869
+true_pos, true_neg, false_pos, false_neg, (84, 47, 13, 29)
+F1 score of 0.8
 ##################################END: Min Distance: 0, Max Distance: 50#####################################################
 
 ##################################START: Min Distance: 51, Max Distance: 100#####################################################
@@ -473,9 +465,17 @@ F1 score of 0.7638190954773869
 The gif    ==    This
 ... me !? I love it ! @taani98 @laurenxjessica @BTSRequest @BTS_twt The gif ? It ... @laurenxjessica @BTSRequest @BTS_twt ????? What are you talking about ? This is the ( 60 ) 
 
+59 pred: 1 gold: 0
+the assistants    ==    he
+... 10 + years of insanity . https://t.co/z1CKy8qCdA @KurtLeavins Maybe fire the assistants and get ... @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 59 ) 
+
 86 pred: 1 gold: 0
 the assistants    ==    the end of season
 ... 10 + years of insanity . https://t.co/z1CKy8qCdA @KurtLeavins Maybe fire the assistants and get ... @oilerdiehard GM could change his mind about the coach by the end of season . Like ( 86 ) 
+
+58 pred: 1 gold: 0
+the death row inmate    ==    The Court
+... this is , but the lawyers for Keith Tharpe , the death row inmate , put ... , and other technical aspects of the case : `` The Court 's decision ( 58 ) 
 
 99 pred: 1 gold: 0
 the lawyers for Keith Tharpe    ==    its
@@ -493,6 +493,10 @@ myself    ==    your
 a political meeting of minds    ==    reality
 ... surprised Vince wants to recruit Adonis to thwart Brexit - a political meeting of minds - neither ... conclusions . '' Fighting to remain is the realisation of reality and respect ( 54 ) 
 
+59 pred: 1 gold: 0
+democracy    ==    the country
+... to remain is the realisation of reality and respect for democracy . @Disputatio_ ... explained to you in more basic terms . With Brexit the country is heading ( 59 ) 
+
 77 pred: 1 gold: 0
 people like you    ==    the one acting like the idiot
 ... yourself , sit down and shut up ! It 's people like you that place ... you need to sit down and shutup , you 're the one acting like the idiot . @HannaPam ( 77 ) 
@@ -509,8 +513,12 @@ you    ==    Zizwa
 our    ==    we
 ... successful before that gets to that point once any of our players sees ... @TeamFA Have n't had Klopp for 25 years thou have we %emoji @charliegillno1 ( 59 ) 
 
-true_pos, true_neg, false_pos, false_neg, (9, 31, 6, 4)
-F1 score of 0.6428571428571429
+57 pred: 1 gold: 0
+I    ==    I
+... all fabrication . but who cares at this point @LakeEffectBro I used to ... and it 's so nice as a fan @SportsNom yeah I really liked ( 57 ) 
+
+true_pos, true_neg, false_pos, false_neg, (9, 27, 10, 4)
+F1 score of 0.5625
 ##################################END: Min Distance: 51, Max Distance: 100#####################################################
 
 ##################################START: Min Distance: 101, Max Distance: None#####################################################
@@ -523,6 +531,22 @@ Trump    ==    them
 whom    ==    Tharpe
 ... Court just ruled on behalf of a black death-row inmate whom a white ... in moral courage . '' Here 's the opinion in Tharpe v . ( 108 ) 
 
+124 pred: 1 gold: 0
+@Andrew_Adonis    ==    Democracy
+... . @Andrew_Adonis one of ... @LibDems You mean Reality as defined by Remainers . And Democracy subject to ( 124 ) 
+
+217 pred: 1 gold: 0
+Fighting to remain    ==    They
+... my information changes , I alter my conclusions . '' Fighting to remain is the ... does n't leave . @Disputatio_ @PaulGuerin20 @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems They almost certainly ( 217 ) 
+
+256 pred: 1 gold: 0
+reality    ==    they
+... conclusions . '' Fighting to remain is the realisation of reality and respect ... juddered to a halt in 2008 . Thing is - they went ahead ( 256 ) 
+
+135 pred: 1 gold: 0
+the Referendum    ==    them
+... wo n't . @PaulGuerin20 @BrexitDemocracy @Disputatio_ @vincecable @Andrew_Adonis @LibDems After the Referendum , UK ... steel & aluminium investments -RRB- . There was time for them to be ( 135 ) 
+
 140 pred: 1 gold: 0
 Tata    ==    them
 ... 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty ... - they went ahead . All several # billion of them ( 140 ) 
@@ -555,7 +579,7 @@ the whole situation    ==    the one acting like the idiot
 His    ==    some idiot who has no clue
 ... Luke Bryan Gifted His Wife 2 ... to u but all you 're doing now is worshipping some idiot who has no clue . Typical ( 309 ) 
 
-true_pos, true_neg, false_pos, false_neg, (3, 30, 6, 4)
-F1 score of 0.375
+true_pos, true_neg, false_pos, false_neg, (3, 26, 10, 4)
+F1 score of 0.3
 ##################################END: Min Distance: 101, Max Distance: None#####################################################
 
