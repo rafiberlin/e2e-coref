@@ -5,7 +5,8 @@ import numpy as np
 import argparse
 import glob
 import csv
-
+from tqdm import tqdm
+import json
 from keras.models import Sequential
 from keras.layers.core import Dense, Activation
 from keras import optimizers
@@ -37,6 +38,7 @@ def get_args():
     parser.add_argument('--output_dim', type=int, default=450)
     parser.add_argument('--batch_size', type=int, default=50)
     parser.add_argument('--epochs', type=int, default=10)
+    parser.add_argument('--repeat', type=int, default=1)
     args = parser.parse_args()
     return args
 
@@ -53,13 +55,14 @@ if __name__ == "__main__":
     val_data_flag = True if args.val_data is not None else False
     batch_size = args.batch_size
     epochs = args.epochs
+    repeat = args.repeat
     for fn in filenames:
         with h5py.File(fn, 'r') as f:
             train_data.append(f.get('span_representations').value)
     train_data = np.concatenate(train_data, axis=0)
     x_train = train_data[:, :-2]
     y_train = train_data[:, -1].astype(int)
-
+    log_name_repeat = f"{args.exp_name}_{str(repeat)}.json"
     # test random label
     # y_train = np.random.randint(2, size=y_train.shape)
 
@@ -141,33 +144,45 @@ if __name__ == "__main__":
     else:
         print("Using all features")
 
-    # Probing model implementation using keras, following hyperparameters described in Liu's paper, can finetune later.
-    model = Sequential()
-    model.add(Dense(units=output_dim, activation='relu', input_dim=x_train.shape[1], use_bias=True, kernel_initializer='he_normal', bias_initializer='zeros')) # still need to check whether 1024 is correct, little details about this.
-    model.add(Dense(units=1, activation='sigmoid'))
-    opt = optimizers.Adam(lr=0.001)
+    results = {}
+    results['best_test_acc'] = []
+    results['best_test_f1'] = []
+    for i in tqdm(range(repeat)):
+        # Probing model implementation using keras, following hyperparameters described in Liu's paper, can finetune later.
+        model = Sequential()
+        model.add(Dense(units=output_dim, activation='relu', input_dim=x_train.shape[1], use_bias=True, kernel_initializer='he_normal', bias_initializer='zeros')) # still need to check whether 1024 is correct, little details about this.
+        model.add(Dense(units=1, activation='sigmoid'))
+        opt = optimizers.Adam(lr=0.001)
 
-    early_stop = EarlyStopping(monitor='val_loss', min_delta=0.1, patience=3, verbose=0, mode='auto', restore_best_weights=True)
-    checkpoint_save = ModelCheckpoint(args.exp_name + '.h5', save_best_only=True, monitor='val_loss', mode='min')
-    callbacks = [early_stop, checkpoint_save, ComputeTestF1(), CSVLogger(log_name, separator='\t')]
+        early_stop = EarlyStopping(monitor='val_loss', min_delta=0.1, patience=3, verbose=0, mode='auto', restore_best_weights=True)
+        checkpoint_save = ModelCheckpoint(args.exp_name + '.h5', save_best_only=True, monitor='val_loss', mode='min')
+        callbacks = [early_stop, checkpoint_save, ComputeTestF1(), CSVLogger(log_name, separator='\t')]
 
-    # Compile model
-    model.compile(loss='binary_crossentropy', optimizer=opt, metrics=['accuracy'])
-    model.fit(x_train, y_train, epochs=epochs, batch_size=batch_size, validation_data=(x_val, y_val), callbacks=callbacks)
+        # Compile model
+        model.compile(loss='binary_crossentropy', optimizer=opt, metrics=['accuracy'])
+        model.fit(x_train, y_train, epochs=epochs, batch_size=batch_size, validation_data=(x_val, y_val), callbacks=callbacks)
 
-    with open(log_name, 'a') as out_file:
-        tsv_writer = csv.writer(out_file, delimiter='\t')
-        val_loss_and_metrics = model.evaluate(x_val, y_val, batch_size=x_val.shape[0])
-        val_predict = (np.asarray(model.predict(x_val))).round()
-        val_target = y_val
-        best_val_f1 = f1_score(val_target, val_predict)
-        tsv_writer.writerow(['best_val_acc', val_loss_and_metrics[1]])
-        tsv_writer.writerow(['best_val_f1', best_val_f1])
+        with open(log_name, 'a') as out_file:
+            tsv_writer = csv.writer(out_file, delimiter='\t')
+            val_loss_and_metrics = model.evaluate(x_val, y_val, batch_size=x_val.shape[0])
+            val_predict = (np.asarray(model.predict(x_val))).round()
+            val_target = y_val
+            best_val_f1 = f1_score(val_target, val_predict)
+            tsv_writer.writerow(['best_val_acc', val_loss_and_metrics[1]])
+            tsv_writer.writerow(['best_val_f1', best_val_f1])
 
-        if test_data_flag:
-            test_loss_and_metrics = model.evaluate(x_test, y_test, batch_size=x_test.shape[0])
-            test_predict = (np.asarray(model.predict(x_test))).round()
-            test_target = y_test
-            best_test_f1 = f1_score(test_target, test_predict)
-            tsv_writer.writerow(['best_test_acc', test_loss_and_metrics[1]])
-            tsv_writer.writerow(['best_test_f1', best_test_f1])
+            if test_data_flag:
+                test_loss_and_metrics = model.evaluate(x_test, y_test, batch_size=x_test.shape[0])
+                test_predict = (np.asarray(model.predict(x_test))).round()
+                test_target = y_test
+                best_test_f1 = f1_score(test_target, test_predict)
+                tsv_writer.writerow(['best_test_acc', test_loss_and_metrics[1]])
+                tsv_writer.writerow(['best_test_f1', best_test_f1])
+                results['best_test_acc'].append(test_loss_and_metrics[1])
+                results['best_test_f1'].append(best_test_f1)
+    results["average_accuracy"]=sum(results['best_test_acc'])/len(results['best_test_acc'])
+    results["average_f1"] = sum(results['best_test_f1']) / len(results['best_test_f1'])
+    with open(log_name_repeat, 'w') as stats:
+        stats.write(json.dumps(results))
+    print(f"Average accuracy for {repeat} repetitions", results["average_accuracy"])
+    print(f"Average f1 for {repeat} repetitions", results["average_f1"])
