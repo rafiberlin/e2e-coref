@@ -3,15 +3,15 @@
 # as defined in experiments.conf
 config_name=$1
 #either empty or "no_wb."
-prefix=$2
+prefix="no_wb."
 #SHould be 450
-output_dim=$3
+output_dim=450
 
 #SHould be 512 for the complete ontonotes and 32 for twiconv only
-batch_size=$4
+batch_size=32
 
 #50 epochs for all ontonotes, 10 for twiconv only
-epochs=$5
+epochs=20
 
 echo 'extract the embeddings for all splits'
 for split in train test dev
@@ -38,7 +38,7 @@ fi
 test_data=data/${config_name}/test/SPAN_1.h5
 exp_name=data/${config_name}/results_all_features
 
-python train_probe.py --train_data $train_data $val_arg --test_data $test_data --exp_name ${exp_name}_d${output_dim}_bs${batch_size}_e${epochs} --batch_size ${batch_size} --epochs ${epochs}
+python train_probe.py --train_data $train_data $val_arg --test_data $test_data --exp_name ${exp_name}_d${output_dim}_bs${batch_size}_e${epochs} --batch_size ${batch_size} --epochs ${epochs} --output_dim ${output_dim}
 
 
 exp_name=data/${config_name}/results_ablate_boundary
