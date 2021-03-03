@@ -12,6 +12,7 @@ batch_size=32
 
 #50 epochs for all ontonotes, 10 for twiconv only
 epochs=20
+repeat=100
 
 echo 'extract the embeddings for all splits'
 for split in train test dev
@@ -38,20 +39,19 @@ fi
 test_data=data/${config_name}/test/SPAN_1.h5
 exp_name=data/${config_name}/results_all_features
 
-python train_probe.py --train_data $train_data $val_arg --test_data $test_data --exp_name ${exp_name}_d${output_dim}_bs${batch_size}_e${epochs} --batch_size ${batch_size} --epochs ${epochs} --output_dim ${output_dim}
-
+python train_probe.py --train_data $train_data $val_arg --test_data $test_data --exp_name ${exp_name}_d${output_dim}_bs${batch_size}_e${epochs} --batch_size ${batch_size} --epochs ${epochs} --output_dim ${output_dim} --repeat ${repeat}
 
 exp_name=data/${config_name}/results_ablate_boundary
 option='--ablate_boundary'
-python train_probe.py --train_data $train_data $val_arg --test_data $test_data --exp_name ${exp_name}_d${output_dim}_bs${batch_size}_e${epochs} --batch_size ${batch_size} --epochs ${epochs} ${option} --output_dim ${output_dim}
+#python train_probe.py --train_data $train_data $val_arg --test_data $test_data --exp_name ${exp_name}_d${output_dim}_bs${batch_size}_e${epochs} --batch_size ${batch_size} --epochs ${epochs} ${option} --output_dim ${output_dim}
 
 exp_name=data/${config_name}/results_ablate_attention
 option='--ablate_attention'
-python train_probe.py --train_data $train_data $val_arg --test_data $test_data --exp_name ${exp_name}_d${output_dim}_bs${batch_size}_e${epochs} --batch_size ${batch_size} --epochs ${epochs} ${option} --output_dim ${output_dim}
+#python train_probe.py --train_data $train_data $val_arg --test_data $test_data --exp_name ${exp_name}_d${output_dim}_bs${batch_size}_e${epochs} --batch_size ${batch_size} --epochs ${epochs} ${option} --output_dim ${output_dim}
 
 exp_name=data/${config_name}/results_ablate_span_width
 option='--ablate_span_width'
-python train_probe.py --train_data $train_data $val_arg --test_data $test_data --exp_name ${exp_name}_d${output_dim}_bs${batch_size}_e${epochs} --batch_size ${batch_size} --epochs ${epochs} ${option} --output_dim ${output_dim}
+#python train_probe.py --train_data $train_data $val_arg --test_data $test_data --exp_name ${exp_name}_d${output_dim}_bs${batch_size}_e${epochs} --batch_size ${batch_size} --epochs ${epochs} ${option} --output_dim ${output_dim}
 
 exp_name=data/${config_name}/results_random
 option='--random'
