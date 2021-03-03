@@ -1,0 +1,118 @@
+Model twiconv_eval
+####################################
+
+40 pred: 0 gold: 1
+Trump    ==    @realDonaldTrump
+...
+PrisonPlanet: If that speech was the best Oprah 's got , Trump 's second
+...
+PrisonPlanet: Sorry . %emoji @PrisonPlanet
+markpolitics4uk: @PrisonPlanet I find it amusing that if @realDonaldTrump was black
+... ( 40 )
+
+Comment : In the Patrick's paper, it would be either an error in the category Anaphora and / or
+Similar words. I think it should be actually quite easy to reconcile Trump with username @realDonaldTrump,
+as Trump has been the topic of many twets the last years...
+
+__
+
+44 pred: 0 gold: 1
+I    ==    Mark
+...
+PrisonPlanet: make it a good speech . Sorry . %emoji @PrisonPlanet
+markpolitics4uk: @PrisonPlanet I find it
+...
+Julesywooooolsy: @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow
+... ( 44 )
+
+Comment: In the Patrick's paper, it would be either an error in the category Anaphora and / or
+Similar words. Similarly to the previous error, but this time, it cannot reconcile the username of the Speaker
+markpoltics4u with I and then later with Mark
+
+__
+
+2 examples to be observed together:
+
+Ex 1:
+33 pred: 1 gold: 0
+I    ==    fam
+...
+taani98: @laurenxjessica @BTSRequest @BTS_twt Can u send this to me !? I love it
+...
+AyyyRee: the link %emoji https://t.co/wklMz4wdTY @AyyyRee
+q_sera83: @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt Excuse fam . .
+... ( 33 )
+
+Ex 2:
+
+15 pred: 0 gold: 1
+I    ==    fam
+...
+AyyyRee: The gif ? It 's in the gif search but I 'll just
+...
+AyyyRee: the link %emoji https://t.co/wklMz4wdTY @AyyyRee
+q_sera83: @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt Excuse fam . .
+... ( 15 )
+
+
+Comment: This is a typical example where a machine learning algorithms are falling short.
+"@AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt" should all be considered as member
+of a family  ("fam"). Hence, each user listed in this "fam" using "I" should be considered as belonging
+to the same entity  by transitivity. However, this is not the case here.
+The trained embeddings cannot capture such context...
+___
+
+13 pred: 0 gold: 1
+season    ==    season
+...
+oiler99: change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end
+... ( 13 )
+
+
+Comment: this error is interesting because the mention from my perspective should be "end of season"
+/ "season 's end" => Annotation of the twiconv set was partially done by hand partially automatically => no dataset is perfect
+
+___
+
+47 pred: 1 gold: 0
+idols    ==    Hes
+...
+ChampionsLeague: incredible to know that I am going to live with idols ; players
+...
+EbadianVII: give him too much credit @EbadianVII
+zreik_: @EbadianVII @hashbrown711 @ChampionsLeague @FCBarcelona @Phil_Coutinho Hes gon na
+... ( 47 )
+
+Comment : Typical case of "noisy data". "Hes" should be "He's". Then, it would have been easy,
+not to link it with the plural noun "idols"
+
+___
+
+Ex 1.
+40 pred: 1 gold: 0
+I    ==    your
+...
+AmberBobamber: of drugs will change that . -LRB- That said , I 'm still
+...
+AmberBobamber: But you have to figure out what is REALLY causing your depression and
+... ( 40 )
+Ex.2
+38 pred: 1 gold: 0
+I    ==    you
+...
+AmberBobamber: @jmwallach @ParkerMolloy @johannhari101 Oh , keep taking your SSRIs . I take mine
+...
+jmwallach: sufficient ? @jmwallach
+AmberBobamber: @jmwallach @ParkerMolloy @johannhari101 If , for example , you 're married
+... ( 38 )
+
+Comment: In these 2 cases, the "I" and "you" or "your" should not be marked as postivie
+coreference arc => the utterances come from same user. Speaker info was not able to overcome that...
+____
+
+
+#####
+
+Model twiconv_tc_eval_twiconv:
+
+
