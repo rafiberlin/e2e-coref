@@ -1,39 +1,38 @@
+Restoring from logs/twiconv_bc_eval_twiconv/model.max.ckpt
 Loaded 20 eval examples.
-2021-02-15 16:17:21.098791: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
-2021-02-15 16:17:21.704400: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
 Evaluated 1/20 examples.
 Evaluated 11/20 examples.
-Predicted conll file: /tmp/tmpb452ne0b
+Predicted conll file: /tmp/tmpyqce9ln0
 Official result for muc
 version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (315 / 452) 69.69%  Precision: (315 / 367) 85.83%   F1: 76.92%
+Identification of Mentions: Recall: (307 / 453) 67.77%	Precision: (307 / 358) 85.75%	F1: 75.7%
 --------------------------------------------------------------------------
-Coreference: Recall: (187 / 320) 58.43% Precision: (187 / 262) 71.37%   F1: 64.26%
+Coreference: Recall: (188 / 321) 58.56%	Precision: (188 / 251) 74.9%	F1: 65.73%
 --------------------------------------------------------------------------
 
 Official result for bcub
 version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (315 / 452) 69.69%  Precision: (315 / 367) 85.83%   F1: 76.92%
+Identification of Mentions: Recall: (307 / 453) 67.77%	Precision: (307 / 358) 85.75%	F1: 75.7%
 --------------------------------------------------------------------------
-Coreference: Recall: (242.84246031746 / 452) 53.72%     Precision: (219.491287878788 / 367) 59.8%       F1: 56.6%
+Coreference: Recall: (244.673351648352 / 453) 54.01%	Precision: (242.739153439153 / 358) 67.8%	F1: 60.12%
 --------------------------------------------------------------------------
 
 Official result for ceafe
 version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
 
 ====== TOTALS =======
-Identification of Mentions: Recall: (315 / 452) 69.69%  Precision: (315 / 367) 85.83%   F1: 76.92%
+Identification of Mentions: Recall: (307 / 453) 67.77%	Precision: (307 / 358) 85.75%	F1: 75.7%
 --------------------------------------------------------------------------
-Coreference: Recall: (68.5529646433035 / 132) 51.93%    Precision: (68.5529646433035 / 105) 65.28%      F1: 57.85%
+Coreference: Recall: (70.1514692138981 / 132) 53.14%	Precision: (70.1514692138981 / 107) 65.56%	F1: 58.7%
 --------------------------------------------------------------------------
 
-Average F1 (conll): 59.57%
-Average Recall (conll): 54.69%
-Average Precision (conll): 65.48%
-Average F1 (py): 59.85%
-Average precision (py): 65.86%
-Average recall (py): 54.91%
+Average F1 (conll): 61.52%
+Average Recall (conll): 55.24%
+Average Precision (conll): 69.42%
+Average F1 (py): 61.47%
+Average precision (py): 69.52%
+Average recall (py): 55.10%
