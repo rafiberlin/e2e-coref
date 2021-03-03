@@ -111,8 +111,96 @@ coreference arc => the utterances come from same user. Speaker info was not able
 ____
 
 
-#####
+####################################
 
 Model twiconv_tc_eval_twiconv:
+
+
+####################################
+
+Model twiconv_bc_eval_twiconv
+
+33 pred: 1 gold: 0
+@johannhari101    ==    I
+...
+ParkerMolloy: I found myself nodding along to a lot of what @johannhari101 says in
+...
+AmberBobamber: of drugs will change that . -LRB- That said , I 'm still
+... ( 33 ) 
+
+Comment: Based on the speaker information, I should not be @johannhari101
+
+___
+
+159 pred: 1 gold: 0
+democracy    ==    Strategic investments
+...
+Disputatio_: to remain is the realisation of reality and respect for democracy . @Disputatio_
+...
+Disputatio_: @vincecable @Andrew_Adonis @LibDems We 're still @in the EU . Strategic investments from Boeing
+... ( 159 ) 
+
+___
+
+12 pred: 1 gold: 0
+Liberty    ==    them
+...
+RuariJM: almost certainly were planned before the Referendum -LRB- except for Liberty 's steel & aluminium investments -RRB- . There was time for them to be
+... ( 12 ) 
+
+___
+
+28 pred: 0 gold: 1
+#Brexit    ==    Brexit
+...
+vincecable: to work on cross party basis . Not compatible with #Brexit hardliners who
+...
+BrexitDemocracy: @LibDems Not surprised Vince wants to recruit Adonis to thwart Brexit - a
+... ( 28 ) 
+
+Comment: Hashtag confusion
+
+___
+
+35 pred: 1 gold: 0
+the kid    ==    Caleb Thulambo
+...
+CalebTheMandem: %emoji %emoji %emoji %emoji @CalebTheMandem
+StoryTimeWitDez: @CalebTheMandem You play too much let the kid have her
+...
+StoryTimeWitDez: @Big_PhilMW listen to charisma 's lil brother here @StoryTimeWitDez
+Big_PhilMW: @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did
+... ( 35 ) 
+
+Comment: Based on the @-mention one would know that @CalebTheMandem is not equivalent to the kid
+
+___
+
+68 pred: 0 gold: 1
+I    ==    You
+...
+FoxNews: he continues to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews
+thegrugq_ebooks: @FoxNews I love the
+...
+thegrugq_ebooks: noticed your PGP key expired . @thegrugq_ebooks
+pwns4cash: @thegrugq_ebooks Uh oh ! You wan na
+... ( 68 ) 
+
+
+___
+
+
+75 pred: 1 gold: 0
+you    ==    they
+...
+TeamFA: When you realise that
+...
+charliegillno1: a league win or CL win esp a league win they will never
+... ( 75 ) 
+
+Comment: you does not refer to an entity
+
+
+
 
 
