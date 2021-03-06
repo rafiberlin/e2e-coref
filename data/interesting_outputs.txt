@@ -201,6 +201,50 @@ charliegillno1: a league win or CL win esp a league win they will never
 Comment: you does not refer to an entity
 
 
+####################################
+
+Model twiconv_bn_eval_twiconv
 
 
+####################################
 
+
+2 similar examples:
+
+twiconv_bn (323-329) and twiconv (329-335)
+39 pred: 1 gold: 0
+you    ==    your
+...
+RondaCosgrove: @Elizabe28813295 @jeffjarvis @JoeNBC @washingtonpost There is a huge difference and you know it
+...
+Elizabe28813295: Such a waste of time and energy . I respect your opinion ,
+... ( 39 ) 
+
+
+twiconv (463-470)
+31 pred: 1 gold: 0
+the president    ==    it
+...
+FoxNews: '' his delayed response and that he continues to support the president . https://t.co/MIZB006BJa
+...
+pwns4cash: ... @pwns4cash
+thegrugq_ebooks: @pwns4cash Hug benefit of a regular notebook is that it does n't
+... ( 31 ) 
+
+Comment: Referents that are always wrong, regardless of context. It should be clear that 'you' and 'your' can never be referents. Same goes for 'the president' which can never be 'it'.
+
+___
+
+
+# twiconv_bn (307-314)
+48 pred: 1 gold: 0
+Trump    ==    Obama
+...
+jeffjarvis: twice the @washingtonpost deleted his unnamed quotes from someone around Trump saying he
+...
+Elizabe28813295: it was well known in the first years of the Obama presidency insiders
+... ( 48 ) 
+
+Comment: wrong NER, only gets person names, not the whole entity
+
+___
