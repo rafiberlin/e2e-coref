@@ -1,11 +1,11 @@
-# Higher-order Coreference Resolution with Coarse-to-fine Inference
+# Higher-order Coreference Resolution with Coarse-to-fine Inference for Twitter
 
 ## Introduction
-This repository contains the code for replicating results from
+This repository uses code from
 
-* [Higher-order Coreference Resolution with Coarse-to-fine Inference](https://arxiv.org/abs/1804.05392)
-* [Kenton Lee](http://kentonl.com/), [Luheng He](https://homes.cs.washington.edu/~luheng), and [Luke Zettlemoyer](https://www.cs.washington.edu/people/faculty/lsz)
-* In NAACL 2018
+* https://github.com/kentonl/e2e-coref
+* https://github.com/pkhdipraja/exploring-span-representations
+* https://github.com/verosol/e2e-coref-to-Twitter
 
 ## Dataset preparation : Ontonotes 5.0 and TwiConv
 
@@ -71,44 +71,14 @@ with Python 2 to run the scripts building the CoNLL files in `setup_training.sh`
 * Choose an experiment that you would like to run, e.g. `best` or `twiconv_allspoken`
 * Training: `python train.py <experiment>`
 * Please note: if for some reason, your training were to be interrupted, replace the variable `max_f1` in experiments.conf by the highest F1 average observed on the dev set (it's being printed at each evaluation of the validation (dev) set)
-* Results are stored in the `logs` directory, in a directory of the same name as the experiment and can be viewed via TensorBoard.
+* `/logs/<experiment>/` contains the corresponding results for coreference. Models need to be unpacked there for evaluation / training
 * Evaluation: `python evaluate.py <experiment>` , e.g. `python evaluate.py twiconv_allspoken_eval`
 
 ## Running probe experiments
 
 * Run `setup_training_span_extraction.sh` only once to create the files with positive and negative examples.
-* Execute `setup_training_span_extraction_per_config.sh <experiment_eval> <prefix> <output_dim> <batch_size> <epochs>` to run a probe, where `<experiment_eval>`
-  is an evaluation configuration (lm_path = "" in experiments.conf) and `<prefix>` is the prefix of the dataset to use,
-  `<output_dim>` is the output dimension of the probe network, `<batch_size>` the number of elemts to train on per iteration and
-  `<epochs>` the number of epochs the probe should be trained
-  The results will be stored under data/<experiment_eval>
+* Execute `setup_training_span_extraction_per_config.sh <experiment_eval>`
+  The results will be stored under `data/<experiment_eval>`
   - Examples:
-    * bash setup_training_span_extraction_per_config.sh twiconv_wb_eval '' 450 256 20
-    * bash setup_training_span_extraction_per_config.sh twiconv_tc_eval 'no_wb.' 450 256 20
+    * bash setup_training_span_extraction_per_config.sh twiconv_wb_eval
 
-TODO: We can define some distance bins in pred/pred_analyse.py to investigate the effect of longer distance between 2 mentions.
-## Demo Instructions
-
-* Command-line demo: `python demo.py final`
-* To run the demo with other experiments, replace `final` with your configuration name.
-
-## Batched Prediction Instructions
-
-* Create a file where each line is in the following json format (make sure to strip the newlines so each line is well-formed json):
-```
-{
-  "clusters": [],
-  "doc_key": "nw",
-  "sentences": [["This", "is", "the", "first", "sentence", "."], ["This", "is", "the", "second", "."]],
-  "speakers": [["spk1", "spk1", "spk1", "spk1", "spk1", "spk1"], ["spk2", "spk2", "spk2", "spk2", "spk2"]]
-}
-```
-  * `clusters` should be left empty and is only used for evaluation purposes.
-  * `doc_key` indicates the genre, which can be one of the following: `"bc", "bn", "mz", "nw", "pt", "tc", "wb"`
-  * `speakers` indicates the speaker of each word. These can be all empty strings if there is only one known speaker.
-* Run `python predict.py <experiment> <input_file> <output_file>`, which outputs the input jsonlines with predicted clusters.
-
-## Other Quirks
-
-* It does not use GPUs by default. Instead, it looks for the `GPU` environment variable, which the code treats as shorthand for `CUDA_VISIBLE_DEVICES`.
-* The training runs indefinitely and needs to be terminated manually. The model generally converges at about 400k steps.
