@@ -1,0 +1,50 @@
+Restoring from logs/twiconv_bn/model.max.ckpt
+WARNING:tensorflow:From /home/coref_model.py:95: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+Loaded 91 eval examples.
+2021-02-17 10:12:13.498629: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2021-02-17 10:12:13.766720: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+Evaluated 1/91 examples.
+Evaluated 11/91 examples.
+Evaluated 21/91 examples.
+Evaluated 31/91 examples.
+Evaluated 41/91 examples.
+Evaluated 51/91 examples.
+Evaluated 61/91 examples.
+Evaluated 71/91 examples.
+Evaluated 81/91 examples.
+Evaluated 91/91 examples.
+Predicted conll file: /tmp/tmpbfnyfbev
+Official result for muc
+version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2282 / 2828) 80.69%        Precision: (2282 / 2662) 85.72% F1: 83.13%
+--------------------------------------------------------------------------
+Coreference: Recall: (1499 / 2010) 74.57%       Precision: (1499 / 1904) 78.72% F1: 76.59%
+--------------------------------------------------------------------------
+
+Official result for bcub
+version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2282 / 2828) 80.69%        Precision: (2282 / 2662) 85.72% F1: 83.13%
+--------------------------------------------------------------------------
+Coreference: Recall: (1933.4762447635 / 2828) 68.36%    Precision: (1925.58348586054 / 2662) 72.33%     F1: 70.29%
+--------------------------------------------------------------------------
+
+Official result for ceafe
+version: 8.01 /home/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2282 / 2828) 80.69%        Precision: (2282 / 2662) 85.72% F1: 83.13%
+--------------------------------------------------------------------------
+Coreference: Recall: (546.733643314505 / 818) 66.83%    Precision: (546.733643314505 / 758) 72.12%      F1: 69.38%
+--------------------------------------------------------------------------
+
+Average F1 (conll): 72.09%
+Average Recall (conll): 69.92%
+Average Precision (conll): 74.39%
+Average F1 (py): 72.12%
+Average precision (py): 74.42%
+Average recall (py): 69.95%

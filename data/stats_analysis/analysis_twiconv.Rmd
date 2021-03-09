@@ -1,0 +1,50 @@
+
+```{r setup, include=FALSE, warning=FALSE, message=FALSE, message=FALSE, echo=FALSE, avel=FALSE }
+knitr::opts_chunk$set(echo = TRUE)
+
+set.seed(42)
+library(MASS)
+##be careful to load dplyr after MASS
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(readr)
+library(extraDistr)
+library(ggplot2)
+library("rjson")
+library(brms)
+library(rstan)
+## Save compiled models:
+rstan_options(auto_write = TRUE)
+## Parallelize the chains using all the cores:
+options(mc.cores = parallel::detectCores())
+library(bayesplot)
+library(tictoc)
+library(gridExtra)
+# To solve some conflicts between packages
+select <- dplyr::select
+extract <- rstan::extract
+base_dir <- "F:/Rafi/E-Books/pdf/University/PM Coreference/project/Bayesian Analysis"
+
+knitr::opts_chunk$set(fig.width=4, fig.height=3) 
+```
+
+## Here
+
+```{r message=FALSE, warning=FALSE, error=FALSE, echo=FALSE}
+twiconv <- fromJSON(file = "twiconv.txt")
+twiconv_bc <- fromJSON(file = "twiconv_bc.txt")
+twiconv_bn <- fromJSON(file = "twiconv_bn.txt")
+twiconv_tc <- fromJSON(file = "twiconv_tc.txt")
+
+
+group <- rep(c("TW", "TW+bc", "TW+bn", "TW+tc"), each = 100)
+test_f1 <- c(twiconv$best_test_f1, twiconv_bc$best_test_f1, twiconv_bn$best_test_f1, twiconv_tc$best_test_f1)
+dat1 <- data.frame(group, test_f1)
+
+fit1 <- brm(bf(test_f1 ~ group, sigma ~ group), 
+            data = dat1, family = gaussian())
+
+plot(conditional_effects(fit1), points = TRUE)
+
+```

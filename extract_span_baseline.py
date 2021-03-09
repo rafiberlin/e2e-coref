@@ -16,11 +16,7 @@ from custom_coref import CustomCorefIndependent
 if __name__ == "__main__":
     config = util.initialize_from_env()
     log_dir = config["log_dir"]
-    embed_dim = 768
-    if sys.argv[1] == "train_bert_base":
-        embed_dim = 768
-    elif sys.argv[1] == "train_bert_large":
-        embed_dim = 1024
+    embed_dim = 400
 
     # Input file in .jsonlines format.
     input_filename = sys.argv[2]
@@ -31,10 +27,10 @@ if __name__ == "__main__":
 
     model = CustomCorefIndependent(config)
     saver = tf.train.Saver()
-
+    num_tensorized = 0
     with tf.Session() as session:
         session.run(tf.global_variables_initializer())
-        model.restore_init(session)
+        model.restore(session)
 
         with open(input_filename) as input_file:
             parent_child_list = []
@@ -44,26 +40,33 @@ if __name__ == "__main__":
             for example_num, line in enumerate(input_file.readlines()):
                 example = json.loads(line)
                 tensorized_example = model.tensorize_example(example, is_training=False)
-                feed_dict = {i:t for i,t in zip(model.input_tensors, tensorized_example)}
-                candidate_span_emb, candidate_starts, candidate_ends = session.run(model.embeddings, feed_dict=feed_dict)
-                candidate_span_emb = candidate_span_emb[:, :2*embed_dim]  # exclude attention head and span features
-                pos_clusters, neg_clusters = example["distances_positive"], example["distances_negative"]
-                parent_child_emb_pos = span_util.get_parent_child_emb_baseline(pos_clusters, candidate_span_emb, candidate_starts, candidate_ends, "positive", embed_dim)
-                parent_child_emb_neg = span_util.get_parent_child_emb_baseline(neg_clusters, candidate_span_emb, candidate_starts, candidate_ends, "negative", embed_dim)
-                if parent_child_emb_pos is None and parent_child_emb_neg is not None:
-                    parent_child_list.extend([parent_child_emb_neg])
-                elif parent_child_emb_neg is None and parent_child_emb_pos is not None:
-                    parent_child_list.extend([parent_child_emb_pos])
-                elif parent_child_emb_pos is not None and parent_child_emb_neg is not None:
-                    parent_child_list.extend([parent_child_emb_pos, parent_child_emb_neg])
+                if tensorized_example:
+                    feed_dict = {i:t for i,t in zip(model.input_tensors, tensorized_example)}
+                    candidate_span_emb, candidate_starts, candidate_ends = session.run(model.embeddings, feed_dict=feed_dict)
+                    candidate_span_emb = candidate_span_emb[:, :2*embed_dim]  # exclude attention head and span features
+                    pos_clusters, neg_clusters = example["distances_positive"], example["distances_negative"]
+                    parent_child_emb_pos = span_util.get_parent_child_emb_baseline(pos_clusters, candidate_span_emb, candidate_starts, candidate_ends, "positive", embed_dim)
+                    parent_child_emb_neg = span_util.get_parent_child_emb_baseline(neg_clusters, candidate_span_emb, candidate_starts, candidate_ends, "negative", embed_dim)
+                    if parent_child_emb_pos is None and parent_child_emb_neg is not None:
+                        parent_child_list.extend([parent_child_emb_neg])
+                    elif parent_child_emb_neg is None and parent_child_emb_pos is not None:
+                        parent_child_list.extend([parent_child_emb_pos])
+                    elif parent_child_emb_pos is not None and parent_child_emb_neg is not None:
+                        parent_child_list.extend([parent_child_emb_pos, parent_child_emb_neg])
 
-                if (example_num+1) % 350 == 0 or (example_num+1) == num_lines:
-                    write_count += 1
-                    filename = output_prefix + "_" + str(write_count) + ".h5"
-                    out_filename = os.path.join(output_dir, filename)
-                    print('Writing files: {}'.format(out_filename))
-                    sys.stdout.flush()
-                    parent_child_reps = tf.concat(parent_child_list, 0).eval()
-                    with h5py.File(out_filename, 'w') as hf:
-                        hf.create_dataset("span_representations", data=parent_child_reps, compression="gzip", compression_opts=0, shuffle=True, chunks=True)
-                    parent_child_list = []
+                    num_tensorized += 1
+                    if example_num % 100 == 0:
+                            print("Decoded {} examples.".format(example_num + 1))
+
+                    if (num_tensorized+1) % 350 == 0 or (example_num+1) == num_lines:
+                        write_count += 1
+                        filename = output_prefix + "_" + str(write_count) + ".h5"
+                        out_filename = os.path.join(output_dir, filename)
+                        print('Writing files: {}'.format(out_filename))
+                        sys.stdout.flush()
+                        parent_child_reps = tf.concat(parent_child_list, 0).eval()
+                        with h5py.File(out_filename, 'w') as hf:
+                            hf.create_dataset("span_representations", data=parent_child_reps, compression="gzip", compression_opts=0, shuffle=True, chunks=True)
+                        parent_child_list = []
+                else:
+                    print(f"Skipped {example['doc_key']}")

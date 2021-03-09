@@ -11,8 +11,12 @@ glove*.txt.filtered
 *.v*_*_conll
 *.hdf5
 *.h5
-ontonotes*
+ontonotes-5.0
 .idea
 #dependencies loaded by PyCharm
 venv
 no_wb*
+*.meta
+*.index
+*.data-*
+checkpoint

@@ -64,6 +64,7 @@ if __name__ == "__main__":
                             parent_child_list.extend([parent_child_emb_neg])
                             # add sentence strings to info json
                             info_dict_neg['sentences'] = example["sentences"]
+                            info_dict_neg['speakers'] = example["speakers"]
                             # write line of json with info with doc_key and sentences
                             output_file.write(json.dumps(info_dict_neg))
                             output_file.write("\n")
@@ -71,6 +72,7 @@ if __name__ == "__main__":
                             # add only pos examples to dataset
                             parent_child_list.extend([parent_child_emb_pos])
                             info_dict_pos['sentences'] = example["sentences"]
+                            info_dict_pos['speakers'] = example["speakers"]
                             output_file.write(json.dumps(info_dict_pos))
                             output_file.write("\n")
                         num_tensorized += 1

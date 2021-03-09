@@ -1,0 +1,250 @@
+Model twiconv_eval
+####################################
+
+40 pred: 0 gold: 1
+Trump    ==    @realDonaldTrump
+...
+PrisonPlanet: If that speech was the best Oprah 's got , Trump 's second
+...
+PrisonPlanet: Sorry . %emoji @PrisonPlanet
+markpolitics4uk: @PrisonPlanet I find it amusing that if @realDonaldTrump was black
+... ( 40 )
+
+Comment : In the Patrick's paper, it would be either an error in the category Anaphora and / or
+Similar words. I think it should be actually quite easy to reconcile Trump with username @realDonaldTrump,
+as Trump has been the topic of many twets the last years...
+
+__
+
+44 pred: 0 gold: 1
+I    ==    Mark
+...
+PrisonPlanet: make it a good speech . Sorry . %emoji @PrisonPlanet
+markpolitics4uk: @PrisonPlanet I find it
+...
+Julesywooooolsy: @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow
+... ( 44 )
+
+Comment: In the Patrick's paper, it would be either an error in the category Anaphora and / or
+Similar words. Similarly to the previous error, but this time, it cannot reconcile the username of the Speaker
+markpoltics4u with I and then later with Mark
+
+__
+
+2 examples to be observed together:
+
+Ex 1:
+33 pred: 1 gold: 0
+I    ==    fam
+...
+taani98: @laurenxjessica @BTSRequest @BTS_twt Can u send this to me !? I love it
+...
+AyyyRee: the link %emoji https://t.co/wklMz4wdTY @AyyyRee
+q_sera83: @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt Excuse fam . .
+... ( 33 )
+
+Ex 2:
+
+15 pred: 0 gold: 1
+I    ==    fam
+...
+AyyyRee: The gif ? It 's in the gif search but I 'll just
+...
+AyyyRee: the link %emoji https://t.co/wklMz4wdTY @AyyyRee
+q_sera83: @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt Excuse fam . .
+... ( 15 )
+
+
+Comment: This is a typical example where a machine learning algorithms are falling short.
+"@AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt" should all be considered as member
+of a family  ("fam"). Hence, each user listed in this "fam" using "I" should be considered as belonging
+to the same entity  by transitivity. However, this is not the case here.
+The trained embeddings cannot capture such context...
+___
+
+13 pred: 0 gold: 1
+season    ==    season
+...
+oiler99: change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end
+... ( 13 )
+
+
+Comment: this error is interesting because the mention from my perspective should be "end of season"
+/ "season 's end" => Annotation of the twiconv set was partially done by hand partially automatically => no dataset is perfect
+
+___
+
+47 pred: 1 gold: 0
+idols    ==    Hes
+...
+ChampionsLeague: incredible to know that I am going to live with idols ; players
+...
+EbadianVII: give him too much credit @EbadianVII
+zreik_: @EbadianVII @hashbrown711 @ChampionsLeague @FCBarcelona @Phil_Coutinho Hes gon na
+... ( 47 )
+
+Comment : Typical case of "noisy data". "Hes" should be "He's". Then, it would have been easy,
+not to link it with the plural noun "idols"
+
+___
+
+Ex 1.
+40 pred: 1 gold: 0
+I    ==    your
+...
+AmberBobamber: of drugs will change that . -LRB- That said , I 'm still
+...
+AmberBobamber: But you have to figure out what is REALLY causing your depression and
+... ( 40 )
+Ex.2
+38 pred: 1 gold: 0
+I    ==    you
+...
+AmberBobamber: @jmwallach @ParkerMolloy @johannhari101 Oh , keep taking your SSRIs . I take mine
+...
+jmwallach: sufficient ? @jmwallach
+AmberBobamber: @jmwallach @ParkerMolloy @johannhari101 If , for example , you 're married
+... ( 38 )
+
+Comment: In these 2 cases, the "I" and "you" or "your" should not be marked as postivie
+coreference arc => the utterances come from same user. Speaker info was not able to overcome that...
+____
+
+
+####################################
+
+Model twiconv_tc_eval_twiconv:
+
+
+####################################
+
+Model twiconv_bc_eval_twiconv
+
+33 pred: 1 gold: 0
+@johannhari101    ==    I
+...
+ParkerMolloy: I found myself nodding along to a lot of what @johannhari101 says in
+...
+AmberBobamber: of drugs will change that . -LRB- That said , I 'm still
+... ( 33 ) 
+
+Comment: Based on the speaker information, I should not be @johannhari101
+
+___
+
+159 pred: 1 gold: 0
+democracy    ==    Strategic investments
+...
+Disputatio_: to remain is the realisation of reality and respect for democracy . @Disputatio_
+...
+Disputatio_: @vincecable @Andrew_Adonis @LibDems We 're still @in the EU . Strategic investments from Boeing
+... ( 159 ) 
+
+___
+
+12 pred: 1 gold: 0
+Liberty    ==    them
+...
+RuariJM: almost certainly were planned before the Referendum -LRB- except for Liberty 's steel & aluminium investments -RRB- . There was time for them to be
+... ( 12 ) 
+
+___
+
+28 pred: 0 gold: 1
+#Brexit    ==    Brexit
+...
+vincecable: to work on cross party basis . Not compatible with #Brexit hardliners who
+...
+BrexitDemocracy: @LibDems Not surprised Vince wants to recruit Adonis to thwart Brexit - a
+... ( 28 ) 
+
+Comment: Hashtag confusion
+
+___
+
+35 pred: 1 gold: 0
+the kid    ==    Caleb Thulambo
+...
+CalebTheMandem: %emoji %emoji %emoji %emoji @CalebTheMandem
+StoryTimeWitDez: @CalebTheMandem You play too much let the kid have her
+...
+StoryTimeWitDez: @Big_PhilMW listen to charisma 's lil brother here @StoryTimeWitDez
+Big_PhilMW: @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did
+... ( 35 ) 
+
+Comment: Based on the @-mention one would know that @CalebTheMandem is not equivalent to the kid
+
+___
+
+68 pred: 0 gold: 1
+I    ==    You
+...
+FoxNews: he continues to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews
+thegrugq_ebooks: @FoxNews I love the
+...
+thegrugq_ebooks: noticed your PGP key expired . @thegrugq_ebooks
+pwns4cash: @thegrugq_ebooks Uh oh ! You wan na
+... ( 68 ) 
+
+
+___
+
+
+75 pred: 1 gold: 0
+you    ==    they
+...
+TeamFA: When you realise that
+...
+charliegillno1: a league win or CL win esp a league win they will never
+... ( 75 ) 
+
+Comment: you does not refer to an entity
+
+
+####################################
+
+Model twiconv_bn_eval_twiconv
+
+
+####################################
+
+
+2 similar examples:
+
+twiconv_bn (323-329) and twiconv (329-335)
+39 pred: 1 gold: 0
+you    ==    your
+...
+RondaCosgrove: @Elizabe28813295 @jeffjarvis @JoeNBC @washingtonpost There is a huge difference and you know it
+...
+Elizabe28813295: Such a waste of time and energy . I respect your opinion ,
+... ( 39 ) 
+
+
+twiconv (463-470)
+31 pred: 1 gold: 0
+the president    ==    it
+...
+FoxNews: '' his delayed response and that he continues to support the president . https://t.co/MIZB006BJa
+...
+pwns4cash: ... @pwns4cash
+thegrugq_ebooks: @pwns4cash Hug benefit of a regular notebook is that it does n't
+... ( 31 ) 
+
+Comment: Referents that are always wrong, regardless of context. It should be clear that 'you' and 'your' can never be referents. Same goes for 'the president' which can never be 'it'.
+
+___
+
+
+# twiconv_bn (307-314)
+48 pred: 1 gold: 0
+Trump    ==    Obama
+...
+jeffjarvis: twice the @washingtonpost deleted his unnamed quotes from someone around Trump saying he
+...
+Elizabe28813295: it was well known in the first years of the Obama presidency insiders
+... ( 48 ) 
+
+Comment: wrong NER, only gets person names, not the whole entity
+
+___

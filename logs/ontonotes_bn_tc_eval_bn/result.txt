@@ -1,0 +1,58 @@
+
+Restoring from logs/ontonotes_bn_tc_eval_bn/model.max.ckpt
+2021-03-08 11:58:13.420836: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+W0308 11:58:13.611895 140670143989568 deprecation.py:323] From /home/rafi/.conda/envs/tfpython36/lib/python3.6/site-packages/tensorflow/python/training/saver.py:1276: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+Loaded 93 eval examples.
+2021-03-08 11:58:14.990344: W tensorflow/core/framework/allocator.cc:107] Allocation of 267091968 exceeds 10% of system memory.
+2021-03-08 11:58:15.136912: W tensorflow/core/framework/allocator.cc:107] Allocation of 136581120 exceeds 10% of system memory.
+2021-03-08 11:58:16.939971: W tensorflow/core/framework/allocator.cc:107] Allocation of 335610000 exceeds 10% of system memory.
+2021-03-08 11:58:17.048345: W tensorflow/core/framework/allocator.cc:107] Allocation of 130806000 exceeds 10% of system memory.
+2021-03-08 11:58:17.120173: W tensorflow/core/framework/allocator.cc:107] Allocation of 130806000 exceeds 10% of system memory.
+Evaluated 1/93 examples.
+Evaluated 11/93 examples.
+Evaluated 21/93 examples.
+Evaluated 31/93 examples.
+Evaluated 41/93 examples.
+Evaluated 51/93 examples.
+Evaluated 61/93 examples.
+Evaluated 71/93 examples.
+Evaluated 81/93 examples.
+Evaluated 91/93 examples.
+Predicted conll file: /tmp/tmpq5lz2p5q
+Official result for muc
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2342 / 2934) 79.82%	Precision: (2342 / 2660) 88.04%	F1: 83.73%
+--------------------------------------------------------------------------
+Coreference: Recall: (1584 / 2144) 73.88%	Precision: (1584 / 1945) 81.43%	F1: 77.47%
+--------------------------------------------------------------------------
+
+Official result for bcub
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2342 / 2934) 79.82%	Precision: (2342 / 2660) 88.04%	F1: 83.73%
+--------------------------------------------------------------------------
+Coreference: Recall: (1891.2507863715 / 2934) 64.45%	Precision: (2012.32029016287 / 2660) 75.65%	F1: 69.6%
+--------------------------------------------------------------------------
+
+Official result for ceafe
+version: 8.01 /home/rafi/PycharmProjects/e2e-coref_WS2020/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (2342 / 2934) 79.82%	Precision: (2342 / 2660) 88.04%	F1: 83.73%
+--------------------------------------------------------------------------
+Coreference: Recall: (520.196517825336 / 790) 65.84%	Precision: (520.196517825336 / 715) 72.75%	F1: 69.12%
+--------------------------------------------------------------------------
+
+Average F1 (conll): 72.06%
+Average Recall (conll): 68.06%
+Average Precision (conll): 76.61%
+Average F1 (py): 72.11%
+Average precision (py): 76.66%
+Average recall (py): 68.10%
+
+Process finished with exit code 0

@@ -1,0 +1,51 @@
+Evaluated 1/168 examples.
+Evaluated 11/168 examples.
+Evaluated 21/168 examples.
+Evaluated 31/168 examples.
+Evaluated 41/168 examples.
+Evaluated 51/168 examples.
+Evaluated 61/168 examples.
+Evaluated 71/168 examples.
+Evaluated 81/168 examples.
+Evaluated 91/168 examples.
+Evaluated 101/168 examples.
+Evaluated 111/168 examples.
+Evaluated 121/168 examples.
+Evaluated 131/168 examples.
+Evaluated 141/168 examples.
+Evaluated 151/168 examples.
+Evaluated 161/168 examples.
+Predicted conll file: /tmp/tmpwj2i187d
+Official result for muc
+version: 8.01 /project/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (5806 / 7383) 78.64%        Precision: (5806 / 6730) 86.27% F1: 82.27%
+--------------------------------------------------------------------------
+Coreference: Recall: (4018 / 5556) 72.31%       Precision: (4018 / 5061) 79.39% F1: 75.68%
+--------------------------------------------------------------------------
+
+Official result for bcub
+version: 8.01 /project/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (5806 / 7383) 78.64%        Precision: (5806 / 6730) 86.27% F1: 82.27%
+--------------------------------------------------------------------------
+Coreference: Recall: (4488.17541529818 / 7383) 60.79%   Precision: (4830.15274393106 / 6730) 71.77%     F1: 65.82%
+--------------------------------------------------------------------------
+
+Official result for ceafe
+version: 8.01 /project/e2e-coref/conll-2012/scorer/v8.01/lib/CorScorer.pm
+
+====== TOTALS =======
+Identification of Mentions: Recall: (5806 / 7383) 78.64%        Precision: (5806 / 6730) 86.27% F1: 82.27%
+--------------------------------------------------------------------------
+Coreference: Recall: (1093.95897698678 / 1827) 59.87%   Precision: (1093.95897698678 / 1669) 65.54%     F1: 62.58%
+--------------------------------------------------------------------------
+
+Average F1 (conll): 68.03%
+Average Recall (conll): 64.32%
+Average Precision (conll): 72.23%
+Average F1 (py): 68.05%
+Average precision (py): 72.26%
+Average recall (py): 64.34%

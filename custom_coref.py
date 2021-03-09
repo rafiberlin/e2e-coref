@@ -252,18 +252,6 @@ class CustomCorefIndependent(CorefModel):
 
         return self.flatten_emb_by_sentence(text_outputs, text_len_mask)
 
-    # def flatten_emb_by_sentence(self, emb, text_len_mask):
-    #     num_sentences = tf.shape(emb)[0]
-    #     max_sentence_length = tf.shape(emb)[1]
-    #
-    #     emb_rank = len(emb.get_shape())
-    #     if emb_rank == 2:
-    #         flattened_emb = tf.reshape(emb, [num_sentences * max_sentence_length])
-    #     elif emb_rank == 3:
-    #         flattened_emb = tf.reshape(emb, [num_sentences * max_sentence_length, util.shape(emb, 2)])
-    #     else:
-    #         raise ValueError("Unsupported rank: {}".format(emb_rank))
-    #     return tf.boolean_mask(flattened_emb, tf.reshape(text_len_mask, [num_sentences * max_sentence_length]))
 
     def restore(self, session):
         # Don't try to restore unused variables from the TF-Hub ELMo module.
@@ -275,12 +263,3 @@ class CustomCorefIndependent(CorefModel):
         print("Restoring from {}".format(checkpoint_path))
         session.run(tf.global_variables_initializer())
         saver.restore(session, checkpoint_path)
-
-    #TODO Understand that!
-    def restore_init(self, session):
-        # Use train_bert_x as experiment name
-        tvars = tf.trainable_variables()
-        assignment_map, initialized_variable_names = modeling.get_assignment_map_from_checkpoint(tvars, self.config['tf_checkpoint'])
-        init_from_checkpoint = tf.train.init_from_checkpoint
-        print("Restoring from {}".format(self.config['tf_checkpoint']))
-        init_from_checkpoint(self.config['init_checkpoint'], assignment_map)

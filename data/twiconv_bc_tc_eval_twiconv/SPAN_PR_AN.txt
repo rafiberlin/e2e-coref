@@ -1,0 +1,867 @@
+data/twiconv_bc_tc_eval_twiconv/SPAN_PR_AN.jsonlines
+##################################START: Min Distance: None, Max Distance: None#####################################################
+
+44 pred: 0 gold: 1
+I    ==    Mark
+...
+PrisonPlanet: make it a good speech . Sorry . %emoji @PrisonPlanet
+markpolitics4uk: @PrisonPlanet I find it
+...
+Julesywooooolsy: @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow
+... ( 44 ) 
+
+11 pred: 1 gold: 0
+Trump    ==    Mueller
+...
+MSNBC: EXCLUSIVE : Initial talks underway about Trump interview in Mueller Russia probe https://t.co/7OaC2Ya8Pk @MSNBC
+NVGhost005: @MSNBC Why ? All Mueller has to
+... ( 11 ) 
+
+36 pred: 1 gold: 0
+his questions    ==    there
+...
+NVGhost005: @MSNBC Why ? All Mueller has to do is post his questions on Twitter
+...
+Makemyday59: seems to like to run his mouth with certain reporters there . @Makemyday59
+... ( 36 ) 
+
+94 pred: 1 gold: 0
+the NYT    ==    them
+...
+NVGhost005: ... and unguarded . @NVGhost005
+Makemyday59: @NVGhost005 @MSNBC Or Give them to the NYT . He
+...
+Para_Mystery: republicans count on that every election & we keep obliging them @Para_Mystery
+NVGhost005: @Para_Mystery @Makemyday59
+... ( 94 ) 
+
+22 pred: 0 gold: 1
+@Oprah    ==    a candidate w/liberal democratic ideals-who can win
+...
+Makemyday59: certain reporters there . @Makemyday59
+NVGhost005: @Makemyday59 @MSNBC @Para_Mystery So long as @Oprah does n't
+...
+NVGhost005: win . @NVGhost005
+Para_Mystery: @NVGhost005 @Makemyday59 @MSNBC @Oprah All I want is a candidate w/liberal democratic ideals-who can win . Oprah
+... ( 22 ) 
+
+3 pred: 0 gold: 1
+BTS    ==    @BTS_twt
+...
+laurenxjessica: car and the car next to me goes `` AYYYYYYYE BTS !!!! '' @BTS_twt @laurenxjessica
+AyyyRee: @laurenxjessica @BTSRequest
+... ( 3 ) 
+
+15 pred: 0 gold: 1
+I    ==    fam
+...
+AyyyRee: The gif ? It 's in the gif search but I 'll just
+...
+AyyyRee: the link %emoji https://t.co/wklMz4wdTY @AyyyRee
+q_sera83: @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt Excuse fam . .
+... ( 15 ) 
+
+20 pred: 0 gold: 1
+the link    ==    the link your are giving
+...
+AyyyRee: in the gif search but I 'll just give you the link %emoji https://t.co/wklMz4wdTY
+...
+q_sera83: . . just curious about the gif vkook kissing in the link your are giving , it
+... ( 20 ) 
+
+45 pred: 0 gold: 1
+vkook    ==    them
+...
+q_sera83: @BTS_twt Excuse fam . . just curious about the gif vkook kissing in
+...
+q_sera83: @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt thank god that 's not them
+... ( 45 ) 
+
+13 pred: 0 gold: 1
+season    ==    season
+...
+oiler99: change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end
+... ( 13 ) 
+
+57 pred: 0 gold: 1
+I    ==    something big
+...
+ChampionsLeague: Coutinho : '' It is incredible to know that I am going
+...
+EbadianVII: credit @EbadianVII
+zreik_: @EbadianVII @hashbrown711 @ChampionsLeague @FCBarcelona @Phil_Coutinho Hes gon na be something big in barca
+... ( 57 ) 
+
+2 pred: 0 gold: 1
+idols    ==    players with a lot of history
+...
+ChampionsLeague: incredible to know that I am going to live with idols ; players with a lot of history . ''
+... ( 2 ) 
+
+60 pred: 1 gold: 0
+rohit sharma    ==    toddler
+...
+KshitijDisIz: better than overrated Mohd . Aamir !! @KshitijDisIz
+nasir_22: @KshitijDisIz @ZAbbasOfficial Ask rohit sharma %emoji @nasir_22
+...
+nasir_22: Win and lose is part of game . Grow up toddler . I
+... ( 60 ) 
+
+2 pred: 0 gold: 1
+kid    ==    Little kid
+...
+KshitijDisIz: @nasir_22 @ZAbbasOfficial Enjoy https://t.co/o6qlCIYNL5 @KshitijDisIz
+nasir_22: @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is
+... ( 2 ) 
+
+4 pred: 0 gold: 1
+this    ==    this
+...
+nasir_22: @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is cricket and this is sports
+... ( 4 ) 
+
+128 pred: 1 gold: 0
+a black death-row inmate    ==    its
+...
+cristianafarias: The Supreme Court just ruled on behalf of a black death-row inmate whom a
+...
+cristianafarias: reason , #SCOTUS also included it at the end of its orders list
+... ( 128 ) 
+
+124 pred: 1 gold: 0
+a white juror    ==    its
+...
+cristianafarias: just ruled on behalf of a black death-row inmate whom a white juror later called
+...
+cristianafarias: reason , #SCOTUS also included it at the end of its orders list
+... ( 124 ) 
+
+25 pred: 1 gold: 0
+a black death-row inmate    ==    the lawyers for Keith Tharpe
+...
+cristianafarias: The Supreme Court just ruled on behalf of a black death-row inmate whom a
+...
+cristianafarias: chair . Not sure how common this is , but the lawyers for Keith Tharpe , the
+... ( 25 ) 
+
+101 pred: 0 gold: 1
+The Supreme Court    ==    The Court
+...
+cristianafarias: The Supreme Court just ruled
+...
+cristianafarias: , and other technical aspects of the case : `` The Court 's decision
+... ( 101 ) 
+
+11 pred: 0 gold: 1
+Tharpe v . Sellers    ==    it
+...
+cristianafarias: in moral courage . '' Here 's the opinion in Tharpe v . Sellers . -LRB- For some weird reason , #SCOTUS also included it at the
+... ( 11 ) 
+
+40 pred: 1 gold: 0
+I    ==    your
+...
+AmberBobamber: of drugs will change that . -LRB- That said , I 'm still
+...
+AmberBobamber: But you have to figure out what is REALLY causing your depression and
+... ( 40 ) 
+
+38 pred: 1 gold: 0
+I    ==    you
+...
+AmberBobamber: @jmwallach @ParkerMolloy @johannhari101 Oh , keep taking your SSRIs . I take mine
+...
+jmwallach: sufficient ? @jmwallach
+AmberBobamber: @jmwallach @ParkerMolloy @johannhari101 If , for example , you 're married
+... ( 38 ) 
+
+4 pred: 0 gold: 1
+someone who 's really struggled with severe depression and anxiety for more than a decade    ==    myself
+...
+ParkerMolloy: As someone who 's really struggled with severe depression and anxiety for more than a decade , I found myself nodding along
+... ( 4 ) 
+
+254 pred: 1 gold: 0
+#Brexit    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
+...
+vincecable: to work on cross party basis . Not compatible with #Brexit hardliners who
+...
+Disputatio_: We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning
+... ( 254 ) 
+
+159 pred: 1 gold: 0
+democracy    ==    Strategic investments
+...
+Disputatio_: to remain is the realisation of reality and respect for democracy . @Disputatio_
+...
+Disputatio_: @vincecable @Andrew_Adonis @LibDems We 're still @in the EU . Strategic investments from Boeing
+... ( 159 ) 
+
+200 pred: 0 gold: 1
+reality    ==    reality
+...
+Disputatio_: conclusions . '' Fighting to remain is the realisation of reality and respect
+...
+Disputatio_: however inevitable - or easily averted if the UK accepts reality and does
+... ( 200 ) 
+
+35 pred: 0 gold: 1
+Boeing , Hitachi , Tata , Liberty , Honda & Toyota    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
+...
+RuariJM: fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100
+...
+Disputatio_: We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning
+... ( 35 ) 
+
+22 pred: 1 gold: 0
+you    ==    you
+...
+HannaPam: , you do n't know what their intentions are , you do n't
+...
+HannaPam: your f*cking business . @HannaPam
+ohsixoneoh: @HannaPam @RoGodwinw67 @VickiAbby @OneGreenPlanet And would you like to
+... ( 22 ) 
+
+67 pred: 1 gold: 0
+This    ==    the whole situation
+...
+VickiAbby: His Wife 2 Kangaroos For Christmas -- Here 's Why This is a
+...
+HannaPam: what someone else is doing ? You do n't know the whole situation , you
+... ( 67 ) 
+
+31 pred: 1 gold: 0
+you    ==    yourself
+...
+ohsixoneoh: 's people like you that place others in danger , you have no
+...
+ohsixoneoh: you ! @ohsixoneoh
+HannaPam: @ohsixoneoh @RoGodwinw67 @VickiAbby @OneGreenPlanet You need to have yourself a drink
+... ( 31 ) 
+
+120 pred: 1 gold: 0
+idiots    ==    they
+...
+ohsixoneoh: dangerous it is but you think it 's cute . idiots , the
+...
+ohsixoneoh: an idol can do no wrong in their eyes so they jump on
+... ( 120 ) 
+
+315 pred: 0 gold: 1
+he    ==    some privileged wanker
+...
+HannaPam: what their intentions are , you do n't know who he has caring
+...
+ohsixoneoh: about , all you seem to care about is about some privileged wanker being roasted
+... ( 315 ) 
+
+48 pred: 1 gold: 0
+Trump    ==    Obama
+...
+jeffjarvis: twice the @washingtonpost deleted his unnamed quotes from someone around Trump saying he
+...
+Elizabe28813295: it was well known in the first years of the Obama presidency insiders
+... ( 48 ) 
+
+58 pred: 1 gold: 0
+his    ==    Obama
+...
+jeffjarvis: @JoeNBC just said twice the @washingtonpost deleted his unnamed quotes
+...
+Elizabe28813295: in the first years of the Obama presidency insiders said Obama did n't
+... ( 58 ) 
+
+39 pred: 1 gold: 0
+you    ==    your
+...
+RondaCosgrove: @Elizabe28813295 @jeffjarvis @JoeNBC @washingtonpost There is a huge difference and you know it
+...
+Elizabe28813295: Such a waste of time and energy . I respect your opinion ,
+... ( 39 ) 
+
+26 pred: 1 gold: 0
+I    ==    you
+...
+RondaCosgrove: Stop the false equivalency crap . @RondaCosgrove
+Elizabe28813295: @RondaCosgrove @jeffjarvis @JoeNBC @washingtonpost I have absolutely
+...
+Elizabe28813295: time and energy . I respect your opinion , but you should also
+... ( 26 ) 
+
+35 pred: 1 gold: 0
+the kid    ==    Caleb Thulambo
+...
+CalebTheMandem: %emoji %emoji %emoji %emoji @CalebTheMandem
+StoryTimeWitDez: @CalebTheMandem You play too much let the kid have her
+...
+StoryTimeWitDez: @Big_PhilMW listen to charisma 's lil brother here @StoryTimeWitDez
+Big_PhilMW: @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did
+... ( 35 ) 
+
+81 pred: 0 gold: 1
+a virgin    ==    charisma 's lil brother
+...
+StoryTimeWitDez: 's sisters ? @StoryTimeWitDez
+CalebTheMandem: @StoryTimeWitDez First of all , I 'm a virgin , thank
+...
+CalebTheMandem: that 's not happening anytime soon @CalebTheMandem
+StoryTimeWitDez: @CalebTheMandem @Big_PhilMW listen to charisma 's lil brother here @StoryTimeWitDez
+... ( 81 ) 
+
+33 pred: 1 gold: 0
+He    ==    She
+...
+mc5506: He was a
+...
+Crazyparklady1: @mc5506 Ca n't stand her voice either . #LindaSarsour @Crazyparklady1
+mc5506: @Crazyparklady1 She 's a
+... ( 33 ) 
+
+27 pred: 1 gold: 0
+He    ==    her
+...
+mc5506: He was a
+...
+mc5506: 's a horrible manipulative cow %emoji @mc5506
+Crazyparklady1: @mc5506 Ca n't stand her voice either
+... ( 27 ) 
+
+4 pred: 0 gold: 1
+her    ==    #LindaSarsour
+...
+mc5506: 's a horrible manipulative cow %emoji @mc5506
+Crazyparklady1: @mc5506 Ca n't stand her voice either . #LindaSarsour @Crazyparklady1
+mc5506: @Crazyparklady1 She
+... ( 4 ) 
+
+41 pred: 1 gold: 0
+Klopp    ==    Brenda
+...
+bselcoe: the last 25 years ! @bselcoe
+charliegillno1: @bselcoe @TeamFA Have n't had Klopp for 25
+...
+bselcoe: seasons . So he 's not even as good as Brenda ! @bselcoe
+... ( 41 ) 
+
+20 pred: 0 gold: 1
+Barca    ==    them
+...
+TeamFA: to play with Lovren or Henderson anymore ... https://t.co/zbZWVlvxke @TeamFA
+charliegillno1: @TeamFA Barca got the
+...
+bselcoe: it time ... @bselcoe
+TeamFA: @bselcoe @charliegillno1 Would n't put it past them just yet
+... ( 20 ) 
+
+5 pred: 0 gold: 1
+a league win    ==    a league win
+...
+charliegillno1: our players sees the scenes the reds can produce for a league win or CL win esp a league win they will
+... ( 5 ) 
+
+1 pred: 0 gold: 1
+Absolute dose    ==    he
+...
+charliegillno1: @bselcoe @TeamFA Did Brenda get us to 1 final ? Absolute dose he was
+... ( 1 ) 
+
+72 pred: 1 gold: 0
+I    ==    I
+...
+LakeEffectBro: all fabrication . but who cares at this point @LakeEffectBro
+SportsNom: @LakeEffectBro I used to
+...
+LakeEffectBro: up , read a few of his books , but I 'm not
+... ( 72 ) 
+
+36 pred: 1 gold: 0
+Phins    ==    his
+...
+SportsNom: . Wish we had more clarity on all that @LakeEffectBro Phins have a
+...
+LakeEffectBro: really liked Pluto growing up , read a few of his books ,
+... ( 36 ) 
+
+1 pred: 1 gold: 0
+#HarveyWeinstein    ==    #OprahWinfrey
+...
+enews: for President in 2020 After Golden Globes Speech https://t.co/SiCRWSdDGx @enews
+sissylynn42: @enews #HarveyWeinstein #OprahWinfrey was basically
+... ( 1 ) 
+
+4 pred: 0 gold: 1
+#HarveyWeinstein    ==    his
+...
+enews: for President in 2020 After Golden Globes Speech https://t.co/SiCRWSdDGx @enews
+sissylynn42: @enews #HarveyWeinstein #OprahWinfrey was basically his #pimp up
+... ( 4 ) 
+
+3 pred: 0 gold: 1
+the Trump presidency    ==    It
+...
+FoxNews: to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews
+thegrugq_ebooks: @FoxNews I love the Trump presidency @thegrugq_ebooks
+pwns4cash: @thegrugq_ebooks @FoxNews It 's certainly
+... ( 3 ) 
+
+79 pred: 1 gold: 0
+British English    ==    Brits
+...
+JeremyClarkson: my three mile commute takes an hour . Wanker @JeremyClarkson
+KMansParts: @JeremyClarkson British English cracks me
+...
+AndyMRoberts86: the whole world knows the English language belongs to us Brits . Do
+... ( 79 ) 
+
+42 pred: 1 gold: 0
+One cock job    ==    real English
+...
+JeremyClarkson: One cock job parks his
+...
+ahknight: No , British . @ahknight
+hsjawanda: @ahknight @MaxBorken @KMansParts @JeremyClarkson No , real English . You
+... ( 42 ) 
+
+true_pos, true_neg, false_pos, false_neg, (109, 105, 28, 24)
+F1 score of 0.8074074074074075
+##################################END: Min Distance: None, Max Distance: None#####################################################
+
+##################################START: Min Distance: 0, Max Distance: 50#####################################################
+
+44 pred: 0 gold: 1
+I    ==    Mark
+...
+PrisonPlanet: make it a good speech . Sorry . %emoji @PrisonPlanet
+markpolitics4uk: @PrisonPlanet I find it
+...
+Julesywooooolsy: @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow
+... ( 44 ) 
+
+11 pred: 1 gold: 0
+Trump    ==    Mueller
+...
+MSNBC: EXCLUSIVE : Initial talks underway about Trump interview in Mueller Russia probe https://t.co/7OaC2Ya8Pk @MSNBC
+NVGhost005: @MSNBC Why ? All Mueller has to
+... ( 11 ) 
+
+36 pred: 1 gold: 0
+his questions    ==    there
+...
+NVGhost005: @MSNBC Why ? All Mueller has to do is post his questions on Twitter
+...
+Makemyday59: seems to like to run his mouth with certain reporters there . @Makemyday59
+... ( 36 ) 
+
+22 pred: 0 gold: 1
+@Oprah    ==    a candidate w/liberal democratic ideals-who can win
+...
+Makemyday59: certain reporters there . @Makemyday59
+NVGhost005: @Makemyday59 @MSNBC @Para_Mystery So long as @Oprah does n't
+...
+NVGhost005: win . @NVGhost005
+Para_Mystery: @NVGhost005 @Makemyday59 @MSNBC @Oprah All I want is a candidate w/liberal democratic ideals-who can win . Oprah
+... ( 22 ) 
+
+3 pred: 0 gold: 1
+BTS    ==    @BTS_twt
+...
+laurenxjessica: car and the car next to me goes `` AYYYYYYYE BTS !!!! '' @BTS_twt @laurenxjessica
+AyyyRee: @laurenxjessica @BTSRequest
+... ( 3 ) 
+
+15 pred: 0 gold: 1
+I    ==    fam
+...
+AyyyRee: The gif ? It 's in the gif search but I 'll just
+...
+AyyyRee: the link %emoji https://t.co/wklMz4wdTY @AyyyRee
+q_sera83: @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt Excuse fam . .
+... ( 15 ) 
+
+20 pred: 0 gold: 1
+the link    ==    the link your are giving
+...
+AyyyRee: in the gif search but I 'll just give you the link %emoji https://t.co/wklMz4wdTY
+...
+q_sera83: . . just curious about the gif vkook kissing in the link your are giving , it
+... ( 20 ) 
+
+45 pred: 0 gold: 1
+vkook    ==    them
+...
+q_sera83: @BTS_twt Excuse fam . . just curious about the gif vkook kissing in
+...
+q_sera83: @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt thank god that 's not them
+... ( 45 ) 
+
+13 pred: 0 gold: 1
+season    ==    season
+...
+oiler99: change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end
+... ( 13 ) 
+
+2 pred: 0 gold: 1
+idols    ==    players with a lot of history
+...
+ChampionsLeague: incredible to know that I am going to live with idols ; players with a lot of history . ''
+... ( 2 ) 
+
+2 pred: 0 gold: 1
+kid    ==    Little kid
+...
+KshitijDisIz: @nasir_22 @ZAbbasOfficial Enjoy https://t.co/o6qlCIYNL5 @KshitijDisIz
+nasir_22: @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is
+... ( 2 ) 
+
+4 pred: 0 gold: 1
+this    ==    this
+...
+nasir_22: @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is cricket and this is sports
+... ( 4 ) 
+
+25 pred: 1 gold: 0
+a black death-row inmate    ==    the lawyers for Keith Tharpe
+...
+cristianafarias: The Supreme Court just ruled on behalf of a black death-row inmate whom a
+...
+cristianafarias: chair . Not sure how common this is , but the lawyers for Keith Tharpe , the
+... ( 25 ) 
+
+11 pred: 0 gold: 1
+Tharpe v . Sellers    ==    it
+...
+cristianafarias: in moral courage . '' Here 's the opinion in Tharpe v . Sellers . -LRB- For some weird reason , #SCOTUS also included it at the
+... ( 11 ) 
+
+40 pred: 1 gold: 0
+I    ==    your
+...
+AmberBobamber: of drugs will change that . -LRB- That said , I 'm still
+...
+AmberBobamber: But you have to figure out what is REALLY causing your depression and
+... ( 40 ) 
+
+38 pred: 1 gold: 0
+I    ==    you
+...
+AmberBobamber: @jmwallach @ParkerMolloy @johannhari101 Oh , keep taking your SSRIs . I take mine
+...
+jmwallach: sufficient ? @jmwallach
+AmberBobamber: @jmwallach @ParkerMolloy @johannhari101 If , for example , you 're married
+... ( 38 ) 
+
+4 pred: 0 gold: 1
+someone who 's really struggled with severe depression and anxiety for more than a decade    ==    myself
+...
+ParkerMolloy: As someone who 's really struggled with severe depression and anxiety for more than a decade , I found myself nodding along
+... ( 4 ) 
+
+35 pred: 0 gold: 1
+Boeing , Hitachi , Tata , Liberty , Honda & Toyota    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
+...
+RuariJM: fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100
+...
+Disputatio_: We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning
+... ( 35 ) 
+
+22 pred: 1 gold: 0
+you    ==    you
+...
+HannaPam: , you do n't know what their intentions are , you do n't
+...
+HannaPam: your f*cking business . @HannaPam
+ohsixoneoh: @HannaPam @RoGodwinw67 @VickiAbby @OneGreenPlanet And would you like to
+... ( 22 ) 
+
+31 pred: 1 gold: 0
+you    ==    yourself
+...
+ohsixoneoh: 's people like you that place others in danger , you have no
+...
+ohsixoneoh: you ! @ohsixoneoh
+HannaPam: @ohsixoneoh @RoGodwinw67 @VickiAbby @OneGreenPlanet You need to have yourself a drink
+... ( 31 ) 
+
+48 pred: 1 gold: 0
+Trump    ==    Obama
+...
+jeffjarvis: twice the @washingtonpost deleted his unnamed quotes from someone around Trump saying he
+...
+Elizabe28813295: it was well known in the first years of the Obama presidency insiders
+... ( 48 ) 
+
+39 pred: 1 gold: 0
+you    ==    your
+...
+RondaCosgrove: @Elizabe28813295 @jeffjarvis @JoeNBC @washingtonpost There is a huge difference and you know it
+...
+Elizabe28813295: Such a waste of time and energy . I respect your opinion ,
+... ( 39 ) 
+
+26 pred: 1 gold: 0
+I    ==    you
+...
+RondaCosgrove: Stop the false equivalency crap . @RondaCosgrove
+Elizabe28813295: @RondaCosgrove @jeffjarvis @JoeNBC @washingtonpost I have absolutely
+...
+Elizabe28813295: time and energy . I respect your opinion , but you should also
+... ( 26 ) 
+
+35 pred: 1 gold: 0
+the kid    ==    Caleb Thulambo
+...
+CalebTheMandem: %emoji %emoji %emoji %emoji @CalebTheMandem
+StoryTimeWitDez: @CalebTheMandem You play too much let the kid have her
+...
+StoryTimeWitDez: @Big_PhilMW listen to charisma 's lil brother here @StoryTimeWitDez
+Big_PhilMW: @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did
+... ( 35 ) 
+
+33 pred: 1 gold: 0
+He    ==    She
+...
+mc5506: He was a
+...
+Crazyparklady1: @mc5506 Ca n't stand her voice either . #LindaSarsour @Crazyparklady1
+mc5506: @Crazyparklady1 She 's a
+... ( 33 ) 
+
+27 pred: 1 gold: 0
+He    ==    her
+...
+mc5506: He was a
+...
+mc5506: 's a horrible manipulative cow %emoji @mc5506
+Crazyparklady1: @mc5506 Ca n't stand her voice either
+... ( 27 ) 
+
+4 pred: 0 gold: 1
+her    ==    #LindaSarsour
+...
+mc5506: 's a horrible manipulative cow %emoji @mc5506
+Crazyparklady1: @mc5506 Ca n't stand her voice either . #LindaSarsour @Crazyparklady1
+mc5506: @Crazyparklady1 She
+... ( 4 ) 
+
+41 pred: 1 gold: 0
+Klopp    ==    Brenda
+...
+bselcoe: the last 25 years ! @bselcoe
+charliegillno1: @bselcoe @TeamFA Have n't had Klopp for 25
+...
+bselcoe: seasons . So he 's not even as good as Brenda ! @bselcoe
+... ( 41 ) 
+
+20 pred: 0 gold: 1
+Barca    ==    them
+...
+TeamFA: to play with Lovren or Henderson anymore ... https://t.co/zbZWVlvxke @TeamFA
+charliegillno1: @TeamFA Barca got the
+...
+bselcoe: it time ... @bselcoe
+TeamFA: @bselcoe @charliegillno1 Would n't put it past them just yet
+... ( 20 ) 
+
+5 pred: 0 gold: 1
+a league win    ==    a league win
+...
+charliegillno1: our players sees the scenes the reds can produce for a league win or CL win esp a league win they will
+... ( 5 ) 
+
+1 pred: 0 gold: 1
+Absolute dose    ==    he
+...
+charliegillno1: @bselcoe @TeamFA Did Brenda get us to 1 final ? Absolute dose he was
+... ( 1 ) 
+
+36 pred: 1 gold: 0
+Phins    ==    his
+...
+SportsNom: . Wish we had more clarity on all that @LakeEffectBro Phins have a
+...
+LakeEffectBro: really liked Pluto growing up , read a few of his books ,
+... ( 36 ) 
+
+1 pred: 1 gold: 0
+#HarveyWeinstein    ==    #OprahWinfrey
+...
+enews: for President in 2020 After Golden Globes Speech https://t.co/SiCRWSdDGx @enews
+sissylynn42: @enews #HarveyWeinstein #OprahWinfrey was basically
+... ( 1 ) 
+
+4 pred: 0 gold: 1
+#HarveyWeinstein    ==    his
+...
+enews: for President in 2020 After Golden Globes Speech https://t.co/SiCRWSdDGx @enews
+sissylynn42: @enews #HarveyWeinstein #OprahWinfrey was basically his #pimp up
+... ( 4 ) 
+
+3 pred: 0 gold: 1
+the Trump presidency    ==    It
+...
+FoxNews: to support the president . https://t.co/MIZB006BJa https://t.co/azslBYWdM5 @FoxNews
+thegrugq_ebooks: @FoxNews I love the Trump presidency @thegrugq_ebooks
+pwns4cash: @thegrugq_ebooks @FoxNews It 's certainly
+... ( 3 ) 
+
+42 pred: 1 gold: 0
+One cock job    ==    real English
+...
+JeremyClarkson: One cock job parks his
+...
+ahknight: No , British . @ahknight
+hsjawanda: @ahknight @MaxBorken @KMansParts @JeremyClarkson No , real English . You
+... ( 42 ) 
+
+true_pos, true_neg, false_pos, false_neg, (96, 47, 17, 19)
+F1 score of 0.8421052631578947
+##################################END: Min Distance: 0, Max Distance: 50#####################################################
+
+##################################START: Min Distance: 51, Max Distance: 100#####################################################
+
+94 pred: 1 gold: 0
+the NYT    ==    them
+...
+NVGhost005: ... and unguarded . @NVGhost005
+Makemyday59: @NVGhost005 @MSNBC Or Give them to the NYT . He
+...
+Para_Mystery: republicans count on that every election & we keep obliging them @Para_Mystery
+NVGhost005: @Para_Mystery @Makemyday59
+... ( 94 ) 
+
+57 pred: 0 gold: 1
+I    ==    something big
+...
+ChampionsLeague: Coutinho : '' It is incredible to know that I am going
+...
+EbadianVII: credit @EbadianVII
+zreik_: @EbadianVII @hashbrown711 @ChampionsLeague @FCBarcelona @Phil_Coutinho Hes gon na be something big in barca
+... ( 57 ) 
+
+60 pred: 1 gold: 0
+rohit sharma    ==    toddler
+...
+KshitijDisIz: better than overrated Mohd . Aamir !! @KshitijDisIz
+nasir_22: @KshitijDisIz @ZAbbasOfficial Ask rohit sharma %emoji @nasir_22
+...
+nasir_22: Win and lose is part of game . Grow up toddler . I
+... ( 60 ) 
+
+67 pred: 1 gold: 0
+This    ==    the whole situation
+...
+VickiAbby: His Wife 2 Kangaroos For Christmas -- Here 's Why This is a
+...
+HannaPam: what someone else is doing ? You do n't know the whole situation , you
+... ( 67 ) 
+
+58 pred: 1 gold: 0
+his    ==    Obama
+...
+jeffjarvis: @JoeNBC just said twice the @washingtonpost deleted his unnamed quotes
+...
+Elizabe28813295: in the first years of the Obama presidency insiders said Obama did n't
+... ( 58 ) 
+
+81 pred: 0 gold: 1
+a virgin    ==    charisma 's lil brother
+...
+StoryTimeWitDez: 's sisters ? @StoryTimeWitDez
+CalebTheMandem: @StoryTimeWitDez First of all , I 'm a virgin , thank
+...
+CalebTheMandem: that 's not happening anytime soon @CalebTheMandem
+StoryTimeWitDez: @CalebTheMandem @Big_PhilMW listen to charisma 's lil brother here @StoryTimeWitDez
+... ( 81 ) 
+
+72 pred: 1 gold: 0
+I    ==    I
+...
+LakeEffectBro: all fabrication . but who cares at this point @LakeEffectBro
+SportsNom: @LakeEffectBro I used to
+...
+LakeEffectBro: up , read a few of his books , but I 'm not
+... ( 72 ) 
+
+79 pred: 1 gold: 0
+British English    ==    Brits
+...
+JeremyClarkson: my three mile commute takes an hour . Wanker @JeremyClarkson
+KMansParts: @JeremyClarkson British English cracks me
+...
+AndyMRoberts86: the whole world knows the English language belongs to us Brits . Do
+... ( 79 ) 
+
+true_pos, true_neg, false_pos, false_neg, (9, 34, 6, 2)
+F1 score of 0.6923076923076923
+##################################END: Min Distance: 51, Max Distance: 100#####################################################
+
+##################################START: Min Distance: 101, Max Distance: None#####################################################
+
+128 pred: 1 gold: 0
+a black death-row inmate    ==    its
+...
+cristianafarias: The Supreme Court just ruled on behalf of a black death-row inmate whom a
+...
+cristianafarias: reason , #SCOTUS also included it at the end of its orders list
+... ( 128 ) 
+
+124 pred: 1 gold: 0
+a white juror    ==    its
+...
+cristianafarias: just ruled on behalf of a black death-row inmate whom a white juror later called
+...
+cristianafarias: reason , #SCOTUS also included it at the end of its orders list
+... ( 124 ) 
+
+101 pred: 0 gold: 1
+The Supreme Court    ==    The Court
+...
+cristianafarias: The Supreme Court just ruled
+...
+cristianafarias: , and other technical aspects of the case : `` The Court 's decision
+... ( 101 ) 
+
+254 pred: 1 gold: 0
+#Brexit    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
+...
+vincecable: to work on cross party basis . Not compatible with #Brexit hardliners who
+...
+Disputatio_: We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning
+... ( 254 ) 
+
+159 pred: 1 gold: 0
+democracy    ==    Strategic investments
+...
+Disputatio_: to remain is the realisation of reality and respect for democracy . @Disputatio_
+...
+Disputatio_: @vincecable @Andrew_Adonis @LibDems We 're still @in the EU . Strategic investments from Boeing
+... ( 159 ) 
+
+200 pred: 0 gold: 1
+reality    ==    reality
+...
+Disputatio_: conclusions . '' Fighting to remain is the realisation of reality and respect
+...
+Disputatio_: however inevitable - or easily averted if the UK accepts reality and does
+... ( 200 ) 
+
+120 pred: 1 gold: 0
+idiots    ==    they
+...
+ohsixoneoh: dangerous it is but you think it 's cute . idiots , the
+...
+ohsixoneoh: an idol can do no wrong in their eyes so they jump on
+... ( 120 ) 
+
+315 pred: 0 gold: 1
+he    ==    some privileged wanker
+...
+HannaPam: what their intentions are , you do n't know who he has caring
+...
+ohsixoneoh: about , all you seem to care about is about some privileged wanker being roasted
+... ( 315 ) 
+
+true_pos, true_neg, false_pos, false_neg, (4, 24, 5, 3)
+F1 score of 0.5
+##################################END: Min Distance: 101, Max Distance: None#####################################################
+

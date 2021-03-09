@@ -1,0 +1,505 @@
+data/twiconv_allspoken_eval_twiconv/SPAN_PR_AN.jsonlines
+##################################START: Min Distance: None, Max Distance: None#####################################################
+
+44 pred: 0 gold: 1
+I    ==    Mark
+... make it a good speech . Sorry . %emoji @PrisonPlanet I find it ... @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow ( 44 ) 
+
+9 pred: 0 gold: 1
+I    ==    I
+... done for the country @markpolitics4uk @PrisonPlanet @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow I have displayed ( 9 ) 
+
+13 pred: 1 gold: 0
+his    ==    @Oprah
+... to the NYT . He seems to like to run his mouth with certain reporters there . @Makemyday59 @MSNBC @Para_Mystery So long as @Oprah does n't ( 13 ) 
+
+15 pred: 0 gold: 1
+I    ==    fam
+... The gif ? It 's in the gif search but I 'll just ... the link %emoji https://t.co/wklMz4wdTY @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt Excuse fam . . ( 15 ) 
+
+59 pred: 1 gold: 0
+the assistants    ==    he
+... 10 + years of insanity . https://t.co/z1CKy8qCdA @KurtLeavins Maybe fire the assistants and get ... @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 59 ) 
+
+14 pred: 0 gold: 1
+I    ==    he
+... said the Assistants go Todd would say if they go I go . @oilerdiehard @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 14 ) 
+
+13 pred: 0 gold: 1
+season    ==    season
+... change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end ( 13 ) 
+
+45 pred: 1 gold: 0
+soccer    ==    Hash
+... Great to know you just became the Kevin Durant of soccer @hashbrown711 @ChampionsLeague ... is inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why ( 45 ) 
+
+44 pred: 0 gold: 1
+I    ==    him
+... Coutinho : '' It is incredible to know that I am going ... soccer @hashbrown711 @ChampionsLeague @zreik_ @FCBarcelona @Phil_Coutinho Ew do n't give him too much ( 44 ) 
+
+2 pred: 0 gold: 1
+man    ==    you
+... inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why you angryyy @zreik_ ( 2 ) 
+
+22 pred: 1 gold: 0
+Hope    ==    India
+... Hope is a ... India that boost but first inns score of SA , India gave the ( 22 ) 
+
+39 pred: 1 gold: 0
+Karunaratne    ==    sports
+... rohit sharma %emoji @nasir_22 @ZAbbasOfficial First tell him to get Karunaratne out . ... kid . Little kid this is cricket and this is sports . Win ( 39 ) 
+
+12 pred: 1 gold: 0
+this    ==    part of game
+... @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is cricket and this is sports . Win and lose is part of game . Grow ( 12 ) 
+
+99 pred: 1 gold: 0
+the lawyers for Keith Tharpe    ==    its
+... chair . Not sure how common this is , but the lawyers for Keith Tharpe , the ... reason , #SCOTUS also included it at the end of its orders list ( 99 ) 
+
+124 pred: 1 gold: 0
+@johannhari101    ==    I
+... I found myself nodding along to a lot of what @johannhari101 says in ... 're married to an abusive spouse . @AmberBobamber @ParkerMolloy @johannhari101 I wish that ( 124 ) 
+
+64 pred: 1 gold: 0
+myself    ==    your
+... and anxiety for more than a decade , I found myself nodding along ... my life . @jmwallach @ParkerMolloy @johannhari101 Oh , keep taking your SSRIs . ( 64 ) 
+
+26 pred: 0 gold: 1
+I    ==    I
+... of drugs will change that . -LRB- That said , I 'm still ... @jmwallach @ParkerMolloy @johannhari101 Oh , keep taking your SSRIs . I take mine ( 26 ) 
+
+124 pred: 1 gold: 0
+@Andrew_Adonis    ==    Democracy
+... . @Andrew_Adonis one of ... @LibDems You mean Reality as defined by Remainers . And Democracy subject to ( 124 ) 
+
+54 pred: 1 gold: 0
+a political meeting of minds    ==    reality
+... surprised Vince wants to recruit Adonis to thwart Brexit - a political meeting of minds - neither ... conclusions . '' Fighting to remain is the realisation of reality and respect ( 54 ) 
+
+59 pred: 1 gold: 0
+democracy    ==    the country
+... to remain is the realisation of reality and respect for democracy . @Disputatio_ ... explained to you in more basic terms . With Brexit the country is heading ( 59 ) 
+
+39 pred: 1 gold: 0
+my    ==    your
+... , an American Nobel laureate , reportedly said : When my information changes ... Reality as defined by Remainers . And Democracy subject to your point of ( 39 ) 
+
+217 pred: 1 gold: 0
+Fighting to remain    ==    They
+... my information changes , I alter my conclusions . '' Fighting to remain is the ... does n't leave . @Disputatio_ @PaulGuerin20 @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems They almost certainly ( 217 ) 
+
+256 pred: 1 gold: 0
+reality    ==    they
+... conclusions . '' Fighting to remain is the realisation of reality and respect ... juddered to a halt in 2008 . Thing is - they went ahead ( 256 ) 
+
+59 pred: 1 gold: 0
+the realisation of reality and respect for democracy    ==    the country
+... I alter my conclusions . '' Fighting to remain is the realisation of reality and respect for democracy . @Disputatio_ ... explained to you in more basic terms . With Brexit the country is heading ( 59 ) 
+
+135 pred: 1 gold: 0
+the Referendum    ==    them
+... wo n't . @PaulGuerin20 @BrexitDemocracy @Disputatio_ @vincecable @Andrew_Adonis @LibDems After the Referendum , UK ... steel & aluminium investments -RRB- . There was time for them to be ( 135 ) 
+
+186 pred: 1 gold: 0
+Adonis    ==    Hitachi
+... https://t.co/WDo20rbtui @vincecable @Andrew_Adonis @LibDems Not surprised Vince wants to recruit Adonis to thwart ... books for 30 years . Strategic investments from Boeing , Hitachi , Tata ( 186 ) 
+
+140 pred: 1 gold: 0
+Tata    ==    them
+... 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty ... - they went ahead . All several # billion of them ( 140 ) 
+
+232 pred: 1 gold: 0
+Brexit    ==    Liberty
+... @LibDems Not surprised Vince wants to recruit Adonis to thwart Brexit - a ... . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda ( 232 ) 
+
+4 pred: 1 gold: 0
+Tata    ==    Honda
+... 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota ( 4 ) 
+
+194 pred: 1 gold: 0
+Adonis    ==    Toyota
+... https://t.co/WDo20rbtui @vincecable @Andrew_Adonis @LibDems Not surprised Vince wants to recruit Adonis to thwart ... Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ( 194 ) 
+
+0 pred: 1 gold: 0
+Boeing    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
+... fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ( 0 ) 
+
+144 pred: 1 gold: 0
+reality    ==    Armageddon
+... conclusions . '' Fighting to remain is the realisation of reality and respect ... closed at record level 29/12/17 & so did FTSE250 . Armageddon is currently ( 144 ) 
+
+51 pred: 0 gold: 1
+Liberty    ==    Liberty
+... . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda ... almost certainly were planned before the Referendum -LRB- except for Liberty 's steel ( 51 ) 
+
+35 pred: 0 gold: 1
+Boeing , Hitachi , Tata , Liberty , Honda & Toyota    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
+... fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ... We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning ( 35 ) 
+
+243 pred: 1 gold: 0
+2 Kangaroos    ==    their
+... Luke Bryan Gifted His Wife 2 Kangaroos For Christmas ... n't have any idea what their situation is , what their plan of ( 243 ) 
+
+178 pred: 1 gold: 0
+here    ==    it
+... @OneGreenPlanet #Kangaroo are not Pets they are Wildlife who belong here in #Australia ... no fucking idea how dangerous it is but you think it 's cute ( 178 ) 
+
+186 pred: 1 gold: 0
+the whole situation    ==    the one acting like the idiot
+... what someone else is doing ? You do n't know the whole situation , you ... you need to sit down and shutup , you 're the one acting like the idiot . @HannaPam ( 186 ) 
+
+113 pred: 1 gold: 0
+This    ==    what
+... His Wife 2 Kangaroos For Christmas -- Here 's Why This is a ... like to be attacked by a mature male kangaroo doing what it 's ( 113 ) 
+
+314 pred: 1 gold: 0
+one    ==    moron
+... . @HannaPam @RoGodwinw67 @VickiAbby @OneGreenPlanet And until you have raised one yourself , ... @ohsixoneoh @VickiAbby @OneGreenPlanet Oh fuck up & fuck off you moron ( 314 ) 
+
+58 pred: 1 gold: 0
+you    ==    idiots
+... of ! @ohsixoneoh @RoGodwinw67 @VickiAbby @OneGreenPlanet Like I said , you do n't ... dangerous it is but you think it 's cute . idiots , the ( 58 ) 
+
+77 pred: 1 gold: 0
+people like you    ==    the one acting like the idiot
+... yourself , sit down and shut up ! It 's people like you that place ... you need to sit down and shutup , you 're the one acting like the idiot . @HannaPam ( 77 ) 
+
+309 pred: 0 gold: 1
+His    ==    some idiot who has no clue
+... Luke Bryan Gifted His Wife 2 ... to u but all you 're doing now is worshipping some idiot who has no clue . Typical ( 309 ) 
+
+48 pred: 1 gold: 0
+Trump    ==    Obama
+... twice the @washingtonpost deleted his unnamed quotes from someone around Trump saying he ... it was well known in the first years of the Obama presidency insiders ( 48 ) 
+
+46 pred: 1 gold: 0
+he    ==    Obama
+... @washingtonpost deleted his unnamed quotes from someone around Trump saying he exhibiting signs ... it was well known in the first years of the Obama presidency insiders ( 46 ) 
+
+7 pred: 0 gold: 1
+@JoeNBC    ==    his
+... @JoeNBC just said twice the @washingtonpost deleted his unnamed quotes ( 7 ) 
+
+19 pred: 0 gold: 1
+you    ==    me
+... time and energy . I respect your opinion , but you should also ... @washingtonpost Do n't worry , '' Liz . '' Let me guess , ( 19 ) 
+
+79 pred: 0 gold: 1
+I    ==    Caleb Thulambo
+... a virgin , thank you very much . Secondly , I do n't ... @Big_PhilMW listen to charisma 's lil brother here @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did ( 79 ) 
+
+26 pred: 0 gold: 1
+her    ==    charisma
+... %emoji @CalebTheMandem You play too much let the kid have her fan %emoji ... that 's not happening anytime soon @CalebTheMandem @Big_PhilMW listen to charisma 's lil ( 26 ) 
+
+89 pred: 0 gold: 1
+you    ==    Zizwa
+... First of all , I 'm a virgin , thank you very much ... 's lil brother here @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did Zizwa threaten you ( 89 ) 
+
+5 pred: 1 gold: 0
+He    ==    Her
+... He was a nonce ! Her gob goes ( 5 ) 
+
+2 pred: 0 gold: 1
+she    ==    the love of my life
+... @roumanticpoetry RIGHT ?? She was the best !! @sothepennydrops @roumanticpoetry she 's the love of my life @lilyaIexandra @roumanticpoetry ( 2 ) 
+
+10 pred: 1 gold: 0
+Pluto    ==    this
+... to give a top 5 pick for James G unless Pluto is Sashi 's one guy in the media and this is all ( 10 ) 
+
+57 pred: 1 gold: 0
+I    ==    I
+... all fabrication . but who cares at this point @LakeEffectBro I used to ... and it 's so nice as a fan @SportsNom yeah I really liked ( 57 ) 
+
+17 pred: 1 gold: 0
+Oprah    ==    his
+... The Internet Wants Oprah to Run ... After Golden Globes Speech https://t.co/SiCRWSdDGx @enews #HarveyWeinstein #OprahWinfrey was basically his #pimp up ( 17 ) 
+
+17 pred: 0 gold: 1
+Oprah    ==    his #pimp
+... The Internet Wants Oprah to Run ... After Golden Globes Speech https://t.co/SiCRWSdDGx @enews #HarveyWeinstein #OprahWinfrey was basically his #pimp up until ( 17 ) 
+
+4 pred: 0 gold: 1
+#HarveyWeinstein    ==    his
+... for President in 2020 After Golden Globes Speech https://t.co/SiCRWSdDGx @enews #HarveyWeinstein #OprahWinfrey was basically his #pimp up ( 4 ) 
+
+8 pred: 1 gold: 0
+British    ==    real English
+... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight @MaxBorken @KMansParts @JeremyClarkson No , real English . You ( 8 ) 
+
+28 pred: 1 gold: 0
+us    ==    all
+... , the whole world knows the English language belongs to us Brits . ... other English speaking nations ?! Just be glad we can all communicate without ( 28 ) 
+
+12 pred: 0 gold: 1
+his    ==    Wanker
+... One cock job parks his lorry badly and my three mile commute takes an hour . Wanker @JeremyClarkson British ( 12 ) 
+
+17 pred: 0 gold: 1
+British English    ==    British
+... my three mile commute takes an hour . Wanker @JeremyClarkson British English cracks me ... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight ( 17 ) 
+
+true_pos, true_neg, false_pos, false_neg, (112, 94, 39, 21)
+F1 score of 0.7887323943661971
+##################################END: Min Distance: None, Max Distance: None#####################################################
+
+##################################START: Min Distance: 0, Max Distance: 50#####################################################
+
+44 pred: 0 gold: 1
+I    ==    Mark
+... make it a good speech . Sorry . %emoji @PrisonPlanet I find it ... @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow ( 44 ) 
+
+9 pred: 0 gold: 1
+I    ==    I
+... done for the country @markpolitics4uk @PrisonPlanet @realDonaldTrump Hey guess what I 'm not shadow banned anymore Mark but somehow I have displayed ( 9 ) 
+
+13 pred: 1 gold: 0
+his    ==    @Oprah
+... to the NYT . He seems to like to run his mouth with certain reporters there . @Makemyday59 @MSNBC @Para_Mystery So long as @Oprah does n't ( 13 ) 
+
+15 pred: 0 gold: 1
+I    ==    fam
+... The gif ? It 's in the gif search but I 'll just ... the link %emoji https://t.co/wklMz4wdTY @AyyyRee @taani98 @laurenxjessica @BTSRequest @BTS_twt Excuse fam . . ( 15 ) 
+
+14 pred: 0 gold: 1
+I    ==    he
+... said the Assistants go Todd would say if they go I go . @oilerdiehard @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 14 ) 
+
+13 pred: 0 gold: 1
+season    ==    season
+... change his mind about the coach by the end of season . Like Marc Bergrvin with Michel Therrien then to Claude Julien at season 's end ( 13 ) 
+
+45 pred: 1 gold: 0
+soccer    ==    Hash
+... Great to know you just became the Kevin Durant of soccer @hashbrown711 @ChampionsLeague ... is inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why ( 45 ) 
+
+44 pred: 0 gold: 1
+I    ==    him
+... Coutinho : '' It is incredible to know that I am going ... soccer @hashbrown711 @ChampionsLeague @zreik_ @FCBarcelona @Phil_Coutinho Ew do n't give him too much ( 44 ) 
+
+2 pred: 0 gold: 1
+man    ==    you
+... inshallah a big bust @hashbrown711 @EbadianVII @ChampionsLeague @FCBarcelona @Phil_Coutinho Hash man why you angryyy @zreik_ ( 2 ) 
+
+22 pred: 1 gold: 0
+Hope    ==    India
+... Hope is a ... India that boost but first inns score of SA , India gave the ( 22 ) 
+
+39 pred: 1 gold: 0
+Karunaratne    ==    sports
+... rohit sharma %emoji @nasir_22 @ZAbbasOfficial First tell him to get Karunaratne out . ... kid . Little kid this is cricket and this is sports . Win ( 39 ) 
+
+12 pred: 1 gold: 0
+this    ==    part of game
+... @KshitijDisIz @ZAbbasOfficial Omg u are so kid . Little kid this is cricket and this is sports . Win and lose is part of game . Grow ( 12 ) 
+
+26 pred: 0 gold: 1
+I    ==    I
+... of drugs will change that . -LRB- That said , I 'm still ... @jmwallach @ParkerMolloy @johannhari101 Oh , keep taking your SSRIs . I take mine ( 26 ) 
+
+39 pred: 1 gold: 0
+my    ==    your
+... , an American Nobel laureate , reportedly said : When my information changes ... Reality as defined by Remainers . And Democracy subject to your point of ( 39 ) 
+
+4 pred: 1 gold: 0
+Tata    ==    Honda
+... 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota ( 4 ) 
+
+0 pred: 1 gold: 0
+Boeing    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
+... fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ( 0 ) 
+
+35 pred: 0 gold: 1
+Boeing , Hitachi , Tata , Liberty , Honda & Toyota    ==    Boeing , Hitachi , Tata , Liberty , Honda & Toyota
+... fullest order books for 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ... We 're still @in the EU . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda & Toyota in planning ( 35 ) 
+
+48 pred: 1 gold: 0
+Trump    ==    Obama
+... twice the @washingtonpost deleted his unnamed quotes from someone around Trump saying he ... it was well known in the first years of the Obama presidency insiders ( 48 ) 
+
+46 pred: 1 gold: 0
+he    ==    Obama
+... @washingtonpost deleted his unnamed quotes from someone around Trump saying he exhibiting signs ... it was well known in the first years of the Obama presidency insiders ( 46 ) 
+
+7 pred: 0 gold: 1
+@JoeNBC    ==    his
+... @JoeNBC just said twice the @washingtonpost deleted his unnamed quotes ( 7 ) 
+
+19 pred: 0 gold: 1
+you    ==    me
+... time and energy . I respect your opinion , but you should also ... @washingtonpost Do n't worry , '' Liz . '' Let me guess , ( 19 ) 
+
+26 pred: 0 gold: 1
+her    ==    charisma
+... %emoji @CalebTheMandem You play too much let the kid have her fan %emoji ... that 's not happening anytime soon @CalebTheMandem @Big_PhilMW listen to charisma 's lil ( 26 ) 
+
+5 pred: 1 gold: 0
+He    ==    Her
+... He was a nonce ! Her gob goes ( 5 ) 
+
+2 pred: 0 gold: 1
+she    ==    the love of my life
+... @roumanticpoetry RIGHT ?? She was the best !! @sothepennydrops @roumanticpoetry she 's the love of my life @lilyaIexandra @roumanticpoetry ( 2 ) 
+
+10 pred: 1 gold: 0
+Pluto    ==    this
+... to give a top 5 pick for James G unless Pluto is Sashi 's one guy in the media and this is all ( 10 ) 
+
+17 pred: 1 gold: 0
+Oprah    ==    his
+... The Internet Wants Oprah to Run ... After Golden Globes Speech https://t.co/SiCRWSdDGx @enews #HarveyWeinstein #OprahWinfrey was basically his #pimp up ( 17 ) 
+
+17 pred: 0 gold: 1
+Oprah    ==    his #pimp
+... The Internet Wants Oprah to Run ... After Golden Globes Speech https://t.co/SiCRWSdDGx @enews #HarveyWeinstein #OprahWinfrey was basically his #pimp up until ( 17 ) 
+
+4 pred: 0 gold: 1
+#HarveyWeinstein    ==    his
+... for President in 2020 After Golden Globes Speech https://t.co/SiCRWSdDGx @enews #HarveyWeinstein #OprahWinfrey was basically his #pimp up ( 4 ) 
+
+8 pred: 1 gold: 0
+British    ==    real English
+... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight @MaxBorken @KMansParts @JeremyClarkson No , real English . You ( 8 ) 
+
+28 pred: 1 gold: 0
+us    ==    all
+... , the whole world knows the English language belongs to us Brits . ... other English speaking nations ?! Just be glad we can all communicate without ( 28 ) 
+
+12 pred: 0 gold: 1
+his    ==    Wanker
+... One cock job parks his lorry badly and my three mile commute takes an hour . Wanker @JeremyClarkson British ( 12 ) 
+
+17 pred: 0 gold: 1
+British English    ==    British
+... my three mile commute takes an hour . Wanker @JeremyClarkson British English cracks me ... You mean proper English ? @MaxBorken @KMansParts @JeremyClarkson No , British . @ahknight ( 17 ) 
+
+true_pos, true_neg, false_pos, false_neg, (96, 45, 15, 17)
+F1 score of 0.8571428571428571
+##################################END: Min Distance: 0, Max Distance: 50#####################################################
+
+##################################START: Min Distance: 51, Max Distance: 100#####################################################
+
+59 pred: 1 gold: 0
+the assistants    ==    he
+... 10 + years of insanity . https://t.co/z1CKy8qCdA @KurtLeavins Maybe fire the assistants and get ... @oiler99 Todd is s vey loyal guy . Not sure he 'd go ( 59 ) 
+
+99 pred: 1 gold: 0
+the lawyers for Keith Tharpe    ==    its
+... chair . Not sure how common this is , but the lawyers for Keith Tharpe , the ... reason , #SCOTUS also included it at the end of its orders list ( 99 ) 
+
+64 pred: 1 gold: 0
+myself    ==    your
+... and anxiety for more than a decade , I found myself nodding along ... my life . @jmwallach @ParkerMolloy @johannhari101 Oh , keep taking your SSRIs . ( 64 ) 
+
+54 pred: 1 gold: 0
+a political meeting of minds    ==    reality
+... surprised Vince wants to recruit Adonis to thwart Brexit - a political meeting of minds - neither ... conclusions . '' Fighting to remain is the realisation of reality and respect ( 54 ) 
+
+59 pred: 1 gold: 0
+democracy    ==    the country
+... to remain is the realisation of reality and respect for democracy . @Disputatio_ ... explained to you in more basic terms . With Brexit the country is heading ( 59 ) 
+
+59 pred: 1 gold: 0
+the realisation of reality and respect for democracy    ==    the country
+... I alter my conclusions . '' Fighting to remain is the realisation of reality and respect for democracy . @Disputatio_ ... explained to you in more basic terms . With Brexit the country is heading ( 59 ) 
+
+51 pred: 0 gold: 1
+Liberty    ==    Liberty
+... . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda ... almost certainly were planned before the Referendum -LRB- except for Liberty 's steel ( 51 ) 
+
+58 pred: 1 gold: 0
+you    ==    idiots
+... of ! @ohsixoneoh @RoGodwinw67 @VickiAbby @OneGreenPlanet Like I said , you do n't ... dangerous it is but you think it 's cute . idiots , the ( 58 ) 
+
+77 pred: 1 gold: 0
+people like you    ==    the one acting like the idiot
+... yourself , sit down and shut up ! It 's people like you that place ... you need to sit down and shutup , you 're the one acting like the idiot . @HannaPam ( 77 ) 
+
+79 pred: 0 gold: 1
+I    ==    Caleb Thulambo
+... a virgin , thank you very much . Secondly , I do n't ... @Big_PhilMW listen to charisma 's lil brother here @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did ( 79 ) 
+
+89 pred: 0 gold: 1
+you    ==    Zizwa
+... First of all , I 'm a virgin , thank you very much ... 's lil brother here @StoryTimeWitDez @CalebTheMandem Caleb Thulambo , Did Zizwa threaten you ( 89 ) 
+
+57 pred: 1 gold: 0
+I    ==    I
+... all fabrication . but who cares at this point @LakeEffectBro I used to ... and it 's so nice as a fan @SportsNom yeah I really liked ( 57 ) 
+
+true_pos, true_neg, false_pos, false_neg, (10, 28, 9, 3)
+F1 score of 0.625
+##################################END: Min Distance: 51, Max Distance: 100#####################################################
+
+##################################START: Min Distance: 101, Max Distance: None#####################################################
+
+124 pred: 1 gold: 0
+@johannhari101    ==    I
+... I found myself nodding along to a lot of what @johannhari101 says in ... 're married to an abusive spouse . @AmberBobamber @ParkerMolloy @johannhari101 I wish that ( 124 ) 
+
+124 pred: 1 gold: 0
+@Andrew_Adonis    ==    Democracy
+... . @Andrew_Adonis one of ... @LibDems You mean Reality as defined by Remainers . And Democracy subject to ( 124 ) 
+
+217 pred: 1 gold: 0
+Fighting to remain    ==    They
+... my information changes , I alter my conclusions . '' Fighting to remain is the ... does n't leave . @Disputatio_ @PaulGuerin20 @BrexitDemocracy @vincecable @Andrew_Adonis @LibDems They almost certainly ( 217 ) 
+
+256 pred: 1 gold: 0
+reality    ==    they
+... conclusions . '' Fighting to remain is the realisation of reality and respect ... juddered to a halt in 2008 . Thing is - they went ahead ( 256 ) 
+
+135 pred: 1 gold: 0
+the Referendum    ==    them
+... wo n't . @PaulGuerin20 @BrexitDemocracy @Disputatio_ @vincecable @Andrew_Adonis @LibDems After the Referendum , UK ... steel & aluminium investments -RRB- . There was time for them to be ( 135 ) 
+
+186 pred: 1 gold: 0
+Adonis    ==    Hitachi
+... https://t.co/WDo20rbtui @vincecable @Andrew_Adonis @LibDems Not surprised Vince wants to recruit Adonis to thwart ... books for 30 years . Strategic investments from Boeing , Hitachi , Tata ( 186 ) 
+
+140 pred: 1 gold: 0
+Tata    ==    them
+... 30 years . Strategic investments from Boeing , Hitachi , Tata , Liberty ... - they went ahead . All several # billion of them ( 140 ) 
+
+232 pred: 1 gold: 0
+Brexit    ==    Liberty
+... @LibDems Not surprised Vince wants to recruit Adonis to thwart Brexit - a ... . Strategic investments from Boeing , Hitachi , Tata , Liberty , Honda ( 232 ) 
+
+194 pred: 1 gold: 0
+Adonis    ==    Toyota
+... https://t.co/WDo20rbtui @vincecable @Andrew_Adonis @LibDems Not surprised Vince wants to recruit Adonis to thwart ... Boeing , Hitachi , Tata , Liberty , Honda & Toyota . FTSE100 ( 194 ) 
+
+144 pred: 1 gold: 0
+reality    ==    Armageddon
+... conclusions . '' Fighting to remain is the realisation of reality and respect ... closed at record level 29/12/17 & so did FTSE250 . Armageddon is currently ( 144 ) 
+
+243 pred: 1 gold: 0
+2 Kangaroos    ==    their
+... Luke Bryan Gifted His Wife 2 Kangaroos For Christmas ... n't have any idea what their situation is , what their plan of ( 243 ) 
+
+178 pred: 1 gold: 0
+here    ==    it
+... @OneGreenPlanet #Kangaroo are not Pets they are Wildlife who belong here in #Australia ... no fucking idea how dangerous it is but you think it 's cute ( 178 ) 
+
+186 pred: 1 gold: 0
+the whole situation    ==    the one acting like the idiot
+... what someone else is doing ? You do n't know the whole situation , you ... you need to sit down and shutup , you 're the one acting like the idiot . @HannaPam ( 186 ) 
+
+113 pred: 1 gold: 0
+This    ==    what
+... His Wife 2 Kangaroos For Christmas -- Here 's Why This is a ... like to be attacked by a mature male kangaroo doing what it 's ( 113 ) 
+
+314 pred: 1 gold: 0
+one    ==    moron
+... . @HannaPam @RoGodwinw67 @VickiAbby @OneGreenPlanet And until you have raised one yourself , ... @ohsixoneoh @VickiAbby @OneGreenPlanet Oh fuck up & fuck off you moron ( 314 ) 
+
+309 pred: 0 gold: 1
+His    ==    some idiot who has no clue
+... Luke Bryan Gifted His Wife 2 ... to u but all you 're doing now is worshipping some idiot who has no clue . Typical ( 309 ) 
+
+true_pos, true_neg, false_pos, false_neg, (6, 21, 15, 1)
+F1 score of 0.42857142857142855
+##################################END: Min Distance: 101, Max Distance: None#####################################################
+
