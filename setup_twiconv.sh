@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # create the data split
-python3 split_train_dev_test.py conll/
+python3 split_train_test.py conll/
 
 # Concatenates all documents in 1 file per split
 cat train/*conll > train.english.v9_gold_conll

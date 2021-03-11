@@ -16,7 +16,7 @@ This repository uses code from
     
     * The data is then transformed with `setup_twiconv.sh` in the section `Getting Started` as follow:
     
-        * First creating a data split by executing `python3 split_train_dev_test.py conll/`. `split_train_dev_test.py` which is a modified version of `https://github.com/verosol/e2e-coref-to-Twitter/blob/master/split_train_test.py` creating a development / validation split.
+        * First creating a data split by executing `python3 split_train_test.py conll/`. `split_train_dev_test.py` which is a modified version of `https://github.com/verosol/e2e-coref-to-Twitter/blob/master/split_train_test.py` creating a development / validation split.
         
         * Merging the contents of the folders into train and test files via
         
